@@ -12,6 +12,9 @@
 
 **Captured:** 2026-06-02
 
+For the ranked list of future fixture sources, see
+[Agent Ready Example Site Candidates](./example-site-candidates-2026-06-02.md).
+
 | Site                           | Directory              | What It Shows                                                                                          |
 | ------------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------ |
 | OpenAI                         | `examples/openai/`     | Simple `robots.txt`, sitemap index, DNS, response headers, and a blocked `llms.txt` check.             |
