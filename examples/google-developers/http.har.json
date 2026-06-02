@@ -1,0 +1,341 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "google-developers",
+        "title": "Google Developers",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "google-developers",
+        "startedDateTime": "2026-06-02T19:28:27.674Z",
+        "time": 391.807,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.google.com/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 04 Sep 2025 12:04:01 GMT"
+            },
+            {
+              "name": "vary",
+              "value": "Cookie"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-V1+MwY/VjmieCgdVHrOcZODkIF6ZsL' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubdomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-cloud-trace-context",
+              "value": "4f6b936a0797a96208d4b6368d9265eb"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "name": "content-length",
+              "value": "104"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 93,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "https://developers.google.com/robots.txt",
+          "headersSize": -1,
+          "bodySize": 93
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 391.807,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "google-developers",
+        "startedDateTime": "2026-06-02T19:28:28.081Z",
+        "time": 671.049,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.google.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "application/xml"
+            },
+            {
+              "name": "vary",
+              "value": "Cookie"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9oJNQM1ix0Ux+pt56x10gdefc64RpY' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubdomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-cloud-trace-context",
+              "value": "c5d279f904a28b1bd763925ba4acbc8a"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "name": "content-length",
+              "value": "488"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5752,
+            "mimeType": "application/xml"
+          },
+          "redirectURL": "https://developers.google.com/sitemap.xml",
+          "headersSize": -1,
+          "bodySize": 5752
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 671.049,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "google-developers",
+        "startedDateTime": "2026-06-02T19:28:28.777Z",
+        "time": 333.478,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.google.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 404,
+          "statusText": "HTTP/2 404 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "vary",
+              "value": "Cookie"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-G86ZyyQu6h4aYFf+Os3OxUCvWWAfE+' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubdomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "x-cloud-trace-context",
+              "value": "71a74dc119d4c8e5e04ebf31e79eb16e"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:29 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "name": "content-length",
+              "value": "10279"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 45736,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://developers.google.com/llms.txt",
+          "headersSize": -1,
+          "bodySize": 45736
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 333.478,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      }
+    ]
+  }
+}

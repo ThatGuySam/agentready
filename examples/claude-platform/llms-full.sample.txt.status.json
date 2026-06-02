@@ -1,0 +1,96 @@
+{
+  "key": "llms-full",
+  "label": "llms-full.txt",
+  "url": "https://platform.claude.com/llms-full.txt",
+  "output": "llms-full.sample.txt",
+  "outputFile": "llms-full.sample.txt",
+  "statusFile": "llms-full.sample.txt.status.json",
+  "startedAt": "2026-06-02T19:28:13.059Z",
+  "status": 200,
+  "effectiveUrl": "https://platform.claude.com/llms-full.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 71523030,
+  "savedBytes": 249660,
+  "truncated": true,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=3600"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "via",
+      "value": "1.1 google"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    },
+    {
+      "name": "age",
+      "value": "2014"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 19:18:50 GMT"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc229ee66a1e-MCI"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 3314.632,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://platform.claude.com/llms-full.txt"
+}

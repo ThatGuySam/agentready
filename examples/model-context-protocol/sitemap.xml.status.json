@@ -1,0 +1,88 @@
+{
+  "key": "sitemap",
+  "label": "sitemap.xml",
+  "url": "https://modelcontextprotocol.io/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": "sitemap.xml",
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:10.090Z",
+  "status": 200,
+  "effectiveUrl": "https://modelcontextprotocol.io/sitemap.xml",
+  "contentType": "text/xml",
+  "bodyBytes": 31005,
+  "savedBytes": 31001,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "EXPIRED"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc10ad1136cd-CMH"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+    },
+    {
+      "name": "content-type",
+      "value": "text/xml"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/_sites/[subdomain]/sitemap.xml"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "MISS"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1:cle1:iad1::iad1::8r9h6-1780428490281-889270bdb65e"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 479.502,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://modelcontextprotocol.io/sitemap.xml"
+}

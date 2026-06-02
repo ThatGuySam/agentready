@@ -1,0 +1,120 @@
+{
+  "key": "robots",
+  "label": "robots.txt",
+  "url": "https://www.perplexity.ai/robots.txt",
+  "output": "robots.txt",
+  "outputFile": "robots.txt",
+  "statusFile": "robots.txt.status.json",
+  "startedAt": "2026-06-02T19:28:40.805Z",
+  "status": 200,
+  "effectiveUrl": "https://www.perplexity.ai/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 761,
+  "savedBytes": 761,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:40 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "object-src 'none'; base-uri 'self'; form-action 'self' https://onedrive.live.com https://*.sharepoint.com https://*.paypal.com https://*.venmo.com; frame-ancestors 'self' https://onedrive.live.com https://*.sharepoint.com https://app.athina.ai; upgrade-insecure-requests"
+    },
+    {
+      "name": "cross-origin-opener-policy",
+      "value": "unsafe-none"
+    },
+    {
+      "name": "cross-origin-resource-policy",
+      "value": "same-origin"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"c34a450e82abdb16e6aa9c65296b4f92ab87c786\""
+    },
+    {
+      "name": "origin-agent-cluster",
+      "value": "?1"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "strict-origin-when-cross-origin"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=15552000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-dns-prefetch-control",
+      "value": "off"
+    },
+    {
+      "name": "x-download-options",
+      "value": "noopen"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-permitted-cross-domain-policies",
+      "value": "none"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "age",
+      "value": "538"
+    },
+    {
+      "name": "expires",
+      "value": "Tue, 02 Jun 2026 19:33:40 GMT"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=300"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dccf58d14dfd-MCI"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 43.519000000000005,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.perplexity.ai/robots.txt"
+}

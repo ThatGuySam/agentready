@@ -1,0 +1,80 @@
+{
+  "key": "sitemap",
+  "label": "docs sitemap.xml",
+  "url": "https://developers.openai.com/api/docs/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": null,
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:20.253Z",
+  "status": 404,
+  "effectiveUrl": "https://developers.openai.com/api/docs/sitemap.xml",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 365424,
+  "savedBytes": 0,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "191"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"404.html\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"b6f34823a57f4d60bf22bbdda35cd49c\""
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 19:20:37 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1::lzs5j-1780428500378-a23e6cc2c96a"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 404 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 164.19400000000002,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.openai.com/api/docs/sitemap.xml"
+}

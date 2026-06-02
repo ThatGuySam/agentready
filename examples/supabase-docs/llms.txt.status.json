@@ -1,0 +1,100 @@
+{
+  "key": "llms",
+  "label": "docs llms.txt",
+  "url": "https://supabase.com/docs/llms.txt",
+  "output": "llms.txt",
+  "outputFile": null,
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:41.712Z",
+  "status": 404,
+  "effectiveUrl": "https://supabase.com/docs/llms.txt",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 96620,
+  "savedBytes": 0,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "10059"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"404\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"9f1c058f2b4a089540ba0e4d40d170f4\""
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 16:41:02 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/404"
+    },
+    {
+      "name": "x-next-error-status",
+      "value": "404"
+    },
+    {
+      "name": "x-nextjs-rewritten-path",
+      "value": "/docs/llms.txt"
+    },
+    {
+      "name": "x-robots-tag",
+      "value": "all"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1:cle1:cle1::cpvmx-1780428521853-d5e874245309"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 404 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 310.40000000000003,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://supabase.com/docs/llms.txt"
+}

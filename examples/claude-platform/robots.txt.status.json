@@ -1,0 +1,92 @@
+{
+  "key": "robots",
+  "label": "robots.txt",
+  "url": "https://platform.claude.com/robots.txt",
+  "output": "robots.txt",
+  "outputFile": "robots.txt",
+  "statusFile": "robots.txt.status.json",
+  "startedAt": "2026-06-02T19:28:12.229Z",
+  "status": 200,
+  "effectiveUrl": "https://platform.claude.com/robots.txt",
+  "contentType": "text/plain",
+  "bodyBytes": 80,
+  "savedBytes": 80,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "via",
+      "value": "1.1 google"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "EXPIRED"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc1d7a766b2a-DFW"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 277.553,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://platform.claude.com/robots.txt"
+}

@@ -1,0 +1,30 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: developers.cloudflare.com
+
+$ dig +short developers.cloudflare.com A
+104.16.2.189
+104.16.3.189
+104.16.4.189
+104.16.5.189
+104.16.6.189
+
+$ dig +short developers.cloudflare.com AAAA
+2606:4700::6810:2bd
+2606:4700::6810:3bd
+2606:4700::6810:4bd
+2606:4700::6810:5bd
+2606:4700::6810:6bd
+
+$ dig +short developers.cloudflare.com CNAME
+# no records returned
+
+$ dig +short developers.cloudflare.com HTTPS
+104.16.2.189
+104.16.3.189
+104.16.4.189
+104.16.5.189
+104.16.6.189
+
+$ dig +short developers.cloudflare.com TXT
+"v=spf1 -all"
+"adobe-idp-site-verification=6fa8fbb72d7bb29889c39830d60eb0309c678510fef7692ee2679400a4096349"

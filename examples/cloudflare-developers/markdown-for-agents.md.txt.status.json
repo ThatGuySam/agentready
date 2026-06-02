@@ -1,0 +1,73 @@
+{
+  "key": "markdown-for-agents",
+  "label": "Markdown for Agents page",
+  "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+  "output": "markdown-for-agents.md.txt",
+  "outputFile": "markdown-for-agents.md.txt",
+  "statusFile": "markdown-for-agents.md.txt.status.json",
+  "startedAt": "2026-06-02T19:28:06.775Z",
+  "status": 200,
+  "effectiveUrl": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+  "contentType": "text/markdown; charset=utf-8",
+  "bodyBytes": 14535,
+  "savedBytes": 14530,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/markdown; charset=utf-8"
+    },
+    {
+      "name": "content-length",
+      "value": "14535"
+    },
+    {
+      "name": "vary",
+      "value": "accept"
+    },
+    {
+      "name": "x-markdown-tokens",
+      "value": "3626"
+    },
+    {
+      "name": "content-signal",
+      "value": "ai-train=yes, search=yes, ai-input=yes"
+    },
+    {
+      "name": "x-original-tokens",
+      "value": "60428"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dbfb5bb82e76-DFW"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    },
+    {
+      "name": "Accept",
+      "value": "text/markdown"
+    }
+  ],
+  "durationMs": 318.207,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output markdown-for-agents.md.txt --write-out '<curl-metadata>' --header 'Accept: text/markdown' https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+  "notes": "Uses content negotiation to request Markdown instead of HTML."
+}

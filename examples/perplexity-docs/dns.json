@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "docs.perplexity.ai",
+  "records": [
+    {
+      "type": "A",
+      "values": ["cname.vercel-dns.com.", "76.76.21.98", "66.33.60.67"]
+    },
+    {
+      "type": "AAAA",
+      "values": ["cname.vercel-dns.com."]
+    },
+    {
+      "type": "CNAME",
+      "values": ["cname.vercel-dns.com."]
+    },
+    {
+      "type": "HTTPS",
+      "values": ["cname.vercel-dns.com.", "66.33.60.35", "76.76.21.123"]
+    },
+    {
+      "type": "TXT",
+      "values": ["cname.vercel-dns.com."]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "openai-root",
+        "title": "OpenAI Root",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "openai-root",
+        "startedDateTime": "2026-06-02T19:28:31.110Z",
+        "time": 216.337,
+        "request": {
+          "method": "GET",
+          "url": "https://openai.com/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "42363"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"robots.txt\""
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 22 Apr 2026 19:15:09 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/robots.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::78tk9-1776885309302-a017cf21df6c"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"e32952d6049963aad2d1d7c44e1fa236\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc93deca6c50-DFW"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 98,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://openai.com/robots.txt",
+          "headersSize": -1,
+          "bodySize": 98
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 216.337,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "openai-root",
+        "startedDateTime": "2026-06-02T19:28:31.342Z",
+        "time": 97.015,
+        "request": {
+          "method": "GET",
+          "url": "https://openai.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/xml"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "8156"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"sitemap.xml\""
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"5efc93fc3c7a9e51a5b5c30f30a271ab\""
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 17:12:35 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/sitemap.xml"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::49bxt-1780428511423-4092fa7f69ac"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc944f3dd18f-MCI"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2829,
+            "mimeType": "application/xml"
+          },
+          "redirectURL": "https://openai.com/sitemap.xml",
+          "headersSize": -1,
+          "bodySize": 2829
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 97.015,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "openai-root",
+        "startedDateTime": "2026-06-02T19:28:31.450Z",
+        "time": 134.42399999999998,
+        "request": {
+          "method": "GET",
+          "url": "https://openai.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 403,
+          "statusText": "HTTP/2 403 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=UTF-8"
+            },
+            {
+              "name": "accept-ch",
+              "value": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+            },
+            {
+              "name": "cf-mitigated",
+              "value": "challenge"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "critical-ch",
+              "value": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+            },
+            {
+              "name": "cross-origin-embedder-policy",
+              "value": "require-corp"
+            },
+            {
+              "name": "cross-origin-opener-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "cross-origin-resource-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "origin-agent-cluster",
+              "value": "?1"
+            },
+            {
+              "name": "permissions-policy",
+              "value": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "same-origin"
+            },
+            {
+              "name": "server-timing",
+              "value": "chlray;desc=\"a058dc95796a4e0c\""
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc95796a4e0c-MCI"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 9789,
+            "mimeType": "text/html; charset=UTF-8"
+          },
+          "redirectURL": "https://openai.com/llms.txt",
+          "headersSize": -1,
+          "bodySize": 9789
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 134.42399999999998,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      }
+    ]
+  }
+}

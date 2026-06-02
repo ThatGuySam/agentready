@@ -1,0 +1,100 @@
+{
+  "key": "robots",
+  "label": "docs robots.txt",
+  "url": "https://supabase.com/docs/robots.txt",
+  "output": "robots.txt",
+  "outputFile": "robots.txt",
+  "statusFile": "robots.txt.status.json",
+  "startedAt": "2026-06-02T19:28:41.216Z",
+  "status": 200,
+  "effectiveUrl": "https://supabase.com/docs/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 125,
+  "savedBytes": 125,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "accept-ranges",
+      "value": "bytes"
+    },
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "8402"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"robots.txt\""
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "\"117bdf32af91fa73a2f4ec3dcc2daf0d\""
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 17:08:39 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/robots.txt"
+    },
+    {
+      "name": "x-nextjs-rewritten-path",
+      "value": "/docs/robots.txt"
+    },
+    {
+      "name": "x-robots-tag",
+      "value": "all"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1:cle1:cle1::cflf9-1780428521388-fdfb6a6ed5ae"
+    },
+    {
+      "name": "content-length",
+      "value": "125"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 281.77299999999997,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://supabase.com/docs/robots.txt"
+}

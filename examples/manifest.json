@@ -1,0 +1,985 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "generatedBy": "scripts/capture-agentready-examples.ts",
+  "sites": [
+    {
+      "slug": "cloudflare-developers",
+      "name": "Cloudflare Developers",
+      "category": "positive",
+      "homepage": "https://developers.cloudflare.com/",
+      "host": "developers.cloudflare.com",
+      "notes": "Gold-standard docs fixture with robots Content Signals, llms files, agent skills JSON, and Markdown negotiation.",
+      "directory": "examples/cloudflare-developers/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://developers.cloudflare.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.cloudflare.com/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://developers.cloudflare.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://developers.cloudflare.com/sitemap-index.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://developers.cloudflare.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.cloudflare.com/llms.txt",
+          "contentType": "text/plain",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://developers.cloudflare.com/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.cloudflare.com/llms-full.txt",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": true
+        },
+        {
+          "key": "agent-skills",
+          "label": "agent skills index",
+          "url": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
+          "status": 200,
+          "effectiveUrl": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
+          "contentType": "application/json; charset=utf-8",
+          "outputFile": ".well-known/agent-skills/index.json",
+          "statusFile": ".well-known/agent-skills/index.json.status.json",
+          "truncated": false
+        },
+        {
+          "key": "markdown-for-agents",
+          "label": "Markdown for Agents page",
+          "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "status": 200,
+          "effectiveUrl": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "markdown-for-agents.md.txt",
+          "statusFile": "markdown-for-agents.md.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "perplexity-docs",
+      "name": "Perplexity Docs",
+      "category": "positive",
+      "homepage": "https://docs.perplexity.ai/",
+      "host": "docs.perplexity.ai",
+      "notes": "AI-search docs fixture with crawler docs, llms files, and agent skills JSON.",
+      "directory": "examples/perplexity-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://docs.perplexity.ai/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.perplexity.ai/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://docs.perplexity.ai/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://docs.perplexity.ai/sitemap.xml",
+          "contentType": "text/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://docs.perplexity.ai/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.perplexity.ai/llms.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://docs.perplexity.ai/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.perplexity.ai/llms-full.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": true
+        },
+        {
+          "key": "agent-skills",
+          "label": "agent skills index",
+          "url": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
+          "status": 200,
+          "effectiveUrl": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
+          "contentType": "application/json",
+          "outputFile": ".well-known/agent-skills/index.json",
+          "statusFile": ".well-known/agent-skills/index.json.status.json",
+          "truncated": false
+        },
+        {
+          "key": "crawler-docs",
+          "label": "crawler docs page",
+          "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+          "status": 200,
+          "effectiveUrl": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": "perplexity-crawlers.sample.html.txt",
+          "statusFile": "perplexity-crawlers.sample.html.txt.status.json",
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "slug": "model-context-protocol",
+      "name": "Model Context Protocol",
+      "category": "positive",
+      "homepage": "https://modelcontextprotocol.io/",
+      "host": "modelcontextprotocol.io",
+      "notes": "Protocol/tooling fixture for agent-facing capability discovery.",
+      "directory": "examples/model-context-protocol/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://modelcontextprotocol.io/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://modelcontextprotocol.io/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://modelcontextprotocol.io/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://modelcontextprotocol.io/sitemap.xml",
+          "contentType": "text/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://modelcontextprotocol.io/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://modelcontextprotocol.io/llms.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://modelcontextprotocol.io/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://modelcontextprotocol.io/llms-full.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": true
+        },
+        {
+          "key": "agent-skills",
+          "label": "agent skills index",
+          "url": "https://modelcontextprotocol.io/.well-known/agent-skills/index.json",
+          "status": 200,
+          "effectiveUrl": "https://modelcontextprotocol.io/.well-known/agent-skills/index.json",
+          "contentType": "application/json",
+          "outputFile": ".well-known/agent-skills/index.json",
+          "statusFile": ".well-known/agent-skills/index.json.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "claude-platform",
+      "name": "Claude Platform",
+      "category": "positive",
+      "homepage": "https://platform.claude.com/",
+      "host": "platform.claude.com",
+      "notes": "Anthropic's platform docs expose crawl, sitemap, llms, and full-doc artifacts.",
+      "directory": "examples/claude-platform/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://platform.claude.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://platform.claude.com/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://platform.claude.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://platform.claude.com/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://platform.claude.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://platform.claude.com/llms.txt",
+          "contentType": "text/plain; charset=UTF-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://platform.claude.com/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://platform.claude.com/llms-full.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "category": "positive",
+      "homepage": "https://vercel.com/",
+      "host": "vercel.com",
+      "notes": "Agent-readability fixture with root llms.txt, docs full bundle, and agent resources.",
+      "directory": "examples/vercel/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "docs robots",
+          "url": "https://vercel.com/docs/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://vercel.com/docs/robots.md",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://vercel.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://vercel.com/crawled-sitemap.xml",
+          "contentType": "application/xml; charset=utf-8",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://vercel.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://vercel.com/llms.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "docs llms-full.txt",
+          "url": "https://vercel.com/docs/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://vercel.com/docs/llms-full.txt",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "agent-resources",
+          "label": "agent resources page",
+          "url": "https://vercel.com/docs/agent-resources",
+          "status": 200,
+          "effectiveUrl": "https://vercel.com/docs/agent-resources",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "agent-resources.md.txt",
+          "statusFile": "agent-resources.md.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "agent-readability-spec",
+          "label": "Agent Readability Spec",
+          "url": "https://vercel.com/kb/guide/agent-readability-spec",
+          "status": 200,
+          "effectiveUrl": "https://vercel.com/kb/guide/agent-readability-spec",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": "agent-readability-spec.sample.html.txt",
+          "statusFile": "agent-readability-spec.sample.html.txt.status.json",
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "slug": "openai-api-docs",
+      "name": "OpenAI API Docs",
+      "category": "positive",
+      "homepage": "https://developers.openai.com/api/docs/",
+      "host": "developers.openai.com",
+      "notes": "OpenAI API docs expose llms artifacts even though the checked docs path lacks robots and sitemap files.",
+      "directory": "examples/openai-api-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "docs robots.txt",
+          "url": "https://developers.openai.com/api/docs/robots.txt",
+          "status": 404,
+          "effectiveUrl": "https://developers.openai.com/api/docs/robots.txt",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "docs sitemap.xml",
+          "url": "https://developers.openai.com/api/docs/sitemap.xml",
+          "status": 404,
+          "effectiveUrl": "https://developers.openai.com/api/docs/sitemap.xml",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://developers.openai.com/api/docs/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.openai.com/api/docs/llms.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://developers.openai.com/api/docs/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.openai.com/api/docs/llms-full.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "slug": "github-docs",
+      "name": "GitHub Docs",
+      "category": "positive",
+      "homepage": "https://docs.github.com/",
+      "host": "docs.github.com",
+      "notes": "Docs fixture with llms.txt and API-shaped article body access.",
+      "directory": "examples/github-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://docs.github.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.github.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://docs.github.com/sitemap.xml",
+          "status": 404,
+          "effectiveUrl": "https://docs.github.com/sitemap.xml",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://docs.github.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.github.com/llms.txt",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "article-body-api",
+          "label": "article body API",
+          "url": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
+          "status": 200,
+          "effectiveUrl": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
+          "contentType": "text/markdown; charset=utf-8",
+          "outputFile": "article-body-api.json",
+          "statusFile": "article-body-api.json.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "stripe-docs",
+      "name": "Stripe Docs",
+      "category": "positive",
+      "homepage": "https://docs.stripe.com/",
+      "host": "docs.stripe.com",
+      "notes": "Conventional API-docs fixture with crawl files, sitemap, and llms.txt.",
+      "directory": "examples/stripe-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://docs.stripe.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.stripe.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://docs.stripe.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://docs.stripe.com/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://docs.stripe.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.stripe.com/llms.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "langchain-docs",
+      "name": "LangChain Docs",
+      "category": "positive",
+      "homepage": "https://docs.langchain.com/",
+      "host": "docs.langchain.com",
+      "notes": "Agent-framework docs fixture with llms files and agent skills JSON.",
+      "directory": "examples/langchain-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://docs.langchain.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.langchain.com/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://docs.langchain.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://docs.langchain.com/sitemap.xml",
+          "contentType": "text/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://docs.langchain.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.langchain.com/llms.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://docs.langchain.com/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://docs.langchain.com/llms-full.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": true
+        },
+        {
+          "key": "agent-skills",
+          "label": "agent skills index",
+          "url": "https://docs.langchain.com/.well-known/agent-skills/index.json",
+          "status": 200,
+          "effectiveUrl": "https://docs.langchain.com/.well-known/agent-skills/index.json",
+          "contentType": "application/json",
+          "outputFile": ".well-known/agent-skills/index.json",
+          "statusFile": ".well-known/agent-skills/index.json.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare-root",
+      "name": "Cloudflare Root",
+      "category": "contrast",
+      "homepage": "https://www.cloudflare.com/",
+      "host": "www.cloudflare.com",
+      "notes": "Root-domain contrast for Cloudflare's marketing and product surface.",
+      "directory": "examples/cloudflare-root/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://www.cloudflare.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://www.cloudflare.com/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://www.cloudflare.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://www.cloudflare.com/sitemap.xml",
+          "contentType": "application/xml; charset=utf-8",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": true
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://www.cloudflare.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://www.cloudflare.com/llms.txt",
+          "contentType": "text/plain",
+          "outputFile": "llms.txt",
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms-full",
+          "label": "llms-full.txt",
+          "url": "https://www.cloudflare.com/llms-full.txt",
+          "status": 200,
+          "effectiveUrl": "https://www.cloudflare.com/llms-full.txt",
+          "contentType": "text/plain",
+          "outputFile": "llms-full.sample.txt",
+          "statusFile": "llms-full.sample.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "google-developers",
+      "name": "Google Developers",
+      "category": "contrast",
+      "homepage": "https://developers.google.com/",
+      "host": "developers.google.com",
+      "notes": "Large traditional docs surface with robots and sitemap but no checked llms.txt.",
+      "directory": "examples/google-developers/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://developers.google.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.google.com/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://developers.google.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://developers.google.com/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://developers.google.com/llms.txt",
+          "status": 404,
+          "effectiveUrl": "https://developers.google.com/llms.txt",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "google-ai",
+      "name": "Google AI",
+      "category": "contrast",
+      "homepage": "https://ai.google.dev/",
+      "host": "ai.google.dev",
+      "notes": "Google AI docs contrast fixture with traditional crawl files but no checked llms.txt.",
+      "directory": "examples/google-ai/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://ai.google.dev/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://ai.google.dev/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://ai.google.dev/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://ai.google.dev/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://ai.google.dev/llms.txt",
+          "status": 404,
+          "effectiveUrl": "https://ai.google.dev/llms.txt",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "openai-root",
+      "name": "OpenAI Root",
+      "category": "contrast",
+      "homepage": "https://openai.com/",
+      "host": "openai.com",
+      "notes": "Corporate-root contrast: crawl files are present while root llms.txt was blocked during checks.",
+      "directory": "examples/openai-root/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://openai.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://openai.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://openai.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://openai.com/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://openai.com/llms.txt",
+          "status": 403,
+          "effectiveUrl": "https://openai.com/llms.txt",
+          "contentType": "text/html; charset=UTF-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "anthropic-root",
+      "name": "Anthropic Root",
+      "category": "contrast",
+      "homepage": "https://www.anthropic.com/",
+      "host": "www.anthropic.com",
+      "notes": "Corporate-root contrast for Anthropic's marketing site versus Claude Platform docs.",
+      "directory": "examples/anthropic-root/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://www.anthropic.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://www.anthropic.com/robots.txt",
+          "contentType": "text/plain",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://www.anthropic.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://www.anthropic.com/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://www.anthropic.com/llms.txt",
+          "status": 404,
+          "effectiveUrl": "https://www.anthropic.com/llms.txt",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "perplexity-root",
+      "name": "Perplexity Root",
+      "category": "contrast",
+      "homepage": "https://www.perplexity.ai/",
+      "host": "www.perplexity.ai",
+      "notes": "Corporate-root contrast for Perplexity's product site versus Perplexity Docs.",
+      "directory": "examples/perplexity-root/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://www.perplexity.ai/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://www.perplexity.ai/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://www.perplexity.ai/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://www.perplexity.ai/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://www.perplexity.ai/llms.txt",
+          "status": 403,
+          "effectiveUrl": "https://www.perplexity.ai/llms.txt",
+          "contentType": "text/html; charset=UTF-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "supabase-docs",
+      "name": "Supabase Docs",
+      "category": "contrast",
+      "homepage": "https://supabase.com/docs",
+      "host": "supabase.com",
+      "notes": "Non-AI developer-platform contrast with crawl and sitemap basics but no checked docs llms.txt.",
+      "directory": "examples/supabase-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "docs robots.txt",
+          "url": "https://supabase.com/docs/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://supabase.com/docs/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "outputFile": "robots.txt",
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "docs sitemap.xml",
+          "url": "https://supabase.com/docs/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://supabase.com/docs/sitemap.xml",
+          "contentType": "application/xml",
+          "outputFile": "sitemap.xml",
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "docs llms.txt",
+          "url": "https://supabase.com/docs/llms.txt",
+          "status": 404,
+          "effectiveUrl": "https://supabase.com/docs/llms.txt",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "llamaindex-docs",
+      "name": "LlamaIndex Docs",
+      "category": "redirect-trap",
+      "homepage": "https://docs.llamaindex.ai/",
+      "host": "docs.llamaindex.ai",
+      "notes": "Redirect-trap fixture: checked agent paths can return HTML instead of clean artifact files.",
+      "directory": "examples/llamaindex-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://docs.llamaindex.ai/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://docs.llamaindex.ai/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://docs.llamaindex.ai/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "slug": "cursor-docs",
+      "name": "Cursor Docs",
+      "category": "redirect-trap",
+      "homepage": "https://docs.cursor.com/",
+      "host": "docs.cursor.com",
+      "notes": "Redirect-trap fixture: checked agent paths can return HTML instead of clean artifact files.",
+      "directory": "examples/cursor-docs/",
+      "endpoints": [
+        {
+          "key": "robots",
+          "label": "robots.txt",
+          "url": "https://docs.cursor.com/robots.txt",
+          "status": 200,
+          "effectiveUrl": "https://cursor.com/docs",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "robots.txt.status.json",
+          "truncated": false
+        },
+        {
+          "key": "sitemap",
+          "label": "sitemap.xml",
+          "url": "https://docs.cursor.com/sitemap.xml",
+          "status": 200,
+          "effectiveUrl": "https://cursor.com/docs",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "sitemap.xml.status.json",
+          "truncated": false
+        },
+        {
+          "key": "llms",
+          "label": "llms.txt",
+          "url": "https://docs.cursor.com/llms.txt",
+          "status": 200,
+          "effectiveUrl": "https://cursor.com/docs",
+          "contentType": "text/html; charset=utf-8",
+          "outputFile": null,
+          "statusFile": "llms.txt.status.json",
+          "truncated": false
+        }
+      ]
+    }
+  ]
+}

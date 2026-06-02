@@ -1,0 +1,331 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "site": {
+    "slug": "stripe-docs",
+    "name": "Stripe Docs",
+    "category": "positive",
+    "homepage": "https://docs.stripe.com/",
+    "host": "docs.stripe.com",
+    "notes": "Conventional API-docs fixture with crawl files, sitemap, and llms.txt.",
+    "endpoints": [
+      {
+        "key": "robots",
+        "label": "robots.txt",
+        "url": "https://docs.stripe.com/robots.txt",
+        "output": "robots.txt"
+      },
+      {
+        "key": "sitemap",
+        "label": "sitemap.xml",
+        "url": "https://docs.stripe.com/sitemap.xml",
+        "output": "sitemap.xml"
+      },
+      {
+        "key": "llms",
+        "label": "llms.txt",
+        "url": "https://docs.stripe.com/llms.txt",
+        "output": "llms.txt"
+      }
+    ]
+  },
+  "dnsRecords": [
+    {
+      "type": "A",
+      "values": ["198.137.150.41", "198.202.176.41"]
+    },
+    {
+      "type": "AAAA",
+      "values": []
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["198.202.176.111", "198.137.150.111"]
+    },
+    {
+      "type": "TXT",
+      "values": []
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "robots",
+      "label": "robots.txt",
+      "url": "https://docs.stripe.com/robots.txt",
+      "output": "robots.txt",
+      "outputFile": "robots.txt",
+      "statusFile": "robots.txt.status.json",
+      "startedAt": "2026-06-02T19:28:22.150Z",
+      "status": 200,
+      "effectiveUrl": "https://docs.stripe.com/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 174,
+      "savedBytes": 174,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:22 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 240.661,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.stripe.com/robots.txt"
+    },
+    {
+      "key": "sitemap",
+      "label": "sitemap.xml",
+      "url": "https://docs.stripe.com/sitemap.xml",
+      "output": "sitemap.xml",
+      "outputFile": "sitemap.xml",
+      "statusFile": "sitemap.xml.status.json",
+      "startedAt": "2026-06-02T19:28:22.403Z",
+      "status": 200,
+      "effectiveUrl": "https://docs.stripe.com/sitemap.xml",
+      "contentType": "application/xml",
+      "bodyBytes": 417661,
+      "savedBytes": 417661,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:22 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/xml"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "base-uri 'none'; child-src 'self'; connect-src https://c.increment.com https://c.stripe.dev https://c.stripe.global https://c.stripe.partners https://edge-api.stripe.com wss://stripe-cli-ws-nw.stripe.com/subscribe/ wss://stripe-cli.stripe.com/subscribe/ wss://stripecli-ws-nw.stripe.com/subscribe/ wss://stripecli.stripe ... [truncated]"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "base-uri 'none'; child-src 'self'; connect-src https://c.increment.com https://c.stripe.dev https://c.stripe.global https://c.stripe.partners https://edge-api.stripe.com wss://stripe-cli-ws-nw.stripe.com/subscribe/ wss://stripe-cli.stripe.com/subscribe/ wss://stripecli-ws-nw.stripe.com/subscribe/ wss://stripecli.stripe ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "same-origin-allow-popups; report-to=\"wsp_coop\""
+        },
+        {
+          "name": "cross-origin-opener-policy-report-only",
+          "value": "same-origin-allow-popups; report-to=\"wsp_coop\""
+        },
+        {
+          "name": "report-to",
+          "value": "[redacted]"
+        },
+        {
+          "name": "reporting-endpoints",
+          "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=EP2jmYH4MmueOQGR8RYjsX8S80QDqlnseDODJt2R0NUh9ifZAd-T9Ngc0jx92QiA1DX-cSuy\", wsp_coep=\"https://q.stripe.com/coep-report?s=EP2jmYH4MmueOQGR8RYjsX8S80QDqlnseDODJt2R0NUh9ifZAd-T9Ngc0jx92QiA1DX-cSuy\", csp=\"https://q.stripe.com/csp-report-v2?q=EP2jmYH4MmueOQGR8RYjsX8S80QDqlnseDODJt2R0NUh9ifZAd-T9Ngc0jx92QiA1DX-cSuy&t=1\""
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "x-content-age",
+          "value": "0"
+        },
+        {
+          "name": "x-content-timestamp",
+          "value": "2026-06-02T19:28:22Z"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-location",
+          "value": "https://docs.stripe.com/sitemap.xml"
+        },
+        {
+          "name": "x-stripe-proxy-response",
+          "value": "upstream"
+        },
+        {
+          "name": "x-stripe-server-rpc-duration-micros",
+          "value": "195510"
+        },
+        {
+          "name": "x-wc",
+          "value": "3f7"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 518.626,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.stripe.com/sitemap.xml"
+    },
+    {
+      "key": "llms",
+      "label": "llms.txt",
+      "url": "https://docs.stripe.com/llms.txt",
+      "output": "llms.txt",
+      "outputFile": "llms.txt",
+      "statusFile": "llms.txt.status.json",
+      "startedAt": "2026-06-02T19:28:22.943Z",
+      "status": 200,
+      "effectiveUrl": "https://docs.stripe.com/llms.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 93223,
+      "savedBytes": 93215,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "base-uri 'none'; child-src 'self'; connect-src https://c.increment.com https://c.stripe.dev https://c.stripe.global https://c.stripe.partners https://edge-api.stripe.com wss://stripe-cli-ws-nw.stripe.com/subscribe/ wss://stripe-cli.stripe.com/subscribe/ wss://stripecli-ws-nw.stripe.com/subscribe/ wss://stripecli.stripe ... [truncated]"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "base-uri 'none'; child-src 'self'; connect-src https://c.increment.com https://c.stripe.dev https://c.stripe.global https://c.stripe.partners https://edge-api.stripe.com wss://stripe-cli-ws-nw.stripe.com/subscribe/ wss://stripe-cli.stripe.com/subscribe/ wss://stripecli-ws-nw.stripe.com/subscribe/ wss://stripecli.stripe ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "same-origin-allow-popups; report-to=\"wsp_coop\""
+        },
+        {
+          "name": "cross-origin-opener-policy-report-only",
+          "value": "same-origin-allow-popups; report-to=\"wsp_coop\""
+        },
+        {
+          "name": "report-to",
+          "value": "[redacted]"
+        },
+        {
+          "name": "reporting-endpoints",
+          "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW\", wsp_coep=\"https://q.stripe.com/coep-report?s=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW\", csp=\"https://q.stripe.com/csp-report-v2?q=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW&t=1\""
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "x-content-age",
+          "value": "0"
+        },
+        {
+          "name": "x-content-timestamp",
+          "value": "2026-06-02T19:28:23Z"
+        },
+        {
+          "name": "x-location",
+          "value": "https://docs.stripe.com/llms.txt"
+        },
+        {
+          "name": "x-robots-tag",
+          "value": "none"
+        },
+        {
+          "name": "x-stripe-proxy-response",
+          "value": "upstream"
+        },
+        {
+          "name": "x-stripe-server-rpc-duration-micros",
+          "value": "25292"
+        },
+        {
+          "name": "x-wc",
+          "value": "3f7"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 392.923,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.stripe.com/llms.txt"
+    }
+  ]
+}

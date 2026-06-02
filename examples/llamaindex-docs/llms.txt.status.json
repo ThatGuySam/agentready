@@ -1,0 +1,80 @@
+{
+  "key": "llms",
+  "label": "llms.txt",
+  "url": "https://docs.llamaindex.ai/llms.txt",
+  "output": "llms.txt",
+  "outputFile": null,
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:43.106Z",
+  "status": 200,
+  "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 268165,
+  "savedBytes": 0,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "14354"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"framework\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"3e264cf130175dbd3c23f1bc4bbe58b1\""
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1::qv864-1780428523388-08c397cea93b"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 308.567,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.llamaindex.ai/llms.txt"
+}

@@ -1,0 +1,628 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "site": {
+    "slug": "github-docs",
+    "name": "GitHub Docs",
+    "category": "positive",
+    "homepage": "https://docs.github.com/",
+    "host": "docs.github.com",
+    "notes": "Docs fixture with llms.txt and API-shaped article body access.",
+    "endpoints": [
+      {
+        "key": "robots",
+        "label": "robots.txt",
+        "url": "https://docs.github.com/robots.txt",
+        "output": "robots.txt"
+      },
+      {
+        "key": "sitemap",
+        "label": "sitemap.xml",
+        "url": "https://docs.github.com/sitemap.xml",
+        "output": "sitemap.xml"
+      },
+      {
+        "key": "llms",
+        "label": "llms.txt",
+        "url": "https://docs.github.com/llms.txt",
+        "output": "llms.txt"
+      },
+      {
+        "key": "article-body-api",
+        "label": "article body API",
+        "url": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
+        "output": "article-body-api.json"
+      }
+    ]
+  },
+  "dnsRecords": [
+    {
+      "type": "A",
+      "values": [
+        "185.199.109.154",
+        "185.199.110.154",
+        "185.199.111.154",
+        "185.199.108.154"
+      ]
+    },
+    {
+      "type": "AAAA",
+      "values": [
+        "2606:50c0:8000::154",
+        "2606:50c0:8001::154",
+        "2606:50c0:8002::154",
+        "2606:50c0:8003::154"
+      ]
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": [
+        "185.199.111.154",
+        "185.199.109.154",
+        "185.199.110.154",
+        "185.199.108.154"
+      ]
+    },
+    {
+      "type": "TXT",
+      "values": []
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "robots",
+      "label": "robots.txt",
+      "url": "https://docs.github.com/robots.txt",
+      "output": "robots.txt",
+      "outputFile": "robots.txt",
+      "statusFile": "robots.txt.status.json",
+      "startedAt": "2026-06-02T19:28:21.394Z",
+      "status": 200,
+      "effectiveUrl": "https://docs.github.com/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 13,
+      "savedBytes": 13,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'none';prefetch-src 'self';connect-src 'self' https://collector.githubapp.com;font-src 'self' data:;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: placehold.it;object-src 'self';script-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'sel ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "origin-agent-cluster",
+          "value": "?1"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "no-referrer-when-downgrade"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-dns-prefetch-control",
+          "value": "off"
+        },
+        {
+          "name": "x-download-options",
+          "value": "noopen"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-permitted-cross-domain-policies",
+          "value": "none"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=60"
+        },
+        {
+          "name": "x-github-backend",
+          "value": "Kubernetes"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "F8CC:28E41F:4A9EF6F:4F1062D:6A1F2C45"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "age",
+          "value": "656"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-dfw-kdal2120024-DFW"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "0"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1780428501.479109,VS0,VE1"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31557600"
+        },
+        {
+          "name": "content-length",
+          "value": "33"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 70.76100000000001,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.github.com/robots.txt"
+    },
+    {
+      "key": "sitemap",
+      "label": "sitemap.xml",
+      "url": "https://docs.github.com/sitemap.xml",
+      "output": "sitemap.xml",
+      "outputFile": null,
+      "statusFile": "sitemap.xml.status.json",
+      "startedAt": "2026-06-02T19:28:21.478Z",
+      "status": 404,
+      "effectiveUrl": "https://docs.github.com/sitemap.xml",
+      "contentType": "text/html; charset=utf-8",
+      "bodyBytes": 502,
+      "savedBytes": 0,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'none';prefetch-src 'self';connect-src 'self' https://collector.githubapp.com;font-src 'self' data:;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: placehold.it;object-src 'self';script-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'sel ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "origin-agent-cluster",
+          "value": "?1"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "no-referrer-when-downgrade"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-dns-prefetch-control",
+          "value": "off"
+        },
+        {
+          "name": "x-download-options",
+          "value": "noopen"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-permitted-cross-domain-policies",
+          "value": "none"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=60"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "x-github-backend",
+          "value": "Kubernetes"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "EE0E:5762:4C5F4DC:50CAA3B:6A1F2C45"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "age",
+          "value": "656"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-dfw-kdal2120110-DFW"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "0"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1780428502.646858,VS0,VE2"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31557600"
+        },
+        {
+          "name": "content-length",
+          "value": "316"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 404 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 159.761,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.github.com/sitemap.xml"
+    },
+    {
+      "key": "llms",
+      "label": "llms.txt",
+      "url": "https://docs.github.com/llms.txt",
+      "output": "llms.txt",
+      "outputFile": "llms.txt",
+      "statusFile": "llms.txt.status.json",
+      "startedAt": "2026-06-02T19:28:21.657Z",
+      "status": 200,
+      "effectiveUrl": "https://docs.github.com/llms.txt",
+      "contentType": "text/markdown; charset=utf-8",
+      "bodyBytes": 28404,
+      "savedBytes": 28404,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'none';prefetch-src 'self';connect-src 'self' https://collector.githubapp.com;font-src 'self' data:;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: placehold.it;object-src 'self';script-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'sel ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "origin-agent-cluster",
+          "value": "?1"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "no-referrer-when-downgrade"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-dns-prefetch-control",
+          "value": "off"
+        },
+        {
+          "name": "x-download-options",
+          "value": "noopen"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-permitted-cross-domain-policies",
+          "value": "none"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=60"
+        },
+        {
+          "name": "content-type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "name": "x-github-backend",
+          "value": "Kubernetes"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "1D06:201290:4C5FF0F:50C77D6:6A1F2C45"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "none"
+        },
+        {
+          "name": "age",
+          "value": "656"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-dfw-kdal2120056-DFW"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "0"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1780428502.831992,VS0,VE2"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31557600"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "vary",
+          "value": "accept-encoding"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 165.982,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.github.com/llms.txt"
+    },
+    {
+      "key": "article-body-api",
+      "label": "article body API",
+      "url": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
+      "output": "article-body-api.json",
+      "outputFile": "article-body-api.json",
+      "statusFile": "article-body-api.json.status.json",
+      "startedAt": "2026-06-02T19:28:21.848Z",
+      "status": 200,
+      "effectiveUrl": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
+      "contentType": "text/markdown; charset=utf-8",
+      "bodyBytes": 3702,
+      "savedBytes": 3702,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'none';prefetch-src 'self';connect-src 'self' https://collector.githubapp.com;font-src 'self' data:;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: placehold.it;object-src 'self';script-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'sel ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "same-origin"
+        },
+        {
+          "name": "origin-agent-cluster",
+          "value": "?1"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "no-referrer-when-downgrade"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-dns-prefetch-control",
+          "value": "off"
+        },
+        {
+          "name": "x-download-options",
+          "value": "noopen"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-permitted-cross-domain-policies",
+          "value": "none"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=60"
+        },
+        {
+          "name": "content-type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "name": "x-github-backend",
+          "value": "Kubernetes"
+        },
+        {
+          "name": "x-github-request-id",
+          "value": "ABF0:8C504:4F94E28:53F30A9:6A1F2C45"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "none"
+        },
+        {
+          "name": "age",
+          "value": "656"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-dfw-kdal2120037-DFW"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "0"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1780428502.923001,VS0,VE1"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31557600"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "vary",
+          "value": "accept-encoding"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 51.017,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output article-body-api.json --write-out '<curl-metadata>' 'https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git'"
+    }
+  ]
+}

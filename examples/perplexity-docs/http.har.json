@@ -1,0 +1,679 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "perplexity-docs",
+        "title": "Perplexity Docs",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "perplexity-docs",
+        "startedDateTime": "2026-06-02T19:28:07.274Z",
+        "time": 378.668,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.perplexity.ai/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbfeccaf612b-CMH"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/robots.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:cle1:iad1::iad1::7zwxv-1780428487466-b61176927ac3"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 174,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "https://docs.perplexity.ai/robots.txt",
+          "headersSize": -1,
+          "bodySize": 174
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 378.668,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "perplexity-docs",
+        "startedDateTime": "2026-06-02T19:28:07.669Z",
+        "time": 374.367,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.perplexity.ai/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc010998612b-CMH"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "content-type",
+              "value": "text/xml"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/sitemap.xml"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:cle1:iad1::iad1::6vknr-1780428487811-da8e1200ba80"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 21104,
+            "mimeType": "text/xml"
+          },
+          "redirectURL": "https://docs.perplexity.ai/sitemap.xml",
+          "headersSize": -1,
+          "bodySize": 21104
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 374.367,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "perplexity-docs",
+        "startedDateTime": "2026-06-02T19:28:08.067Z",
+        "time": 397.703,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.perplexity.ai/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc03cb8a1cc4-CMH"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/llms.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:cle1:iad1::iad1::tnblw-1780428488256-7444432fc971"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 30236,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://docs.perplexity.ai/llms.txt",
+          "headersSize": -1,
+          "bodySize": 30236
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 397.703,
+          "receive": 0
+        },
+        "comment": "Saved body to llms.txt"
+      },
+      {
+        "pageref": "perplexity-docs",
+        "startedDateTime": "2026-06-02T19:28:08.491Z",
+        "time": 401.072,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.perplexity.ai/llms-full.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "5258"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc068e9b99fe-CMH"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 18:02:01 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/llms-full.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:fra1:iad1::iad1::rb7mx-1780428488709-6a887803fa2c"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1495820,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://docs.perplexity.ai/llms-full.txt",
+          "headersSize": -1,
+          "bodySize": 1495820
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 401.072,
+          "receive": 0
+        },
+        "comment": "Saved body to llms-full.sample.txt"
+      },
+      {
+        "pageref": "perplexity-docs",
+        "startedDateTime": "2026-06-02T19:28:08.926Z",
+        "time": 257.892,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "8394"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc093f382780-CMH"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 17:08:14 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/.well-known/agent-skills/index.json"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:cle1:iad1::iad1::wf478-1780428489112-054dc97a96a7"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 600,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
+          "headersSize": -1,
+          "bodySize": 600
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 257.892,
+          "receive": 0
+        },
+        "comment": "Saved body to .well-known/agent-skills/index.json"
+      },
+      {
+        "pageref": "perplexity-docs",
+        "startedDateTime": "2026-06-02T19:28:09.204Z",
+        "time": 202.44500000000002,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "5062"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc0a69af2780-CMH"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 18:41:22 GMT"
+            },
+            {
+              "name": "link",
+              "value": "</llms.txt>; rel=\"llms-txt\", </llms-full.txt>; rel=\"llms-full-txt\", </.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </.well-known/agent-card.json>; rel=\"agent-card\", </.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\", </mintlify-assets/_next/static/chunks/9ffc684b9a12d113.css?dpl=dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA>; rel=preload; as=\"style\", </mintlify-assets/_next/static/chunks/b652b64e1051c665.css?dpl=dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA>; rel=preload; as=\"style\", </mintlify-assets/_next/static/chunks/d260340e1c30c06e.css?dpl=dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA>; rel=preload; as=\"style\""
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-llms-txt",
+              "value": "/llms.txt"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/[[...slug]]"
+            },
+            {
+              "name": "x-mint-proxy-version",
+              "value": "1.0.0-prod"
+            },
+            {
+              "name": "x-mintlify-client-version",
+              "value": "0.0.2998"
+            },
+            {
+              "name": "x-served-version",
+              "value": "dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "BYPASS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:iad1::iad1::hxqrf-1780428489325-f401b354c8c4"
+            },
+            {
+              "name": "x-vercel-project-id",
+              "value": "prj_NdMUpHpUIb41Po1H8c6hrChv2bgr"
+            },
+            {
+              "name": "x-version",
+              "value": "dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 519151,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+          "headersSize": -1,
+          "bodySize": 519151
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 202.44500000000002,
+          "receive": 0
+        },
+        "comment": "Saved body to perplexity-crawlers.sample.html.txt"
+      }
+    ]
+  }
+}

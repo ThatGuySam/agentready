@@ -1,0 +1,301 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "llamaindex-docs",
+        "title": "LlamaIndex Docs",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "llamaindex-docs",
+        "startedDateTime": "2026-06-02T19:28:42.335Z",
+        "time": 371.719,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.llamaindex.ai/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "14353"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"framework\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:42 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"3e264cf130175dbd3c23f1bc4bbe58b1\""
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::g95cc-1780428522687-b12a7bcaf794"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 268165,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://developers.llamaindex.ai/python/framework/",
+          "headersSize": -1,
+          "bodySize": 268165
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 371.719,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      },
+      {
+        "pageref": "llamaindex-docs",
+        "startedDateTime": "2026-06-02T19:28:42.731Z",
+        "time": 350.04200000000003,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.llamaindex.ai/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "14353"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"framework\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"3e264cf130175dbd3c23f1bc4bbe58b1\""
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::gsn4v-1780428523014-bb8692cbaa4b"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 268165,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://developers.llamaindex.ai/python/framework/",
+          "headersSize": -1,
+          "bodySize": 268165
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 350.04200000000003,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      },
+      {
+        "pageref": "llamaindex-docs",
+        "startedDateTime": "2026-06-02T19:28:43.106Z",
+        "time": 308.567,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.llamaindex.ai/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "14354"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"framework\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"3e264cf130175dbd3c23f1bc4bbe58b1\""
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::qv864-1780428523388-08c397cea93b"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 268165,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://developers.llamaindex.ai/python/framework/",
+          "headersSize": -1,
+          "bodySize": 268165
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 308.567,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      }
+    ]
+  }
+}

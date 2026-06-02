@@ -1,0 +1,100 @@
+{
+  "key": "sitemap",
+  "label": "sitemap.xml",
+  "url": "https://docs.cursor.com/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": null,
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:44.141Z",
+  "status": 200,
+  "effectiveUrl": "https://cursor.com/docs",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 125556,
+  "savedBytes": 0,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "328910"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+    },
+    {
+      "name": "x-generaltranslation-locale",
+      "value": "en-US"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/en-US/docs"
+    },
+    {
+      "name": "x-nextjs-prerender",
+      "value": "1"
+    },
+    {
+      "name": "x-nextjs-stale-time",
+      "value": "300"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1::lb2n4-1780428524443-b9cb6aff11c7"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 362.253,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.cursor.com/sitemap.xml"
+}

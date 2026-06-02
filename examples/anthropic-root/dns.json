@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "www.anthropic.com",
+  "records": [
+    {
+      "type": "A",
+      "values": ["160.79.104.10"]
+    },
+    {
+      "type": "AAAA",
+      "values": ["2607:6bc0::10"]
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["160.79.104.10"]
+    },
+    {
+      "type": "TXT",
+      "values": []
+    }
+  ]
+}

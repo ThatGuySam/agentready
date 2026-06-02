@@ -1,0 +1,17 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: www.anthropic.com
+
+$ dig +short www.anthropic.com A
+160.79.104.10
+
+$ dig +short www.anthropic.com AAAA
+2607:6bc0::10
+
+$ dig +short www.anthropic.com CNAME
+# no records returned
+
+$ dig +short www.anthropic.com HTTPS
+160.79.104.10
+
+$ dig +short www.anthropic.com TXT
+# no records returned

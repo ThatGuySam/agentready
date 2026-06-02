@@ -1,0 +1,116 @@
+{
+  "key": "llms-full",
+  "label": "docs llms-full.txt",
+  "url": "https://vercel.com/docs/llms-full.txt",
+  "output": "llms-full.sample.txt",
+  "outputFile": "llms-full.sample.txt",
+  "statusFile": "llms-full.sample.txt.status.json",
+  "startedAt": "2026-06-02T19:28:18.741Z",
+  "status": 200,
+  "effectiveUrl": "https://vercel.com/docs/llms-full.txt",
+  "contentType": "text/markdown; charset=utf-8",
+  "bodyBytes": 298,
+  "savedBytes": 298,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "age",
+      "value": "204"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=300"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live wss://*.vercel.com localhost:*;script-src 'self' 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com www.googleadservices.com www.gstatic.com *.youtube.com *.youtube-nocookie.com *.ytimg.com *.twimg.com cdn.ampproject.org www.googletag ... [truncated]"
+    },
+    {
+      "name": "content-type",
+      "value": "text/markdown; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:24:54 GMT"
+    },
+    {
+      "name": "feature-policy",
+      "value": "fullscreen 'self'; camera 'none'"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "origin-when-cross-origin"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "vary",
+      "value": "Accept"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-dns-prefetch-control",
+      "value": "on"
+    },
+    {
+      "name": "x-download-options",
+      "value": "noopen"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/[rootFlagsCode]/docs/md/[...slug]"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1::iad1::nq6f6-1780428498884-41eb7fb345d6"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 240.28,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://vercel.com/docs/llms-full.txt"
+}

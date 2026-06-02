@@ -1,0 +1,88 @@
+{
+  "key": "llms",
+  "label": "llms.txt",
+  "url": "https://docs.langchain.com/llms.txt",
+  "output": "llms.txt",
+  "outputFile": "llms.txt",
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:24.290Z",
+  "status": 200,
+  "effectiveUrl": "https://docs.langchain.com/llms.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 203524,
+  "savedBytes": 203524,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc68bd5857b6-MCI"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "EXPIRED"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "iad1::iad1::8mgrp-1780428504473-3f3ea1ebedc9"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/_sites/[subdomain]/llms.txt"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "MISS"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 429.075,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.langchain.com/llms.txt"
+}

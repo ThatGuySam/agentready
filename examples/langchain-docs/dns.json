@@ -1,0 +1,30 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "docs.langchain.com",
+  "records": [
+    {
+      "type": "A",
+      "values": ["docs.mintlify.builders.", "104.18.3.204", "104.18.2.204"]
+    },
+    {
+      "type": "AAAA",
+      "values": [
+        "docs.mintlify.builders.",
+        "2606:4700::6812:2cc",
+        "2606:4700::6812:3cc"
+      ]
+    },
+    {
+      "type": "CNAME",
+      "values": ["docs.mintlify.builders."]
+    },
+    {
+      "type": "HTTPS",
+      "values": ["docs.mintlify.builders.", "104.18.2.204", "104.18.3.204"]
+    },
+    {
+      "type": "TXT",
+      "values": ["docs.mintlify.builders."]
+    }
+  ]
+}

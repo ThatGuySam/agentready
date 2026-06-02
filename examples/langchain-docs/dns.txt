@@ -1,0 +1,23 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: docs.langchain.com
+
+$ dig +short docs.langchain.com A
+docs.mintlify.builders.
+104.18.3.204
+104.18.2.204
+
+$ dig +short docs.langchain.com AAAA
+docs.mintlify.builders.
+2606:4700::6812:2cc
+2606:4700::6812:3cc
+
+$ dig +short docs.langchain.com CNAME
+docs.mintlify.builders.
+
+$ dig +short docs.langchain.com HTTPS
+docs.mintlify.builders.
+104.18.2.204
+104.18.3.204
+
+$ dig +short docs.langchain.com TXT
+docs.mintlify.builders.

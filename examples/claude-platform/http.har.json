@@ -1,0 +1,451 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "claude-platform",
+        "title": "Claude Platform",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "claude-platform",
+        "startedDateTime": "2026-06-02T19:28:12.229Z",
+        "time": 277.553,
+        "request": {
+          "method": "GET",
+          "url": "https://platform.claude.com/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "via",
+              "value": "1.1 google"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc1d7a766b2a-DFW"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 80,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "https://platform.claude.com/robots.txt",
+          "headersSize": -1,
+          "bodySize": 80
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 277.553,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "claude-platform",
+        "startedDateTime": "2026-06-02T19:28:12.532Z",
+        "time": 208.959,
+        "request": {
+          "method": "GET",
+          "url": "https://platform.claude.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/xml"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "via",
+              "value": "1.1 google"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc1ecbf850ec-MCI"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 359344,
+            "mimeType": "application/xml"
+          },
+          "redirectURL": "https://platform.claude.com/sitemap.xml",
+          "headersSize": -1,
+          "bodySize": 359344
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 208.959,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "claude-platform",
+        "startedDateTime": "2026-06-02T19:28:12.766Z",
+        "time": 267.041,
+        "request": {
+          "method": "GET",
+          "url": "https://platform.claude.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=UTF-8"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 18:51:29 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"29177-19e89ad2f68\""
+            },
+            {
+              "name": "x-cloud-trace-context",
+              "value": "8c293663f5878d7a84e398fcc5d67d62"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "via",
+              "value": "1.1 google"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "REVALIDATED"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc20bc59b31e-DFW"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 168311,
+            "mimeType": "text/plain; charset=UTF-8"
+          },
+          "redirectURL": "https://platform.claude.com/llms.txt",
+          "headersSize": -1,
+          "bodySize": 168311
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 267.041,
+          "receive": 0
+        },
+        "comment": "Saved body to llms.txt"
+      },
+      {
+        "pageref": "claude-platform",
+        "startedDateTime": "2026-06-02T19:28:13.059Z",
+        "time": 3314.632,
+        "request": {
+          "method": "GET",
+          "url": "https://platform.claude.com/llms-full.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=3600"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "via",
+              "value": "1.1 google"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "age",
+              "value": "2014"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:18:50 GMT"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc229ee66a1e-MCI"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 71523030,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://platform.claude.com/llms-full.txt",
+          "headersSize": -1,
+          "bodySize": 71523030
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 3314.632,
+          "receive": 0
+        },
+        "comment": "Saved body to llms-full.sample.txt"
+      }
+    ]
+  }
+}

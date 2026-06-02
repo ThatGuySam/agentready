@@ -1,0 +1,96 @@
+{
+  "key": "robots",
+  "label": "robots.txt",
+  "url": "https://developers.google.com/robots.txt",
+  "output": "robots.txt",
+  "outputFile": "robots.txt",
+  "statusFile": "robots.txt.status.json",
+  "startedAt": "2026-06-02T19:28:27.674Z",
+  "status": 200,
+  "effectiveUrl": "https://developers.google.com/robots.txt",
+  "contentType": "text/plain",
+  "bodyBytes": 93,
+  "savedBytes": 93,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "content-type",
+      "value": "text/plain"
+    },
+    {
+      "name": "last-modified",
+      "value": "Thu, 04 Sep 2025 12:04:01 GMT"
+    },
+    {
+      "name": "vary",
+      "value": "Cookie"
+    },
+    {
+      "name": "vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-V1+MwY/VjmieCgdVHrOcZODkIF6ZsL' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000; includeSubdomains; preload"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "cache-control",
+      "value": "no-cache, must-revalidate"
+    },
+    {
+      "name": "expires",
+      "value": "0"
+    },
+    {
+      "name": "pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "x-cloud-trace-context",
+      "value": "4f6b936a0797a96208d4b6368d9265eb"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Google Frontend"
+    },
+    {
+      "name": "content-length",
+      "value": "104"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 391.807,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://developers.google.com/robots.txt"
+}

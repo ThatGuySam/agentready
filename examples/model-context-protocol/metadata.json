@@ -1,0 +1,522 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "site": {
+    "slug": "model-context-protocol",
+    "name": "Model Context Protocol",
+    "category": "positive",
+    "homepage": "https://modelcontextprotocol.io/",
+    "host": "modelcontextprotocol.io",
+    "notes": "Protocol/tooling fixture for agent-facing capability discovery.",
+    "endpoints": [
+      {
+        "key": "robots",
+        "label": "robots.txt",
+        "url": "https://modelcontextprotocol.io/robots.txt",
+        "output": "robots.txt"
+      },
+      {
+        "key": "sitemap",
+        "label": "sitemap.xml",
+        "url": "https://modelcontextprotocol.io/sitemap.xml",
+        "output": "sitemap.xml"
+      },
+      {
+        "key": "llms",
+        "label": "llms.txt",
+        "url": "https://modelcontextprotocol.io/llms.txt",
+        "output": "llms.txt"
+      },
+      {
+        "key": "llms-full",
+        "label": "llms-full.txt",
+        "url": "https://modelcontextprotocol.io/llms-full.txt",
+        "output": "llms-full.sample.txt",
+        "maxBytes": 250000
+      },
+      {
+        "key": "agent-skills",
+        "label": "agent skills index",
+        "url": "https://modelcontextprotocol.io/.well-known/agent-skills/index.json",
+        "output": ".well-known/agent-skills/index.json"
+      }
+    ]
+  },
+  "dnsRecords": [
+    {
+      "type": "A",
+      "values": ["76.76.21.21"]
+    },
+    {
+      "type": "AAAA",
+      "values": []
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["76.76.21.21"]
+    },
+    {
+      "type": "TXT",
+      "values": [
+        "\"czyymtp25a\"",
+        "\"google-site-verification=0jJ1JQ6pdBjRe2r6UCzi2RJbsjvglJUmekPb5rpUQXQ\"",
+        "\"google-site-verification=FhpMfMf1V9X1n7NSWPcUcb7cKXtUElzM8cbEBm3WXd4\"",
+        "\"google-site-verification=UI0Tjq-ecUgNu3kFATkW87qcabX6kTljsbYjms2-FdQ\"",
+        "\"v=spf1 include:_spf.google.com ~all\""
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "robots",
+      "label": "robots.txt",
+      "url": "https://modelcontextprotocol.io/robots.txt",
+      "output": "robots.txt",
+      "outputFile": "robots.txt",
+      "statusFile": "robots.txt.status.json",
+      "startedAt": "2026-06-02T19:28:09.733Z",
+      "status": 200,
+      "effectiveUrl": "https://modelcontextprotocol.io/robots.txt",
+      "contentType": "text/plain",
+      "bodyBytes": 179,
+      "savedBytes": 179,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "EXPIRED"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc0dcdaef3c9-CMH"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "vary",
+          "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/_sites/[subdomain]/robots.txt"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "MISS"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:cle1:iad1::iad1::qxvl7-1780428489859-39bdcf5d1948"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 338.66200000000003,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/robots.txt"
+    },
+    {
+      "key": "sitemap",
+      "label": "sitemap.xml",
+      "url": "https://modelcontextprotocol.io/sitemap.xml",
+      "output": "sitemap.xml",
+      "outputFile": "sitemap.xml",
+      "statusFile": "sitemap.xml.status.json",
+      "startedAt": "2026-06-02T19:28:10.090Z",
+      "status": 200,
+      "effectiveUrl": "https://modelcontextprotocol.io/sitemap.xml",
+      "contentType": "text/xml",
+      "bodyBytes": 31005,
+      "savedBytes": 31001,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "EXPIRED"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc10ad1136cd-CMH"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+        },
+        {
+          "name": "content-type",
+          "value": "text/xml"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "vary",
+          "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/_sites/[subdomain]/sitemap.xml"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "MISS"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:cle1:iad1::iad1::8r9h6-1780428490281-889270bdb65e"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 479.502,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://modelcontextprotocol.io/sitemap.xml"
+    },
+    {
+      "key": "llms",
+      "label": "llms.txt",
+      "url": "https://modelcontextprotocol.io/llms.txt",
+      "output": "llms.txt",
+      "outputFile": "llms.txt",
+      "statusFile": "llms.txt.status.json",
+      "startedAt": "2026-06-02T19:28:10.585Z",
+      "status": 200,
+      "effectiveUrl": "https://modelcontextprotocol.io/llms.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 18341,
+      "savedBytes": 18341,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "EXPIRED"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc139f80b5b3-CMH"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "vary",
+          "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/_sites/[subdomain]/llms.txt"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "MISS"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:cle1:iad1::iad1::p7vf5-1780428490796-0d3c409f8f84"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 514.168,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/llms.txt"
+    },
+    {
+      "key": "llms-full",
+      "label": "llms-full.txt",
+      "url": "https://modelcontextprotocol.io/llms-full.txt",
+      "output": "llms-full.sample.txt",
+      "outputFile": "llms-full.sample.txt",
+      "statusFile": "llms-full.sample.txt.status.json",
+      "startedAt": "2026-06-02T19:28:11.116Z",
+      "status": 200,
+      "effectiveUrl": "https://modelcontextprotocol.io/llms-full.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 1891695,
+      "savedBytes": 249296,
+      "truncated": true,
+      "responseHeaders": [
+        {
+          "name": "age",
+          "value": "7434"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=86400"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc170d28b36e-CMH"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 18:19:09 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "vary",
+          "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/_sites/[subdomain]/llms-full.txt"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "MISS"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:sfo1:iad1::iad1::jn7kn-1780428491331-e54dbc363b57"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 557.0619999999999,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/llms-full.txt"
+    },
+    {
+      "key": "agent-skills",
+      "label": "agent skills index",
+      "url": "https://modelcontextprotocol.io/.well-known/agent-skills/index.json",
+      "output": ".well-known/agent-skills/index.json",
+      "outputFile": ".well-known/agent-skills/index.json",
+      "statusFile": ".well-known/agent-skills/index.json.status.json",
+      "startedAt": "2026-06-02T19:28:11.701Z",
+      "status": 200,
+      "effectiveUrl": "https://modelcontextprotocol.io/.well-known/agent-skills/index.json",
+      "contentType": "application/json",
+      "bodyBytes": 661,
+      "savedBytes": 661,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "age",
+          "value": "84159"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=86400"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc1aada6c6fa-CMH"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 17:08:28 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "vary",
+          "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/_sites/[subdomain]/.well-known/agent-skills/index.json"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "MISS"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:yul1:iad1::iad1::r7m4m-1780428491920-c66ce68ebdb1"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 257.41999999999996,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://modelcontextprotocol.io/.well-known/agent-skills/index.json"
+    }
+  ]
+}

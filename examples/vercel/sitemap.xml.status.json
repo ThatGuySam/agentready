@@ -1,0 +1,104 @@
+{
+  "key": "sitemap",
+  "label": "sitemap.xml",
+  "url": "https://vercel.com/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": "sitemap.xml",
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:18.027Z",
+  "status": 200,
+  "effectiveUrl": "https://vercel.com/crawled-sitemap.xml",
+  "contentType": "application/xml; charset=utf-8",
+  "bodyBytes": 986108,
+  "savedBytes": 986108,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "age",
+      "value": "204"
+    },
+    {
+      "name": "cache-control",
+      "value": "public"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live *.stripe.com twitter.com *.twitter.com *.google.com *.github.com *.codesandbox.io https://risk.clearbit.com wss://*.vercel.com localhost:* chrome-extension://*;script-src 'self' 'unsafe-eval' 'unsafe-inline' blob: www.google.com www.gstatic.com *.youtub ... [truncated]"
+    },
+    {
+      "name": "content-type",
+      "value": "application/xml; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:24:53 GMT"
+    },
+    {
+      "name": "feature-policy",
+      "value": "fullscreen 'self'; camera 'none'"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "origin-when-cross-origin"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-dns-prefetch-control",
+      "value": "on"
+    },
+    {
+      "name": "x-download-options",
+      "value": "noopen"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/[filename]"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1:cle1:cle1::iad1::xb27g-1780428498272-03bea8571cb7"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 402.18199999999996,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://vercel.com/sitemap.xml"
+}

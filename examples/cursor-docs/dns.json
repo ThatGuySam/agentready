@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "docs.cursor.com",
+  "records": [
+    {
+      "type": "A",
+      "values": [
+        "edf0c7732a61bc62.vercel-dns-016.com.",
+        "64.239.123.129",
+        "64.239.109.129"
+      ]
+    },
+    {
+      "type": "AAAA",
+      "values": ["edf0c7732a61bc62.vercel-dns-016.com."]
+    },
+    {
+      "type": "CNAME",
+      "values": ["edf0c7732a61bc62.vercel-dns-016.com."]
+    },
+    {
+      "type": "HTTPS",
+      "values": [
+        "edf0c7732a61bc62.vercel-dns-016.com.",
+        "64.239.109.65",
+        "64.239.123.65"
+      ]
+    },
+    {
+      "type": "TXT",
+      "values": ["edf0c7732a61bc62.vercel-dns-016.com."]
+    }
+  ]
+}

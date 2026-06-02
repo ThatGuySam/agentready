@@ -1,0 +1,80 @@
+{
+  "key": "llms",
+  "label": "llms.txt",
+  "url": "https://developers.openai.com/api/docs/llms.txt",
+  "output": "llms.txt",
+  "outputFile": "llms.txt",
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:20.432Z",
+  "status": 200,
+  "effectiveUrl": "https://developers.openai.com/api/docs/llms.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 27802,
+  "savedBytes": 27802,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "424"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"llms.txt\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"fa3aa584575385a0b1834521f1f035c6\""
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 19:21:16 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1::tnblw-1780428500646-1715a6dc539d"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 327.199,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.openai.com/api/docs/llms.txt"
+}

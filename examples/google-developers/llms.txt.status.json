@@ -1,0 +1,92 @@
+{
+  "key": "llms",
+  "label": "llms.txt",
+  "url": "https://developers.google.com/llms.txt",
+  "output": "llms.txt",
+  "outputFile": null,
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:28.777Z",
+  "status": 404,
+  "effectiveUrl": "https://developers.google.com/llms.txt",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 45736,
+  "savedBytes": 0,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "vary",
+      "value": "Cookie"
+    },
+    {
+      "name": "vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-G86ZyyQu6h4aYFf+Os3OxUCvWWAfE+' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000; includeSubdomains; preload"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "cache-control",
+      "value": "no-cache, must-revalidate"
+    },
+    {
+      "name": "expires",
+      "value": "0"
+    },
+    {
+      "name": "pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "x-cloud-trace-context",
+      "value": "71a74dc119d4c8e5e04ebf31e79eb16e"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:29 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Google Frontend"
+    },
+    {
+      "name": "content-length",
+      "value": "10279"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 404 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 333.478,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.google.com/llms.txt"
+}

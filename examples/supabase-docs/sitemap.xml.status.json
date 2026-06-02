@@ -1,0 +1,96 @@
+{
+  "key": "sitemap",
+  "label": "docs sitemap.xml",
+  "url": "https://supabase.com/docs/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": "sitemap.xml",
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:41.519Z",
+  "status": 200,
+  "effectiveUrl": "https://supabase.com/docs/sitemap.xml",
+  "contentType": "application/xml",
+  "bodyBytes": 403007,
+  "savedBytes": 403007,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "9598"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"sitemap.xml\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-type",
+      "value": "application/xml"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"7406d7399f61dd52e87d32e64551e889\""
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 16:48:42 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/sitemap.xml"
+    },
+    {
+      "name": "x-nextjs-rewritten-path",
+      "value": "/docs/sitemap.xml"
+    },
+    {
+      "name": "x-robots-tag",
+      "value": "all"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1:cle1:cle1::hxqrf-1780428521653-20a2819e9123"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 166.709,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://supabase.com/docs/sitemap.xml"
+}

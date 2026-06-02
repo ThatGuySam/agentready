@@ -1,0 +1,136 @@
+{
+  "key": "llms",
+  "label": "llms.txt",
+  "url": "https://docs.github.com/llms.txt",
+  "output": "llms.txt",
+  "outputFile": "llms.txt",
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:21.657Z",
+  "status": 200,
+  "effectiveUrl": "https://docs.github.com/llms.txt",
+  "contentType": "text/markdown; charset=utf-8",
+  "bodyBytes": 28404,
+  "savedBytes": 28404,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'none';prefetch-src 'self';connect-src 'self' https://collector.githubapp.com;font-src 'self' data:;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: placehold.it;object-src 'self';script-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'sel ... [truncated]"
+    },
+    {
+      "name": "cross-origin-opener-policy",
+      "value": "same-origin"
+    },
+    {
+      "name": "cross-origin-resource-policy",
+      "value": "same-origin"
+    },
+    {
+      "name": "origin-agent-cluster",
+      "value": "?1"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "no-referrer-when-downgrade"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-dns-prefetch-control",
+      "value": "off"
+    },
+    {
+      "name": "x-download-options",
+      "value": "noopen"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-permitted-cross-domain-policies",
+      "value": "none"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=60"
+    },
+    {
+      "name": "content-type",
+      "value": "text/markdown; charset=utf-8"
+    },
+    {
+      "name": "x-github-backend",
+      "value": "Kubernetes"
+    },
+    {
+      "name": "x-github-request-id",
+      "value": "1D06:201290:4C5FF0F:50C77D6:6A1F2C45"
+    },
+    {
+      "name": "accept-ranges",
+      "value": "none"
+    },
+    {
+      "name": "age",
+      "value": "656"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+    },
+    {
+      "name": "via",
+      "value": "1.1 varnish"
+    },
+    {
+      "name": "x-served-by",
+      "value": "cache-dfw-kdal2120056-DFW"
+    },
+    {
+      "name": "x-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-cache-hits",
+      "value": "0"
+    },
+    {
+      "name": "x-timer",
+      "value": "S1780428502.831992,VS0,VE2"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31557600"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "vary",
+      "value": "accept-encoding"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 165.982,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.github.com/llms.txt"
+}

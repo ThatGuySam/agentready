@@ -1,0 +1,128 @@
+{
+  "key": "llms-full",
+  "label": "llms-full.txt",
+  "url": "https://www.cloudflare.com/llms-full.txt",
+  "output": "llms-full.sample.txt",
+  "outputFile": "llms-full.sample.txt",
+  "statusFile": "llms-full.sample.txt.status.json",
+  "startedAt": "2026-06-02T19:28:26.623Z",
+  "status": 200,
+  "effectiveUrl": "https://www.cloudflare.com/llms-full.txt",
+  "contentType": "text/plain",
+  "bodyBytes": 205920,
+  "savedBytes": 205743,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:27 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain"
+    },
+    {
+      "name": "link",
+      "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+      "name": "cf-placement",
+      "value": "remote-PRG"
+    },
+    {
+      "name": "x-served-by",
+      "value": "marketing-site"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]"
+    },
+    {
+      "name": "cross-origin-opener-policy",
+      "value": "unsafe-none"
+    },
+    {
+      "name": "cross-origin-resource-policy",
+      "value": "cross-origin"
+    },
+    {
+      "name": "permissions-policy",
+      "value": "geolocation=(), camera=(), microphone=()"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "strict-origin-when-cross-origin"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "vary",
+      "value": "accept-encoding"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "report-to",
+      "value": "[redacted]"
+    },
+    {
+      "name": "nel",
+      "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"1b699629f86679f47cc033b88fd46460\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc76ebc6467e-DFW"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 790.453,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://www.cloudflare.com/llms-full.txt"
+}

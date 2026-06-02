@@ -1,0 +1,361 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "cursor-docs",
+        "title": "Cursor Docs",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "cursor-docs",
+        "startedDateTime": "2026-06-02T19:28:43.720Z",
+        "time": 406.923,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.cursor.com/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "328909"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-generaltranslation-locale",
+              "value": "en-US"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/en-US/docs"
+            },
+            {
+              "name": "x-nextjs-prerender",
+              "value": "1"
+            },
+            {
+              "name": "x-nextjs-stale-time",
+              "value": "300"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::7dgfg-1780428524024-2bbc7374ce95"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 125556,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://cursor.com/docs",
+          "headersSize": -1,
+          "bodySize": 125556
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 406.923,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      },
+      {
+        "pageref": "cursor-docs",
+        "startedDateTime": "2026-06-02T19:28:44.141Z",
+        "time": 362.253,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.cursor.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "328910"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-generaltranslation-locale",
+              "value": "en-US"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/en-US/docs"
+            },
+            {
+              "name": "x-nextjs-prerender",
+              "value": "1"
+            },
+            {
+              "name": "x-nextjs-stale-time",
+              "value": "300"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::lb2n4-1780428524443-b9cb6aff11c7"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 125556,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://cursor.com/docs",
+          "headersSize": -1,
+          "bodySize": 125556
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 362.253,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      },
+      {
+        "pageref": "cursor-docs",
+        "startedDateTime": "2026-06-02T19:28:44.529Z",
+        "time": 402.897,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.cursor.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "328910"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-generaltranslation-locale",
+              "value": "en-US"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/en-US/docs"
+            },
+            {
+              "name": "x-nextjs-prerender",
+              "value": "1"
+            },
+            {
+              "name": "x-nextjs-stale-time",
+              "value": "300"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::8sr95-1780428524898-ce95cac6ca17"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 125556,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://cursor.com/docs",
+          "headersSize": -1,
+          "bodySize": 125556
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 402.897,
+          "receive": 0
+        },
+        "comment": "No body saved; see status metadata"
+      }
+    ]
+  }
+}

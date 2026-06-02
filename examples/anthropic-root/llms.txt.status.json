@@ -1,0 +1,104 @@
+{
+  "key": "llms",
+  "label": "llms.txt",
+  "url": "https://www.anthropic.com/llms.txt",
+  "output": "llms.txt",
+  "outputFile": null,
+  "statusFile": "llms.txt.status.json",
+  "startedAt": "2026-06-02T19:28:36.457Z",
+  "status": 404,
+  "effectiveUrl": "https://www.anthropic.com/llms.txt",
+  "contentType": "text/html; charset=utf-8",
+  "bodyBytes": 61067,
+  "savedBytes": 0,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:40 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/html; charset=utf-8"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dcb45cda4de2-MCI"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "DYNAMIC"
+    },
+    {
+      "name": "cache-control",
+      "value": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "name": "link",
+      "value": "</_next/static/media/AnthropicMono_Italic_Web-s.p.0a6clcalc57jy.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicMono_Roman_Web-s.p.0dvv1q62z~ge1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSans_Italic_Web-s.p.0nrgm.g8~ach1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSans_Roman_Web-s.p.0g0iw7wqvowb5.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSerif_Italic_Web-s.p.0gh_wrgthn62t.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSerif_Roman_Web-s.p.0974051x8mlf0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/Copernicus_Book-s.p.05o-np3qymnod.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/Copernicus_Medium-s.p.0sy5~fr0eyl7z.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/JetBrainsMono_VF-s.p.16iwkfzw7limt.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/ttf\", </_next/static/media/StyreneA_MediumItalic_Web-s.p.06znirukso.x8.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneA_Medium_Web-s.p.0nn3owxanef3s.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneA_RegularItalic_Web-s.p.0h2r1lbzpvtde.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneA_Regular_Web-s.p.142iitxco7zvn.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneB_Medium_Web-s.p.09njtiix1t5ud.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneB_Regular_Web-s.p.0judbpsl6eyx2.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_Medium-s.p.0~u0~bacwkeeb.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_MediumItalic-s.p.0ijezcyebrwsd.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_Regular-s.p.0w24c-~q~094g.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_RegularItalic-s.p.0rf70lcidbxth.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/chunks/0h8~h_w93qxyd.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/0kh_997_his9r.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/0on1-qkvntmfn.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/14eac.lv283qe.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/0khy9w-k3.nof.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/01godr8u6mf._.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\""
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=3600"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding"
+    },
+    {
+      "name": "via",
+      "value": "1.1 google"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.intellimize.co https://cdnjs.cloudflare.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com https://hubspotonwebflow.com https://www.googletagmanager.com https://a-cdn.anthropic.com https://connect.facebook.net https://www.youtub ... [truncated]"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    },
+    {
+      "name": "x-cloud-trace-context",
+      "value": "51971a1cb35e5855100a5958ff7085b9"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 404 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 4189.106,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://www.anthropic.com/llms.txt"
+}

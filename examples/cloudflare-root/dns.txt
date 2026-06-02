@@ -1,0 +1,24 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: www.cloudflare.com
+
+$ dig +short www.cloudflare.com A
+104.16.124.96
+104.16.123.96
+
+$ dig +short www.cloudflare.com AAAA
+2606:4700::6810:7c60
+2606:4700::6810:7b60
+
+$ dig +short www.cloudflare.com CNAME
+# no records returned
+
+$ dig +short www.cloudflare.com HTTPS
+104.16.124.96
+104.16.123.96
+
+$ dig +short www.cloudflare.com TXT
+"ca3-51f5182e0f9248c5be98a7f6329814eb"
+"canva-site-verification=oOyaVnHC-OiFoR1BPvetNA"
+"google-site-verification=BGYWMGmMapwHpaj8kW5SNItcLefH74b1mrUN2zk_8aE"
+"google-site-verification=XncEvwjMqwqjZZb64HYg_DpdcrTvQKA1MObBuY_Mbsw"
+"adobe-idp-site-verification=6fa8fbb72d7bb29889c39830d60eb0309c678510fef7692ee2679400a4096349"

@@ -1,0 +1,390 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "site": {
+    "slug": "openai-api-docs",
+    "name": "OpenAI API Docs",
+    "category": "positive",
+    "homepage": "https://developers.openai.com/api/docs/",
+    "host": "developers.openai.com",
+    "notes": "OpenAI API docs expose llms artifacts even though the checked docs path lacks robots and sitemap files.",
+    "endpoints": [
+      {
+        "key": "robots",
+        "label": "docs robots.txt",
+        "url": "https://developers.openai.com/api/docs/robots.txt",
+        "output": "robots.txt"
+      },
+      {
+        "key": "sitemap",
+        "label": "docs sitemap.xml",
+        "url": "https://developers.openai.com/api/docs/sitemap.xml",
+        "output": "sitemap.xml"
+      },
+      {
+        "key": "llms",
+        "label": "llms.txt",
+        "url": "https://developers.openai.com/api/docs/llms.txt",
+        "output": "llms.txt"
+      },
+      {
+        "key": "llms-full",
+        "label": "llms-full.txt",
+        "url": "https://developers.openai.com/api/docs/llms-full.txt",
+        "output": "llms-full.sample.txt",
+        "maxBytes": 250000
+      }
+    ]
+  },
+  "dnsRecords": [
+    {
+      "type": "A",
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com.",
+        "64.239.123.129",
+        "64.239.109.129"
+      ]
+    },
+    {
+      "type": "AAAA",
+      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+    },
+    {
+      "type": "CNAME",
+      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+    },
+    {
+      "type": "HTTPS",
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com.",
+        "64.239.123.129",
+        "64.239.109.129"
+      ]
+    },
+    {
+      "type": "TXT",
+      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "robots",
+      "label": "docs robots.txt",
+      "url": "https://developers.openai.com/api/docs/robots.txt",
+      "output": "robots.txt",
+      "outputFile": null,
+      "statusFile": "robots.txt.status.json",
+      "startedAt": "2026-06-02T19:28:19.900Z",
+      "status": 404,
+      "effectiveUrl": "https://developers.openai.com/api/docs/robots.txt",
+      "contentType": "text/html; charset=utf-8",
+      "bodyBytes": 365424,
+      "savedBytes": 0,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "69"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"404.html\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"b6f34823a57f4d60bf22bbdda35cd49c\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:20:37 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1::qpsg5-1780428500094-fd3d42ac46ae"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 404 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 337.874,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://developers.openai.com/api/docs/robots.txt"
+    },
+    {
+      "key": "sitemap",
+      "label": "docs sitemap.xml",
+      "url": "https://developers.openai.com/api/docs/sitemap.xml",
+      "output": "sitemap.xml",
+      "outputFile": null,
+      "statusFile": "sitemap.xml.status.json",
+      "startedAt": "2026-06-02T19:28:20.253Z",
+      "status": 404,
+      "effectiveUrl": "https://developers.openai.com/api/docs/sitemap.xml",
+      "contentType": "text/html; charset=utf-8",
+      "bodyBytes": 365424,
+      "savedBytes": 0,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "191"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"404.html\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"b6f34823a57f4d60bf22bbdda35cd49c\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:20:37 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1::lzs5j-1780428500378-a23e6cc2c96a"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 404 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 164.19400000000002,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.openai.com/api/docs/sitemap.xml"
+    },
+    {
+      "key": "llms",
+      "label": "llms.txt",
+      "url": "https://developers.openai.com/api/docs/llms.txt",
+      "output": "llms.txt",
+      "outputFile": "llms.txt",
+      "statusFile": "llms.txt.status.json",
+      "startedAt": "2026-06-02T19:28:20.432Z",
+      "status": 200,
+      "effectiveUrl": "https://developers.openai.com/api/docs/llms.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 27802,
+      "savedBytes": 27802,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "424"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"llms.txt\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"fa3aa584575385a0b1834521f1f035c6\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:21:16 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1::tnblw-1780428500646-1715a6dc539d"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 327.199,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.openai.com/api/docs/llms.txt"
+    },
+    {
+      "key": "llms-full",
+      "label": "llms-full.txt",
+      "url": "https://developers.openai.com/api/docs/llms-full.txt",
+      "output": "llms-full.sample.txt",
+      "outputFile": "llms-full.sample.txt",
+      "statusFile": "llms-full.sample.txt.status.json",
+      "startedAt": "2026-06-02T19:28:20.776Z",
+      "status": 200,
+      "effectiveUrl": "https://developers.openai.com/api/docs/llms-full.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 1980357,
+      "savedBytes": 249895,
+      "truncated": true,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "424"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"llms-full.txt\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"4c8c44947771d33088f78b5b01495de3\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 19:21:16 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=63072000"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1::49bxt-1780428500900-af4438933c71"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 292.891,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://developers.openai.com/api/docs/llms-full.txt"
+    }
+  ]
+}

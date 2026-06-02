@@ -1,0 +1,92 @@
+{
+  "key": "sitemap",
+  "label": "sitemap.xml",
+  "url": "https://developers.google.com/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": "sitemap.xml",
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:28.081Z",
+  "status": 200,
+  "effectiveUrl": "https://developers.google.com/sitemap.xml",
+  "contentType": "application/xml",
+  "bodyBytes": 5752,
+  "savedBytes": 5752,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "content-type",
+      "value": "application/xml"
+    },
+    {
+      "name": "vary",
+      "value": "Cookie"
+    },
+    {
+      "name": "vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9oJNQM1ix0Ux+pt56x10gdefc64RpY' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000; includeSubdomains; preload"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "0"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "cache-control",
+      "value": "no-cache, must-revalidate"
+    },
+    {
+      "name": "expires",
+      "value": "0"
+    },
+    {
+      "name": "pragma",
+      "value": "no-cache"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "x-cloud-trace-context",
+      "value": "c5d279f904a28b1bd763925ba4acbc8a"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Google Frontend"
+    },
+    {
+      "name": "content-length",
+      "value": "488"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 671.049,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.google.com/sitemap.xml"
+}

@@ -1,0 +1,92 @@
+{
+  "key": "agent-skills",
+  "label": "agent skills index",
+  "url": "https://docs.langchain.com/.well-known/agent-skills/index.json",
+  "output": ".well-known/agent-skills/index.json",
+  "outputFile": ".well-known/agent-skills/index.json",
+  "statusFile": ".well-known/agent-skills/index.json.status.json",
+  "startedAt": "2026-06-02T19:28:25.821Z",
+  "status": 200,
+  "effectiveUrl": "https://docs.langchain.com/.well-known/agent-skills/index.json",
+  "contentType": "application/json",
+  "bodyBytes": 460,
+  "savedBytes": 460,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "application/json"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc71dddcc6e6-MCI"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "age",
+      "value": "62344"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=86400"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "iad1::iad1::sjz6l-1780366160938-0d8c09b56088"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 17:13:23 GMT"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/_sites/[subdomain]/.well-known/agent-skills/index.json"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "MISS"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 140.098,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://docs.langchain.com/.well-known/agent-skills/index.json"
+}

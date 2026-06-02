@@ -20,3 +20,7 @@
 # Misc
 /.husky
 *.hbs
+
+# Raw captured evidence
+/examples/**/.well-known/
+/examples/**/article-body-api.json

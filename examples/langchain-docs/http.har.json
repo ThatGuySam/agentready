@@ -1,0 +1,537 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "langchain-docs",
+        "title": "LangChain Docs",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "langchain-docs",
+        "startedDateTime": "2026-06-02T19:28:23.573Z",
+        "time": 345.506,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.langchain.com/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc648a5c57b6-MCI"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "iad1::iad1::tsvbr-1780428503796-0ab816bc1724"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/robots.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 174,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "https://docs.langchain.com/robots.txt",
+          "headersSize": -1,
+          "bodySize": 174
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 345.506,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "langchain-docs",
+        "startedDateTime": "2026-06-02T19:28:23.942Z",
+        "time": 322.288,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.langchain.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/xml"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc662a85d195-MCI"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "iad1::iad1::nvvjj-1780428504063-9f4c96e9f4d5"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/sitemap.xml"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 204657,
+            "mimeType": "text/xml"
+          },
+          "redirectURL": "https://docs.langchain.com/sitemap.xml",
+          "headersSize": -1,
+          "bodySize": 204657
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 322.288,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "langchain-docs",
+        "startedDateTime": "2026-06-02T19:28:24.290Z",
+        "time": 429.075,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.langchain.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc68bd5857b6-MCI"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "EXPIRED"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "iad1::iad1::8mgrp-1780428504473-3f3ea1ebedc9"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/llms.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 203524,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://docs.langchain.com/llms.txt",
+          "headersSize": -1,
+          "bodySize": 203524
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 429.075,
+          "receive": 0
+        },
+        "comment": "Saved body to llms.txt"
+      },
+      {
+        "pageref": "langchain-docs",
+        "startedDateTime": "2026-06-02T19:28:24.744Z",
+        "time": 1047.73,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.langchain.com/llms-full.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc6b2a2dd30c-MCI"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "age",
+              "value": "68929"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "iad1::iad1::dtrdj-1780359573112-0165c6d730a3"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 17:08:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/llms-full.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 11292918,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://docs.langchain.com/llms-full.txt",
+          "headersSize": -1,
+          "bodySize": 11292918
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 1047.73,
+          "receive": 0
+        },
+        "comment": "Saved body to llms-full.sample.txt"
+      },
+      {
+        "pageref": "langchain-docs",
+        "startedDateTime": "2026-06-02T19:28:25.821Z",
+        "time": 140.098,
+        "request": {
+          "method": "GET",
+          "url": "https://docs.langchain.com/.well-known/agent-skills/index.json",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dc71dddcc6e6-MCI"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "age",
+              "value": "62344"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "iad1::iad1::sjz6l-1780366160938-0d8c09b56088"
+            },
+            {
+              "name": "last-modified",
+              "value": "Tue, 02 Jun 2026 17:13:23 GMT"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_sites/[subdomain]/.well-known/agent-skills/index.json"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 460,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "https://docs.langchain.com/.well-known/agent-skills/index.json",
+          "headersSize": -1,
+          "bodySize": 460
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 140.098,
+          "receive": 0
+        },
+        "comment": "Saved body to .well-known/agent-skills/index.json"
+      }
+    ]
+  }
+}

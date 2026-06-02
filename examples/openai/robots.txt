@@ -1,7 +1,0 @@
-# Captured 2026-06-02 from https://openai.com/robots.txt
-
-User-agent: *
-Allow: /
-Disallow: /microsoft-for-startups/
-
-Sitemap: https://openai.com/sitemap.xml

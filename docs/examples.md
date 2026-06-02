@@ -2,25 +2,42 @@
 
 ## SBC4
 
-- `Tease:` The examples directory shows what evidence looks like, not a permanent truth source.
-- `Lede:` The snapshots capture small, dated examples from OpenAI, Anthropic, Google, and Cloudflare for `robots.txt`, `sitemap.xml`, `llms.txt`, DNS, and request/response headers.
+- `Tease:` The examples directory is now a refreshable evidence set, not a one-off snapshot.
+- `Lede:` The generated examples capture dated artifacts from major docs platforms and contrast sites for `robots.txt`, `sitemap.xml`, `llms.txt`, DNS, request/response transcripts, HAR-style metadata, and optional agent-facing files.
 - `Why it matters:`
   - Agent-readiness audits need concrete network evidence, not claims.
-  - Large public files should be sampled, not copied wholesale into the repo.
+  - Large public files should be sampled and marked, not copied wholesale into the repo.
   - Missing files are useful findings when the site is otherwise high quality.
-- `Go deeper:` Refresh snapshots before using them in a live talk or product recommendation.
+- `Go deeper:` Refresh snapshots with `bun run examples:capture` before using them in a live talk or product recommendation.
 
-**Captured:** 2026-06-02
+**Captured:** See [examples/README.md](https://github.com/ThatGuySam/agentready/tree/main/examples) for the latest generated timestamp.
 
 For the ranked list of future fixture sources, see
 [Agent Ready Example Site Candidates](./example-site-candidates-2026-06-02.md).
 
-| Site                           | Directory              | What It Shows                                                                                          |
-| ------------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------ |
-| OpenAI                         | `examples/openai/`     | Simple `robots.txt`, sitemap index, DNS, response headers, and a blocked `llms.txt` check.             |
-| Anthropic                      | `examples/anthropic/`  | Simple `robots.txt`, sitemap URL set, DNS, response headers, and absent `llms.txt`.                    |
-| Google / developers.google.com | `examples/google/`     | Large-scale robots policy, developer-docs sitemap index, DNS, response headers, and absent `llms.txt`. |
-| Cloudflare Developers          | `examples/cloudflare/` | Content Signals in `robots.txt`, sitemap index, `llms.txt`, DNS, and response headers.                 |
+## Refresh
+
+```bash
+bun run examples:capture
+```
+
+The script writes each site to `examples/<site-slug>/` with:
+
+- `README.md`
+- `metadata.json`
+- `dns.txt` and `dns.json`
+- `http-transcript.md`
+- `http.har.json`
+- endpoint files such as `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.sample.txt`, and `.well-known/agent-skills/index.json`
+
+## Site Groups
+
+| Group                           | Directories                                                                                                                                                                   | What They Show                                                                                                                      |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Positive docs/platform fixtures | `cloudflare-developers/`, `perplexity-docs/`, `model-context-protocol/`, `claude-platform/`, `vercel/`, `openai-api-docs/`, `github-docs/`, `stripe-docs/`, `langchain-docs/` | Good current examples of agent-readable docs, generated Markdown, docs APIs, `llms.txt`, `llms-full.txt`, and agent skills indexes. |
+| Root-domain contrasts           | `cloudflare-root/`, `openai-root/`, `anthropic-root/`, `perplexity-root/`                                                                                                     | Shows how corporate roots can differ from docs/platform subdomains.                                                                 |
+| Traditional docs contrasts      | `google-developers/`, `google-ai/`, `supabase-docs/`                                                                                                                          | Strong crawl and sitemap basics without checked `llms.txt` support.                                                                 |
+| Redirect-trap examples          | `llamaindex-docs/`, `cursor-docs/`                                                                                                                                            | Endpoints that can return HTML instead of clean artifact files, useful for false-positive detection.                                |
 
 ## Refresh Pattern
 

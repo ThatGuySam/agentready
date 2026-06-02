@@ -1,0 +1,112 @@
+{
+  "key": "robots",
+  "label": "robots.txt",
+  "url": "https://openai.com/robots.txt",
+  "output": "robots.txt",
+  "outputFile": "robots.txt",
+  "statusFile": "robots.txt.status.json",
+  "startedAt": "2026-06-02T19:28:31.110Z",
+  "status": 200,
+  "effectiveUrl": "https://openai.com/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 98,
+  "savedBytes": 98,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "nel",
+      "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"
+    },
+    {
+      "name": "access-control-allow-origin",
+      "value": "*"
+    },
+    {
+      "name": "age",
+      "value": "42363"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=0, must-revalidate"
+    },
+    {
+      "name": "content-disposition",
+      "value": "inline; filename=\"robots.txt\""
+    },
+    {
+      "name": "report-to",
+      "value": "[redacted]"
+    },
+    {
+      "name": "last-modified",
+      "value": "Wed, 22 Apr 2026 19:15:09 GMT"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains; preload"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/robots.txt"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1::78tk9-1776885309302-a017cf21df6c"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "etag",
+      "value": "W/\"e32952d6049963aad2d1d7c44e1fa236\""
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc93deca6c50-DFW"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 216.337,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://openai.com/robots.txt"
+}

@@ -1,4 +1,0 @@
-# Captured 2026-06-02
-
-$ dig +short www.anthropic.com A
-160.79.104.10

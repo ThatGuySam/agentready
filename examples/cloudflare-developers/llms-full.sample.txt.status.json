@@ -1,0 +1,80 @@
+{
+  "key": "llms-full",
+  "label": "llms-full.txt",
+  "url": "https://developers.cloudflare.com/llms-full.txt",
+  "output": "llms-full.sample.txt",
+  "outputFile": "llms-full.sample.txt",
+  "statusFile": "llms-full.sample.txt.status.json",
+  "startedAt": "2026-06-02T19:28:01.672Z",
+  "status": 200,
+  "effectiveUrl": "https://developers.cloudflare.com/llms-full.txt",
+  "contentType": "text/markdown; charset=utf-8",
+  "bodyBytes": 49807586,
+  "savedBytes": 249533,
+  "truncated": true,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/markdown; charset=utf-8"
+    },
+    {
+      "name": "content-length",
+      "value": "49807586"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=15552000; preload"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "speculation-rules",
+      "value": "\"/cdn-cgi/speculation\""
+    },
+    {
+      "name": "vary",
+      "value": "accept-encoding"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]"
+    },
+    {
+      "name": "report-to",
+      "value": "[redacted]"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dbdadd5dd30e-MCI"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 4987.578,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/llms-full.txt"
+}

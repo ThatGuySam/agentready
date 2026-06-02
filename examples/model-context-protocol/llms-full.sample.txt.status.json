@@ -1,0 +1,92 @@
+{
+  "key": "llms-full",
+  "label": "llms-full.txt",
+  "url": "https://modelcontextprotocol.io/llms-full.txt",
+  "output": "llms-full.sample.txt",
+  "outputFile": "llms-full.sample.txt",
+  "statusFile": "llms-full.sample.txt.status.json",
+  "startedAt": "2026-06-02T19:28:11.116Z",
+  "status": 200,
+  "effectiveUrl": "https://modelcontextprotocol.io/llms-full.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "bodyBytes": 1891695,
+  "savedBytes": 249296,
+  "truncated": true,
+  "responseHeaders": [
+    {
+      "name": "age",
+      "value": "7434"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=86400"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc170d28b36e-CMH"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "worker-src * blob: data: 'unsafe-eval' 'unsafe-inline'; object-src data: ; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self' https://codesandbox.io;"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain; charset=utf-8"
+    },
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 18:19:09 GMT"
+    },
+    {
+      "name": "server",
+      "value": "Vercel"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=63072000"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "DENY"
+    },
+    {
+      "name": "x-matched-path",
+      "value": "/_sites/[subdomain]/llms-full.txt"
+    },
+    {
+      "name": "x-vercel-cache",
+      "value": "MISS"
+    },
+    {
+      "name": "x-vercel-id",
+      "value": "cle1:sfo1:iad1::iad1::jn7kn-1780428491331-e54dbc363b57"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 557.0619999999999,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/llms-full.txt"
+}

@@ -1,0 +1,357 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "site": {
+    "slug": "supabase-docs",
+    "name": "Supabase Docs",
+    "category": "contrast",
+    "homepage": "https://supabase.com/docs",
+    "host": "supabase.com",
+    "notes": "Non-AI developer-platform contrast with crawl and sitemap basics but no checked docs llms.txt.",
+    "endpoints": [
+      {
+        "key": "robots",
+        "label": "docs robots.txt",
+        "url": "https://supabase.com/docs/robots.txt",
+        "output": "robots.txt"
+      },
+      {
+        "key": "sitemap",
+        "label": "docs sitemap.xml",
+        "url": "https://supabase.com/docs/sitemap.xml",
+        "output": "sitemap.xml"
+      },
+      {
+        "key": "llms",
+        "label": "docs llms.txt",
+        "url": "https://supabase.com/docs/llms.txt",
+        "output": "llms.txt"
+      }
+    ]
+  },
+  "dnsRecords": [
+    {
+      "type": "A",
+      "values": ["216.150.1.193"]
+    },
+    {
+      "type": "AAAA",
+      "values": []
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["216.150.1.193"]
+    },
+    {
+      "type": "TXT",
+      "values": [
+        "\"ZOOM_verify_LkQKLCEOSZMkt2ZfWZsQoF\"",
+        "\"google-site-verification=LvTSpLp-EquMSIYv-4caP8Rln0kqiVgXMfZT5jOA_Ro\"",
+        "\"google-site-verification=iZqSVmPnujGxdyqGRFI5cKMrdHUL8zIR_GcLd8D2XiA\"",
+        "\"google-site-verification=ouqZams1dXBRlKsMoYhfaKk02ciAP_LnSrDLXznbasc\"",
+        "\"v=spf1 include:_spf.google.com include:19953346.spf06.hubspotemail.net ~all\""
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "robots",
+      "label": "docs robots.txt",
+      "url": "https://supabase.com/docs/robots.txt",
+      "output": "robots.txt",
+      "outputFile": "robots.txt",
+      "statusFile": "robots.txt.status.json",
+      "startedAt": "2026-06-02T19:28:41.216Z",
+      "status": 200,
+      "effectiveUrl": "https://supabase.com/docs/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "bodyBytes": 125,
+      "savedBytes": 125,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "8402"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"robots.txt\""
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"117bdf32af91fa73a2f4ec3dcc2daf0d\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 17:08:39 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/robots.txt"
+        },
+        {
+          "name": "x-nextjs-rewritten-path",
+          "value": "/docs/robots.txt"
+        },
+        {
+          "name": "x-robots-tag",
+          "value": "all"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:cle1:cle1::cflf9-1780428521388-fdfb6a6ed5ae"
+        },
+        {
+          "name": "content-length",
+          "value": "125"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 281.77299999999997,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://supabase.com/docs/robots.txt"
+    },
+    {
+      "key": "sitemap",
+      "label": "docs sitemap.xml",
+      "url": "https://supabase.com/docs/sitemap.xml",
+      "output": "sitemap.xml",
+      "outputFile": "sitemap.xml",
+      "statusFile": "sitemap.xml.status.json",
+      "startedAt": "2026-06-02T19:28:41.519Z",
+      "status": 200,
+      "effectiveUrl": "https://supabase.com/docs/sitemap.xml",
+      "contentType": "application/xml",
+      "bodyBytes": 403007,
+      "savedBytes": 403007,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "9598"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"sitemap.xml\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "application/xml"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"7406d7399f61dd52e87d32e64551e889\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 16:48:42 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/sitemap.xml"
+        },
+        {
+          "name": "x-nextjs-rewritten-path",
+          "value": "/docs/sitemap.xml"
+        },
+        {
+          "name": "x-robots-tag",
+          "value": "all"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:cle1:cle1::hxqrf-1780428521653-20a2819e9123"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 166.709,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://supabase.com/docs/sitemap.xml"
+    },
+    {
+      "key": "llms",
+      "label": "docs llms.txt",
+      "url": "https://supabase.com/docs/llms.txt",
+      "output": "llms.txt",
+      "outputFile": null,
+      "statusFile": "llms.txt.status.json",
+      "startedAt": "2026-06-02T19:28:41.712Z",
+      "status": 404,
+      "effectiveUrl": "https://supabase.com/docs/llms.txt",
+      "contentType": "text/html; charset=utf-8",
+      "bodyBytes": 96620,
+      "savedBytes": 0,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "age",
+          "value": "10059"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"404\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"9f1c058f2b4a089540ba0e4d40d170f4\""
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 16:41:02 GMT"
+        },
+        {
+          "name": "server",
+          "value": "Vercel"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-matched-path",
+          "value": "/404"
+        },
+        {
+          "name": "x-next-error-status",
+          "value": "404"
+        },
+        {
+          "name": "x-nextjs-rewritten-path",
+          "value": "/docs/llms.txt"
+        },
+        {
+          "name": "x-robots-tag",
+          "value": "all"
+        },
+        {
+          "name": "x-vercel-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-vercel-id",
+          "value": "cle1:cle1:cle1::cpvmx-1780428521853-d5e874245309"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 404 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 310.40000000000003,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://supabase.com/docs/llms.txt"
+    }
+  ]
+}

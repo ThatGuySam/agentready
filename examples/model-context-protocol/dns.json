@@ -1,0 +1,32 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "modelcontextprotocol.io",
+  "records": [
+    {
+      "type": "A",
+      "values": ["76.76.21.21"]
+    },
+    {
+      "type": "AAAA",
+      "values": []
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["76.76.21.21"]
+    },
+    {
+      "type": "TXT",
+      "values": [
+        "\"czyymtp25a\"",
+        "\"google-site-verification=0jJ1JQ6pdBjRe2r6UCzi2RJbsjvglJUmekPb5rpUQXQ\"",
+        "\"google-site-verification=FhpMfMf1V9X1n7NSWPcUcb7cKXtUElzM8cbEBm3WXd4\"",
+        "\"google-site-verification=UI0Tjq-ecUgNu3kFATkW87qcabX6kTljsbYjms2-FdQ\"",
+        "\"v=spf1 include:_spf.google.com ~all\""
+      ]
+    }
+  ]
+}

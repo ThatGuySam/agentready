@@ -26,6 +26,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:deploy": "gh-pages --dist docs/.vitepress/dist",
+    "examples:capture": "bun scripts/capture-agentready-examples.ts",
     "app:dev": "bun --cwd apps/app dev",
     "app:build": "bun --cwd apps/app build",
     "app:test": "bun --cwd apps/app test",

@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "developers.openai.com",
+  "records": [
+    {
+      "type": "A",
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com.",
+        "64.239.123.129",
+        "64.239.109.129"
+      ]
+    },
+    {
+      "type": "AAAA",
+      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+    },
+    {
+      "type": "CNAME",
+      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+    },
+    {
+      "type": "HTTPS",
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com.",
+        "64.239.123.129",
+        "64.239.109.129"
+      ]
+    },
+    {
+      "type": "TXT",
+      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+    }
+  ]
+}

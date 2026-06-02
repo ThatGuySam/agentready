@@ -1,0 +1,639 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "cloudflare-developers",
+        "title": "Cloudflare Developers",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "cloudflare-developers",
+        "startedDateTime": "2026-06-02T19:28:01.236Z",
+        "time": 148.65,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.cloudflare.com/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; preload"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "speculation-rules",
+              "value": "\"/cdn-cgi/speculation\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"6a8d893cad3560c1aeef4d7ec0cbcd8c\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbd89b5b6d2b-MCI"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1460,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "https://developers.cloudflare.com/robots.txt",
+          "headersSize": -1,
+          "bodySize": 1460
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 148.65,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "cloudflare-developers",
+        "startedDateTime": "2026-06-02T19:28:01.400Z",
+        "time": 96.94500000000001,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.cloudflare.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/xml"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; preload"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "speculation-rules",
+              "value": "\"/cdn-cgi/speculation\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"9f8a1bc2564119c3700dd0f2dbaafaf4\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbd948aa98a6-MCI"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 239,
+            "mimeType": "application/xml"
+          },
+          "redirectURL": "https://developers.cloudflare.com/sitemap-index.xml",
+          "headersSize": -1,
+          "bodySize": 239
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 96.94500000000001,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "cloudflare-developers",
+        "startedDateTime": "2026-06-02T19:28:01.511Z",
+        "time": 146.07899999999998,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.cloudflare.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; preload"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "speculation-rules",
+              "value": "\"/cdn-cgi/speculation\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"9cc286089043fa56d09f4b5444119f79\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbd9eeadd83b-DFW"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 15538,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "https://developers.cloudflare.com/llms.txt",
+          "headersSize": -1,
+          "bodySize": 15538
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 146.07899999999998,
+          "receive": 0
+        },
+        "comment": "Saved body to llms.txt"
+      },
+      {
+        "pageref": "cloudflare-developers",
+        "startedDateTime": "2026-06-02T19:28:01.672Z",
+        "time": 4987.578,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.cloudflare.com/llms-full.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/markdown; charset=utf-8"
+            },
+            {
+              "name": "content-length",
+              "value": "49807586"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; preload"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "speculation-rules",
+              "value": "\"/cdn-cgi/speculation\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbdadd5dd30e-MCI"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 49807586,
+            "mimeType": "text/markdown; charset=utf-8"
+          },
+          "redirectURL": "https://developers.cloudflare.com/llms-full.txt",
+          "headersSize": -1,
+          "bodySize": 49807586
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 4987.578,
+          "receive": 0
+        },
+        "comment": "Saved body to llms-full.sample.txt"
+      },
+      {
+        "pageref": "cloudflare-developers",
+        "startedDateTime": "2026-06-02T19:28:06.688Z",
+        "time": 75.957,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:06 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15552000; preload"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "speculation-rules",
+              "value": "\"/cdn-cgi/speculation\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]"
+            },
+            {
+              "name": "report-to",
+              "value": "[redacted]"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"bf31596755081e10201ce5d70e5c6373\""
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbfa2d4c804b-DFW"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5271,
+            "mimeType": "application/json; charset=utf-8"
+          },
+          "redirectURL": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
+          "headersSize": -1,
+          "bodySize": 5271
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 75.957,
+          "receive": 0
+        },
+        "comment": "Saved body to .well-known/agent-skills/index.json"
+      },
+      {
+        "pageref": "cloudflare-developers",
+        "startedDateTime": "2026-06-02T19:28:06.775Z",
+        "time": 318.207,
+        "request": {
+          "method": "GET",
+          "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            },
+            {
+              "name": "Accept",
+              "value": "text/markdown"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "text/markdown; charset=utf-8"
+            },
+            {
+              "name": "content-length",
+              "value": "14535"
+            },
+            {
+              "name": "vary",
+              "value": "accept"
+            },
+            {
+              "name": "x-markdown-tokens",
+              "value": "3626"
+            },
+            {
+              "name": "content-signal",
+              "value": "ai-train=yes, search=yes, ai-input=yes"
+            },
+            {
+              "name": "x-original-tokens",
+              "value": "60428"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "cf-ray",
+              "value": "a058dbfb5bb82e76-DFW"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 14535,
+            "mimeType": "text/markdown; charset=utf-8"
+          },
+          "redirectURL": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
+          "headersSize": -1,
+          "bodySize": 14535
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 318.207,
+          "receive": 0
+        },
+        "comment": "Saved body to markdown-for-agents.md.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "key": "sitemap",
+  "label": "sitemap.xml",
+  "url": "https://www.cloudflare.com/sitemap.xml",
+  "output": "sitemap.xml",
+  "outputFile": "sitemap.xml",
+  "statusFile": "sitemap.xml.status.json",
+  "startedAt": "2026-06-02T19:28:26.217Z",
+  "status": 200,
+  "effectiveUrl": "https://www.cloudflare.com/sitemap.xml",
+  "contentType": "application/xml; charset=utf-8",
+  "bodyBytes": 1404298,
+  "savedBytes": 1000000,
+  "truncated": true,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "application/xml; charset=utf-8"
+    },
+    {
+      "name": "link",
+      "value": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitemap\""
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc74cf9626ce-DFW"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "HIT"
+    },
+    {
+      "name": "age",
+      "value": "2664"
+    },
+    {
+      "name": "cache-control",
+      "value": "max-age=3600"
+    },
+    {
+      "name": "last-modified",
+      "value": "Tue, 02 Jun 2026 18:44:01 GMT"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=31536000; includeSubDomains"
+    },
+    {
+      "name": "vary",
+      "value": "Accept-Encoding"
+    },
+    {
+      "name": "cf-placement",
+      "value": "remote-PRG"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]"
+    },
+    {
+      "name": "cross-origin-opener-policy",
+      "value": "unsafe-none"
+    },
+    {
+      "name": "cross-origin-resource-policy",
+      "value": "cross-origin"
+    },
+    {
+      "name": "permissions-policy",
+      "value": "geolocation=(), camera=(), microphone=()"
+    },
+    {
+      "name": "referrer-policy",
+      "value": "strict-origin-when-cross-origin"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-served-by",
+      "value": "marketing-site"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "report-to",
+      "value": "[redacted]"
+    },
+    {
+      "name": "nel",
+      "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 183.07000000000002,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.cloudflare.com/sitemap.xml"
+}

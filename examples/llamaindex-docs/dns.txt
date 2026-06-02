@@ -1,0 +1,21 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: docs.llamaindex.ai
+
+$ dig +short docs.llamaindex.ai A
+899a0c08fff30508.vercel-dns-016.com.
+216.150.16.193
+216.150.1.193
+
+$ dig +short docs.llamaindex.ai AAAA
+899a0c08fff30508.vercel-dns-016.com.
+
+$ dig +short docs.llamaindex.ai CNAME
+899a0c08fff30508.vercel-dns-016.com.
+
+$ dig +short docs.llamaindex.ai HTTPS
+899a0c08fff30508.vercel-dns-016.com.
+216.150.16.193
+216.150.1.193
+
+$ dig +short docs.llamaindex.ai TXT
+899a0c08fff30508.vercel-dns-016.com.

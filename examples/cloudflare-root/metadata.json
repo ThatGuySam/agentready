@@ -1,0 +1,584 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "site": {
+    "slug": "cloudflare-root",
+    "name": "Cloudflare Root",
+    "category": "contrast",
+    "homepage": "https://www.cloudflare.com/",
+    "host": "www.cloudflare.com",
+    "notes": "Root-domain contrast for Cloudflare's marketing and product surface.",
+    "endpoints": [
+      {
+        "key": "robots",
+        "label": "robots.txt",
+        "url": "https://www.cloudflare.com/robots.txt",
+        "output": "robots.txt"
+      },
+      {
+        "key": "sitemap",
+        "label": "sitemap.xml",
+        "url": "https://www.cloudflare.com/sitemap.xml",
+        "output": "sitemap.xml"
+      },
+      {
+        "key": "llms",
+        "label": "llms.txt",
+        "url": "https://www.cloudflare.com/llms.txt",
+        "output": "llms.txt"
+      },
+      {
+        "key": "llms-full",
+        "label": "llms-full.txt",
+        "url": "https://www.cloudflare.com/llms-full.txt",
+        "output": "llms-full.sample.txt",
+        "maxBytes": 250000
+      }
+    ]
+  },
+  "dnsRecords": [
+    {
+      "type": "A",
+      "values": ["104.16.124.96", "104.16.123.96"]
+    },
+    {
+      "type": "AAAA",
+      "values": ["2606:4700::6810:7c60", "2606:4700::6810:7b60"]
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["104.16.124.96", "104.16.123.96"]
+    },
+    {
+      "type": "TXT",
+      "values": [
+        "\"ca3-51f5182e0f9248c5be98a7f6329814eb\"",
+        "\"canva-site-verification=oOyaVnHC-OiFoR1BPvetNA\"",
+        "\"google-site-verification=BGYWMGmMapwHpaj8kW5SNItcLefH74b1mrUN2zk_8aE\"",
+        "\"google-site-verification=XncEvwjMqwqjZZb64HYg_DpdcrTvQKA1MObBuY_Mbsw\"",
+        "\"adobe-idp-site-verification=6fa8fbb72d7bb29889c39830d60eb0309c678510fef7692ee2679400a4096349\""
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "key": "robots",
+      "label": "robots.txt",
+      "url": "https://www.cloudflare.com/robots.txt",
+      "output": "robots.txt",
+      "outputFile": "robots.txt",
+      "statusFile": "robots.txt.status.json",
+      "startedAt": "2026-06-02T19:28:26.124Z",
+      "status": 200,
+      "effectiveUrl": "https://www.cloudflare.com/robots.txt",
+      "contentType": "text/plain",
+      "bodyBytes": 1099,
+      "savedBytes": 1099,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain"
+        },
+        {
+          "name": "link",
+          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "name": "cf-placement",
+          "value": "local-MCI"
+        },
+        {
+          "name": "x-served-by",
+          "value": "marketing-site"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "unsafe-none"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "cross-origin"
+        },
+        {
+          "name": "permissions-policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "vary",
+          "value": "accept-encoding"
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "report-to",
+          "value": "[redacted]"
+        },
+        {
+          "name": "nel",
+          "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"0e9fa7a0bd53c344b463d30c8eb71478\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc73acb84de2-MCI"
+        },
+        {
+          "name": "alt-svc",
+          "value": "h3=\":443\"; ma=86400"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 76.877,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.cloudflare.com/robots.txt"
+    },
+    {
+      "key": "sitemap",
+      "label": "sitemap.xml",
+      "url": "https://www.cloudflare.com/sitemap.xml",
+      "output": "sitemap.xml",
+      "outputFile": "sitemap.xml",
+      "statusFile": "sitemap.xml.status.json",
+      "startedAt": "2026-06-02T19:28:26.217Z",
+      "status": 200,
+      "effectiveUrl": "https://www.cloudflare.com/sitemap.xml",
+      "contentType": "application/xml; charset=utf-8",
+      "bodyBytes": 1404298,
+      "savedBytes": 1000000,
+      "truncated": true,
+      "responseHeaders": [
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "name": "link",
+          "value": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitemap\""
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc74cf9626ce-DFW"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "age",
+          "value": "2664"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 02 Jun 2026 18:44:01 GMT"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "cf-placement",
+          "value": "remote-PRG"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "unsafe-none"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "cross-origin"
+        },
+        {
+          "name": "permissions-policy",
+          "value": "geolocation=(), camera=(), microphone=()"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-served-by",
+          "value": "marketing-site"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "report-to",
+          "value": "[redacted]"
+        },
+        {
+          "name": "nel",
+          "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "alt-svc",
+          "value": "h3=\":443\"; ma=86400"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 183.07000000000002,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.cloudflare.com/sitemap.xml"
+    },
+    {
+      "key": "llms",
+      "label": "llms.txt",
+      "url": "https://www.cloudflare.com/llms.txt",
+      "output": "llms.txt",
+      "outputFile": "llms.txt",
+      "statusFile": "llms.txt.status.json",
+      "startedAt": "2026-06-02T19:28:26.424Z",
+      "status": 200,
+      "effectiveUrl": "https://www.cloudflare.com/llms.txt",
+      "contentType": "text/plain",
+      "bodyBytes": 16883,
+      "savedBytes": 16883,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain"
+        },
+        {
+          "name": "link",
+          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "name": "cf-placement",
+          "value": "local-MCI"
+        },
+        {
+          "name": "x-served-by",
+          "value": "marketing-site"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "unsafe-none"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "cross-origin"
+        },
+        {
+          "name": "permissions-policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "vary",
+          "value": "accept-encoding"
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "report-to",
+          "value": "[redacted]"
+        },
+        {
+          "name": "nel",
+          "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"47475ba620c61a9ef430b44f770b5523\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc75ee04d316-MCI"
+        },
+        {
+          "name": "alt-svc",
+          "value": "h3=\":443\"; ma=86400"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 176.57500000000002,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://www.cloudflare.com/llms.txt"
+    },
+    {
+      "key": "llms-full",
+      "label": "llms-full.txt",
+      "url": "https://www.cloudflare.com/llms-full.txt",
+      "output": "llms-full.sample.txt",
+      "outputFile": "llms-full.sample.txt",
+      "statusFile": "llms-full.sample.txt.status.json",
+      "startedAt": "2026-06-02T19:28:26.623Z",
+      "status": 200,
+      "effectiveUrl": "https://www.cloudflare.com/llms-full.txt",
+      "contentType": "text/plain",
+      "bodyBytes": 205920,
+      "savedBytes": 205743,
+      "truncated": false,
+      "responseHeaders": [
+        {
+          "name": "date",
+          "value": "Tue, 02 Jun 2026 19:28:27 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain"
+        },
+        {
+          "name": "link",
+          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "name": "cf-placement",
+          "value": "remote-PRG"
+        },
+        {
+          "name": "x-served-by",
+          "value": "marketing-site"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]"
+        },
+        {
+          "name": "cross-origin-opener-policy",
+          "value": "unsafe-none"
+        },
+        {
+          "name": "cross-origin-resource-policy",
+          "value": "cross-origin"
+        },
+        {
+          "name": "permissions-policy",
+          "value": "geolocation=(), camera=(), microphone=()"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "vary",
+          "value": "accept-encoding"
+        },
+        {
+          "name": "set-cookie",
+          "value": "[redacted]"
+        },
+        {
+          "name": "report-to",
+          "value": "[redacted]"
+        },
+        {
+          "name": "nel",
+          "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"1b699629f86679f47cc033b88fd46460\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare"
+        },
+        {
+          "name": "cf-ray",
+          "value": "a058dc76ebc6467e-DFW"
+        },
+        {
+          "name": "alt-svc",
+          "value": "h3=\":443\"; ma=86400"
+        }
+      ],
+      "responseStatusLine": "HTTP/2 200 ",
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+        }
+      ],
+      "durationMs": 790.453,
+      "curlExitCode": 0,
+      "curlStderr": "",
+      "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://www.cloudflare.com/llms-full.txt"
+    }
+  ]
+}

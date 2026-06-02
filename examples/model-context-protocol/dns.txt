@@ -1,0 +1,21 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: modelcontextprotocol.io
+
+$ dig +short modelcontextprotocol.io A
+76.76.21.21
+
+$ dig +short modelcontextprotocol.io AAAA
+# no records returned
+
+$ dig +short modelcontextprotocol.io CNAME
+# no records returned
+
+$ dig +short modelcontextprotocol.io HTTPS
+76.76.21.21
+
+$ dig +short modelcontextprotocol.io TXT
+"czyymtp25a"
+"google-site-verification=0jJ1JQ6pdBjRe2r6UCzi2RJbsjvglJUmekPb5rpUQXQ"
+"google-site-verification=FhpMfMf1V9X1n7NSWPcUcb7cKXtUElzM8cbEBm3WXd4"
+"google-site-verification=UI0Tjq-ecUgNu3kFATkW87qcabX6kTljsbYjms2-FdQ"
+"v=spf1 include:_spf.google.com ~all"

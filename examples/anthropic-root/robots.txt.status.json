@@ -1,0 +1,100 @@
+{
+  "key": "robots",
+  "label": "robots.txt",
+  "url": "https://www.anthropic.com/robots.txt",
+  "output": "robots.txt",
+  "outputFile": "robots.txt",
+  "statusFile": "robots.txt.status.json",
+  "startedAt": "2026-06-02T19:28:31.806Z",
+  "status": 200,
+  "effectiveUrl": "https://www.anthropic.com/robots.txt",
+  "contentType": "text/plain",
+  "bodyBytes": 71,
+  "savedBytes": 71,
+  "truncated": false,
+  "responseHeaders": [
+    {
+      "name": "date",
+      "value": "Tue, 02 Jun 2026 19:28:33 GMT"
+    },
+    {
+      "name": "content-type",
+      "value": "text/plain"
+    },
+    {
+      "name": "cf-ray",
+      "value": "a058dc973d20d1a1-MCI"
+    },
+    {
+      "name": "cf-cache-status",
+      "value": "MISS"
+    },
+    {
+      "name": "cache-control",
+      "value": "public, max-age=14400"
+    },
+    {
+      "name": "expires",
+      "value": "Tue, 02 Jun 2026 23:28:33 GMT"
+    },
+    {
+      "name": "server",
+      "value": "cloudflare"
+    },
+    {
+      "name": "strict-transport-security",
+      "value": "max-age=3600"
+    },
+    {
+      "name": "vary",
+      "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding"
+    },
+    {
+      "name": "via",
+      "value": "1.1 google"
+    },
+    {
+      "name": "content-security-policy",
+      "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.intellimize.co https://cdnjs.cloudflare.com https://d3e54v103j8qbb.cloudfront.net https://cdn.prod.website-files.com https://hubspotonwebflow.com https://www.googletagmanager.com https://a-cdn.anthropic.com https://connect.facebook.net https://www.youtub ... [truncated]"
+    },
+    {
+      "name": "alt-svc",
+      "value": "h3=\":443\"; ma=86400"
+    },
+    {
+      "name": "x-content-type-options",
+      "value": "nosniff"
+    },
+    {
+      "name": "x-frame-options",
+      "value": "SAMEORIGIN"
+    },
+    {
+      "name": "x-nextjs-cache",
+      "value": "HIT"
+    },
+    {
+      "name": "x-xss-protection",
+      "value": "1; mode=block"
+    },
+    {
+      "name": "set-cookie",
+      "value": "[redacted]"
+    },
+    {
+      "name": "content-encoding",
+      "value": "gzip"
+    }
+  ],
+  "responseStatusLine": "HTTP/2 200 ",
+  "requestHeaders": [
+    {
+      "name": "User-Agent",
+      "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+    }
+  ],
+  "durationMs": 2057.2439999999997,
+  "curlExitCode": 0,
+  "curlStderr": "",
+  "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.anthropic.com/robots.txt"
+}

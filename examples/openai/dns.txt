@@ -1,5 +1,0 @@
-# Captured 2026-06-02
-
-$ dig +short openai.com A
-172.64.154.211
-104.18.33.45

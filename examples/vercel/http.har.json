@@ -1,0 +1,815 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "agentready-example-capture",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "id": "vercel",
+        "title": "Vercel",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "vercel",
+        "startedDateTime": "2026-06-02T19:28:16.674Z",
+        "time": 1334.81,
+        "request": {
+          "method": "GET",
+          "url": "https://vercel.com/docs/robots.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "0"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=300"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live wss://*.vercel.com localhost:*;script-src 'self' 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com www.googleadservices.com www.gstatic.com *.youtube.com *.youtube-nocookie.com *.ytimg.com *.twimg.com cdn.ampproject.org www.googletag ... [truncated]"
+            },
+            {
+              "name": "content-type",
+              "value": "text/markdown; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:17 GMT"
+            },
+            {
+              "name": "feature-policy",
+              "value": "fullscreen 'self'; camera 'none'"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "origin-when-cross-origin"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "Accept"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "on"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/[rootFlagsCode]/docs/md/[...slug]"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "MISS"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::iad1::p7vf5-1780428496902-1db002142cdf"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 136,
+            "mimeType": "text/markdown; charset=utf-8"
+          },
+          "redirectURL": "https://vercel.com/docs/robots.md",
+          "headersSize": -1,
+          "bodySize": 136
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 1334.81,
+          "receive": 0
+        },
+        "comment": "Saved body to robots.txt"
+      },
+      {
+        "pageref": "vercel",
+        "startedDateTime": "2026-06-02T19:28:18.027Z",
+        "time": 402.18199999999996,
+        "request": {
+          "method": "GET",
+          "url": "https://vercel.com/sitemap.xml",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "204"
+            },
+            {
+              "name": "cache-control",
+              "value": "public"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live *.stripe.com twitter.com *.twitter.com *.google.com *.github.com *.codesandbox.io https://risk.clearbit.com wss://*.vercel.com localhost:* chrome-extension://*;script-src 'self' 'unsafe-eval' 'unsafe-inline' blob: www.google.com www.gstatic.com *.youtub ... [truncated]"
+            },
+            {
+              "name": "content-type",
+              "value": "application/xml; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:24:53 GMT"
+            },
+            {
+              "name": "feature-policy",
+              "value": "fullscreen 'self'; camera 'none'"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "origin-when-cross-origin"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "on"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/[filename]"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1:cle1:cle1::iad1::xb27g-1780428498272-03bea8571cb7"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 986108,
+            "mimeType": "application/xml; charset=utf-8"
+          },
+          "redirectURL": "https://vercel.com/crawled-sitemap.xml",
+          "headersSize": -1,
+          "bodySize": 986108
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 402.18199999999996,
+          "receive": 0
+        },
+        "comment": "Saved body to sitemap.xml"
+      },
+      {
+        "pageref": "vercel",
+        "startedDateTime": "2026-06-02T19:28:18.462Z",
+        "time": 251.135,
+        "request": {
+          "method": "GET",
+          "url": "https://vercel.com/llms.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "age",
+              "value": "625"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live wss://*.vercel.com localhost:*;script-src 'self' 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com www.googleadservices.com www.gstatic.com *.youtube.com *.youtube-nocookie.com *.ytimg.com *.twimg.com cdn.ampproject.org www.googletag ... [truncated]"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:28:18 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"d57d898afbe45ac090d27206b2b0bda4\""
+            },
+            {
+              "name": "feature-policy",
+              "value": "fullscreen 'self'; camera 'none'"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "origin-when-cross-origin"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "on"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f79_v7-_g.Rt0RR446KJJOGCQ1-bH8BjhTMggsbefhvYjO6CdmOtQ/llms.txt"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::7dgfg-1780428498669-a6ff797bc543"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 168876,
+            "mimeType": "text/plain; charset=utf-8"
+          },
+          "redirectURL": "https://vercel.com/llms.txt",
+          "headersSize": -1,
+          "bodySize": 168876
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 251.135,
+          "receive": 0
+        },
+        "comment": "Saved body to llms.txt"
+      },
+      {
+        "pageref": "vercel",
+        "startedDateTime": "2026-06-02T19:28:18.741Z",
+        "time": 240.28,
+        "request": {
+          "method": "GET",
+          "url": "https://vercel.com/docs/llms-full.txt",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "204"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=300"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live wss://*.vercel.com localhost:*;script-src 'self' 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com www.googleadservices.com www.gstatic.com *.youtube.com *.youtube-nocookie.com *.ytimg.com *.twimg.com cdn.ampproject.org www.googletag ... [truncated]"
+            },
+            {
+              "name": "content-type",
+              "value": "text/markdown; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:24:54 GMT"
+            },
+            {
+              "name": "feature-policy",
+              "value": "fullscreen 'self'; camera 'none'"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "origin-when-cross-origin"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "Accept"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "on"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/[rootFlagsCode]/docs/md/[...slug]"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::iad1::nq6f6-1780428498884-41eb7fb345d6"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 298,
+            "mimeType": "text/markdown; charset=utf-8"
+          },
+          "redirectURL": "https://vercel.com/docs/llms-full.txt",
+          "headersSize": -1,
+          "bodySize": 298
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 240.28,
+          "receive": 0
+        },
+        "comment": "Saved body to llms-full.sample.txt"
+      },
+      {
+        "pageref": "vercel",
+        "startedDateTime": "2026-06-02T19:28:19.004Z",
+        "time": 346.25800000000004,
+        "request": {
+          "method": "GET",
+          "url": "https://vercel.com/docs/agent-resources",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "656"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=3600"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live wss://*.vercel.com localhost:*;script-src 'self' 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com www.googleadservices.com www.gstatic.com *.youtube.com *.youtube-nocookie.com *.ytimg.com *.twimg.com cdn.ampproject.org www.googletag ... [truncated]"
+            },
+            {
+              "name": "content-type",
+              "value": "text/markdown; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:17:22 GMT"
+            },
+            {
+              "name": "feature-policy",
+              "value": "fullscreen 'self'; camera 'none'"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "origin-when-cross-origin"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "Accept"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "on"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/[rootFlagsCode]/docs/md/[...slug]"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::iad1::hsdl4-1780428499197-ec45eebc9caa"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3989,
+            "mimeType": "text/markdown; charset=utf-8"
+          },
+          "redirectURL": "https://vercel.com/docs/agent-resources",
+          "headersSize": -1,
+          "bodySize": 3989
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 346.25800000000004,
+          "receive": 0
+        },
+        "comment": "Saved body to agent-resources.md.txt"
+      },
+      {
+        "pageref": "vercel",
+        "startedDateTime": "2026-06-02T19:28:19.376Z",
+        "time": 318.122,
+        "request": {
+          "method": "GET",
+          "url": "https://vercel.com/kb/guide/agent-readability-spec",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "HTTP/2 200 ",
+          "httpVersion": "HTTP",
+          "headers": [
+            {
+              "name": "age",
+              "value": "203"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self' vercel.com *.vercel.com *.vercel.sh vercel.live wss://*.vercel.com localhost:*;script-src 'self' 'unsafe-eval' 'unsafe-inline' www.google.com www.google-analytics.com www.googleadservices.com www.gstatic.com *.youtube.com *.youtube-nocookie.com *.ytimg.com *.twimg.com cdn.ampproject.org www.googletag ... [truncated]"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Tue, 02 Jun 2026 19:24:56 GMT"
+            },
+            {
+              "name": "feature-policy",
+              "value": "fullscreen 'self'; camera 'none'"
+            },
+            {
+              "name": "link",
+              "value": "</vc-ap-vercel-docs/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </vc-ap-vercel-docs/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", <//images.ctfassets.net/hjgychtc108g/56icfY9ZMviClWx3QeVvmL/23454000beaf3f7c56bf7fd06d9fb044/Timothy_Jordan-crop1-2mb-bw-128px.jpg>; rel=preload; as=\"image\", </vc-ap-vercel-docs/_next/static/immutable/media/vercel-light.23p4dw77xj4pk.svg>; rel=preload; as=\"image\", </vc-ap-vercel-docs/_next/static/immutable/media/vercel-dark.05qiau0oi3y6n.svg>; rel=preload; as=\"image\""
+            },
+            {
+              "name": "referrer-policy",
+              "value": "origin-when-cross-origin"
+            },
+            {
+              "name": "server",
+              "value": "Vercel"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "set-cookie",
+              "value": "[redacted]"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "on"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f79_v7-_g.Rt0RR446KJJOGCQ1-bH8BjhTMggsbefhvYjO6CdmOtQ/kb/guide/agent-readability-spec"
+            },
+            {
+              "name": "x-nextjs-prerender",
+              "value": "1"
+            },
+            {
+              "name": "x-nextjs-stale-time",
+              "value": "300"
+            },
+            {
+              "name": "x-powered-by",
+              "value": "Next.js"
+            },
+            {
+              "name": "x-vercel-cache",
+              "value": "HIT"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "cle1::iad1::whqlz-1780428499585-03ff4a7f7735"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 693234,
+            "mimeType": "text/html; charset=utf-8"
+          },
+          "redirectURL": "https://vercel.com/kb/guide/agent-readability-spec",
+          "headersSize": -1,
+          "bodySize": 693234
+        },
+        "cache": {},
+        "timings": {
+          "send": 0,
+          "wait": 318.122,
+          "receive": 0
+        },
+        "comment": "Saved body to agent-readability-spec.sample.html.txt"
+      }
+    ]
+  }
+}

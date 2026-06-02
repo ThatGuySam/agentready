@@ -1,4 +1,0 @@
-# Captured 2026-06-02 from https://www.anthropic.com/llms.txt
-
-$ curl -fsS -L https://www.anthropic.com/llms.txt
-curl: (56) The requested URL returned error: 404

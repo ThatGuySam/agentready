@@ -1,0 +1,26 @@
+# Captured 2026-06-02T19:28:00.989Z
+# Host: docs.github.com
+
+$ dig +short docs.github.com A
+185.199.109.154
+185.199.110.154
+185.199.111.154
+185.199.108.154
+
+$ dig +short docs.github.com AAAA
+2606:50c0:8000::154
+2606:50c0:8001::154
+2606:50c0:8002::154
+2606:50c0:8003::154
+
+$ dig +short docs.github.com CNAME
+# no records returned
+
+$ dig +short docs.github.com HTTPS
+185.199.111.154
+185.199.109.154
+185.199.110.154
+185.199.108.154
+
+$ dig +short docs.github.com TXT
+# no records returned

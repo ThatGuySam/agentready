@@ -1,0 +1,72 @@
+{
+  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "host": "openai.com",
+  "records": [
+    {
+      "type": "A",
+      "values": ["172.64.154.211", "104.18.33.45"]
+    },
+    {
+      "type": "AAAA",
+      "values": []
+    },
+    {
+      "type": "CNAME",
+      "values": []
+    },
+    {
+      "type": "HTTPS",
+      "values": ["104.18.33.45", "172.64.154.211"]
+    },
+    {
+      "type": "TXT",
+      "values": [
+        "\"mgverify=22d53df776e7e9198e72a000c4056f5ba1624b8f2a50e3d0f4925fcea15bb5d4\"",
+        "\"atlassian-domain-verification=xdHUKPdNqeX/XU/VMyGIRWfzqvhwWmcHR1DhX2J3JllvjIY3A0Aw9Ctst0DXGIgt\"",
+        "\"parsec-domain-verification=td_30Hu4AtBG9pDT9HTJCFK42bxN3q\"",
+        "\"whimsical=a3593eda7e8523a75b01fd953cac04549faefe0c\"",
+        "\"hiAwXiKX20HcM9FtFK90WRyUFLSV1w\"",
+        "\"notion-domain-verification=GZFdn3LQ77QuL3XKYZT6BmKDkFfmbiAorjzDIdvLRd6\"",
+        "\"onetrust-domain-verification=7acf44f596f84700bc82bfaaeb9b388c\"",
+        "\"uber-domain-verification=77dfb7a6-1534-4c1b-a4e2-ba173fa8e9a3\"",
+        "\"hubspot-developer-verification=NDFmMGNmMTYtZWYxNS00YTNlLWFkM2ItMjEwYzhmYTk0NTNi\"",
+        "\"ms-domain-verification=a14381d7-1e61-4cbf-97fa-4ac14336f0cf\"",
+        "\"airtable-verification=dea7eaaa4d90e623ec30a9b2fa12ca5f\"",
+        "\"onetrust-domain-verification=6bfaeb2a9cdf438bad3b7b30e745f3ed\"",
+        "\"autodesk-domain-verification=C3oU6DmT-SfRlU0htRMR\"",
+        "\"miro-verification=0ee819554f4ff63f853affdf30d1cf76a15c6846\"",
+        "\"linear-domain-verification=83vxugur897f\"",
+        "\"dropbox-domain-verification=mra9n6toqbqj\"",
+        "\"box-domain-verification=e2ecedffb7ea6f02e5f7a4afdbb83e2892f81db3acd85ff600633ad76096d459\"",
+        "\"google-site-verification=BDCE3pqO3BG5T5jWaEmQl10f5gqe3GAXgjyV0pmA5Jo\"",
+        "\"apple-domain-verification=EgaXvYuVUgRwJTk3\"",
+        "\"ZOOM_verify_Ji3VecODDwjBgU1GccqGAC\"",
+        "\"smartsheet-site-validation=b4J2lcr0i94a3_8qW2jIQxWjyqlGUmF1\"",
+        "\"v=spf1 include:_spf.google.com include:spf.protection.outlook.com include:8050860.spf04.hubspotemail.net include:mktomail.com include:spf_c.oraclecloud.com -all\"",
+        "\"calendly-site-verification=fBZScJDPHrHKIWIb9dKdryZqPPcCkxGISR8z5xSdX\"",
+        "\"google-site-verification=dU3pms6hgznfQnTCxkcq6P4jGjd8LMra0v429l4oElA\"",
+        "\"airalo-domain-verification=xFzIMCLQ9JTlUFK\"",
+        "\"hibp-verify=dweb_bngtm5m5asvzv8o0xxyy9pxb\"",
+        "\"stripe-verification=b1d42b65d1782470604a6dbb360e9dfe8bd7426974e5110605e86b22d945288d\"",
+        "\"docker-verification=e315e0c2-f866-4bec-ac0c-844fa287bbec\"",
+        "\"atlassian-domain-verification=Q2BUDjXbr3zZaNROQ1MyCjvItM31fbzhL/GR5YEn96BAAyQzrQfkxaxxWC2qj/s5\"",
+        "\"figma-domain-verification=274542735efe890a700405d9916de07a971b531a0d1595c237b09d68770febf4-1762810003\"",
+        "\"tukj3psjdk\"",
+        "\"twilio-domain-verification=c7745eae53aa58c5874d7a8508c510bc\"",
+        "\"pylon-domain-verification-na3cfk=bYVknYT5uGxjut616RQY8fCHj\"",
+        "\"dtm-domain-verification=yaoiU11N90j1RKR3IObEMhQO8WHP8K4zTGmCYlUIr6k\"",
+        "\"MS=ms50231473\"",
+        "\"canva-site-verification=3pgWM7c4EwmBo5rsy9b2Mg\"",
+        "\"openai-domain-verification=dv-un30neQJyISDPkxgKgArFtEc\"",
+        "\"google-site-verification=3uGPpoo5B2gXoFNwT4pfAJwH-1gjVj-fLqVSE6rCXGk\"",
+        "\"postman-domain-verification=dc3e890ca92455e54d07dcec9ea8404fc401b0a5a900dfb759062cd1dc68b28f7bc7db58254e4936ff8a9303f38cb9719e1af16757b09e0067c635510c90cde8\"",
+        "\"central-10085\"",
+        "\"wrike-verification=NjMwNjgwMjo0NmU2YjQ1NjgzNGJkN2M3MmYwNWUyMTNhOWUwOGY0OTQxYjBlNWJmZTEwYjYzOWU5MDNlMDlkYzAxNGZlZDRh\"",
+        "\"uber-domain-verification=faf07776-4ec9-4fd0-9ac5-2a6f8c514318\"",
+        "\"TAILSCALE-FAWYbK3UOL8Tf83rkJoc\"",
+        "\"google-site-verification=9sG4lDm5hmXEmnwpVGkId_ftzq-b84TYi0rwy9J-f9s\"",
+        "\"jamf-site-verification=2ysWIpJrXkO40kW1SNc8Qg\""
+      ]
+    }
+  ]
+}
