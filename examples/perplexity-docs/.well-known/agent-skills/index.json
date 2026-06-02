@@ -1,1 +1,12 @@
-{"$schema":"https://schemas.agentskills.io/discovery/0.2.0/schema.json","skills":[{"name":"perplexity","type":"skill-md","description":"Use when building AI applications that need real-time web search, multi-provider LLM access, semantic search, or web-grounded Q&A. Reach for this skill when agents need to integrate search capabilities, access third-party models (OpenAI, Anthropic, Google, xAI), generate embeddings, or build research-focused applications.","url":"/.well-known/agent-skills/perplexity/skill.md","digest":"sha256:5bb821c0ac175e1955b7b0da8d00d62b644ac416783fbf6dc660302698bfec92"}]}
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "perplexity",
+      "type": "skill-md",
+      "description": "Use when building AI applications that need real-time web search, multi-provider LLM access, semantic search, or web-grounded Q&A. Reach for this skill when agents need to integrate search capabilities, access third-party models (OpenAI, Anthropic, Google, xAI), generate embeddings, or build research-focused applications.",
+      "url": "/.well-known/agent-skills/perplexity/skill.md",
+      "digest": "sha256:5bb821c0ac175e1955b7b0da8d00d62b644ac416783fbf6dc660302698bfec92"
+    }
+  ]
+}

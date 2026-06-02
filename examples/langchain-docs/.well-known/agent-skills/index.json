@@ -1,1 +1,12 @@
-{"$schema":"https://schemas.agentskills.io/discovery/0.2.0/schema.json","skills":[{"name":"langchain","type":"skill-md","description":"Use when building AI agents and applications with LLMs, integrating tools and models, managing agent state and memory, deploying to production, or debugging agent behavior with tracing.","url":"/.well-known/agent-skills/langchain/skill.md","digest":"sha256:a3e5344b02ee2c09b2f30ecc77df60508180ffb47fab91e9160f9ed7d2523f7a"}]}
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "langchain",
+      "type": "skill-md",
+      "description": "Use when building AI agents and applications with LLMs, integrating tools and models, managing agent state and memory, deploying to production, or debugging agent behavior with tracing.",
+      "url": "/.well-known/agent-skills/langchain/skill.md",
+      "digest": "sha256:a3e5344b02ee2c09b2f30ecc77df60508180ffb47fab91e9160f9ed7d2523f7a"
+    }
+  ]
+}

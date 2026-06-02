@@ -1,1 +1,19 @@
-{"$schema":"https://schemas.agentskills.io/discovery/0.2.0/schema.json","skills":[{"name":"draft-sep","type":"skill-md","description":"Research and draft a Specification Enhancement Proposal following the MCP SEP governance process","url":"/.well-known/agent-skills/draft-sep/skill.md","digest":"sha256:b0f3c3d243e71ea2522cc533e90f529346c6acee13f51318a4008b328b1f453e"},{"name":"search-mcp-github","type":"skill-md","description":"Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org","url":"/.well-known/agent-skills/search-mcp-github/skill.md","digest":"sha256:1292b4c2e21d0ffa7082689affbd8f86f8afc586591528d96f5edd7280f6439a"}]}
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "draft-sep",
+      "type": "skill-md",
+      "description": "Research and draft a Specification Enhancement Proposal following the MCP SEP governance process",
+      "url": "/.well-known/agent-skills/draft-sep/skill.md",
+      "digest": "sha256:b0f3c3d243e71ea2522cc533e90f529346c6acee13f51318a4008b328b1f453e"
+    },
+    {
+      "name": "search-mcp-github",
+      "type": "skill-md",
+      "description": "Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org",
+      "url": "/.well-known/agent-skills/search-mcp-github/skill.md",
+      "digest": "sha256:1292b4c2e21d0ffa7082689affbd8f86f8afc586591528d96f5edd7280f6439a"
+    }
+  ]
+}

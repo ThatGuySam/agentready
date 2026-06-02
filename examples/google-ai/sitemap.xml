@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <sitemap>
     <loc>https://ai.google.dev/sitemap_3_of_4.xml</loc>
     <lastmod>2026-06-02T19:01:26+00:00</lastmod>
   </sitemap>
-
   <sitemap>
     <loc>https://ai.google.dev/sitemap_0_of_4.xml</loc>
     <lastmod>2026-06-02T16:51:57+00:00</lastmod>
   </sitemap>
-
   <sitemap>
     <loc>https://ai.google.dev/sitemap_1_of_4.xml</loc>
     <lastmod>2026-06-01T18:26:01+00:00</lastmod>
   </sitemap>
-
   <sitemap>
     <loc>https://ai.google.dev/sitemap_2_of_4.xml</loc>
     <lastmod>2026-06-02T16:36:52+00:00</lastmod>
   </sitemap>
-
 </sitemapindex>

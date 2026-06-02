@@ -26,7 +26,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:deploy": "gh-pages --dist docs/.vitepress/dist",
-    "examples:capture": "bun scripts/capture-agentready-examples.ts",
+    "examples:capture": "bun scripts/capture-agentready-examples.ts && bun run examples:format",
+    "examples:format": "bun scripts/format-agentready-examples.ts && biome format --write --skip-parse-errors examples scripts/capture-agentready-examples.ts scripts/format-agentready-examples.ts docs/examples.md package.json biome.json",
     "app:dev": "bun --cwd apps/app dev",
     "app:build": "bun --cwd apps/app build",
     "app:test": "bun --cwd apps/app test",
@@ -85,6 +86,7 @@
     "infra:prod:edge:destroy": "terraform -chdir=infra/envs/prod/edge destroy"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
     "@emotion/babel-plugin": "^11.13.5",
     "@emotion/eslint-plugin": "^11.12.0",
     "@eslint-react/eslint-plugin": "^2.12.4",
