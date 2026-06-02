@@ -1,0 +1,16 @@
+# Captured 2026-06-02 from https://developers.cloudflare.com/llms.txt
+# Dynamic cookies and long CSP details redacted.
+
+$ curl -fsSI -L https://developers.cloudflare.com/llms.txt
+> HEAD /llms.txt HTTP/2
+> Host: developers.cloudflare.com
+> User-Agent: curl
+< HTTP/2 200
+< content-type: text/plain
+< cf-cache-status: HIT
+< access-control-allow-origin: *
+< cache-control: public, max-age=0, must-revalidate
+< server: cloudflare
+< strict-transport-security: max-age=15552000; preload
+< x-content-type-options: nosniff
+< alt-svc: h3=":443"; ma=86400

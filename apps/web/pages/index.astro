@@ -1,0 +1,90 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Button, Card, CardContent, CardHeader, CardTitle } from '@repo/ui';
+
+const checks = [
+  {
+    title: 'Scorecard',
+    value: '22 checks',
+    body: 'A practical table that ranks readiness checks by expert value and site fit.',
+  },
+  {
+    title: 'Examples',
+    value: '4 sites',
+    body: 'Bounded snapshots from OpenAI, Anthropic, Google, and Cloudflare.',
+  },
+  {
+    title: 'Talk deck',
+    value: 'Marp',
+    body: 'Slides using the SCC theme for the Agent Ready talk.',
+  },
+];
+---
+
+<BaseLayout>
+  <section class="border-b bg-muted/20 px-4 py-16 sm:px-6 lg:px-8">
+    <div class="container mx-auto grid gap-8 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-end">
+      <div class="max-w-3xl">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+          Agent Ready
+        </p>
+        <h1 class="mb-5 text-4xl font-bold tracking-tight sm:text-5xl">
+          Practical website readiness for agents.
+        </h1>
+        <p class="text-lg leading-8 text-muted-foreground">
+          A React app, markdown scorecard, example fixture set, and Marp talk
+          deck for deciding which agent-readiness signals are worth
+          implementing.
+        </p>
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <Button size="lg" asChild>
+            <a href="https://github.com/ThatGuySam/agentready/blob/main/docs/scorecard.md">
+              Read Scorecard
+            </a>
+          </Button>
+          <Button variant="outline" size="lg" asChild>
+            <a href="https://github.com/ThatGuySam/agentready/tree/main/examples">
+              View Examples
+            </a>
+          </Button>
+        </div>
+      </div>
+
+      <div class="rounded-lg border bg-background p-5">
+        <p class="text-sm font-medium text-muted-foreground">Top practical baseline</p>
+        <ul class="mt-4 space-y-3 text-sm">
+          <li class="flex justify-between gap-4">
+            <span>robots.txt</span>
+            <strong>9/10</strong>
+          </li>
+          <li class="flex justify-between gap-4">
+            <span>AI bot rules</span>
+            <strong>9/10</strong>
+          </li>
+          <li class="flex justify-between gap-4">
+            <span>sitemap.xml</span>
+            <strong>8/10</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-4 py-14 sm:px-6 lg:px-8">
+    <div class="container mx-auto">
+      <div class="grid gap-6 md:grid-cols-3">
+        {checks.map((item) => (
+          <Card>
+            <CardHeader>
+              <CardTitle>{item.title}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p class="mb-3 text-2xl font-semibold">{item.value}</p>
+              <p class="text-sm leading-6 text-muted-foreground">{item.body}</p>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,6 @@
+# Captured 2026-06-02 from https://www.anthropic.com/robots.txt
+
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.anthropic.com/sitemap.xml

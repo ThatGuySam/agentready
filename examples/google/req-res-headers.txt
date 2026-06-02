@@ -1,0 +1,13 @@
+# Captured 2026-06-02 from https://developers.google.com/sitemap.xml
+
+$ curl -fsSI -L https://developers.google.com/sitemap.xml
+> HEAD /sitemap.xml HTTP/2
+> Host: developers.google.com
+> User-Agent: curl
+< HTTP/2 200
+< content-type: application/xml
+< strict-transport-security: max-age=63072000; includeSubdomains; preload
+< x-content-type-options: nosniff
+< cache-control: no-cache, must-revalidate
+< server: Google Frontend
+< alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

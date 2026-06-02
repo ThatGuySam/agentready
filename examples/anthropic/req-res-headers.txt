@@ -1,0 +1,15 @@
+# Captured 2026-06-02 from https://www.anthropic.com/robots.txt
+# Dynamic cookies and long CSP details redacted.
+
+$ curl -fsSI -L https://www.anthropic.com/robots.txt
+> HEAD /robots.txt HTTP/2
+> Host: www.anthropic.com
+> User-Agent: curl
+< HTTP/2 200
+< content-type: text/plain
+< cache-control: public, max-age=14400
+< server: cloudflare
+< strict-transport-security: max-age=3600
+< x-nextjs-cache: HIT
+< x-content-type-options: nosniff
+< alt-svc: h3=":443"; ma=86400
