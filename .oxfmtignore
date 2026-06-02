@@ -1,0 +1,24 @@
+# Compiled and generated output
+/app/queries/
+/*/dist/
+/**/*.generated.ts
+/**/*.gen.ts
+
+# Cache and dependencies
+/.cache
+/node_modules
+/bun.lock
+
+# TypeScript
+/tsconfig.base.json
+
+# Terraform
+.terraform/
+
+# Misc
+/.husky
+*.hbs
+
+# Example artifacts handled by scripts/format-agentready-examples.ts
+/examples/**/*.json
+/examples/**/*.xml

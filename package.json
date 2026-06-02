@@ -16,6 +16,8 @@
   "scripts": {
     "dev": "bun --filter @repo/web --filter @repo/api --filter @repo/app dev",
     "lint": "eslint --cache --report-unused-disable-directives .",
+    "format": "oxfmt --write --ignore-path .gitignore --ignore-path .oxfmtignore . && bun run examples:format",
+    "format:check": "oxfmt --check --ignore-path .gitignore --ignore-path .oxfmtignore . && bun run examples:check",
     "test": "vitest",
     "typecheck": "tsc --build",
     "build:types": "bun app:build && tsc --build",
@@ -27,7 +29,8 @@
     "docs:preview": "vitepress preview docs",
     "docs:deploy": "gh-pages --dist docs/.vitepress/dist",
     "examples:capture": "bun scripts/capture-agentready-examples.ts && bun run examples:format",
-    "examples:format": "bun scripts/format-agentready-examples.ts && biome format --write --skip-parse-errors examples scripts/capture-agentready-examples.ts scripts/format-agentready-examples.ts docs/examples.md package.json biome.json",
+    "examples:format": "bun scripts/format-agentready-examples.ts",
+    "examples:check": "bun scripts/format-agentready-examples.ts --check",
     "app:dev": "bun --cwd apps/app dev",
     "app:build": "bun --cwd apps/app build",
     "app:test": "bun --cwd apps/app test",
@@ -86,7 +89,6 @@
     "infra:prod:edge:destroy": "terraform -chdir=infra/envs/prod/edge destroy"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.16",
     "@emotion/babel-plugin": "^11.13.5",
     "@emotion/eslint-plugin": "^11.12.0",
     "@eslint-react/eslint-plugin": "^2.12.4",
@@ -111,6 +113,7 @@
     "lint-staged": "^16.2.7",
     "mermaid": "^11.12.3",
     "npm-check": "^6.0.1",
+    "oxfmt": "^0.53.0",
     "prettier": "^3.8.1",
     "react": "^19.2.4",
     "relay-config": "^12.0.1",
@@ -150,8 +153,11 @@
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
       "bunx eslint --max-warnings=0 --report-unused-disable-directives"
     ],
+    "examples/**/*.{json,xml}": [
+      "bun scripts/format-agentready-examples.ts --check"
+    ],
     "*": [
-      "bunx prettier --check --ignore-unknown"
+      "bunx oxfmt --check --ignore-path .gitignore --ignore-path .oxfmtignore --no-error-on-unmatched-pattern"
     ]
   }
 }
