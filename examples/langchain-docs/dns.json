@@ -4,7 +4,11 @@
   "records": [
     {
       "type": "A",
-      "values": ["docs.mintlify.builders.", "104.18.3.204", "104.18.2.204"]
+      "values": [
+        "docs.mintlify.builders.",
+        "104.18.3.204",
+        "104.18.2.204"
+      ]
     },
     {
       "type": "AAAA",
@@ -16,15 +20,23 @@
     },
     {
       "type": "CNAME",
-      "values": ["docs.mintlify.builders."]
+      "values": [
+        "docs.mintlify.builders."
+      ]
     },
     {
       "type": "HTTPS",
-      "values": ["docs.mintlify.builders.", "104.18.2.204", "104.18.3.204"]
+      "values": [
+        "docs.mintlify.builders.",
+        "104.18.2.204",
+        "104.18.3.204"
+      ]
     },
     {
       "type": "TXT",
-      "values": ["docs.mintlify.builders."]
+      "values": [
+        "docs.mintlify.builders."
+      ]
     }
   ]
 }

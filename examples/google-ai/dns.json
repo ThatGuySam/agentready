@@ -26,7 +26,9 @@
     },
     {
       "type": "CNAME",
-      "values": ["www3.l.google.com."]
+      "values": [
+        "www3.l.google.com."
+      ]
     },
     {
       "type": "HTTPS",
@@ -42,7 +44,9 @@
     },
     {
       "type": "TXT",
-      "values": ["www3.l.google.com."]
+      "values": [
+        "www3.l.google.com."
+      ]
     }
   ]
 }

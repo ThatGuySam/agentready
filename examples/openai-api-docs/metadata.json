@@ -46,11 +46,15 @@
     },
     {
       "type": "AAAA",
-      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com."
+      ]
     },
     {
       "type": "CNAME",
-      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com."
+      ]
     },
     {
       "type": "HTTPS",
@@ -62,7 +66,9 @@
     },
     {
       "type": "TXT",
-      "values": ["08d9e9b18d2ea32e.vercel-dns-013.com."]
+      "values": [
+        "08d9e9b18d2ea32e.vercel-dns-013.com."
+      ]
     }
   ],
   "endpoints": [

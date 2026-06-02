@@ -12,11 +12,15 @@
     },
     {
       "type": "AAAA",
-      "values": ["899a0c08fff30508.vercel-dns-016.com."]
+      "values": [
+        "899a0c08fff30508.vercel-dns-016.com."
+      ]
     },
     {
       "type": "CNAME",
-      "values": ["899a0c08fff30508.vercel-dns-016.com."]
+      "values": [
+        "899a0c08fff30508.vercel-dns-016.com."
+      ]
     },
     {
       "type": "HTTPS",
@@ -28,7 +32,9 @@
     },
     {
       "type": "TXT",
-      "values": ["899a0c08fff30508.vercel-dns-016.com."]
+      "values": [
+        "899a0c08fff30508.vercel-dns-016.com."
+      ]
     }
   ]
 }

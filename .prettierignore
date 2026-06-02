@@ -22,5 +22,6 @@
 *.hbs
 
 # Raw captured evidence
+/examples/**/*.json
 /examples/**/.well-known/
 /examples/**/article-body-api.json
