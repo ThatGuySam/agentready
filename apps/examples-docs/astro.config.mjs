@@ -2,7 +2,7 @@ import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://agentready-examples.samcarlton.workers.dev",
+  site: "https://agentready.samcarlton.com",
   integrations: [
     starlight({
       title: "AgentReady Examples",
