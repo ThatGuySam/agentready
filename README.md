@@ -16,6 +16,7 @@ Agent Ready is a project scaffold for a talk and tool about whether websites are
 
 - `apps/app/` - React 19 + TanStack Router scorecard app.
 - `apps/app/lib/scorecard.ts` - Typed source of truth for the scorecard UI.
+- `apps/examples-docs/` - Astro Starlight docs site generated from `examples/`.
 - `docs/scorecard.md` - Markdown table version of the scorecard with reference links.
 - `docs/examples.md` - Guide to the captured example snapshots.
 - `examples/` - Small live snapshots from OpenAI, Anthropic, Google, and Cloudflare.
@@ -36,6 +37,8 @@ Useful checks:
 bun app:build
 bun --cwd apps/app typecheck
 bun docs:build
+bun examples-docs:build
+bun examples-docs:deploy
 ```
 
 Render the slides with the local Marp helper:

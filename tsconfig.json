@@ -4,6 +4,7 @@
     { "path": "./apps/app" },
     { "path": "./apps/api" },
     { "path": "./apps/email" },
+    { "path": "./apps/examples-docs" },
     { "path": "./apps/web" },
     { "path": "./db" },
     { "path": "./packages/core" },

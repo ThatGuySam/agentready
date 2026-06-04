@@ -45,6 +45,10 @@ node_modules/
 # Astro
 .astro/
 
+# Generated Starlight examples docs
+apps/examples-docs/src/content/docs/examples/
+apps/examples-docs/src/content/docs/patterns/
+
 # TanStack Router
 # Generated route tree files should not be committed
 **/lib/routeTree.gen.ts

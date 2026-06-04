@@ -1,0 +1,11 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true,
+    "tsBuildInfoFile": "../../.cache/tsconfig/examples-docs.tsbuildinfo",
+    "types": ["astro/client"]
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.json", "**/*.astro"],
+  "exclude": ["**/dist/**/*", "**/node_modules/**/*"]
+}

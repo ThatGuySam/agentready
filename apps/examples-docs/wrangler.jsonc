@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "agentready-examples",
+  "account_id": "8d4ef8fe891f53e5658d3fdd5a4c7630",
+  "compatibility_date": "2026-06-04",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
