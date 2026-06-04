@@ -5,7 +5,7 @@
   "output": "llms-full.sample.txt",
   "outputFile": "llms-full.sample.txt",
   "statusFile": "llms-full.sample.txt.status.json",
-  "startedAt": "2026-06-02T19:28:18.741Z",
+  "startedAt": "2026-06-04T21:48:29.622Z",
   "status": 200,
   "effectiveUrl": "https://vercel.com/docs/llms-full.txt",
   "contentType": "text/markdown; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "age",
-      "value": "204"
+      "value": "262"
     },
     {
       "name": "cache-control",
@@ -35,7 +35,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:24:54 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:07 GMT"
     },
     {
       "name": "feature-policy",
@@ -95,21 +95,21 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::iad1::nq6f6-1780428498884-41eb7fb345d6"
+      "value": "cle1::iad1::wlp2v-1780609709814-c9469bc012bd"
     },
     {
       "name": "x-xss-protection",
       "value": "0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 240.28,
+  "durationMs": 276.779,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://vercel.com/docs/llms-full.txt"

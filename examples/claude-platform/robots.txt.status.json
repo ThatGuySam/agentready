@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:12.229Z",
+  "startedAt": "2026-06-04T21:48:24.274Z",
   "status": 200,
   "effectiveUrl": "https://platform.claude.com/robots.txt",
   "contentType": "text/plain",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:24 GMT"
     },
     {
       "name": "content-type",
@@ -59,7 +59,7 @@
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:24 GMT"
     },
     {
       "name": "cf-cache-status",
@@ -75,17 +75,17 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc1d7a766b2a-DFW"
+      "value": "a06a243c8bea166b-MCI"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 277.553,
+  "durationMs": 154.993,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://platform.claude.com/robots.txt"

@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:31.342Z",
+  "startedAt": "2026-06-04T21:48:44.057Z",
   "status": 200,
   "effectiveUrl": "https://openai.com/sitemap.xml",
   "contentType": "application/xml",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:44 GMT"
     },
     {
       "name": "content-type",
@@ -27,7 +27,7 @@
     },
     {
       "name": "age",
-      "value": "8156"
+      "value": "624"
     },
     {
       "name": "cache-control",
@@ -47,7 +47,7 @@
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 17:12:35 GMT"
+      "value": "Thu, 04 Jun 2026 21:38:20 GMT"
     },
     {
       "name": "server",
@@ -67,7 +67,7 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::49bxt-1780428511423-4092fa7f69ac"
+      "value": "cle1::rbmvz-1780609724251-f824cfe1f345"
     },
     {
       "name": "cf-cache-status",
@@ -99,21 +99,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc944f3dd18f-MCI"
+      "value": "a06a24b85f487891-DFW"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 97.015,
+  "durationMs": 208.81900000000002,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://openai.com/sitemap.xml"

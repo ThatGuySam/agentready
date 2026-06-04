@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "cloudflare-developers",
         "title": "Cloudflare Developers",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "cloudflare-developers",
-        "startedDateTime": "2026-06-02T19:28:01.236Z",
-        "time": 148.65,
+        "startedDateTime": "2026-06-04T21:48:12.959Z",
+        "time": 119.242,
         "request": {
           "method": "GET",
           "url": "https://developers.cloudflare.com/robots.txt",
@@ -35,12 +35,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:13 GMT"
             },
             {
               "name": "content-type",
@@ -100,7 +100,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbd89b5b6d2b-MCI"
+              "value": "a06a23f59ee51214-DFW"
             },
             {
               "name": "alt-svc",
@@ -119,15 +119,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 148.65,
+          "wait": 119.242,
           "receive": 0
         },
         "comment": "Saved body to robots.txt"
       },
       {
         "pageref": "cloudflare-developers",
-        "startedDateTime": "2026-06-02T19:28:01.400Z",
-        "time": 96.94500000000001,
+        "startedDateTime": "2026-06-04T21:48:13.100Z",
+        "time": 270.903,
         "request": {
           "method": "GET",
           "url": "https://developers.cloudflare.com/sitemap.xml",
@@ -145,12 +145,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:13 GMT"
             },
             {
               "name": "content-type",
@@ -198,7 +198,7 @@
             },
             {
               "name": "etag",
-              "value": "W/\"9f8a1bc2564119c3700dd0f2dbaafaf4\""
+              "value": "W/\"e5ca2c074a50e33a7ba7bb594c0c120f\""
             },
             {
               "name": "content-encoding",
@@ -210,7 +210,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbd948aa98a6-MCI"
+              "value": "a06a23f75a867dce-DFW"
             },
             {
               "name": "alt-svc",
@@ -229,15 +229,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 96.94500000000001,
+          "wait": 270.903,
           "receive": 0
         },
         "comment": "Saved body to sitemap.xml"
       },
       {
         "pageref": "cloudflare-developers",
-        "startedDateTime": "2026-06-02T19:28:01.511Z",
-        "time": 146.07899999999998,
+        "startedDateTime": "2026-06-04T21:48:13.389Z",
+        "time": 67.735,
         "request": {
           "method": "GET",
           "url": "https://developers.cloudflare.com/llms.txt",
@@ -255,12 +255,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:13 GMT"
             },
             {
               "name": "content-type",
@@ -320,7 +320,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbd9eeadd83b-DFW"
+              "value": "a06a23f82db6ae15-MCI"
             },
             {
               "name": "alt-svc",
@@ -339,15 +339,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 146.07899999999998,
+          "wait": 67.735,
           "receive": 0
         },
         "comment": "Saved body to llms.txt"
       },
       {
         "pageref": "cloudflare-developers",
-        "startedDateTime": "2026-06-02T19:28:01.672Z",
-        "time": 4987.578,
+        "startedDateTime": "2026-06-04T21:48:13.472Z",
+        "time": 4908.38,
         "request": {
           "method": "GET",
           "url": "https://developers.cloudflare.com/llms-full.txt",
@@ -365,12 +365,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:13 GMT"
             },
             {
               "name": "content-type",
@@ -378,7 +378,7 @@
             },
             {
               "name": "content-length",
-              "value": "49807586"
+              "value": "50005369"
             },
             {
               "name": "strict-transport-security",
@@ -414,7 +414,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbdadd5dd30e-MCI"
+              "value": "a06a23f8a941d306-MCI"
             },
             {
               "name": "alt-svc",
@@ -423,25 +423,25 @@
           ],
           "cookies": [],
           "content": {
-            "size": 49807586,
+            "size": 50005369,
             "mimeType": "text/markdown; charset=utf-8"
           },
           "redirectURL": "https://developers.cloudflare.com/llms-full.txt",
           "headersSize": -1,
-          "bodySize": 49807586
+          "bodySize": 50005369
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 4987.578,
+          "wait": 4908.38,
           "receive": 0
         },
         "comment": "Saved body to llms-full.sample.txt"
       },
       {
         "pageref": "cloudflare-developers",
-        "startedDateTime": "2026-06-02T19:28:06.688Z",
-        "time": 75.957,
+        "startedDateTime": "2026-06-04T21:48:18.410Z",
+        "time": 123.80099999999999,
         "request": {
           "method": "GET",
           "url": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
@@ -459,12 +459,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:06 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:18 GMT"
             },
             {
               "name": "content-type",
@@ -524,7 +524,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbfa2d4c804b-DFW"
+              "value": "a06a2417eb85e135-MCI"
             },
             {
               "name": "alt-svc",
@@ -543,15 +543,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 75.957,
+          "wait": 123.80099999999999,
           "receive": 0
         },
         "comment": "Saved body to .well-known/agent-skills/index.json"
       },
       {
         "pageref": "cloudflare-developers",
-        "startedDateTime": "2026-06-02T19:28:06.775Z",
-        "time": 318.207,
+        "startedDateTime": "2026-06-04T21:48:18.553Z",
+        "time": 127.47,
         "request": {
           "method": "GET",
           "url": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
@@ -573,12 +573,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:18 GMT"
             },
             {
               "name": "content-type",
@@ -586,7 +586,7 @@
             },
             {
               "name": "content-length",
-              "value": "14535"
+              "value": "14330"
             },
             {
               "name": "vary",
@@ -594,7 +594,7 @@
             },
             {
               "name": "x-markdown-tokens",
-              "value": "3626"
+              "value": "3575"
             },
             {
               "name": "content-signal",
@@ -602,7 +602,7 @@
             },
             {
               "name": "x-original-tokens",
-              "value": "60428"
+              "value": "61331"
             },
             {
               "name": "cache-control",
@@ -614,22 +614,22 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbfb5bb82e76-DFW"
+              "value": "a06a24188b0f6d82-DFW"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 14535,
+            "size": 14330,
             "mimeType": "text/markdown; charset=utf-8"
           },
           "redirectURL": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
           "headersSize": -1,
-          "bodySize": 14535
+          "bodySize": 14330
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 318.207,
+          "wait": 127.47,
           "receive": 0
         },
         "comment": "Saved body to markdown-for-agents.md.txt"

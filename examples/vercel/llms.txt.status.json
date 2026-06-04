@@ -5,12 +5,12 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:18.462Z",
+  "startedAt": "2026-06-04T21:48:29.345Z",
   "status": 200,
   "effectiveUrl": "https://vercel.com/llms.txt",
   "contentType": "text/plain; charset=utf-8",
-  "bodyBytes": 168876,
-  "savedBytes": 168876,
+  "bodyBytes": 171084,
+  "savedBytes": 171084,
   "truncated": false,
   "responseHeaders": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "age",
-      "value": "625"
+      "value": "263"
     },
     {
       "name": "cache-control",
@@ -43,11 +43,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:18 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:29 GMT"
     },
     {
       "name": "etag",
-      "value": "W/\"d57d898afbe45ac090d27206b2b0bda4\""
+      "value": "W/\"3080dcb20542c0027a9637490ba43e5c\""
     },
     {
       "name": "feature-policy",
@@ -99,7 +99,7 @@
     },
     {
       "name": "x-matched-path",
-      "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f79_v7-_g.Rt0RR446KJJOGCQ1-bH8BjhTMggsbefhvYjO6CdmOtQ/llms.txt"
+      "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f3-_f7-_v4.xdVn_B-WvoPTpOi6BD7iGP-LDjuOFA-C4kEK6dGaZek/llms.txt"
     },
     {
       "name": "x-vercel-cache",
@@ -107,21 +107,21 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::7dgfg-1780428498669-a6ff797bc543"
+      "value": "cle1::xksfc-1780609709552-88982088f435"
     },
     {
       "name": "x-xss-protection",
       "value": "0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 251.135,
+  "durationMs": 263.181,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://vercel.com/llms.txt"

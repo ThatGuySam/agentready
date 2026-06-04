@@ -5,17 +5,17 @@
   "output": "llms-full.sample.txt",
   "outputFile": "llms-full.sample.txt",
   "statusFile": "llms-full.sample.txt.status.json",
-  "startedAt": "2026-06-02T19:28:24.744Z",
+  "startedAt": "2026-06-04T21:48:35.979Z",
   "status": 200,
   "effectiveUrl": "https://docs.langchain.com/llms-full.txt",
   "contentType": "text/plain; charset=utf-8",
-  "bodyBytes": 11292918,
+  "bodyBytes": 11494496,
   "savedBytes": 249999,
   "truncated": true,
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:36 GMT"
     },
     {
       "name": "content-type",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc6b2a2dd30c-MCI"
+      "value": "a06a24856f0d6c35-DFW"
     },
     {
       "name": "cf-cache-status",
@@ -31,7 +31,7 @@
     },
     {
       "name": "age",
-      "value": "68929"
+      "value": "73331"
     },
     {
       "name": "cache-control",
@@ -39,11 +39,11 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "iad1::iad1::dtrdj-1780359573112-0165c6d730a3"
+      "value": "iad1::iad1::7c8b5-1780536383505-1de54fcd8491"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 17:08:30 GMT"
+      "value": "Thu, 04 Jun 2026 01:26:24 GMT"
     },
     {
       "name": "server",
@@ -78,14 +78,14 @@
       "value": "gzip"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 1047.73,
+  "durationMs": 1013.679,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://docs.langchain.com/llms-full.txt"

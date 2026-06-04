@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://docs.stripe.com/acceptable-verification-documents</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/get-started/account/checklist</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/get-started/account/set-up</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/get-started/account/add-funds</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/account/approvals</loc>
@@ -70,15 +70,6 @@
     <loc>https://docs.stripe.com/ach-deprecated</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/activity-logs</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/get-started/account/add-funds</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/agents-billing-workflows</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/agentic-commerce/product-feed</loc>
   </url>
   <url>
@@ -110,6 +101,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/agentic-commerce</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/agents-billing-workflows</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/agents</loc>
@@ -332,6 +326,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/saas</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/bundled-pricing/terms</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/billing/scripts</loc>
@@ -631,12 +628,6 @@
     <loc>https://docs.stripe.com/billing/subscriptions/webhooks</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/building-extensions</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/building-plugins</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/connect/supported-embedded-components/capital-financing-application</loc>
   </url>
   <url>
@@ -704,9 +695,6 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/co-badged-cards-compliance</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/card-product-codes</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/changelog/acacia/2025-01-27/ownership-exemption-reason-accounts-api</loc>
@@ -3049,6 +3037,9 @@
     <loc>https://docs.stripe.com/connect/payouts-bank-accounts</loc>
   </url>
   <url>
+    <loc>https://docs.stripe.com/building-extensions</loc>
+  </url>
+  <url>
     <loc>https://docs.stripe.com/connect/direct-charge-buy-rate-reporting-overview</loc>
   </url>
   <url>
@@ -3299,6 +3290,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/connect</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/india-accept-international-payments</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/connect/instant-payouts</loc>
@@ -3653,6 +3647,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/crypto/onramp/embedded-overview</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/crypto/onramp/eu-kyc-integration-guide</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/crypto/onramp/kyc-integration-guide</loc>
@@ -4123,6 +4120,9 @@
     <loc>https://docs.stripe.com/stripe-apps/components/menu</loc>
   </url>
   <url>
+    <loc>https://docs.stripe.com/stripe-apps/components/meterchart</loc>
+  </url>
+  <url>
     <loc>https://docs.stripe.com/stripe-apps/components/onboardingview</loc>
   </url>
   <url>
@@ -4411,6 +4411,9 @@
     <loc>https://docs.stripe.com/financial-connections</loc>
   </url>
   <url>
+    <loc>https://docs.stripe.com/open-banking</loc>
+  </url>
+  <url>
     <loc>https://docs.stripe.com/financial-connections/other-data-powered-products</loc>
   </url>
   <url>
@@ -4451,12 +4454,6 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/financial-connections/webhooks</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/payments/forwarding-token-vault</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/payments/forwarding-third-party-processors</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/get-started/account/branding</loc>
@@ -4564,6 +4561,9 @@
     <loc>https://docs.stripe.com/google-pay</loc>
   </url>
   <url>
+    <loc>https://docs.stripe.com/acceptable-verification-documents</loc>
+  </url>
+  <url>
     <loc>https://docs.stripe.com/identity/access-verification-results</loc>
   </url>
   <url>
@@ -4601,12 +4601,6 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/india-accept-international-payments</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/india-network-tokenization</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/india-recurring-payments</loc>
@@ -4805,6 +4799,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/issuing/3d-secure</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/card-product-codes</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/issuing/adding-funds-to-your-card-program</loc>
@@ -5095,9 +5092,6 @@
     <loc>https://docs.stripe.com/payments/managed-payments/update-checkout</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/masterpass</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/mcp</loc>
   </url>
   <url>
@@ -5108,9 +5102,6 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/mobile/ios/sources</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/network-sponsor-reporting</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/assistant</loc>
@@ -5146,9 +5137,6 @@
     <loc>https://docs.stripe.com/no-code/subscriptions</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/open-banking</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/partners/apps</loc>
   </url>
   <url>
@@ -5165,12 +5153,6 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/partners/services</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/payments/payment-line-items/flexible-payment-scenarios</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/payments/payment-line-items</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/payments/3d-secure/authentication-flow</loc>
@@ -5629,7 +5611,16 @@
     <loc>https://docs.stripe.com/payments/place-a-hold-on-a-payment-method</loc>
   </url>
   <url>
+    <loc>https://docs.stripe.com/payments/forwarding-token-vault</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/payments/forwarding-third-party-processors</loc>
+  </url>
+  <url>
     <loc>https://docs.stripe.com/payments</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/india-network-tokenization</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/payments/link/add-link-elements-integration</loc>
@@ -5702,6 +5693,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/payments/machine/x402/quickstart</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/masterpass</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/payments/mobile/accept-payment-embedded</loc>
@@ -5855,6 +5849,12 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/payments/payment-intents/verifying-status</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/payments/payment-line-items/flexible-payment-scenarios</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/payments/payment-line-items</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/payment-links/buy-button</loc>
@@ -6646,7 +6646,13 @@
     <loc>https://docs.stripe.com/recurring-payments</loc>
   </url>
   <url>
+    <loc>https://docs.stripe.com/refunds</loc>
+  </url>
+  <url>
     <loc>https://docs.stripe.com/secure-remote-commerce</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/payments-api/tour</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/industry-metadata</loc>
@@ -6656,6 +6662,12 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/payments/use-cases/get-started</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/payments/vault-and-forward</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/visa-checkout</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/payouts/customized-start-of-day</loc>
@@ -6689,6 +6701,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/payouts/reconciliation</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/transfer-payout-split</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/use-stripe-apps/adobe-commerce/cookbooks/add-additional-metadata</loc>
@@ -6767,6 +6782,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/use-stripe-apps/bigcommerce</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/building-plugins</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/use-stripe-apps/cegid/configuration</loc>
@@ -7114,9 +7132,6 @@
     <loc>https://docs.stripe.com/bank-reconciliation</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/refunds</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/release-phases</loc>
   </url>
   <url>
@@ -7139,6 +7154,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/reports/multiple-accounts</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/network-sponsor-reporting</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/reports/options</loc>
@@ -7441,10 +7459,10 @@
     <loc>https://docs.stripe.com/strong-customer-authentication/connect-platforms</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/bundled-pricing/terms</loc>
+    <loc>https://docs.stripe.com/search</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/search</loc>
+    <loc>https://docs.stripe.com/activity-logs</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/security/guide</loc>
@@ -7454,6 +7472,9 @@
   </url>
   <url>
     <loc>https://docs.stripe.com/security</loc>
+  </url>
+  <url>
+    <loc>https://docs.stripe.com/tls-certificates</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/signals</loc>
@@ -8047,15 +8068,6 @@
     <loc>https://docs.stripe.com/testing/wallets</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/tls-certificates</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/payments-api/tour</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/transfer-payout-split</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/treasury/connect/v2/account-management/prebuilt-embedded-finance</loc>
   </url>
   <url>
@@ -8179,16 +8191,10 @@
     <loc>https://docs.stripe.com/treasury/connect/requirements</loc>
   </url>
   <url>
-    <loc>https://docs.stripe.com/payments/vault-and-forward</loc>
-  </url>
-  <url>
     <loc>https://docs.stripe.com/verified/verified-for-platforms</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/verified</loc>
-  </url>
-  <url>
-    <loc>https://docs.stripe.com/visa-checkout</loc>
   </url>
   <url>
     <loc>https://docs.stripe.com/webhooks/handle-irrecoverable-events</loc>

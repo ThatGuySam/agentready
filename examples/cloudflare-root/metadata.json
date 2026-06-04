@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "cloudflare-root",
     "name": "Cloudflare Root",
@@ -46,8 +46,8 @@
     {
       "type": "AAAA",
       "values": [
-        "2606:4700::6810:7c60",
-        "2606:4700::6810:7b60"
+        "2606:4700::6810:7b60",
+        "2606:4700::6810:7c60"
       ]
     },
     {
@@ -80,7 +80,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:26.124Z",
+      "startedAt": "2026-06-04T21:48:37.262Z",
       "status": 200,
       "effectiveUrl": "https://www.cloudflare.com/robots.txt",
       "contentType": "text/plain",
@@ -90,7 +90,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:38 GMT"
         },
         {
           "name": "content-type",
@@ -98,7 +98,7 @@
         },
         {
           "name": "link",
-          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]"
         },
         {
           "name": "cf-cache-status",
@@ -114,7 +114,7 @@
         },
         {
           "name": "cf-placement",
-          "value": "local-MCI"
+          "value": "remote-PRG"
         },
         {
           "name": "x-served-by",
@@ -182,21 +182,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc73acb84de2-MCI"
+          "value": "a06a248dfc4383a1-DFW"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 76.877,
+      "durationMs": 1404.8220000000001,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.cloudflare.com/robots.txt"
@@ -208,7 +208,7 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:26.217Z",
+      "startedAt": "2026-06-04T21:48:38.688Z",
       "status": 200,
       "effectiveUrl": "https://www.cloudflare.com/sitemap.xml",
       "contentType": "application/xml; charset=utf-8",
@@ -218,7 +218,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:38 GMT"
         },
         {
           "name": "content-type",
@@ -226,11 +226,11 @@
         },
         {
           "name": "link",
-          "value": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitemap\""
+          "value": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitem ... [truncated]"
         },
         {
           "name": "cf-ray",
-          "value": "a058dc74cf9626ce-DFW"
+          "value": "a06a24964b58d31c-MCI"
         },
         {
           "name": "cf-cache-status",
@@ -238,7 +238,7 @@
         },
         {
           "name": "age",
-          "value": "2664"
+          "value": "140"
         },
         {
           "name": "cache-control",
@@ -246,7 +246,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 18:44:01 GMT"
+          "value": "Thu, 04 Jun 2026 21:46:18 GMT"
         },
         {
           "name": "server",
@@ -321,14 +321,14 @@
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 183.07000000000002,
+      "durationMs": 112.732,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.cloudflare.com/sitemap.xml"
@@ -340,7 +340,7 @@
       "output": "llms.txt",
       "outputFile": "llms.txt",
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:26.424Z",
+      "startedAt": "2026-06-04T21:48:38.815Z",
       "status": 200,
       "effectiveUrl": "https://www.cloudflare.com/llms.txt",
       "contentType": "text/plain",
@@ -350,7 +350,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:39 GMT"
         },
         {
           "name": "content-type",
@@ -358,7 +358,7 @@
         },
         {
           "name": "link",
-          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]"
         },
         {
           "name": "cf-cache-status",
@@ -374,7 +374,7 @@
         },
         {
           "name": "cf-placement",
-          "value": "local-MCI"
+          "value": "remote-PRG"
         },
         {
           "name": "x-served-by",
@@ -442,21 +442,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc75ee04d316-MCI"
+          "value": "a06a249788d4d304-MCI"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 176.57500000000002,
+      "durationMs": 510.35200000000003,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://www.cloudflare.com/llms.txt"
@@ -468,7 +468,7 @@
       "output": "llms-full.sample.txt",
       "outputFile": "llms-full.sample.txt",
       "statusFile": "llms-full.sample.txt.status.json",
-      "startedAt": "2026-06-02T19:28:26.623Z",
+      "startedAt": "2026-06-04T21:48:39.337Z",
       "status": 200,
       "effectiveUrl": "https://www.cloudflare.com/llms-full.txt",
       "contentType": "text/plain",
@@ -478,7 +478,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:27 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:39 GMT"
         },
         {
           "name": "content-type",
@@ -486,7 +486,7 @@
         },
         {
           "name": "link",
-          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+          "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]"
         },
         {
           "name": "cf-cache-status",
@@ -570,21 +570,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc76ebc6467e-DFW"
+          "value": "a06a249adb164867-DFW"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 790.453,
+      "durationMs": 431.438,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://www.cloudflare.com/llms-full.txt"

@@ -5,17 +5,17 @@
   "output": ".well-known/agent-skills/index.json",
   "outputFile": ".well-known/agent-skills/index.json",
   "statusFile": ".well-known/agent-skills/index.json.status.json",
-  "startedAt": "2026-06-02T19:28:25.821Z",
+  "startedAt": "2026-06-04T21:48:37.010Z",
   "status": 200,
   "effectiveUrl": "https://docs.langchain.com/.well-known/agent-skills/index.json",
   "contentType": "application/json",
-  "bodyBytes": 460,
-  "savedBytes": 460,
+  "bodyBytes": 620,
+  "savedBytes": 620,
   "truncated": false,
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:37 GMT"
     },
     {
       "name": "content-type",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc71dddcc6e6-MCI"
+      "value": "a06a248bce892cd9-DFW"
     },
     {
       "name": "cf-cache-status",
@@ -31,7 +31,7 @@
     },
     {
       "name": "age",
-      "value": "62344"
+      "value": "4610"
     },
     {
       "name": "cache-control",
@@ -39,11 +39,11 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "iad1::iad1::sjz6l-1780366160938-0d8c09b56088"
+      "value": "iad1::iad1::l2bsj-1780605105940-70440744169d"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 17:13:23 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:14 GMT"
     },
     {
       "name": "server",
@@ -78,14 +78,14 @@
       "value": "gzip"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 140.098,
+  "durationMs": 93.634,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://docs.langchain.com/.well-known/agent-skills/index.json"

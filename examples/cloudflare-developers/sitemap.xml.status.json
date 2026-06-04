@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:01.400Z",
+  "startedAt": "2026-06-04T21:48:13.100Z",
   "status": 200,
   "effectiveUrl": "https://developers.cloudflare.com/sitemap-index.xml",
   "contentType": "application/xml",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:13 GMT"
     },
     {
       "name": "content-type",
@@ -63,7 +63,7 @@
     },
     {
       "name": "etag",
-      "value": "W/\"9f8a1bc2564119c3700dd0f2dbaafaf4\""
+      "value": "W/\"e5ca2c074a50e33a7ba7bb594c0c120f\""
     },
     {
       "name": "content-encoding",
@@ -75,21 +75,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbd948aa98a6-MCI"
+      "value": "a06a23f75a867dce-DFW"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 96.94500000000001,
+  "durationMs": 270.903,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.cloudflare.com/sitemap.xml"

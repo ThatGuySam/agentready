@@ -5,7 +5,7 @@
   "output": ".well-known/agent-skills/index.json",
   "outputFile": ".well-known/agent-skills/index.json",
   "statusFile": ".well-known/agent-skills/index.json.status.json",
-  "startedAt": "2026-06-02T19:28:06.688Z",
+  "startedAt": "2026-06-04T21:48:18.410Z",
   "status": 200,
   "effectiveUrl": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
   "contentType": "application/json; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:06 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:18 GMT"
     },
     {
       "name": "content-type",
@@ -75,21 +75,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbfa2d4c804b-DFW"
+      "value": "a06a2417eb85e135-MCI"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 75.957,
+  "durationMs": 123.80099999999999,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://developers.cloudflare.com/.well-known/agent-skills/index.json"

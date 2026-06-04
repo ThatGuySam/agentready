@@ -5,17 +5,17 @@
   "output": "agent-readability-spec.sample.html.txt",
   "outputFile": "agent-readability-spec.sample.html.txt",
   "statusFile": "agent-readability-spec.sample.html.txt.status.json",
-  "startedAt": "2026-06-02T19:28:19.376Z",
+  "startedAt": "2026-06-04T21:48:30.279Z",
   "status": 200,
   "effectiveUrl": "https://vercel.com/kb/guide/agent-readability-spec",
   "contentType": "text/html; charset=utf-8",
-  "bodyBytes": 693234,
+  "bodyBytes": 734393,
   "savedBytes": 250000,
   "truncated": true,
   "responseHeaders": [
     {
       "name": "age",
-      "value": "203"
+      "value": "814"
     },
     {
       "name": "cache-control",
@@ -35,7 +35,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:24:56 GMT"
+      "value": "Thu, 04 Jun 2026 21:34:55 GMT"
     },
     {
       "name": "feature-policy",
@@ -43,7 +43,7 @@
     },
     {
       "name": "link",
-      "value": "</vc-ap-vercel-docs/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </vc-ap-vercel-docs/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", <//images.ctfassets.net/hjgychtc108g/56icfY9ZMviClWx3QeVvmL/23454000beaf3f7c56bf7fd06d9fb044/Timothy_Jordan-crop1-2mb-bw-128px.jpg>; rel=preload; as=\"image\", </vc-ap-vercel-docs/_next/static/immutable/media/vercel-light.23p4dw77xj4pk.svg>; rel=preload; as=\"image\", </vc-ap-vercel-docs/_next/static/immutable/media/vercel-dark.05qiau0oi3y6n.svg>; rel=preload; as=\"image\""
+      "value": "</vc-ap-vercel-docs/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </vc-ap-vercel-docs/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", <//images.ctfassets. ... [truncated]"
     },
     {
       "name": "referrer-policy",
@@ -91,7 +91,7 @@
     },
     {
       "name": "x-matched-path",
-      "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f79_v7-_g.Rt0RR446KJJOGCQ1-bH8BjhTMggsbefhvYjO6CdmOtQ/kb/guide/agent-readability-spec"
+      "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f3-_f7-_v4.xdVn_B-WvoPTpOi6BD7iGP-LDjuOFA-C4kEK6dGaZek/kb/guide/agent-readability-spec"
     },
     {
       "name": "x-nextjs-prerender",
@@ -111,21 +111,21 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::iad1::whqlz-1780428499585-03ff4a7f7735"
+      "value": "cle1::iad1::kwqxd-1780609710452-1969bf455024"
     },
     {
       "name": "x-xss-protection",
       "value": "0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 318.122,
+  "durationMs": 283.839,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output agent-readability-spec.sample.html.txt --write-out '<curl-metadata>' https://vercel.com/kb/guide/agent-readability-spec"

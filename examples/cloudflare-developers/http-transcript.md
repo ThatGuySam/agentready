@@ -1,6 +1,6 @@
 # Cloudflare Developers HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -19,7 +19,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:01 GMT
+date: Thu, 04 Jun 2026 21:48:13 GMT
 content-type: text/plain
 cf-cache-status: HIT
 access-control-allow-origin: *
@@ -34,7 +34,7 @@ report-to: [redacted]
 etag: W/"6a8d893cad3560c1aeef4d7ec0cbcd8c"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dbd89b5b6d2b-MCI
+cf-ray: a06a23f59ee51214-DFW
 alt-svc: h3=":443"; ma=86400
 ```
 
@@ -62,7 +62,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:01 GMT
+date: Thu, 04 Jun 2026 21:48:13 GMT
 content-type: application/xml
 cf-cache-status: HIT
 access-control-allow-origin: *
@@ -74,10 +74,10 @@ vary: accept-encoding
 set-cookie: [redacted]
 content-security-policy: form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]
 report-to: [redacted]
-etag: W/"9f8a1bc2564119c3700dd0f2dbaafaf4"
+etag: W/"e5ca2c074a50e33a7ba7bb594c0c120f"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dbd948aa98a6-MCI
+cf-ray: a06a23f75a867dce-DFW
 alt-svc: h3=":443"; ma=86400
 ```
 
@@ -105,7 +105,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:01 GMT
+date: Thu, 04 Jun 2026 21:48:13 GMT
 content-type: text/plain
 cf-cache-status: HIT
 access-control-allow-origin: *
@@ -120,7 +120,7 @@ report-to: [redacted]
 etag: W/"9cc286089043fa56d09f4b5444119f79"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dbd9eeadd83b-DFW
+cf-ray: a06a23f82db6ae15-MCI
 alt-svc: h3=":443"; ma=86400
 ```
 
@@ -148,9 +148,9 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:01 GMT
+date: Thu, 04 Jun 2026 21:48:13 GMT
 content-type: text/markdown; charset=utf-8
-content-length: 49807586
+content-length: 50005369
 strict-transport-security: max-age=15552000; preload
 x-content-type-options: nosniff
 speculation-rules: "/cdn-cgi/speculation"
@@ -159,14 +159,14 @@ set-cookie: [redacted]
 content-security-policy: form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflare ... [truncated]
 report-to: [redacted]
 server: cloudflare
-cf-ray: a058dbdadd5dd30e-MCI
+cf-ray: a06a23f8a941d306-MCI
 alt-svc: h3=":443"; ma=86400
 ```
 
 - Status: 200
 - Effective URL: https://developers.cloudflare.com/llms-full.txt
 - Content-Type: text/markdown; charset=utf-8
-- Body bytes: 49807586
+- Body bytes: 50005369
 - Saved body: llms-full.sample.txt
 - Truncated: yes
 
@@ -187,7 +187,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:06 GMT
+date: Thu, 04 Jun 2026 21:48:18 GMT
 content-type: application/json; charset=utf-8
 cf-cache-status: HIT
 access-control-allow-origin: *
@@ -202,7 +202,7 @@ report-to: [redacted]
 etag: W/"bf31596755081e10201ce5d70e5c6373"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dbfa2d4c804b-DFW
+cf-ray: a06a2417eb85e135-MCI
 alt-svc: h3=":443"; ma=86400
 ```
 
@@ -231,22 +231,22 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:07 GMT
+date: Thu, 04 Jun 2026 21:48:18 GMT
 content-type: text/markdown; charset=utf-8
-content-length: 14535
+content-length: 14330
 vary: accept
-x-markdown-tokens: 3626
+x-markdown-tokens: 3575
 content-signal: ai-train=yes, search=yes, ai-input=yes
-x-original-tokens: 60428
+x-original-tokens: 61331
 cache-control: public, max-age=0, must-revalidate
 server: cloudflare
-cf-ray: a058dbfb5bb82e76-DFW
+cf-ray: a06a24188b0f6d82-DFW
 ```
 
 - Status: 200
 - Effective URL: https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/
 - Content-Type: text/markdown; charset=utf-8
-- Body bytes: 14535
+- Body bytes: 14330
 - Saved body: markdown-for-agents.md.txt
 - Truncated: no
 - Notes: Uses content negotiation to request Markdown instead of HTML.

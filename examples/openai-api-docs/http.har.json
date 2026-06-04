@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "openai-api-docs",
         "title": "OpenAI API Docs",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "openai-api-docs",
-        "startedDateTime": "2026-06-02T19:28:19.900Z",
-        "time": 337.874,
+        "startedDateTime": "2026-06-04T21:48:30.801Z",
+        "time": 286.854,
         "request": {
           "method": "GET",
           "url": "https://developers.openai.com/api/docs/robots.txt",
@@ -35,7 +35,7 @@
         },
         "response": {
           "status": 404,
-          "statusText": "HTTP/2 404 ",
+          "statusText": "HTTP/2 404",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -44,7 +44,7 @@
             },
             {
               "name": "age",
-              "value": "69"
+              "value": "9858"
             },
             {
               "name": "cache-control",
@@ -64,15 +64,15 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:31 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"b6f34823a57f4d60bf22bbdda35cd49c\""
+              "value": "W/\"9b3e4f8cf37fb91f3a6b7d19d8557f15\""
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:20:37 GMT"
+              "value": "Thu, 04 Jun 2026 18:56:26 GMT"
             },
             {
               "name": "server",
@@ -88,30 +88,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::qpsg5-1780428500094-fd3d42ac46ae"
+              "value": "cle1::lvf72-1780609710989-eaafccdc5bc3"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 365424,
+            "size": 366579,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://developers.openai.com/api/docs/robots.txt",
           "headersSize": -1,
-          "bodySize": 365424
+          "bodySize": 366579
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 337.874,
+          "wait": 286.854,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"
       },
       {
         "pageref": "openai-api-docs",
-        "startedDateTime": "2026-06-02T19:28:20.253Z",
-        "time": 164.19400000000002,
+        "startedDateTime": "2026-06-04T21:48:31.101Z",
+        "time": 204.999,
         "request": {
           "method": "GET",
           "url": "https://developers.openai.com/api/docs/sitemap.xml",
@@ -129,7 +129,7 @@
         },
         "response": {
           "status": 404,
-          "statusText": "HTTP/2 404 ",
+          "statusText": "HTTP/2 404",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -138,7 +138,7 @@
             },
             {
               "name": "age",
-              "value": "191"
+              "value": "9852"
             },
             {
               "name": "cache-control",
@@ -158,15 +158,15 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:31 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"b6f34823a57f4d60bf22bbdda35cd49c\""
+              "value": "W/\"9b3e4f8cf37fb91f3a6b7d19d8557f15\""
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:20:37 GMT"
+              "value": "Thu, 04 Jun 2026 18:56:26 GMT"
             },
             {
               "name": "server",
@@ -182,30 +182,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::lzs5j-1780428500378-a23e6cc2c96a"
+              "value": "cle1::6bj9v-1780609711272-b4355855e20c"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 365424,
+            "size": 366579,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://developers.openai.com/api/docs/sitemap.xml",
           "headersSize": -1,
-          "bodySize": 365424
+          "bodySize": 366579
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 164.19400000000002,
+          "wait": 204.999,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"
       },
       {
         "pageref": "openai-api-docs",
-        "startedDateTime": "2026-06-02T19:28:20.432Z",
-        "time": 327.199,
+        "startedDateTime": "2026-06-04T21:48:31.316Z",
+        "time": 274.748,
         "request": {
           "method": "GET",
           "url": "https://developers.openai.com/api/docs/llms.txt",
@@ -223,7 +223,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -232,7 +232,7 @@
             },
             {
               "name": "age",
-              "value": "424"
+              "value": "7281"
             },
             {
               "name": "cache-control",
@@ -252,15 +252,15 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:31 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"fa3aa584575385a0b1834521f1f035c6\""
+              "value": "W/\"ec93fc632a8399237760dc8244251919\""
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:21:16 GMT"
+              "value": "Thu, 04 Jun 2026 19:47:10 GMT"
             },
             {
               "name": "server",
@@ -276,30 +276,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::tnblw-1780428500646-1715a6dc539d"
+              "value": "cle1::ndp7w-1780609711491-a1b17feb1604"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 27802,
+            "size": 28182,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://developers.openai.com/api/docs/llms.txt",
           "headersSize": -1,
-          "bodySize": 27802
+          "bodySize": 28182
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 327.199,
+          "wait": 274.748,
           "receive": 0
         },
         "comment": "Saved body to llms.txt"
       },
       {
         "pageref": "openai-api-docs",
-        "startedDateTime": "2026-06-02T19:28:20.776Z",
-        "time": 292.891,
+        "startedDateTime": "2026-06-04T21:48:31.603Z",
+        "time": 293.25600000000003,
         "request": {
           "method": "GET",
           "url": "https://developers.openai.com/api/docs/llms-full.txt",
@@ -317,7 +317,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -326,7 +326,7 @@
             },
             {
               "name": "age",
-              "value": "424"
+              "value": "3173"
             },
             {
               "name": "cache-control",
@@ -346,15 +346,15 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:31 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"4c8c44947771d33088f78b5b01495de3\""
+              "value": "W/\"7eae46cc52372315c26b22e0ffb38036\""
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:21:16 GMT"
+              "value": "Thu, 04 Jun 2026 20:55:38 GMT"
             },
             {
               "name": "server",
@@ -370,22 +370,22 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::49bxt-1780428500900-af4438933c71"
+              "value": "cle1::l9whh-1780609711786-d5a5697eaeb4"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 1980357,
+            "size": 1995890,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://developers.openai.com/api/docs/llms-full.txt",
           "headersSize": -1,
-          "bodySize": 1980357
+          "bodySize": 1995890
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 292.891,
+          "wait": 293.25600000000003,
           "receive": 0
         },
         "comment": "Saved body to llms-full.sample.txt"

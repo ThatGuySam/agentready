@@ -1,4 +1,4 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: openai.com
 
 $ dig +short openai.com A
@@ -12,8 +12,8 @@ $ dig +short openai.com CNAME
 # no records returned
 
 $ dig +short openai.com HTTPS
-104.18.33.45
 172.64.154.211
+104.18.33.45
 
 $ dig +short openai.com TXT
 "mgverify=22d53df776e7e9198e72a000c4056f5ba1624b8f2a50e3d0f4925fcea15bb5d4"

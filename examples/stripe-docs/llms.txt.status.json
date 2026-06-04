@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:22.943Z",
+  "startedAt": "2026-06-04T21:48:33.367Z",
   "status": 200,
   "effectiveUrl": "https://docs.stripe.com/llms.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -19,7 +19,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:33 GMT"
     },
     {
       "name": "content-type",
@@ -47,7 +47,7 @@
     },
     {
       "name": "reporting-endpoints",
-      "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW\", wsp_coep=\"https://q.stripe.com/coep-report?s=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW\", csp=\"https://q.stripe.com/csp-report-v2?q=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW&t=1\""
+      "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3-1EWWre9NaprVrQ5i-WTt1_LEHffymUN99i\", wsp_coep=\"https://q.stripe.com/coep-report?s=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3-1EWWre9NaprVrQ5i-WTt1_LEHffymUN99i\", csp=\"https://q.stripe.com/csp-report-v2?q=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3- ... [truncated]"
     },
     {
       "name": "set-cookie",
@@ -67,7 +67,7 @@
     },
     {
       "name": "x-content-timestamp",
-      "value": "2026-06-02T19:28:23Z"
+      "value": "2026-06-04T21:48:33Z"
     },
     {
       "name": "x-location",
@@ -83,7 +83,7 @@
     },
     {
       "name": "x-stripe-server-rpc-duration-micros",
-      "value": "25292"
+      "value": "25820"
     },
     {
       "name": "x-wc",
@@ -98,14 +98,14 @@
       "value": "gzip"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 392.923,
+  "durationMs": 387.911,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.stripe.com/llms.txt"

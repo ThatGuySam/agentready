@@ -1,6 +1,6 @@
 # Supabase Docs
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 **Homepage:** [https://supabase.com/docs](https://supabase.com/docs)
 
@@ -12,6 +12,7 @@ Non-AI developer-platform contrast with crawl and sitemap basics but no checked 
 
 - [metadata.json](./metadata.json) - full machine-readable capture metadata.
 - [dns.txt](./dns.txt) and [dns.json](./dns.json) - DNS records for `supabase.com`.
+- [http-evidence.md](./http-evidence.md) - summary-first GitHub-readable HTTP evidence.
 - [http-transcript.md](./http-transcript.md) - readable curl-style request/response evidence.
 - [http.har.json](./http.har.json) - HAR-style request/response metadata.
 

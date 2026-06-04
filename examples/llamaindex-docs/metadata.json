@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "llamaindex-docs",
     "name": "LlamaIndex Docs",
@@ -33,8 +33,8 @@
       "type": "A",
       "values": [
         "899a0c08fff30508.vercel-dns-016.com.",
-        "216.150.16.193",
-        "216.150.1.193"
+        "216.150.16.129",
+        "216.150.1.129"
       ]
     },
     {
@@ -53,8 +53,8 @@
       "type": "HTTPS",
       "values": [
         "899a0c08fff30508.vercel-dns-016.com.",
-        "216.150.16.193",
-        "216.150.1.193"
+        "216.150.16.129",
+        "216.150.1.129"
       ]
     },
     {
@@ -72,7 +72,7 @@
       "output": "robots.txt",
       "outputFile": null,
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:42.335Z",
+      "startedAt": "2026-06-04T21:48:48.569Z",
       "status": 200,
       "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
       "contentType": "text/html; charset=utf-8",
@@ -86,7 +86,7 @@
         },
         {
           "name": "age",
-          "value": "14353"
+          "value": "12132"
         },
         {
           "name": "cache-control",
@@ -106,7 +106,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:42 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:49 GMT"
         },
         {
           "name": "etag",
@@ -114,7 +114,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+          "value": "Thu, 04 Jun 2026 18:26:36 GMT"
         },
         {
           "name": "server",
@@ -130,17 +130,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::g95cc-1780428522687-b12a7bcaf794"
+          "value": "cle1::wdq2g-1780609729005-0f59b76c0e3a"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 371.719,
+      "durationMs": 450.55600000000004,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.llamaindex.ai/robots.txt"
@@ -152,7 +152,7 @@
       "output": "sitemap.xml",
       "outputFile": null,
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:42.731Z",
+      "startedAt": "2026-06-04T21:48:49.035Z",
       "status": 200,
       "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
       "contentType": "text/html; charset=utf-8",
@@ -166,7 +166,7 @@
         },
         {
           "name": "age",
-          "value": "14353"
+          "value": "12133"
         },
         {
           "name": "cache-control",
@@ -186,7 +186,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:49 GMT"
         },
         {
           "name": "etag",
@@ -194,7 +194,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+          "value": "Thu, 04 Jun 2026 18:26:36 GMT"
         },
         {
           "name": "server",
@@ -210,17 +210,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::gsn4v-1780428523014-bb8692cbaa4b"
+          "value": "cle1::mjljv-1780609729475-0569e9db2c79"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 350.04200000000003,
+      "durationMs": 459.475,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.llamaindex.ai/sitemap.xml"
@@ -232,7 +232,7 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:43.106Z",
+      "startedAt": "2026-06-04T21:48:49.519Z",
       "status": 200,
       "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
       "contentType": "text/html; charset=utf-8",
@@ -246,7 +246,7 @@
         },
         {
           "name": "age",
-          "value": "14354"
+          "value": "12133"
         },
         {
           "name": "cache-control",
@@ -266,7 +266,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:49 GMT"
         },
         {
           "name": "etag",
@@ -274,7 +274,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+          "value": "Thu, 04 Jun 2026 18:26:36 GMT"
         },
         {
           "name": "server",
@@ -290,17 +290,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::qv864-1780428523388-08c397cea93b"
+          "value": "cle1::8v9bq-1780609729891-857f1d01f0e2"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 308.567,
+      "durationMs": 439.921,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.llamaindex.ai/llms.txt"

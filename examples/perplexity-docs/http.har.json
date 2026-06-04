@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "perplexity-docs",
         "title": "Perplexity Docs",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "perplexity-docs",
-        "startedDateTime": "2026-06-02T19:28:07.274Z",
-        "time": 378.668,
+        "startedDateTime": "2026-06-04T21:48:18.896Z",
+        "time": 638.039,
         "request": {
           "method": "GET",
           "url": "https://docs.perplexity.ai/robots.txt",
@@ -35,7 +35,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -48,7 +48,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dbfeccaf612b-CMH"
+              "value": "a06a241c0ed2d945-CMH"
             },
             {
               "name": "content-encoding",
@@ -64,11 +64,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:19 GMT"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:19 GMT"
             },
             {
               "name": "server",
@@ -96,7 +96,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:cle1:iad1::iad1::7zwxv-1780428487466-b61176927ac3"
+              "value": "cle1:cle1:iad1::iad1::wkv24-1780609699170-3c192d393bb9"
             }
           ],
           "cookies": [],
@@ -111,15 +111,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 378.668,
+          "wait": 638.039,
           "receive": 0
         },
         "comment": "Saved body to robots.txt"
       },
       {
         "pageref": "perplexity-docs",
-        "startedDateTime": "2026-06-02T19:28:07.669Z",
-        "time": 374.367,
+        "startedDateTime": "2026-06-04T21:48:19.548Z",
+        "time": 414.845,
         "request": {
           "method": "GET",
           "url": "https://docs.perplexity.ai/sitemap.xml",
@@ -137,7 +137,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -150,7 +150,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc010998612b-CMH"
+              "value": "a06a241f8ea8984a-CMH"
             },
             {
               "name": "content-encoding",
@@ -166,11 +166,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:19 GMT"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:19 GMT"
             },
             {
               "name": "server",
@@ -198,7 +198,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:cle1:iad1::iad1::6vknr-1780428487811-da8e1200ba80"
+              "value": "cle1:cle1:iad1::iad1::zl2dl-1780609699724-e9b326ada3b0"
             }
           ],
           "cookies": [],
@@ -213,15 +213,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 374.367,
+          "wait": 414.845,
           "receive": 0
         },
         "comment": "Saved body to sitemap.xml"
       },
       {
         "pageref": "perplexity-docs",
-        "startedDateTime": "2026-06-02T19:28:08.067Z",
-        "time": 397.703,
+        "startedDateTime": "2026-06-04T21:48:19.979Z",
+        "time": 606.034,
         "request": {
           "method": "GET",
           "url": "https://docs.perplexity.ai/llms.txt",
@@ -239,7 +239,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -252,7 +252,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc03cb8a1cc4-CMH"
+              "value": "a06a2422ac833401-CMH"
             },
             {
               "name": "content-encoding",
@@ -268,11 +268,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:20 GMT"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:20 GMT"
             },
             {
               "name": "server",
@@ -300,7 +300,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:cle1:iad1::iad1::tnblw-1780428488256-7444432fc971"
+              "value": "cle1:cle1:iad1::iad1::n2cb7-1780609700230-1bb0830edc0b"
             }
           ],
           "cookies": [],
@@ -315,15 +315,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 397.703,
+          "wait": 606.034,
           "receive": 0
         },
         "comment": "Saved body to llms.txt"
       },
       {
         "pageref": "perplexity-docs",
-        "startedDateTime": "2026-06-02T19:28:08.491Z",
-        "time": 401.072,
+        "startedDateTime": "2026-06-04T21:48:20.596Z",
+        "time": 400.345,
         "request": {
           "method": "GET",
           "url": "https://docs.perplexity.ai/llms-full.txt",
@@ -341,12 +341,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "5258"
+              "value": "13644"
             },
             {
               "name": "cache-control",
@@ -358,7 +358,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc068e9b99fe-CMH"
+              "value": "a06a24261e7cc20a-CMH"
             },
             {
               "name": "content-encoding",
@@ -374,11 +374,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:20 GMT"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 18:02:01 GMT"
+              "value": "Thu, 04 Jun 2026 19:14:17 GMT"
             },
             {
               "name": "server",
@@ -406,30 +406,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:fra1:iad1::iad1::rb7mx-1780428488709-6a887803fa2c"
+              "value": "cle1:iad1:iad1::iad1::q6jr4-1780609700789-9c99197590db"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 1495820,
+            "size": 1495113,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://docs.perplexity.ai/llms-full.txt",
           "headersSize": -1,
-          "bodySize": 1495820
+          "bodySize": 1495113
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 401.072,
+          "wait": 400.345,
           "receive": 0
         },
         "comment": "Saved body to llms-full.sample.txt"
       },
       {
         "pageref": "perplexity-docs",
-        "startedDateTime": "2026-06-02T19:28:08.926Z",
-        "time": 257.892,
+        "startedDateTime": "2026-06-04T21:48:21.010Z",
+        "time": 309.28,
         "request": {
           "method": "GET",
           "url": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
@@ -447,12 +447,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "8394"
+              "value": "263"
             },
             {
               "name": "cache-control",
@@ -464,7 +464,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc093f382780-CMH"
+              "value": "a06a24292e96984a-CMH"
             },
             {
               "name": "content-encoding",
@@ -480,11 +480,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:21 GMT"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 17:08:14 GMT"
+              "value": "Thu, 04 Jun 2026 21:43:57 GMT"
             },
             {
               "name": "server",
@@ -512,30 +512,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:cle1:iad1::iad1::wf478-1780428489112-054dc97a96a7"
+              "value": "cle1:cle1:iad1::iad1::q6jzq-1780609701278-3d0cb30aca60"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 600,
+            "size": 560,
             "mimeType": "application/json"
           },
           "redirectURL": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
           "headersSize": -1,
-          "bodySize": 600
+          "bodySize": 560
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 257.892,
+          "wait": 309.28,
           "receive": 0
         },
         "comment": "Saved body to .well-known/agent-skills/index.json"
       },
       {
         "pageref": "perplexity-docs",
-        "startedDateTime": "2026-06-02T19:28:09.204Z",
-        "time": 202.44500000000002,
+        "startedDateTime": "2026-06-04T21:48:21.331Z",
+        "time": 315.22,
         "request": {
           "method": "GET",
           "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
@@ -553,12 +553,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "5062"
+              "value": "12879"
             },
             {
               "name": "cache-control",
@@ -570,7 +570,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc0a69af2780-CMH"
+              "value": "a06a242a8da2f43c-CMH"
             },
             {
               "name": "content-encoding",
@@ -586,7 +586,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:21 GMT"
             },
             {
               "name": "expires",
@@ -594,11 +594,11 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 18:41:22 GMT"
+              "value": "Thu, 04 Jun 2026 19:32:50 GMT"
             },
             {
               "name": "link",
-              "value": "</llms.txt>; rel=\"llms-txt\", </llms-full.txt>; rel=\"llms-full-txt\", </.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </.well-known/agent-card.json>; rel=\"agent-card\", </.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\", </mintlify-assets/_next/static/chunks/9ffc684b9a12d113.css?dpl=dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA>; rel=preload; as=\"style\", </mintlify-assets/_next/static/chunks/b652b64e1051c665.css?dpl=dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA>; rel=preload; as=\"style\", </mintlify-assets/_next/static/chunks/d260340e1c30c06e.css?dpl=dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA>; rel=preload; as=\"style\""
+              "value": "</llms.txt>; rel=\"llms-txt\", </llms-full.txt>; rel=\"llms-full-txt\", </.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </.well-known/agent-card.json>; rel=\"agent-card\", </.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\", </.well-known/agent-sk ... [truncated]"
             },
             {
               "name": "pragma",
@@ -634,11 +634,11 @@
             },
             {
               "name": "x-mintlify-client-version",
-              "value": "0.0.2998"
+              "value": "0.0.3020"
             },
             {
               "name": "x-served-version",
-              "value": "dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA"
+              "value": "dpl_7exBNnC3CGWkHjTFkbtXvy4UWkHf"
             },
             {
               "name": "x-vercel-cache",
@@ -646,7 +646,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:iad1::iad1::hxqrf-1780428489325-f401b354c8c4"
+              "value": "cle1:iad1::iad1::f9t4l-1780609701507-06fb6ebdf71d"
             },
             {
               "name": "x-vercel-project-id",
@@ -654,22 +654,22 @@
             },
             {
               "name": "x-version",
-              "value": "dpl_J3jZeLg2uNQRsEocBbwjJLxTDqJA"
+              "value": "dpl_7exBNnC3CGWkHjTFkbtXvy4UWkHf"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 519151,
+            "size": 524139,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
           "headersSize": -1,
-          "bodySize": 519151
+          "bodySize": 524139
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 202.44500000000002,
+          "wait": 315.22,
           "receive": 0
         },
         "comment": "Saved body to perplexity-crawlers.sample.html.txt"

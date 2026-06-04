@@ -5,17 +5,17 @@
   "output": "llms-full.sample.txt",
   "outputFile": "llms-full.sample.txt",
   "statusFile": "llms-full.sample.txt.status.json",
-  "startedAt": "2026-06-02T19:28:11.116Z",
+  "startedAt": "2026-06-04T21:48:23.099Z",
   "status": 200,
   "effectiveUrl": "https://modelcontextprotocol.io/llms-full.txt",
   "contentType": "text/plain; charset=utf-8",
-  "bodyBytes": 1891695,
+  "bodyBytes": 1900265,
   "savedBytes": 249296,
   "truncated": true,
   "responseHeaders": [
     {
       "name": "age",
-      "value": "7434"
+      "value": "15239"
     },
     {
       "name": "cache-control",
@@ -27,7 +27,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc170d28b36e-CMH"
+      "value": "a06a24365f570bf5-CMH"
     },
     {
       "name": "content-encoding",
@@ -43,11 +43,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:23 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 18:19:09 GMT"
+      "value": "Thu, 04 Jun 2026 17:43:07 GMT"
     },
     {
       "name": "server",
@@ -75,17 +75,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:sfo1:iad1::iad1::jn7kn-1780428491331-e54dbc363b57"
+      "value": "cle1:syd1:iad1::iad1::qlv9j-1780609703361-c52c8bab45ab"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 557.0619999999999,
+  "durationMs": 504.41700000000003,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/llms-full.txt"

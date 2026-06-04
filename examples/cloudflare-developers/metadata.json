@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "cloudflare-developers",
     "name": "Cloudflare Developers",
@@ -102,7 +102,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:01.236Z",
+      "startedAt": "2026-06-04T21:48:12.959Z",
       "status": 200,
       "effectiveUrl": "https://developers.cloudflare.com/robots.txt",
       "contentType": "text/plain",
@@ -112,7 +112,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:13 GMT"
         },
         {
           "name": "content-type",
@@ -172,21 +172,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dbd89b5b6d2b-MCI"
+          "value": "a06a23f59ee51214-DFW"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 148.65,
+      "durationMs": 119.242,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/robots.txt"
@@ -198,7 +198,7 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:01.400Z",
+      "startedAt": "2026-06-04T21:48:13.100Z",
       "status": 200,
       "effectiveUrl": "https://developers.cloudflare.com/sitemap-index.xml",
       "contentType": "application/xml",
@@ -208,7 +208,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:13 GMT"
         },
         {
           "name": "content-type",
@@ -256,7 +256,7 @@
         },
         {
           "name": "etag",
-          "value": "W/\"9f8a1bc2564119c3700dd0f2dbaafaf4\""
+          "value": "W/\"e5ca2c074a50e33a7ba7bb594c0c120f\""
         },
         {
           "name": "content-encoding",
@@ -268,21 +268,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dbd948aa98a6-MCI"
+          "value": "a06a23f75a867dce-DFW"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 96.94500000000001,
+      "durationMs": 270.903,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.cloudflare.com/sitemap.xml"
@@ -294,7 +294,7 @@
       "output": "llms.txt",
       "outputFile": "llms.txt",
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:01.511Z",
+      "startedAt": "2026-06-04T21:48:13.389Z",
       "status": 200,
       "effectiveUrl": "https://developers.cloudflare.com/llms.txt",
       "contentType": "text/plain",
@@ -304,7 +304,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:13 GMT"
         },
         {
           "name": "content-type",
@@ -364,21 +364,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dbd9eeadd83b-DFW"
+          "value": "a06a23f82db6ae15-MCI"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 146.07899999999998,
+      "durationMs": 67.735,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/llms.txt"
@@ -390,17 +390,17 @@
       "output": "llms-full.sample.txt",
       "outputFile": "llms-full.sample.txt",
       "statusFile": "llms-full.sample.txt.status.json",
-      "startedAt": "2026-06-02T19:28:01.672Z",
+      "startedAt": "2026-06-04T21:48:13.472Z",
       "status": 200,
       "effectiveUrl": "https://developers.cloudflare.com/llms-full.txt",
       "contentType": "text/markdown; charset=utf-8",
-      "bodyBytes": 49807586,
+      "bodyBytes": 50005369,
       "savedBytes": 249533,
       "truncated": true,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:13 GMT"
         },
         {
           "name": "content-type",
@@ -408,7 +408,7 @@
         },
         {
           "name": "content-length",
-          "value": "49807586"
+          "value": "50005369"
         },
         {
           "name": "strict-transport-security",
@@ -444,21 +444,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dbdadd5dd30e-MCI"
+          "value": "a06a23f8a941d306-MCI"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 4987.578,
+      "durationMs": 4908.38,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/llms-full.txt"
@@ -470,7 +470,7 @@
       "output": ".well-known/agent-skills/index.json",
       "outputFile": ".well-known/agent-skills/index.json",
       "statusFile": ".well-known/agent-skills/index.json.status.json",
-      "startedAt": "2026-06-02T19:28:06.688Z",
+      "startedAt": "2026-06-04T21:48:18.410Z",
       "status": 200,
       "effectiveUrl": "https://developers.cloudflare.com/.well-known/agent-skills/index.json",
       "contentType": "application/json; charset=utf-8",
@@ -480,7 +480,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:06 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:18 GMT"
         },
         {
           "name": "content-type",
@@ -540,21 +540,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dbfa2d4c804b-DFW"
+          "value": "a06a2417eb85e135-MCI"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 75.957,
+      "durationMs": 123.80099999999999,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://developers.cloudflare.com/.well-known/agent-skills/index.json"
@@ -566,17 +566,17 @@
       "output": "markdown-for-agents.md.txt",
       "outputFile": "markdown-for-agents.md.txt",
       "statusFile": "markdown-for-agents.md.txt.status.json",
-      "startedAt": "2026-06-02T19:28:06.775Z",
+      "startedAt": "2026-06-04T21:48:18.553Z",
       "status": 200,
       "effectiveUrl": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
       "contentType": "text/markdown; charset=utf-8",
-      "bodyBytes": 14535,
-      "savedBytes": 14530,
+      "bodyBytes": 14330,
+      "savedBytes": 14325,
       "truncated": false,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:18 GMT"
         },
         {
           "name": "content-type",
@@ -584,7 +584,7 @@
         },
         {
           "name": "content-length",
-          "value": "14535"
+          "value": "14330"
         },
         {
           "name": "vary",
@@ -592,7 +592,7 @@
         },
         {
           "name": "x-markdown-tokens",
-          "value": "3626"
+          "value": "3575"
         },
         {
           "name": "content-signal",
@@ -600,7 +600,7 @@
         },
         {
           "name": "x-original-tokens",
-          "value": "60428"
+          "value": "61331"
         },
         {
           "name": "cache-control",
@@ -612,10 +612,10 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dbfb5bb82e76-DFW"
+          "value": "a06a24188b0f6d82-DFW"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
@@ -626,7 +626,7 @@
           "value": "text/markdown"
         }
       ],
-      "durationMs": 318.207,
+      "durationMs": 127.47,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output markdown-for-agents.md.txt --write-out '<curl-metadata>' --header 'Accept: text/markdown' https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",

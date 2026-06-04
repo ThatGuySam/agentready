@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:41.216Z",
+  "startedAt": "2026-06-04T21:48:47.391Z",
   "status": 200,
   "effectiveUrl": "https://supabase.com/docs/robots.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -23,7 +23,7 @@
     },
     {
       "name": "age",
-      "value": "8402"
+      "value": "250"
     },
     {
       "name": "cache-control",
@@ -39,7 +39,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:47 GMT"
     },
     {
       "name": "etag",
@@ -47,7 +47,7 @@
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 17:08:39 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:37 GMT"
     },
     {
       "name": "server",
@@ -79,21 +79,21 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:cle1::cflf9-1780428521388-fdfb6a6ed5ae"
+      "value": "cle1:cle1:cle1::ch8nv-1780609727574-3b5ef198f10b"
     },
     {
       "name": "content-length",
       "value": "125"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 281.77299999999997,
+  "durationMs": 228.806,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://supabase.com/docs/robots.txt"

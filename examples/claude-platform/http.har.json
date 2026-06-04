@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "claude-platform",
         "title": "Claude Platform",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "claude-platform",
-        "startedDateTime": "2026-06-02T19:28:12.229Z",
-        "time": 277.553,
+        "startedDateTime": "2026-06-04T21:48:24.274Z",
+        "time": 154.993,
         "request": {
           "method": "GET",
           "url": "https://platform.claude.com/robots.txt",
@@ -35,12 +35,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:24 GMT"
             },
             {
               "name": "content-type",
@@ -84,7 +84,7 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:24 GMT"
             },
             {
               "name": "cf-cache-status",
@@ -100,7 +100,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc1d7a766b2a-DFW"
+              "value": "a06a243c8bea166b-MCI"
             }
           ],
           "cookies": [],
@@ -115,15 +115,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 277.553,
+          "wait": 154.993,
           "receive": 0
         },
         "comment": "Saved body to robots.txt"
       },
       {
         "pageref": "claude-platform",
-        "startedDateTime": "2026-06-02T19:28:12.532Z",
-        "time": 208.959,
+        "startedDateTime": "2026-06-04T21:48:24.487Z",
+        "time": 288.834,
         "request": {
           "method": "GET",
           "url": "https://platform.claude.com/sitemap.xml",
@@ -141,12 +141,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:24 GMT"
             },
             {
               "name": "content-type",
@@ -190,7 +190,7 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:24 GMT"
             },
             {
               "name": "cf-cache-status",
@@ -206,7 +206,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc1ecbf850ec-MCI"
+              "value": "a06a243da98658c5-DFW"
             }
           ],
           "cookies": [],
@@ -221,15 +221,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 208.959,
+          "wait": 288.834,
           "receive": 0
         },
         "comment": "Saved body to sitemap.xml"
       },
       {
         "pageref": "claude-platform",
-        "startedDateTime": "2026-06-02T19:28:12.766Z",
-        "time": 267.041,
+        "startedDateTime": "2026-06-04T21:48:24.798Z",
+        "time": 197.297,
         "request": {
           "method": "GET",
           "url": "https://platform.claude.com/llms.txt",
@@ -247,12 +247,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:25 GMT"
             },
             {
               "name": "content-type",
@@ -284,15 +284,15 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 18:51:29 GMT"
+              "value": "Thu, 04 Jun 2026 17:23:49 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"29177-19e89ad2f68\""
+              "value": "W/\"29177-19e93a9a488\""
             },
             {
               "name": "x-cloud-trace-context",
-              "value": "8c293663f5878d7a84e398fcc5d67d62"
+              "value": "db637fded905fbbfef51516d8d17c4d7"
             },
             {
               "name": "server",
@@ -316,7 +316,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc20bc59b31e-DFW"
+              "value": "a06a243f8f534787-DFW"
             }
           ],
           "cookies": [],
@@ -331,15 +331,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 267.041,
+          "wait": 197.297,
           "receive": 0
         },
         "comment": "Saved body to llms.txt"
       },
       {
         "pageref": "claude-platform",
-        "startedDateTime": "2026-06-02T19:28:13.059Z",
-        "time": 3314.632,
+        "startedDateTime": "2026-06-04T21:48:25.009Z",
+        "time": 2953.274,
         "request": {
           "method": "GET",
           "url": "https://platform.claude.com/llms-full.txt",
@@ -357,12 +357,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:25 GMT"
             },
             {
               "name": "content-type",
@@ -406,11 +406,11 @@
             },
             {
               "name": "age",
-              "value": "2014"
+              "value": "392"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:18:50 GMT"
+              "value": "Thu, 04 Jun 2026 21:44:01 GMT"
             },
             {
               "name": "cf-cache-status",
@@ -426,22 +426,22 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc229ee66a1e-MCI"
+              "value": "a06a2440ea4143ae-MCI"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 71523030,
+            "size": 71562833,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://platform.claude.com/llms-full.txt",
           "headersSize": -1,
-          "bodySize": 71523030
+          "bodySize": 71562833
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 3314.632,
+          "wait": 2953.274,
           "receive": 0
         },
         "comment": "Saved body to llms-full.sample.txt"

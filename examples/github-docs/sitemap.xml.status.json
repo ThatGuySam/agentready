@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": null,
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:21.478Z",
+  "startedAt": "2026-06-04T21:48:32.246Z",
   "status": 404,
   "effectiveUrl": "https://docs.github.com/sitemap.xml",
   "contentType": "text/html; charset=utf-8",
@@ -75,7 +75,7 @@
     },
     {
       "name": "x-github-request-id",
-      "value": "EE0E:5762:4C5F4DC:50CAA3B:6A1F2C45"
+      "value": "7516:A553:168A1C2:185A5C9:6A21F198"
     },
     {
       "name": "content-encoding",
@@ -87,11 +87,11 @@
     },
     {
       "name": "age",
-      "value": "656"
+      "value": "263"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:32 GMT"
     },
     {
       "name": "via",
@@ -99,7 +99,7 @@
     },
     {
       "name": "x-served-by",
-      "value": "cache-dfw-kdal2120110-DFW"
+      "value": "cache-dfw-kdal2120112-DFW"
     },
     {
       "name": "x-cache",
@@ -111,7 +111,7 @@
     },
     {
       "name": "x-timer",
-      "value": "S1780428502.646858,VS0,VE2"
+      "value": "S1780609712.333500,VS0,VE2"
     },
     {
       "name": "vary",
@@ -126,14 +126,14 @@
       "value": "316"
     }
   ],
-  "responseStatusLine": "HTTP/2 404 ",
+  "responseStatusLine": "HTTP/2 404",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 159.761,
+  "durationMs": 65.17699999999999,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.github.com/sitemap.xml"

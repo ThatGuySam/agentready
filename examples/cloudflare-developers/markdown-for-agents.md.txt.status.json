@@ -5,17 +5,17 @@
   "output": "markdown-for-agents.md.txt",
   "outputFile": "markdown-for-agents.md.txt",
   "statusFile": "markdown-for-agents.md.txt.status.json",
-  "startedAt": "2026-06-02T19:28:06.775Z",
+  "startedAt": "2026-06-04T21:48:18.553Z",
   "status": 200,
   "effectiveUrl": "https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",
   "contentType": "text/markdown; charset=utf-8",
-  "bodyBytes": 14535,
-  "savedBytes": 14530,
+  "bodyBytes": 14330,
+  "savedBytes": 14325,
   "truncated": false,
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:18 GMT"
     },
     {
       "name": "content-type",
@@ -23,7 +23,7 @@
     },
     {
       "name": "content-length",
-      "value": "14535"
+      "value": "14330"
     },
     {
       "name": "vary",
@@ -31,7 +31,7 @@
     },
     {
       "name": "x-markdown-tokens",
-      "value": "3626"
+      "value": "3575"
     },
     {
       "name": "content-signal",
@@ -39,7 +39,7 @@
     },
     {
       "name": "x-original-tokens",
-      "value": "60428"
+      "value": "61331"
     },
     {
       "name": "cache-control",
@@ -51,10 +51,10 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbfb5bb82e76-DFW"
+      "value": "a06a24188b0f6d82-DFW"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
@@ -65,7 +65,7 @@
       "value": "text/markdown"
     }
   ],
-  "durationMs": 318.207,
+  "durationMs": 127.47,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output markdown-for-agents.md.txt --write-out '<curl-metadata>' --header 'Accept: text/markdown' https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/",

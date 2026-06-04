@@ -1,6 +1,6 @@
 # LlamaIndex Docs HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -20,18 +20,18 @@ Response:
 ```http
 HTTP/2 200
 access-control-allow-origin: *
-age: 14353
+age: 12132
 cache-control: public, max-age=0, must-revalidate
 content-disposition: inline; filename="framework"
 content-encoding: gzip
 content-type: text/html; charset=utf-8
-date: Tue, 02 Jun 2026 19:28:42 GMT
+date: Thu, 04 Jun 2026 21:48:49 GMT
 etag: W/"3e264cf130175dbd3c23f1bc4bbe58b1"
-last-modified: Tue, 02 Jun 2026 15:29:29 GMT
+last-modified: Thu, 04 Jun 2026 18:26:36 GMT
 server: Vercel
 strict-transport-security: max-age=63072000
 x-vercel-cache: HIT
-x-vercel-id: cle1::g95cc-1780428522687-b12a7bcaf794
+x-vercel-id: cle1::wdq2g-1780609729005-0f59b76c0e3a
 ```
 
 - Status: 200
@@ -59,18 +59,18 @@ Response:
 ```http
 HTTP/2 200
 access-control-allow-origin: *
-age: 14353
+age: 12133
 cache-control: public, max-age=0, must-revalidate
 content-disposition: inline; filename="framework"
 content-encoding: gzip
 content-type: text/html; charset=utf-8
-date: Tue, 02 Jun 2026 19:28:43 GMT
+date: Thu, 04 Jun 2026 21:48:49 GMT
 etag: W/"3e264cf130175dbd3c23f1bc4bbe58b1"
-last-modified: Tue, 02 Jun 2026 15:29:29 GMT
+last-modified: Thu, 04 Jun 2026 18:26:36 GMT
 server: Vercel
 strict-transport-security: max-age=63072000
 x-vercel-cache: HIT
-x-vercel-id: cle1::gsn4v-1780428523014-bb8692cbaa4b
+x-vercel-id: cle1::mjljv-1780609729475-0569e9db2c79
 ```
 
 - Status: 200
@@ -98,18 +98,18 @@ Response:
 ```http
 HTTP/2 200
 access-control-allow-origin: *
-age: 14354
+age: 12133
 cache-control: public, max-age=0, must-revalidate
 content-disposition: inline; filename="framework"
 content-encoding: gzip
 content-type: text/html; charset=utf-8
-date: Tue, 02 Jun 2026 19:28:43 GMT
+date: Thu, 04 Jun 2026 21:48:49 GMT
 etag: W/"3e264cf130175dbd3c23f1bc4bbe58b1"
-last-modified: Tue, 02 Jun 2026 15:29:29 GMT
+last-modified: Thu, 04 Jun 2026 18:26:36 GMT
 server: Vercel
 strict-transport-security: max-age=63072000
 x-vercel-cache: HIT
-x-vercel-id: cle1::qv864-1780428523388-08c397cea93b
+x-vercel-id: cle1::8v9bq-1780609729891-857f1d01f0e2
 ```
 
 - Status: 200

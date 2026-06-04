@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "perplexity-root",
     "name": "Perplexity Root",
@@ -32,15 +32,15 @@
     {
       "type": "A",
       "values": [
-        "104.18.26.48",
-        "104.18.27.48"
+        "104.18.27.48",
+        "104.18.26.48"
       ]
     },
     {
       "type": "AAAA",
       "values": [
-        "2606:4700::6812:1a30",
-        "2606:4700::6812:1b30"
+        "2606:4700::6812:1b30",
+        "2606:4700::6812:1a30"
       ]
     },
     {
@@ -50,8 +50,8 @@
     {
       "type": "HTTPS",
       "values": [
-        "104.18.26.48",
-        "104.18.27.48"
+        "104.18.27.48",
+        "104.18.26.48"
       ]
     },
     {
@@ -67,7 +67,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:40.805Z",
+      "startedAt": "2026-06-04T21:48:46.357Z",
       "status": 200,
       "effectiveUrl": "https://www.perplexity.ai/robots.txt",
       "contentType": "text/plain; charset=utf-8",
@@ -77,7 +77,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:40 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:46 GMT"
         },
         {
           "name": "content-type",
@@ -140,20 +140,20 @@
           "value": "[redacted]"
         },
         {
-          "name": "age",
-          "value": "538"
-        },
-        {
-          "name": "expires",
-          "value": "Tue, 02 Jun 2026 19:33:40 GMT"
+          "name": "set-cookie",
+          "value": "[redacted]"
         },
         {
           "name": "cache-control",
           "value": "public, max-age=300"
         },
         {
+          "name": "expires",
+          "value": "Thu, 04 Jun 2026 21:53:46 GMT"
+        },
+        {
           "name": "cf-cache-status",
-          "value": "HIT"
+          "value": "REVALIDATED"
         },
         {
           "name": "content-encoding",
@@ -165,17 +165,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dccf58d14dfd-MCI"
+          "value": "a06a24c66a176bad-DFW"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 43.519000000000005,
+      "durationMs": 511.246,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.perplexity.ai/robots.txt"
@@ -187,7 +187,7 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:40.860Z",
+      "startedAt": "2026-06-04T21:48:46.882Z",
       "status": 200,
       "effectiveUrl": "https://www.perplexity.ai/sitemap.xml",
       "contentType": "application/xml",
@@ -197,7 +197,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:46 GMT"
         },
         {
           "name": "content-type",
@@ -265,11 +265,11 @@
         },
         {
           "name": "age",
-          "value": "569"
+          "value": "138"
         },
         {
           "name": "expires",
-          "value": "Tue, 02 Jun 2026 19:33:41 GMT"
+          "value": "Thu, 04 Jun 2026 21:53:46 GMT"
         },
         {
           "name": "cf-cache-status",
@@ -285,17 +285,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dcd04a968c32-MCI"
+          "value": "a06a24c99ba46a1f-MCI"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 131.144,
+      "durationMs": 72.707,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.perplexity.ai/sitemap.xml"
@@ -307,7 +307,7 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:41.004Z",
+      "startedAt": "2026-06-04T21:48:46.965Z",
       "status": 403,
       "effectiveUrl": "https://www.perplexity.ai/llms.txt",
       "contentType": "text/html; charset=UTF-8",
@@ -317,7 +317,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:47 GMT"
         },
         {
           "name": "content-type",
@@ -333,7 +333,7 @@
         },
         {
           "name": "content-security-policy",
-          "value": "default-src 'none'; script-src 'nonce-J6vJhOiOgiq7UhySc40TuI' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blo ... [truncated]"
+          "value": "default-src 'none'; script-src 'nonce-iRCvwt2mW7IvRj49vm3iEe' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blo ... [truncated]"
         },
         {
           "name": "server",
@@ -361,7 +361,7 @@
         },
         {
           "name": "permissions-policy",
-          "value": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)"
+          "value": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
         },
         {
           "name": "referrer-policy",
@@ -369,7 +369,7 @@
         },
         {
           "name": "server-timing",
-          "value": "chlray;desc=\"a058dcd09d1bcbed\""
+          "value": "chlray;desc=\"a06a24ca09b9806e\""
         },
         {
           "name": "x-content-type-options",
@@ -393,17 +393,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dcd09d1bcbed-MCI"
+          "value": "a06a24ca09b9806e-DFW"
         }
       ],
-      "responseStatusLine": "HTTP/2 403 ",
+      "responseStatusLine": "HTTP/2 403",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 45.058,
+      "durationMs": 78.754,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://www.perplexity.ai/llms.txt"

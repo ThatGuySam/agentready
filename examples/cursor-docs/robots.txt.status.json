@@ -5,11 +5,11 @@
   "output": "robots.txt",
   "outputFile": null,
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:43.720Z",
+  "startedAt": "2026-06-04T21:48:50.226Z",
   "status": 200,
   "effectiveUrl": "https://cursor.com/docs",
   "contentType": "text/html; charset=utf-8",
-  "bodyBytes": 125556,
+  "bodyBytes": 126376,
   "savedBytes": 0,
   "truncated": false,
   "responseHeaders": [
@@ -19,7 +19,7 @@
     },
     {
       "name": "age",
-      "value": "328909"
+      "value": "3936"
     },
     {
       "name": "cache-control",
@@ -39,11 +39,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:50 GMT"
     },
     {
       "name": "etag",
-      "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+      "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
     },
     {
       "name": "server",
@@ -83,17 +83,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::7dgfg-1780428524024-2bbc7374ce95"
+      "value": "cle1::cx9sn-1780609730666-66dd8093831f"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 406.923,
+  "durationMs": 595.518,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.cursor.com/robots.txt"

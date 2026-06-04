@@ -1,9 +1,9 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: vercel.com
 
 $ dig +short vercel.com A
-198.169.1.129
 198.169.1.193
+198.169.2.65
 
 $ dig +short vercel.com AAAA
 # no records returned
@@ -13,7 +13,7 @@ $ dig +short vercel.com CNAME
 
 $ dig +short vercel.com HTTPS
 198.169.1.65
-198.169.2.129
+198.169.1.1
 
 $ dig +short vercel.com TXT
 "google-site-verification=J9NjkBE_oybWpa-OHAkV0VjSjIvIBMfp83tdsQCzxK8"

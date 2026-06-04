@@ -5,7 +5,7 @@
   "output": "llms-full.sample.txt",
   "outputFile": "llms-full.sample.txt",
   "statusFile": "llms-full.sample.txt.status.json",
-  "startedAt": "2026-06-02T19:28:26.623Z",
+  "startedAt": "2026-06-04T21:48:39.337Z",
   "status": 200,
   "effectiveUrl": "https://www.cloudflare.com/llms-full.txt",
   "contentType": "text/plain",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:27 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:39 GMT"
     },
     {
       "name": "content-type",
@@ -23,7 +23,7 @@
     },
     {
       "name": "link",
-      "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin"
+      "value": "</.well-known/agents.json>; rel=\"api-catalog\", </.well-known/webmcp.json>; rel=\"service-desc\", </openapi.json>; rel=\"service-desc\", </llms.txt>; rel=\"service-doc\", </sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]"
     },
     {
       "name": "cf-cache-status",
@@ -107,21 +107,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc76ebc6467e-DFW"
+      "value": "a06a249adb164867-DFW"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 790.453,
+  "durationMs": 431.438,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://www.cloudflare.com/llms-full.txt"

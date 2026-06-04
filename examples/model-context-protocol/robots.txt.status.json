@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:09.733Z",
+  "startedAt": "2026-06-04T21:48:21.835Z",
   "status": 200,
   "effectiveUrl": "https://modelcontextprotocol.io/robots.txt",
   "contentType": "text/plain",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc0dcdaef3c9-CMH"
+      "value": "a06a242db8688cc1-CMH"
     },
     {
       "name": "content-encoding",
@@ -39,11 +39,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:22 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:22 GMT"
     },
     {
       "name": "server",
@@ -71,17 +71,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:iad1::iad1::qxvl7-1780428489859-39bdcf5d1948"
+      "value": "cle1:cle1:iad1::iad1::czfnd-1780609702005-97a59adcd3df"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 338.66200000000003,
+  "durationMs": 362.19,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/robots.txt"

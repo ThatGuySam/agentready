@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:07.669Z",
+  "startedAt": "2026-06-04T21:48:19.548Z",
   "status": 200,
   "effectiveUrl": "https://docs.perplexity.ai/sitemap.xml",
   "contentType": "text/xml",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc010998612b-CMH"
+      "value": "a06a241f8ea8984a-CMH"
     },
     {
       "name": "content-encoding",
@@ -39,11 +39,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:19 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:19 GMT"
     },
     {
       "name": "server",
@@ -71,17 +71,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:iad1::iad1::6vknr-1780428487811-da8e1200ba80"
+      "value": "cle1:cle1:iad1::iad1::zl2dl-1780609699724-e9b326ada3b0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 374.367,
+  "durationMs": 414.845,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.perplexity.ai/sitemap.xml"

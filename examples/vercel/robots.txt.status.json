@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:16.674Z",
+  "startedAt": "2026-06-04T21:48:28.275Z",
   "status": 200,
   "effectiveUrl": "https://vercel.com/docs/robots.md",
   "contentType": "text/markdown; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "age",
-      "value": "0"
+      "value": "263"
     },
     {
       "name": "cache-control",
@@ -35,7 +35,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:17 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:05 GMT"
     },
     {
       "name": "feature-policy",
@@ -91,25 +91,25 @@
     },
     {
       "name": "x-vercel-cache",
-      "value": "MISS"
+      "value": "HIT"
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::iad1::p7vf5-1780428496902-1db002142cdf"
+      "value": "cle1::iad1::kwqxd-1780609708697-8c2694bb79f7"
     },
     {
       "name": "x-xss-protection",
       "value": "0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 1334.81,
+  "durationMs": 683.9730000000001,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://vercel.com/docs/robots.txt"

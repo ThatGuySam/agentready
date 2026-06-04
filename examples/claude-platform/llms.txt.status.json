@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:12.766Z",
+  "startedAt": "2026-06-04T21:48:24.798Z",
   "status": 200,
   "effectiveUrl": "https://platform.claude.com/llms.txt",
   "contentType": "text/plain; charset=UTF-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:25 GMT"
     },
     {
       "name": "content-type",
@@ -47,15 +47,15 @@
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 18:51:29 GMT"
+      "value": "Thu, 04 Jun 2026 17:23:49 GMT"
     },
     {
       "name": "etag",
-      "value": "W/\"29177-19e89ad2f68\""
+      "value": "W/\"29177-19e93a9a488\""
     },
     {
       "name": "x-cloud-trace-context",
-      "value": "8c293663f5878d7a84e398fcc5d67d62"
+      "value": "db637fded905fbbfef51516d8d17c4d7"
     },
     {
       "name": "server",
@@ -79,17 +79,17 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc20bc59b31e-DFW"
+      "value": "a06a243f8f534787-DFW"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 267.041,
+  "durationMs": 197.297,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://platform.claude.com/llms.txt"

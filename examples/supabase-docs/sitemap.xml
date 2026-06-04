@@ -221,6 +221,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://supabase.com/docs/guides/api/handling-errors-in-supabase-js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://supabase.com/docs/guides/api/quickstart</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -416,36 +421,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/database-migrations</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/going-into-prod</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/managing-environments</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/maturity-model</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/shared-responsibility-model</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://supabase.com/docs/guides/database/arrays</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -602,6 +577,36 @@
   </url>
   <url>
     <loc>https://supabase.com/docs/guides/database/webhooks</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/database-migrations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/going-into-prod</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/managing-environments</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/maturity-model</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/shared-responsibility-model</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -792,6 +797,11 @@
   </url>
   <url>
     <loc>https://supabase.com/docs/guides/getting-started/features</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/getting-started/migrating-to-new-api-keys</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1436,12 +1446,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/guides/auth/enterprise-sso/auth-sso-saml</loc>
+    <loc>https://supabase.com/docs/guides/auth/debugging/error-codes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/guides/auth/debugging/error-codes</loc>
+    <loc>https://supabase.com/docs/guides/auth/enterprise-sso/auth-sso-saml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1637,36 +1647,6 @@
   </url>
   <url>
     <loc>https://supabase.com/docs/guides/auth/third-party/workos</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching/configuration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching/dashboard</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching/github-integration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching/integrations</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching/troubleshooting</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/guides/deployment/branching/working-with-branches</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1927,6 +1907,36 @@
   </url>
   <url>
     <loc>https://supabase.com/docs/guides/database/replication/manual-replication-setup</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching/configuration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching/dashboard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching/github-integration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching/integrations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching/troubleshooting</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/guides/deployment/branching/working-with-branches</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3975,12 +3985,67 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/select</loc>
+    <loc>https://supabase.com/docs/reference/javascript/delete</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/from</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/geojson</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://supabase.com/docs/reference/javascript/insert</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/maxaffected</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/retry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/returns</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/rollback</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/rpc</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/schema</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/select</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/setheader</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/throwonerror</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3995,132 +4060,142 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/delete</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/rpc</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://supabase.com/docs/reference/javascript/using-filters</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/eq</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-containedby</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/neq</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-contains</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/gt</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-eq</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/gte</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-filter</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/lt</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-gt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/lte</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-gte</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/like</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-ilike</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/ilike</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-ilikeallof</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/is</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-ilikeanyof</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/in</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-in</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/contains</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-is</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/containedby</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-like</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/rangegt</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-likeallof</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/rangegte</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-likeanyof</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/rangelt</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-lt</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/rangelte</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-lte</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/rangeadjacent</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-match</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/overlaps</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-neq</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/textsearch</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-not</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/match</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-or</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/not</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-overlaps</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/or</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-rangeadjacent</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/filter</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-rangegt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-rangegte</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-rangelt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-rangelte</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/using-filters-textsearch</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4130,77 +4205,107 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/db-modifiers-select</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-abortsignal</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/order</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-csv</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/limit</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-explain</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/range</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-limit</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/db-abortsignal</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-maybesingle</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/single</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-order</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/maybesingle</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-overridetypes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/db-csv</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-range</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/db-strip-nulls</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-returns</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/db-returns</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-select</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/db-overrideTypes</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-single</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/explain</loc>
+    <loc>https://supabase.com/docs/reference/javascript/using-modifiers-stripnulls</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/undefined</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-api</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-dispose</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-signup</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-exchangecodeforsession</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-getclaims</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-getsession</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-getuser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-getuseridentities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-initialize</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-linkidentity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4210,12 +4315,37 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-signinanonymously</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-reauthenticate</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-signinwithpassword</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-refreshsession</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-registerpasskey</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-resend</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-resetpasswordforemail</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-setsession</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-signinanonymously</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4225,12 +4355,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-signinwithoauth</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://supabase.com/docs/reference/javascript/auth-signinwithotp</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-signinwithoauth</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-signinwithpasskey</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-signinwithpassword</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4245,87 +4385,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-signinwithpasskey</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-registerpasskey</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-getclaims</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://supabase.com/docs/reference/javascript/auth-signout</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-resetpasswordforemail</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-verifyotp</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-getsession</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-refreshsession</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-getuser</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-updateuser</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-getuseridentities</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-linkidentity</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-unlinkidentity</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-reauthentication</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-resend</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-setsession</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-exchangecodeforsession</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-signup</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4340,17 +4405,102 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-initialize</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-unlinkidentity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-api</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-updateuser</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-enroll</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-verifyotp</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-createprovider</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-createuser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-deletefactor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-deleteprovider</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-deleteuser</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-generatelink</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-getprovider</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-getuserbyid</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-inviteuserbyemail</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-listfactors</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-listproviders</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-listusers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-signout</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-updateprovider</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-admin-updateuserbyid</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-mfa</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4360,17 +4510,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-verify</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://supabase.com/docs/reference/javascript/auth-mfa-challengeandverify</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-unenroll</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-enroll</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4387,17 +4532,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-api</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-unenroll</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-list</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-mfa-verify</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-update</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-passkey</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4407,12 +4552,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-startregistration</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-verifyregistration</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-list</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4422,146 +4562,102 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-startregistration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-update</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://supabase.com/docs/reference/javascript/auth-passkey-verifyauthentication</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-server</loc>
+    <loc>https://supabase.com/docs/reference/javascript/auth-passkey-verifyregistration</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc
-    >https://supabase.com/docs/reference/javascript/auth-admin-oauth-getauthorizationdetails</loc
-    >
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-approveauthorization</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin-createclient</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-denyauthorization</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin-deleteclient</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-listgrants</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin-getclient</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-revokegrant</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin-listclients</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/admin-api</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin-regenerateclientsecret</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-getuserbyid</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-admin-updateclient</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-listusers</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-server</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-createuser</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-server-approveauthorization</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-deleteuser</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-server-denyauthorization</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-inviteuserbyemail</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-server-getauthorizationdetails</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-generatelink</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-server-listgrants</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-updateuserbyid</loc>
+    <loc>https://supabase.com/docs/reference/javascript/oauth-server-revokegrant</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-signout</loc>
+    <loc>https://supabase.com/docs/reference/javascript/passkey-admin</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-mfa-deletefactor</loc>
+    <loc>https://supabase.com/docs/reference/javascript/passkey-admin-deletepasskey</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-mfa-listfactors-admin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-passkey-api</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-passkey-listpasskeys</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-passkey-deletepasskey</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-admin</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-listclients</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-getclient</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-createclient</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-updateclient</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/auth-admin-oauth-deleteclient</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc
-    >https://supabase.com/docs/reference/javascript/auth-admin-oauth-regenerateclientsecret</loc
-    >
+    <loc>https://supabase.com/docs/reference/javascript/passkey-admin-listpasskeys</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4571,12 +4667,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/functions-invoke</loc>
+    <loc>https://supabase.com/docs/reference/javascript/functions-corsheaders</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/functions-cors-headers</loc>
+    <loc>https://supabase.com/docs/reference/javascript/functions-invoke</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4591,17 +4687,27 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/subscribe</loc>
+    <loc>https://supabase.com/docs/reference/javascript/channel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/removechannel</loc>
+    <loc>https://supabase.com/docs/reference/javascript/connect</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/removeallchannels</loc>
+    <loc>https://supabase.com/docs/reference/javascript/connectionstate</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/disconnect</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/endpointurl</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4611,12 +4717,112 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/broadcastmessage</loc>
+    <loc>https://supabase.com/docs/reference/javascript/getwebsocketconstructor</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/realtime-setauth</loc>
+    <loc>https://supabase.com/docs/reference/javascript/httpsend</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/isconnected</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/isconnecting</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/isdisconnecting</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/iswebsocketsupported</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/log</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/on</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/onheartbeat</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/presencestate</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/push</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/removeallchannels</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/removechannel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/send</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/sendheartbeat</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/setauth</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/subscribe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/teardown</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/track</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/unsubscribe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/untrack</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/updatejoinpayload</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4626,147 +4832,142 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/file-buckets</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storageclient-from</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-listbuckets</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-getbucket</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-createbucket</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-emptybucket</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-updatebucket</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-deletebucket</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-upload</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-update</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-move</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-copy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-createsignedurl</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-createsignedurls</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-createsigneduploadurl</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-uploadtosignedurl</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-getpublicurl</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-download</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-remove</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-list</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-exists</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-info</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-listv2</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://supabase.com/docs/reference/javascript/storage-from-tobase64</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://supabase.com/docs/reference/javascript/analytics-buckets</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storageanalytics-from</loc>
+    <loc>https://supabase.com/docs/reference/javascript/analytics-buckets-createbucket</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storageanalytics-createbucket</loc>
+    <loc>https://supabase.com/docs/reference/javascript/analytics-buckets-deletebucket</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storageanalytics-listbuckets</loc>
+    <loc>https://supabase.com/docs/reference/javascript/analytics-buckets-from</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storageanalytics-deletebucket</loc>
+    <loc>https://supabase.com/docs/reference/javascript/analytics-buckets-listbuckets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-copy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-createbucket</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-createsigneduploadurl</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-createsignedurl</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-createsignedurls</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-deletebucket</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-download</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-emptybucket</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-exists</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-from</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-getbucket</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-getpublicurl</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-info</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-list</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-listbuckets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-listv2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-move</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-remove</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-update</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-updatebucket</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-upload</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/javascript/file-buckets-uploadtosignedurl</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4776,77 +4977,77 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storagevectors-from</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-createbucket</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storagevectors-createbucket</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-createindex</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storagevectors-deletebucket</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-deletebucket</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storagevectors-getbucket</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-deleteindex</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/storagevectors-listbuckets</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-deletevectors</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorbucket-createindex</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-from</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorbucket-deleteindex</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-getbucket</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorbucket-getindex</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-getindex</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorbucket-listindexes</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-getvectors</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorbucket-index</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-index</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorindex-deletevectors</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-listbuckets</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorindex-getvectors</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-listindexes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorindex-listvectors</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-listvectors</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorindex-putvectors</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-putvectors</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://supabase.com/docs/reference/javascript/vectorindex-queryvectors</loc>
+    <loc>https://supabase.com/docs/reference/javascript/vector-buckets-queryvectors</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -10876,6 +11077,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://supabase.com/docs/reference/api/v2-create-log-drain</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/api/v2-delete-log-drain</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://supabase.com/docs/reference/api/v1-get-project-function-combined-stats</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -10892,6 +11103,16 @@
   </url>
   <url>
     <loc>https://supabase.com/docs/reference/api/v1-get-project-usage-request-count</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/api/v2-list-log-drains</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/api/v2-update-log-drain</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -11566,7 +11787,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://supabase.com/docs/reference/api/v2-preview-a-project-transfer</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://supabase.com/docs/reference/api/v1-restore-a-project</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://supabase.com/docs/reference/api/v2-transfer-a-project</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

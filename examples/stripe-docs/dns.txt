@@ -1,9 +1,9 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: docs.stripe.com
 
 $ dig +short docs.stripe.com A
-198.137.150.41
-198.202.176.41
+198.137.150.231
+198.202.176.231
 
 $ dig +short docs.stripe.com AAAA
 # no records returned
@@ -12,8 +12,8 @@ $ dig +short docs.stripe.com CNAME
 # no records returned
 
 $ dig +short docs.stripe.com HTTPS
-198.202.176.111
-198.137.150.111
+198.202.176.41
+198.137.150.41
 
 $ dig +short docs.stripe.com TXT
 # no records returned

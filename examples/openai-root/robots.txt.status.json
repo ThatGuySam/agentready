@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:31.110Z",
+  "startedAt": "2026-06-04T21:48:43.981Z",
   "status": 200,
   "effectiveUrl": "https://openai.com/robots.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:44 GMT"
     },
     {
       "name": "content-type",
@@ -28,10 +28,6 @@
     {
       "name": "access-control-allow-origin",
       "value": "*"
-    },
-    {
-      "name": "age",
-      "value": "42363"
     },
     {
       "name": "cache-control",
@@ -47,7 +43,7 @@
     },
     {
       "name": "last-modified",
-      "value": "Wed, 22 Apr 2026 19:15:09 GMT"
+      "value": "Wed, 22 Apr 2026 19:00:07 GMT"
     },
     {
       "name": "server",
@@ -67,7 +63,11 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::78tk9-1776885309302-a017cf21df6c"
+      "value": "iad1::z42gb-1776885309304-5ed933b2da82"
+    },
+    {
+      "name": "age",
+      "value": "47803"
     },
     {
       "name": "cf-cache-status",
@@ -91,21 +91,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc93deca6c50-DFW"
+      "value": "a06a24b76e6dfa09-MCI"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 216.337,
+  "durationMs": 63.406000000000006,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://openai.com/robots.txt"

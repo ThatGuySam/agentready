@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "google-developers",
     "name": "Google Developers",
@@ -32,21 +32,21 @@
     {
       "type": "A",
       "values": [
-        "173.194.208.139",
-        "173.194.208.138",
-        "173.194.208.113",
-        "173.194.208.100",
-        "173.194.208.102",
-        "173.194.208.101"
+        "142.250.100.100",
+        "142.250.100.138",
+        "142.250.100.113",
+        "142.250.100.139",
+        "142.250.100.101",
+        "142.250.100.102"
       ]
     },
     {
       "type": "AAAA",
       "values": [
-        "2607:f8b0:4023:1004::8a",
-        "2607:f8b0:4023:1004::65",
-        "2607:f8b0:4023:1004::64",
-        "2607:f8b0:4023:1004::66"
+        "2607:f8b0:4023:3801::66",
+        "2607:f8b0:4023:3801::64",
+        "2607:f8b0:4023:3801::71",
+        "2607:f8b0:4023:3801::8b"
       ]
     },
     {
@@ -56,12 +56,12 @@
     {
       "type": "HTTPS",
       "values": [
-        "173.194.208.102",
-        "173.194.208.139",
-        "173.194.208.100",
-        "173.194.208.138",
-        "173.194.208.113",
-        "173.194.208.101"
+        "142.251.186.113",
+        "142.251.186.139",
+        "142.251.186.100",
+        "142.251.186.102",
+        "142.251.186.138",
+        "142.251.186.101"
       ]
     },
     {
@@ -79,7 +79,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:27.674Z",
+      "startedAt": "2026-06-04T21:48:40.116Z",
       "status": 200,
       "effectiveUrl": "https://developers.google.com/robots.txt",
       "contentType": "text/plain",
@@ -105,7 +105,7 @@
         },
         {
           "name": "content-security-policy",
-          "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-V1+MwY/VjmieCgdVHrOcZODkIF6ZsL' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+          "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-/Jl09DOTJrlC/FvoQn/MNWzfR4nkG7' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
         },
         {
           "name": "strict-transport-security",
@@ -137,11 +137,11 @@
         },
         {
           "name": "x-cloud-trace-context",
-          "value": "4f6b936a0797a96208d4b6368d9265eb"
+          "value": "2439095bd8488f3dbfdc0df8108ebe22"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:40 GMT"
         },
         {
           "name": "server",
@@ -156,14 +156,14 @@
           "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 391.807,
+      "durationMs": 211.477,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://developers.google.com/robots.txt"
@@ -175,7 +175,7 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:28.081Z",
+      "startedAt": "2026-06-04T21:48:40.345Z",
       "status": 200,
       "effectiveUrl": "https://developers.google.com/sitemap.xml",
       "contentType": "application/xml",
@@ -197,7 +197,7 @@
         },
         {
           "name": "content-security-policy",
-          "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9oJNQM1ix0Ux+pt56x10gdefc64RpY' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+          "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-nPxNwune6UQRzL2gJiK7Q/bdaweLVi' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
         },
         {
           "name": "strict-transport-security",
@@ -229,11 +229,11 @@
         },
         {
           "name": "x-cloud-trace-context",
-          "value": "c5d279f904a28b1bd763925ba4acbc8a"
+          "value": "f6b2b7e3218ccc60e59da341f581c1f8"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:41 GMT"
         },
         {
           "name": "server",
@@ -241,21 +241,21 @@
         },
         {
           "name": "content-length",
-          "value": "488"
+          "value": "510"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 671.049,
+      "durationMs": 1075.283,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.google.com/sitemap.xml"
@@ -267,11 +267,11 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:28.777Z",
+      "startedAt": "2026-06-04T21:48:41.433Z",
       "status": 404,
       "effectiveUrl": "https://developers.google.com/llms.txt",
       "contentType": "text/html; charset=utf-8",
-      "bodyBytes": 45736,
+      "bodyBytes": 45740,
       "savedBytes": 0,
       "truncated": false,
       "responseHeaders": [
@@ -289,7 +289,7 @@
         },
         {
           "name": "content-security-policy",
-          "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-G86ZyyQu6h4aYFf+Os3OxUCvWWAfE+' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+          "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-r7b/g8dBpwqVCc7z+dn3m1yZg/lFLS' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
         },
         {
           "name": "strict-transport-security",
@@ -321,11 +321,11 @@
         },
         {
           "name": "x-cloud-trace-context",
-          "value": "71a74dc119d4c8e5e04ebf31e79eb16e"
+          "value": "baf5ce0d79745959e1d8eb85929f1af4"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:29 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:41 GMT"
         },
         {
           "name": "server",
@@ -333,21 +333,21 @@
         },
         {
           "name": "content-length",
-          "value": "10279"
+          "value": "10274"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
         }
       ],
-      "responseStatusLine": "HTTP/2 404 ",
+      "responseStatusLine": "HTTP/2 404",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 333.478,
+      "durationMs": 441.291,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.google.com/llms.txt"

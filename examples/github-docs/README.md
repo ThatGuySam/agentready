@@ -1,6 +1,6 @@
 # GitHub Docs
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 **Homepage:** [https://docs.github.com/](https://docs.github.com/)
 
@@ -12,6 +12,7 @@ Docs fixture with llms.txt and API-shaped article body access.
 
 - [metadata.json](./metadata.json) - full machine-readable capture metadata.
 - [dns.txt](./dns.txt) and [dns.json](./dns.json) - DNS records for `docs.github.com`.
+- [http-evidence.md](./http-evidence.md) - summary-first GitHub-readable HTTP evidence.
 - [http-transcript.md](./http-transcript.md) - readable curl-style request/response evidence.
 - [http.har.json](./http.har.json) - HAR-style request/response metadata.
 

@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "anthropic-root",
     "name": "Anthropic Root",
@@ -64,7 +64,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:31.806Z",
+      "startedAt": "2026-06-04T21:48:44.515Z",
       "status": 200,
       "effectiveUrl": "https://www.anthropic.com/robots.txt",
       "contentType": "text/plain",
@@ -74,7 +74,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:33 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:45 GMT"
         },
         {
           "name": "content-type",
@@ -82,11 +82,11 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc973d20d1a1-MCI"
+          "value": "a06a24baab9ef05f-DFW"
         },
         {
           "name": "cf-cache-status",
-          "value": "MISS"
+          "value": "BYPASS"
         },
         {
           "name": "cache-control",
@@ -94,7 +94,7 @@
         },
         {
           "name": "expires",
-          "value": "Tue, 02 Jun 2026 23:28:33 GMT"
+          "value": "Fri, 05 Jun 2026 01:48:45 GMT"
         },
         {
           "name": "server",
@@ -145,14 +145,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 2057.2439999999997,
+      "durationMs": 1066.945,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.anthropic.com/robots.txt"
@@ -164,17 +164,17 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:33.881Z",
+      "startedAt": "2026-06-04T21:48:45.631Z",
       "status": 200,
       "effectiveUrl": "https://www.anthropic.com/sitemap.xml",
       "contentType": "application/xml",
-      "bodyBytes": 57483,
-      "savedBytes": 57483,
+      "bodyBytes": 57746,
+      "savedBytes": 57746,
       "truncated": false,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:36 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:45 GMT"
         },
         {
           "name": "content-type",
@@ -190,7 +190,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dca43d9fd316-MCI"
+          "value": "a06a24c25e4ad18b-MCI"
         },
         {
           "name": "cf-cache-status",
@@ -245,14 +245,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 2552.323,
+      "durationMs": 236.147,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.anthropic.com/sitemap.xml"
@@ -264,7 +264,7 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:36.457Z",
+      "startedAt": "2026-06-04T21:48:45.888Z",
       "status": 404,
       "effectiveUrl": "https://www.anthropic.com/llms.txt",
       "contentType": "text/html; charset=utf-8",
@@ -274,7 +274,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:40 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:46 GMT"
         },
         {
           "name": "content-type",
@@ -290,7 +290,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dcb45cda4de2-MCI"
+          "value": "a06a24c34aa7e135-MCI"
         },
         {
           "name": "cf-cache-status",
@@ -302,7 +302,7 @@
         },
         {
           "name": "link",
-          "value": "</_next/static/media/AnthropicMono_Italic_Web-s.p.0a6clcalc57jy.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicMono_Roman_Web-s.p.0dvv1q62z~ge1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSans_Italic_Web-s.p.0nrgm.g8~ach1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSans_Roman_Web-s.p.0g0iw7wqvowb5.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSerif_Italic_Web-s.p.0gh_wrgthn62t.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/AnthropicSerif_Roman_Web-s.p.0974051x8mlf0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/Copernicus_Book-s.p.05o-np3qymnod.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/Copernicus_Medium-s.p.0sy5~fr0eyl7z.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/JetBrainsMono_VF-s.p.16iwkfzw7limt.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/ttf\", </_next/static/media/StyreneA_MediumItalic_Web-s.p.06znirukso.x8.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneA_Medium_Web-s.p.0nn3owxanef3s.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneA_RegularItalic_Web-s.p.0h2r1lbzpvtde.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneA_Regular_Web-s.p.142iitxco7zvn.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneB_Medium_Web-s.p.09njtiix1t5ud.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/StyreneB_Regular_Web-s.p.0judbpsl6eyx2.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_Medium-s.p.0~u0~bacwkeeb.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_MediumItalic-s.p.0ijezcyebrwsd.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_Regular-s.p.0w24c-~q~094g.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/media/TiemposText_RegularItalic-s.p.0rf70lcidbxth.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\"; type=\"font/woff2\", </_next/static/chunks/0h8~h_w93qxyd.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/0kh_997_his9r.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/0on1-qkvntmfn.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/14eac.lv283qe.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/0khy9w-k3.nof.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\", </_next/static/chunks/01godr8u6mf._.css>; rel=preload; as=\"style\"; nonce=\"ODhlZmY4YzItNTMxOC00NDgzLWI5NmUtMjYwNmM2NmFmMjY0\""
+          "value": "</_next/static/media/AnthropicMono_Italic_Web-s.p.0a6clcalc57jy.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"M2VhYjU0YjItOWI1ZS00NzEwLWE1OTUtODg0MmM2NDk1OWEy\"; type=\"font/woff2\", </_next/static/media/AnthropicMono_Roman_Web-s.p.0dvv1q62z~ge1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"M2VhYjU0YjItO ... [truncated]"
         },
         {
           "name": "server",
@@ -330,7 +330,7 @@
         },
         {
           "name": "x-cloud-trace-context",
-          "value": "51971a1cb35e5855100a5958ff7085b9"
+          "value": "f373e08517844801fff6924047631200"
         },
         {
           "name": "x-content-type-options",
@@ -349,14 +349,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 404 ",
+      "responseStatusLine": "HTTP/2 404",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 4189.106,
+      "durationMs": 172.595,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://www.anthropic.com/llms.txt"

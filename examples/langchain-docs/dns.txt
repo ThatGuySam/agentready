@@ -1,10 +1,10 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: docs.langchain.com
 
 $ dig +short docs.langchain.com A
 docs.mintlify.builders.
-104.18.3.204
 104.18.2.204
+104.18.3.204
 
 $ dig +short docs.langchain.com AAAA
 docs.mintlify.builders.
@@ -16,8 +16,8 @@ docs.mintlify.builders.
 
 $ dig +short docs.langchain.com HTTPS
 docs.mintlify.builders.
-104.18.2.204
 104.18.3.204
+104.18.2.204
 
 $ dig +short docs.langchain.com TXT
 docs.mintlify.builders.

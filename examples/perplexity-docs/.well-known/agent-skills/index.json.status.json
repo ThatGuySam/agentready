@@ -5,17 +5,17 @@
   "output": ".well-known/agent-skills/index.json",
   "outputFile": ".well-known/agent-skills/index.json",
   "statusFile": ".well-known/agent-skills/index.json.status.json",
-  "startedAt": "2026-06-02T19:28:08.926Z",
+  "startedAt": "2026-06-04T21:48:21.010Z",
   "status": 200,
   "effectiveUrl": "https://docs.perplexity.ai/.well-known/agent-skills/index.json",
   "contentType": "application/json",
-  "bodyBytes": 600,
-  "savedBytes": 600,
+  "bodyBytes": 560,
+  "savedBytes": 560,
   "truncated": false,
   "responseHeaders": [
     {
       "name": "age",
-      "value": "8394"
+      "value": "263"
     },
     {
       "name": "cache-control",
@@ -27,7 +27,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc093f382780-CMH"
+      "value": "a06a24292e96984a-CMH"
     },
     {
       "name": "content-encoding",
@@ -43,11 +43,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:09 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:21 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 17:08:14 GMT"
+      "value": "Thu, 04 Jun 2026 21:43:57 GMT"
     },
     {
       "name": "server",
@@ -75,17 +75,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:iad1::iad1::wf478-1780428489112-054dc97a96a7"
+      "value": "cle1:cle1:iad1::iad1::q6jzq-1780609701278-3d0cb30aca60"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 257.892,
+  "durationMs": 309.28,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://docs.perplexity.ai/.well-known/agent-skills/index.json"

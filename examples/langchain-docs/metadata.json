@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "langchain-docs",
     "name": "LangChain Docs",
@@ -46,8 +46,8 @@
       "type": "A",
       "values": [
         "docs.mintlify.builders.",
-        "104.18.3.204",
-        "104.18.2.204"
+        "104.18.2.204",
+        "104.18.3.204"
       ]
     },
     {
@@ -68,8 +68,8 @@
       "type": "HTTPS",
       "values": [
         "docs.mintlify.builders.",
-        "104.18.2.204",
-        "104.18.3.204"
+        "104.18.3.204",
+        "104.18.2.204"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:23.573Z",
+      "startedAt": "2026-06-04T21:48:34.125Z",
       "status": 200,
       "effectiveUrl": "https://docs.langchain.com/robots.txt",
       "contentType": "text/plain",
@@ -97,7 +97,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:34 GMT"
         },
         {
           "name": "content-type",
@@ -105,7 +105,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc648a5c57b6-MCI"
+          "value": "a06a247a5c6369f8-DFW"
         },
         {
           "name": "cf-cache-status",
@@ -117,11 +117,11 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "iad1::iad1::tsvbr-1780428503796-0ab816bc1724"
+          "value": "iad1::iad1::68lm6-1780609714397-d54e1f091155"
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:34 GMT"
         },
         {
           "name": "server",
@@ -156,14 +156,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 345.506,
+      "durationMs": 466.571,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.langchain.com/robots.txt"
@@ -175,17 +175,17 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:23.942Z",
+      "startedAt": "2026-06-04T21:48:34.603Z",
       "status": 200,
       "effectiveUrl": "https://docs.langchain.com/sitemap.xml",
       "contentType": "text/xml",
-      "bodyBytes": 204657,
-      "savedBytes": 204653,
+      "bodyBytes": 204665,
+      "savedBytes": 204661,
       "truncated": false,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:35 GMT"
         },
         {
           "name": "content-type",
@@ -193,7 +193,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc662a85d195-MCI"
+          "value": "a06a247d5c35e946-DFW"
         },
         {
           "name": "cf-cache-status",
@@ -205,11 +205,11 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "iad1::iad1::nvvjj-1780428504063-9f4c96e9f4d5"
+          "value": "iad1::iad1::dtlm4-1780609714900-ae5b1c8b3135"
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:35 GMT"
         },
         {
           "name": "server",
@@ -244,14 +244,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 322.288,
+      "durationMs": 532.6659999999999,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.langchain.com/sitemap.xml"
@@ -263,17 +263,17 @@
       "output": "llms.txt",
       "outputFile": "llms.txt",
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:24.290Z",
+      "startedAt": "2026-06-04T21:48:35.167Z",
       "status": 200,
       "effectiveUrl": "https://docs.langchain.com/llms.txt",
       "contentType": "text/plain; charset=utf-8",
-      "bodyBytes": 203524,
-      "savedBytes": 203524,
+      "bodyBytes": 99987,
+      "savedBytes": 99987,
       "truncated": false,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:35 GMT"
         },
         {
           "name": "content-type",
@@ -281,7 +281,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc68bd5857b6-MCI"
+          "value": "a06a2480d81cc872-DFW"
         },
         {
           "name": "cf-cache-status",
@@ -293,11 +293,11 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "iad1::iad1::8mgrp-1780428504473-3f3ea1ebedc9"
+          "value": "iad1::iad1::fdlvk-1780609715418-c47a8100a49e"
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:35 GMT"
         },
         {
           "name": "server",
@@ -332,14 +332,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 429.075,
+      "durationMs": 801.1239999999999,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.langchain.com/llms.txt"
@@ -351,17 +351,17 @@
       "output": "llms-full.sample.txt",
       "outputFile": "llms-full.sample.txt",
       "statusFile": "llms-full.sample.txt.status.json",
-      "startedAt": "2026-06-02T19:28:24.744Z",
+      "startedAt": "2026-06-04T21:48:35.979Z",
       "status": 200,
       "effectiveUrl": "https://docs.langchain.com/llms-full.txt",
       "contentType": "text/plain; charset=utf-8",
-      "bodyBytes": 11292918,
+      "bodyBytes": 11494496,
       "savedBytes": 249999,
       "truncated": true,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:36 GMT"
         },
         {
           "name": "content-type",
@@ -369,7 +369,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc6b2a2dd30c-MCI"
+          "value": "a06a24856f0d6c35-DFW"
         },
         {
           "name": "cf-cache-status",
@@ -377,7 +377,7 @@
         },
         {
           "name": "age",
-          "value": "68929"
+          "value": "73331"
         },
         {
           "name": "cache-control",
@@ -385,11 +385,11 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "iad1::iad1::dtrdj-1780359573112-0165c6d730a3"
+          "value": "iad1::iad1::7c8b5-1780536383505-1de54fcd8491"
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 17:08:30 GMT"
+          "value": "Thu, 04 Jun 2026 01:26:24 GMT"
         },
         {
           "name": "server",
@@ -424,14 +424,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 1047.73,
+      "durationMs": 1013.679,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://docs.langchain.com/llms-full.txt"
@@ -443,17 +443,17 @@
       "output": ".well-known/agent-skills/index.json",
       "outputFile": ".well-known/agent-skills/index.json",
       "statusFile": ".well-known/agent-skills/index.json.status.json",
-      "startedAt": "2026-06-02T19:28:25.821Z",
+      "startedAt": "2026-06-04T21:48:37.010Z",
       "status": 200,
       "effectiveUrl": "https://docs.langchain.com/.well-known/agent-skills/index.json",
       "contentType": "application/json",
-      "bodyBytes": 460,
-      "savedBytes": 460,
+      "bodyBytes": 620,
+      "savedBytes": 620,
       "truncated": false,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:37 GMT"
         },
         {
           "name": "content-type",
@@ -461,7 +461,7 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc71dddcc6e6-MCI"
+          "value": "a06a248bce892cd9-DFW"
         },
         {
           "name": "cf-cache-status",
@@ -469,7 +469,7 @@
         },
         {
           "name": "age",
-          "value": "62344"
+          "value": "4610"
         },
         {
           "name": "cache-control",
@@ -477,11 +477,11 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "iad1::iad1::sjz6l-1780366160938-0d8c09b56088"
+          "value": "iad1::iad1::l2bsj-1780605105940-70440744169d"
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 17:13:23 GMT"
+          "value": "Thu, 04 Jun 2026 21:44:14 GMT"
         },
         {
           "name": "server",
@@ -516,14 +516,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 140.098,
+      "durationMs": 93.634,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://docs.langchain.com/.well-known/agent-skills/index.json"

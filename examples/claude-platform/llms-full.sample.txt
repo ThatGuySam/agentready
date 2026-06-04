@@ -709,7 +709,7 @@ The latest generation of Claude models:
 </Tip>
 
 <Note>
-Looking to chat with Claude? Visit [claude.ai](https://www.claude.ai).
+Looking to chat with Claude? Visit [claude.ai](https://claude.ai).
 </Note>
 
 Anthropic offers two ways to build with Claude, each suited to different use cases:
@@ -7228,4 +7228,4 @@ When using extended thinking with tool use, be aware of the following limitation
 
 You can't toggle thinking in the middle of an assistant turn, including during tool use loops. The entire assistant turn should operate in a single thinking mode:
 
-- **If thinking is enabled**, the fina
+- **If thinking is enabled**, the final as

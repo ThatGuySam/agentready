@@ -1,13 +1,13 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "host": "docs.langchain.com",
   "records": [
     {
       "type": "A",
       "values": [
         "docs.mintlify.builders.",
-        "104.18.3.204",
-        "104.18.2.204"
+        "104.18.2.204",
+        "104.18.3.204"
       ]
     },
     {
@@ -28,8 +28,8 @@
       "type": "HTTPS",
       "values": [
         "docs.mintlify.builders.",
-        "104.18.2.204",
-        "104.18.3.204"
+        "104.18.3.204",
+        "104.18.2.204"
       ]
     },
     {

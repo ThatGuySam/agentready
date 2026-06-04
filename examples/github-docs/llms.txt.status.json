@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:21.657Z",
+  "startedAt": "2026-06-04T21:48:32.325Z",
   "status": 200,
   "effectiveUrl": "https://docs.github.com/llms.txt",
   "contentType": "text/markdown; charset=utf-8",
@@ -75,7 +75,7 @@
     },
     {
       "name": "x-github-request-id",
-      "value": "1D06:201290:4C5FF0F:50C77D6:6A1F2C45"
+      "value": "708C:1297E2:C744AE:D7D6C9:6A21EF76"
     },
     {
       "name": "accept-ranges",
@@ -83,11 +83,11 @@
     },
     {
       "name": "age",
-      "value": "656"
+      "value": "825"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:32 GMT"
     },
     {
       "name": "via",
@@ -95,7 +95,7 @@
     },
     {
       "name": "x-served-by",
-      "value": "cache-dfw-kdal2120056-DFW"
+      "value": "cache-dfw-kdal2120115-DFW"
     },
     {
       "name": "x-cache",
@@ -107,7 +107,7 @@
     },
     {
       "name": "x-timer",
-      "value": "S1780428502.831992,VS0,VE2"
+      "value": "S1780609712.400107,VS0,VE2"
     },
     {
       "name": "strict-transport-security",
@@ -122,14 +122,14 @@
       "value": "accept-encoding"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 165.982,
+  "durationMs": 52.811,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.github.com/llms.txt"

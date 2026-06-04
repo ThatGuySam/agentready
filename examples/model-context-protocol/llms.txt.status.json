@@ -5,12 +5,12 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:10.585Z",
+  "startedAt": "2026-06-04T21:48:22.691Z",
   "status": 200,
   "effectiveUrl": "https://modelcontextprotocol.io/llms.txt",
   "contentType": "text/plain; charset=utf-8",
-  "bodyBytes": 18341,
-  "savedBytes": 18341,
+  "bodyBytes": 18477,
+  "savedBytes": 18477,
   "truncated": false,
   "responseHeaders": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc139f80b5b3-CMH"
+      "value": "a06a24332ac6cf70-CMH"
     },
     {
       "name": "content-encoding",
@@ -39,11 +39,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:10 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:22 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:23 GMT"
     },
     {
       "name": "server",
@@ -71,17 +71,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:iad1::iad1::p7vf5-1780428490796-0d3c409f8f84"
+      "value": "cle1:cle1:iad1::iad1::rdj59-1780609702881-57f1ab140c6f"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 514.168,
+  "durationMs": 396.872,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://modelcontextprotocol.io/llms.txt"

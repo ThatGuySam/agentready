@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "langchain-docs",
         "title": "LangChain Docs",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "langchain-docs",
-        "startedDateTime": "2026-06-02T19:28:23.573Z",
-        "time": 345.506,
+        "startedDateTime": "2026-06-04T21:48:34.125Z",
+        "time": 466.571,
         "request": {
           "method": "GET",
           "url": "https://docs.langchain.com/robots.txt",
@@ -35,12 +35,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:34 GMT"
             },
             {
               "name": "content-type",
@@ -48,7 +48,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc648a5c57b6-MCI"
+              "value": "a06a247a5c6369f8-DFW"
             },
             {
               "name": "cf-cache-status",
@@ -60,11 +60,11 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "iad1::iad1::tsvbr-1780428503796-0ab816bc1724"
+              "value": "iad1::iad1::68lm6-1780609714397-d54e1f091155"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:34 GMT"
             },
             {
               "name": "server",
@@ -111,15 +111,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 345.506,
+          "wait": 466.571,
           "receive": 0
         },
         "comment": "Saved body to robots.txt"
       },
       {
         "pageref": "langchain-docs",
-        "startedDateTime": "2026-06-02T19:28:23.942Z",
-        "time": 322.288,
+        "startedDateTime": "2026-06-04T21:48:34.603Z",
+        "time": 532.6659999999999,
         "request": {
           "method": "GET",
           "url": "https://docs.langchain.com/sitemap.xml",
@@ -137,12 +137,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:35 GMT"
             },
             {
               "name": "content-type",
@@ -150,7 +150,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc662a85d195-MCI"
+              "value": "a06a247d5c35e946-DFW"
             },
             {
               "name": "cf-cache-status",
@@ -162,11 +162,11 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "iad1::iad1::nvvjj-1780428504063-9f4c96e9f4d5"
+              "value": "iad1::iad1::dtlm4-1780609714900-ae5b1c8b3135"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:35 GMT"
             },
             {
               "name": "server",
@@ -203,25 +203,25 @@
           ],
           "cookies": [],
           "content": {
-            "size": 204657,
+            "size": 204665,
             "mimeType": "text/xml"
           },
           "redirectURL": "https://docs.langchain.com/sitemap.xml",
           "headersSize": -1,
-          "bodySize": 204657
+          "bodySize": 204665
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 322.288,
+          "wait": 532.6659999999999,
           "receive": 0
         },
         "comment": "Saved body to sitemap.xml"
       },
       {
         "pageref": "langchain-docs",
-        "startedDateTime": "2026-06-02T19:28:24.290Z",
-        "time": 429.075,
+        "startedDateTime": "2026-06-04T21:48:35.167Z",
+        "time": 801.1239999999999,
         "request": {
           "method": "GET",
           "url": "https://docs.langchain.com/llms.txt",
@@ -239,12 +239,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:35 GMT"
             },
             {
               "name": "content-type",
@@ -252,7 +252,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc68bd5857b6-MCI"
+              "value": "a06a2480d81cc872-DFW"
             },
             {
               "name": "cf-cache-status",
@@ -264,11 +264,11 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "iad1::iad1::8mgrp-1780428504473-3f3ea1ebedc9"
+              "value": "iad1::iad1::fdlvk-1780609715418-c47a8100a49e"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:35 GMT"
             },
             {
               "name": "server",
@@ -305,25 +305,25 @@
           ],
           "cookies": [],
           "content": {
-            "size": 203524,
+            "size": 99987,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://docs.langchain.com/llms.txt",
           "headersSize": -1,
-          "bodySize": 203524
+          "bodySize": 99987
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 429.075,
+          "wait": 801.1239999999999,
           "receive": 0
         },
         "comment": "Saved body to llms.txt"
       },
       {
         "pageref": "langchain-docs",
-        "startedDateTime": "2026-06-02T19:28:24.744Z",
-        "time": 1047.73,
+        "startedDateTime": "2026-06-04T21:48:35.979Z",
+        "time": 1013.679,
         "request": {
           "method": "GET",
           "url": "https://docs.langchain.com/llms-full.txt",
@@ -341,12 +341,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:36 GMT"
             },
             {
               "name": "content-type",
@@ -354,7 +354,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc6b2a2dd30c-MCI"
+              "value": "a06a24856f0d6c35-DFW"
             },
             {
               "name": "cf-cache-status",
@@ -362,7 +362,7 @@
             },
             {
               "name": "age",
-              "value": "68929"
+              "value": "73331"
             },
             {
               "name": "cache-control",
@@ -370,11 +370,11 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "iad1::iad1::dtrdj-1780359573112-0165c6d730a3"
+              "value": "iad1::iad1::7c8b5-1780536383505-1de54fcd8491"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 17:08:30 GMT"
+              "value": "Thu, 04 Jun 2026 01:26:24 GMT"
             },
             {
               "name": "server",
@@ -411,25 +411,25 @@
           ],
           "cookies": [],
           "content": {
-            "size": 11292918,
+            "size": 11494496,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://docs.langchain.com/llms-full.txt",
           "headersSize": -1,
-          "bodySize": 11292918
+          "bodySize": 11494496
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 1047.73,
+          "wait": 1013.679,
           "receive": 0
         },
         "comment": "Saved body to llms-full.sample.txt"
       },
       {
         "pageref": "langchain-docs",
-        "startedDateTime": "2026-06-02T19:28:25.821Z",
-        "time": 140.098,
+        "startedDateTime": "2026-06-04T21:48:37.010Z",
+        "time": 93.634,
         "request": {
           "method": "GET",
           "url": "https://docs.langchain.com/.well-known/agent-skills/index.json",
@@ -447,12 +447,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:25 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:37 GMT"
             },
             {
               "name": "content-type",
@@ -460,7 +460,7 @@
             },
             {
               "name": "cf-ray",
-              "value": "a058dc71dddcc6e6-MCI"
+              "value": "a06a248bce892cd9-DFW"
             },
             {
               "name": "cf-cache-status",
@@ -468,7 +468,7 @@
             },
             {
               "name": "age",
-              "value": "62344"
+              "value": "4610"
             },
             {
               "name": "cache-control",
@@ -476,11 +476,11 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "iad1::iad1::sjz6l-1780366160938-0d8c09b56088"
+              "value": "iad1::iad1::l2bsj-1780605105940-70440744169d"
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 17:13:23 GMT"
+              "value": "Thu, 04 Jun 2026 21:44:14 GMT"
             },
             {
               "name": "server",
@@ -517,17 +517,17 @@
           ],
           "cookies": [],
           "content": {
-            "size": 460,
+            "size": 620,
             "mimeType": "application/json"
           },
           "redirectURL": "https://docs.langchain.com/.well-known/agent-skills/index.json",
           "headersSize": -1,
-          "bodySize": 460
+          "bodySize": 620
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 140.098,
+          "wait": 93.634,
           "receive": 0
         },
         "comment": "Saved body to .well-known/agent-skills/index.json"

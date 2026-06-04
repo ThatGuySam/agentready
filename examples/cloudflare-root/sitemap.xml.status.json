@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:26.217Z",
+  "startedAt": "2026-06-04T21:48:38.688Z",
   "status": 200,
   "effectiveUrl": "https://www.cloudflare.com/sitemap.xml",
   "contentType": "application/xml; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:26 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:38 GMT"
     },
     {
       "name": "content-type",
@@ -23,11 +23,11 @@
     },
     {
       "name": "link",
-      "value": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitemap\""
+      "value": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitem ... [truncated]"
     },
     {
       "name": "cf-ray",
-      "value": "a058dc74cf9626ce-DFW"
+      "value": "a06a24964b58d31c-MCI"
     },
     {
       "name": "cf-cache-status",
@@ -35,7 +35,7 @@
     },
     {
       "name": "age",
-      "value": "2664"
+      "value": "140"
     },
     {
       "name": "cache-control",
@@ -43,7 +43,7 @@
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 18:44:01 GMT"
+      "value": "Thu, 04 Jun 2026 21:46:18 GMT"
     },
     {
       "name": "server",
@@ -118,14 +118,14 @@
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 183.07000000000002,
+  "durationMs": 112.732,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.cloudflare.com/sitemap.xml"

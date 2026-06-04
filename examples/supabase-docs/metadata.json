@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "supabase-docs",
     "name": "Supabase Docs",
@@ -68,7 +68,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:41.216Z",
+      "startedAt": "2026-06-04T21:48:47.391Z",
       "status": 200,
       "effectiveUrl": "https://supabase.com/docs/robots.txt",
       "contentType": "text/plain; charset=utf-8",
@@ -86,7 +86,7 @@
         },
         {
           "name": "age",
-          "value": "8402"
+          "value": "250"
         },
         {
           "name": "cache-control",
@@ -102,7 +102,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:47 GMT"
         },
         {
           "name": "etag",
@@ -110,7 +110,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 17:08:39 GMT"
+          "value": "Thu, 04 Jun 2026 21:44:37 GMT"
         },
         {
           "name": "server",
@@ -142,21 +142,21 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1:cle1:cle1::cflf9-1780428521388-fdfb6a6ed5ae"
+          "value": "cle1:cle1:cle1::ch8nv-1780609727574-3b5ef198f10b"
         },
         {
           "name": "content-length",
           "value": "125"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 281.77299999999997,
+      "durationMs": 228.806,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://supabase.com/docs/robots.txt"
@@ -168,12 +168,12 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:41.519Z",
+      "startedAt": "2026-06-04T21:48:47.631Z",
       "status": 200,
       "effectiveUrl": "https://supabase.com/docs/sitemap.xml",
       "contentType": "application/xml",
-      "bodyBytes": 403007,
-      "savedBytes": 403007,
+      "bodyBytes": 410877,
+      "savedBytes": 410877,
       "truncated": false,
       "responseHeaders": [
         {
@@ -182,7 +182,7 @@
         },
         {
           "name": "age",
-          "value": "9598"
+          "value": "28627"
         },
         {
           "name": "cache-control",
@@ -202,15 +202,15 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:47 GMT"
         },
         {
           "name": "etag",
-          "value": "W/\"7406d7399f61dd52e87d32e64551e889\""
+          "value": "W/\"d54827d5e963201dc0136ee161d863cd\""
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 16:48:42 GMT"
+          "value": "Thu, 04 Jun 2026 13:51:40 GMT"
         },
         {
           "name": "server",
@@ -242,17 +242,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1:cle1:cle1::hxqrf-1780428521653-20a2819e9123"
+          "value": "cle1:cle1:cle1::9c8hc-1780609727918-615fc72d8f96"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 166.709,
+      "durationMs": 335.786,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://supabase.com/docs/sitemap.xml"
@@ -264,11 +264,11 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:41.712Z",
+      "startedAt": "2026-06-04T21:48:47.981Z",
       "status": 404,
       "effectiveUrl": "https://supabase.com/docs/llms.txt",
       "contentType": "text/html; charset=utf-8",
-      "bodyBytes": 96620,
+      "bodyBytes": 96855,
       "savedBytes": 0,
       "truncated": false,
       "responseHeaders": [
@@ -278,7 +278,7 @@
         },
         {
           "name": "age",
-          "value": "10059"
+          "value": "28803"
         },
         {
           "name": "cache-control",
@@ -298,15 +298,15 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:48 GMT"
         },
         {
           "name": "etag",
-          "value": "W/\"9f1c058f2b4a089540ba0e4d40d170f4\""
+          "value": "W/\"729d1bc067c2742b35e61e8a93ca3b67\""
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 16:41:02 GMT"
+          "value": "Thu, 04 Jun 2026 13:48:45 GMT"
         },
         {
           "name": "server",
@@ -342,17 +342,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1:cle1:cle1::cpvmx-1780428521853-d5e874245309"
+          "value": "cle1:cle1:cle1::rprc4-1780609728158-37c7acdd950f"
         }
       ],
-      "responseStatusLine": "HTTP/2 404 ",
+      "responseStatusLine": "HTTP/2 404",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 310.40000000000003,
+      "durationMs": 215.023,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://supabase.com/docs/llms.txt"

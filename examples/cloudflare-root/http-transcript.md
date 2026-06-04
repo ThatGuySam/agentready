@@ -1,6 +1,6 @@
 # Cloudflare Root HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -19,13 +19,13 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:26 GMT
+date: Thu, 04 Jun 2026 21:48:38 GMT
 content-type: text/plain
-link: </.well-known/agents.json>; rel="api-catalog", </.well-known/webmcp.json>; rel="service-desc", </openapi.json>; rel="service-desc", </llms.txt>; rel="service-doc", </sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin
+link: </.well-known/agents.json>; rel="api-catalog", </.well-known/webmcp.json>; rel="service-desc", </openapi.json>; rel="service-desc", </llms.txt>; rel="service-doc", </sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]
 cf-cache-status: HIT
 cache-control: public, max-age=0, must-revalidate
 strict-transport-security: max-age=31536000; includeSubDomains; preload
-cf-placement: local-MCI
+cf-placement: remote-PRG
 x-served-by: marketing-site
 content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]
 cross-origin-opener-policy: unsafe-none
@@ -42,7 +42,7 @@ nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 etag: W/"0e9fa7a0bd53c344b463d30c8eb71478"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dc73acb84de2-MCI
+cf-ray: a06a248dfc4383a1-DFW
 alt-svc: h3=":443"; ma=86400
 ```
 
@@ -70,14 +70,14 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:26 GMT
+date: Thu, 04 Jun 2026 21:48:38 GMT
 content-type: application/xml; charset=utf-8
-link: <https://www.cloudflare.com/.well-known/agents.json>; rel="api-catalog", <https://www.cloudflare.com/.well-known/webmcp.json>; rel="service-desc", <https://www.cloudflare.com/openapi.json>; rel="service-desc", <https://www.cloudflare.com/llms.txt>; rel="service-doc", <https://www.cloudflare.com/sitemap.xml>; rel="sitemap"
-cf-ray: a058dc74cf9626ce-DFW
+link: <https://www.cloudflare.com/.well-known/agents.json>; rel="api-catalog", <https://www.cloudflare.com/.well-known/webmcp.json>; rel="service-desc", <https://www.cloudflare.com/openapi.json>; rel="service-desc", <https://www.cloudflare.com/llms.txt>; rel="service-doc", <https://www.cloudflare.com/sitemap.xml>; rel="sitem ... [truncated]
+cf-ray: a06a24964b58d31c-MCI
 cf-cache-status: HIT
-age: 2664
+age: 140
 cache-control: max-age=3600
-last-modified: Tue, 02 Jun 2026 18:44:01 GMT
+last-modified: Thu, 04 Jun 2026 21:46:18 GMT
 server: cloudflare
 strict-transport-security: max-age=31536000; includeSubDomains
 vary: Accept-Encoding
@@ -122,13 +122,13 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:26 GMT
+date: Thu, 04 Jun 2026 21:48:39 GMT
 content-type: text/plain
-link: </.well-known/agents.json>; rel="api-catalog", </.well-known/webmcp.json>; rel="service-desc", </openapi.json>; rel="service-desc", </llms.txt>; rel="service-doc", </sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin
+link: </.well-known/agents.json>; rel="api-catalog", </.well-known/webmcp.json>; rel="service-desc", </openapi.json>; rel="service-desc", </llms.txt>; rel="service-doc", </sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]
 cf-cache-status: HIT
 cache-control: public, max-age=0, must-revalidate
 strict-transport-security: max-age=31536000; includeSubDomains; preload
-cf-placement: local-MCI
+cf-placement: remote-PRG
 x-served-by: marketing-site
 content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.goo ... [truncated]
 cross-origin-opener-policy: unsafe-none
@@ -145,7 +145,7 @@ nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 etag: W/"47475ba620c61a9ef430b44f770b5523"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dc75ee04d316-MCI
+cf-ray: a06a249788d4d304-MCI
 alt-svc: h3=":443"; ma=86400
 ```
 
@@ -173,9 +173,9 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:27 GMT
+date: Thu, 04 Jun 2026 21:48:39 GMT
 content-type: text/plain
-link: </.well-known/agents.json>; rel="api-catalog", </.well-known/webmcp.json>; rel="service-desc", </openapi.json>; rel="service-desc", </llms.txt>; rel="service-doc", </sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin
+link: </.well-known/agents.json>; rel="api-catalog", </.well-known/webmcp.json>; rel="service-desc", </openapi.json>; rel="service-desc", </llms.txt>; rel="service-doc", </sitemap.xml>; rel="sitemap", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin, </fonts/Kunst%20Grotesk%20Med ... [truncated]
 cf-cache-status: HIT
 cache-control: public, max-age=0, must-revalidate
 strict-transport-security: max-age=31536000; includeSubDomains
@@ -196,7 +196,7 @@ nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 etag: W/"1b699629f86679f47cc033b88fd46460"
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dc76ebc6467e-DFW
+cf-ray: a06a249adb164867-DFW
 alt-svc: h3=":443"; ma=86400
 ```
 

@@ -5,17 +5,17 @@
   "output": "llms-full.sample.txt",
   "outputFile": "llms-full.sample.txt",
   "statusFile": "llms-full.sample.txt.status.json",
-  "startedAt": "2026-06-02T19:28:01.672Z",
+  "startedAt": "2026-06-04T21:48:13.472Z",
   "status": 200,
   "effectiveUrl": "https://developers.cloudflare.com/llms-full.txt",
   "contentType": "text/markdown; charset=utf-8",
-  "bodyBytes": 49807586,
+  "bodyBytes": 50005369,
   "savedBytes": 249533,
   "truncated": true,
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:13 GMT"
     },
     {
       "name": "content-type",
@@ -23,7 +23,7 @@
     },
     {
       "name": "content-length",
-      "value": "49807586"
+      "value": "50005369"
     },
     {
       "name": "strict-transport-security",
@@ -59,21 +59,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbdadd5dd30e-MCI"
+      "value": "a06a23f8a941d306-MCI"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 4987.578,
+  "durationMs": 4908.38,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/llms-full.txt"

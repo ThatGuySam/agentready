@@ -1,4 +1,4 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: www.cloudflare.com
 
 $ dig +short www.cloudflare.com A
@@ -6,8 +6,8 @@ $ dig +short www.cloudflare.com A
 104.16.123.96
 
 $ dig +short www.cloudflare.com AAAA
-2606:4700::6810:7c60
 2606:4700::6810:7b60
+2606:4700::6810:7c60
 
 $ dig +short www.cloudflare.com CNAME
 # no records returned

@@ -5,17 +5,17 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:33.881Z",
+  "startedAt": "2026-06-04T21:48:45.631Z",
   "status": 200,
   "effectiveUrl": "https://www.anthropic.com/sitemap.xml",
   "contentType": "application/xml",
-  "bodyBytes": 57483,
-  "savedBytes": 57483,
+  "bodyBytes": 57746,
+  "savedBytes": 57746,
   "truncated": false,
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:36 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:45 GMT"
     },
     {
       "name": "content-type",
@@ -31,7 +31,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dca43d9fd316-MCI"
+      "value": "a06a24c25e4ad18b-MCI"
     },
     {
       "name": "cf-cache-status",
@@ -86,14 +86,14 @@
       "value": "gzip"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 2552.323,
+  "durationMs": 236.147,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.anthropic.com/sitemap.xml"

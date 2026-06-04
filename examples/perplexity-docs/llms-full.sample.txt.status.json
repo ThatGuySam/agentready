@@ -5,17 +5,17 @@
   "output": "llms-full.sample.txt",
   "outputFile": "llms-full.sample.txt",
   "statusFile": "llms-full.sample.txt.status.json",
-  "startedAt": "2026-06-02T19:28:08.491Z",
+  "startedAt": "2026-06-04T21:48:20.596Z",
   "status": 200,
   "effectiveUrl": "https://docs.perplexity.ai/llms-full.txt",
   "contentType": "text/plain; charset=utf-8",
-  "bodyBytes": 1495820,
+  "bodyBytes": 1495113,
   "savedBytes": 249980,
   "truncated": true,
   "responseHeaders": [
     {
       "name": "age",
-      "value": "5258"
+      "value": "13644"
     },
     {
       "name": "cache-control",
@@ -27,7 +27,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc068e9b99fe-CMH"
+      "value": "a06a24261e7cc20a-CMH"
     },
     {
       "name": "content-encoding",
@@ -43,11 +43,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:20 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 18:02:01 GMT"
+      "value": "Thu, 04 Jun 2026 19:14:17 GMT"
     },
     {
       "name": "server",
@@ -75,17 +75,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:fra1:iad1::iad1::rb7mx-1780428488709-6a887803fa2c"
+      "value": "cle1:iad1:iad1::iad1::q6jr4-1780609700789-9c99197590db"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 401.072,
+  "durationMs": 400.345,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://docs.perplexity.ai/llms-full.txt"

@@ -1,10 +1,10 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: developers.openai.com
 
 $ dig +short developers.openai.com A
 08d9e9b18d2ea32e.vercel-dns-013.com.
-64.239.123.129
-64.239.109.129
+64.239.123.1
+64.239.109.1
 
 $ dig +short developers.openai.com AAAA
 08d9e9b18d2ea32e.vercel-dns-013.com.
@@ -14,8 +14,8 @@ $ dig +short developers.openai.com CNAME
 
 $ dig +short developers.openai.com HTTPS
 08d9e9b18d2ea32e.vercel-dns-013.com.
-64.239.123.129
-64.239.109.129
+64.239.109.65
+64.239.123.65
 
 $ dig +short developers.openai.com TXT
 08d9e9b18d2ea32e.vercel-dns-013.com.

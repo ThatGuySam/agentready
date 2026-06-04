@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:40.860Z",
+  "startedAt": "2026-06-04T21:48:46.882Z",
   "status": 200,
   "effectiveUrl": "https://www.perplexity.ai/sitemap.xml",
   "contentType": "application/xml",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:46 GMT"
     },
     {
       "name": "content-type",
@@ -83,11 +83,11 @@
     },
     {
       "name": "age",
-      "value": "569"
+      "value": "138"
     },
     {
       "name": "expires",
-      "value": "Tue, 02 Jun 2026 19:33:41 GMT"
+      "value": "Thu, 04 Jun 2026 21:53:46 GMT"
     },
     {
       "name": "cf-cache-status",
@@ -103,17 +103,17 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dcd04a968c32-MCI"
+      "value": "a06a24c99ba46a1f-MCI"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 131.144,
+  "durationMs": 72.707,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://www.perplexity.ai/sitemap.xml"

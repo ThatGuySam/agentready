@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:22.150Z",
+  "startedAt": "2026-06-04T21:48:32.685Z",
   "status": 200,
   "effectiveUrl": "https://docs.stripe.com/robots.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -19,7 +19,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:22 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:32 GMT"
     },
     {
       "name": "content-type",
@@ -34,14 +34,14 @@
       "value": "gzip"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 240.661,
+  "durationMs": 155.155,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.stripe.com/robots.txt"

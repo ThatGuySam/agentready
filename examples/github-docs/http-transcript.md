@@ -1,6 +1,6 @@
 # GitHub Docs HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -34,16 +34,16 @@ x-xss-protection: 0
 content-type: text/plain; charset=utf-8
 cache-control: public, max-age=60
 x-github-backend: Kubernetes
-x-github-request-id: F8CC:28E41F:4A9EF6F:4F1062D:6A1F2C45
+x-github-request-id: 113E:80137:13926:15CB4:6A21C167
 content-encoding: gzip
 accept-ranges: bytes
-age: 656
-date: Tue, 02 Jun 2026 19:28:21 GMT
+age: 12600
+date: Thu, 04 Jun 2026 21:48:32 GMT
 via: 1.1 varnish
-x-served-by: cache-dfw-kdal2120024-DFW
+x-served-by: cache-dfw-kdal2120027-DFW
 x-cache: HIT
 x-cache-hits: 0
-x-timer: S1780428501.479109,VS0,VE1
+x-timer: S1780609712.250899,VS0,VE2
 vary: Accept-Encoding
 strict-transport-security: max-age=31557600
 content-length: 33
@@ -88,16 +88,16 @@ x-xss-protection: 0
 cache-control: public, max-age=60
 content-type: text/html; charset=utf-8
 x-github-backend: Kubernetes
-x-github-request-id: EE0E:5762:4C5F4DC:50CAA3B:6A1F2C45
+x-github-request-id: 7516:A553:168A1C2:185A5C9:6A21F198
 content-encoding: gzip
 accept-ranges: bytes
-age: 656
-date: Tue, 02 Jun 2026 19:28:21 GMT
+age: 263
+date: Thu, 04 Jun 2026 21:48:32 GMT
 via: 1.1 varnish
-x-served-by: cache-dfw-kdal2120110-DFW
+x-served-by: cache-dfw-kdal2120112-DFW
 x-cache: HIT
 x-cache-hits: 0
-x-timer: S1780428502.646858,VS0,VE2
+x-timer: S1780609712.333500,VS0,VE2
 vary: Accept-Encoding
 strict-transport-security: max-age=31557600
 content-length: 316
@@ -142,15 +142,15 @@ x-xss-protection: 0
 cache-control: public, max-age=60
 content-type: text/markdown; charset=utf-8
 x-github-backend: Kubernetes
-x-github-request-id: 1D06:201290:4C5FF0F:50C77D6:6A1F2C45
+x-github-request-id: 708C:1297E2:C744AE:D7D6C9:6A21EF76
 accept-ranges: none
-age: 656
-date: Tue, 02 Jun 2026 19:28:21 GMT
+age: 825
+date: Thu, 04 Jun 2026 21:48:32 GMT
 via: 1.1 varnish
-x-served-by: cache-dfw-kdal2120056-DFW
+x-served-by: cache-dfw-kdal2120115-DFW
 x-cache: HIT
 x-cache-hits: 0
-x-timer: S1780428502.831992,VS0,VE2
+x-timer: S1780609712.400107,VS0,VE2
 strict-transport-security: max-age=31557600
 content-encoding: gzip
 vary: accept-encoding
@@ -195,15 +195,15 @@ x-xss-protection: 0
 cache-control: public, max-age=60
 content-type: text/markdown; charset=utf-8
 x-github-backend: Kubernetes
-x-github-request-id: ABF0:8C504:4F94E28:53F30A9:6A1F2C45
+x-github-request-id: D57E:2235B5:1762520:193020B:6A21F1A5
 accept-ranges: none
-age: 656
-date: Tue, 02 Jun 2026 19:28:21 GMT
+age: 263
+date: Thu, 04 Jun 2026 21:48:32 GMT
 via: 1.1 varnish
-x-served-by: cache-dfw-kdal2120037-DFW
+x-served-by: cache-dfw-kdal2120111-DFW
 x-cache: HIT
 x-cache-hits: 0
-x-timer: S1780428502.923001,VS0,VE1
+x-timer: S1780609712.474396,VS0,VE1
 strict-transport-security: max-age=31557600
 content-encoding: gzip
 vary: accept-encoding

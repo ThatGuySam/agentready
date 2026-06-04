@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": null,
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:30.314Z",
+  "startedAt": "2026-06-04T21:48:43.037Z",
   "status": 404,
   "effectiveUrl": "https://ai.google.dev/llms.txt",
   "contentType": "text/html; charset=utf-8",
@@ -27,7 +27,7 @@
     },
     {
       "name": "content-security-policy",
-      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-0Xtz3PI3+R5pX0ykMRZ4GecN5ZTa1O' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri [redacted]"
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-gVyA9WyED9wipT9VwZ+LCj88a0L5qX' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri [redacted]"
     },
     {
       "name": "strict-transport-security",
@@ -59,11 +59,11 @@
     },
     {
       "name": "x-cloud-trace-context",
-      "value": "d26e0ab93b8cff3b720830a285da5820"
+      "value": "4e77beec4208b894b6ab51b6ac7982cb"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:30 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:43 GMT"
     },
     {
       "name": "server",
@@ -71,21 +71,21 @@
     },
     {
       "name": "content-length",
-      "value": "13343"
+      "value": "13370"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
     }
   ],
-  "responseStatusLine": "HTTP/2 404 ",
+  "responseStatusLine": "HTTP/2 404",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 260.64300000000003,
+  "durationMs": 591.646,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://ai.google.dev/llms.txt"

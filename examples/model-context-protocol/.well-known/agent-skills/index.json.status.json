@@ -5,7 +5,7 @@
   "output": ".well-known/agent-skills/index.json",
   "outputFile": ".well-known/agent-skills/index.json",
   "statusFile": ".well-known/agent-skills/index.json.status.json",
-  "startedAt": "2026-06-02T19:28:11.701Z",
+  "startedAt": "2026-06-04T21:48:23.619Z",
   "status": 200,
   "effectiveUrl": "https://modelcontextprotocol.io/.well-known/agent-skills/index.json",
   "contentType": "application/json",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "age",
-      "value": "84159"
+      "value": "45521"
     },
     {
       "name": "cache-control",
@@ -27,7 +27,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc1aada6c6fa-CMH"
+      "value": "a06a24397c161330-CMH"
     },
     {
       "name": "content-encoding",
@@ -43,11 +43,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:11 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:23 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 17:08:28 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:00 GMT"
     },
     {
       "name": "server",
@@ -75,17 +75,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:yul1:iad1::iad1::r7m4m-1780428491920-c66ce68ebdb1"
+      "value": "cle1:fra1:iad1::iad1::lncvb-1780609703889-3765db07cf81"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 257.41999999999996,
+  "durationMs": 314.981,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output .well-known/agent-skills/index.json --write-out '<curl-metadata>' https://modelcontextprotocol.io/.well-known/agent-skills/index.json"

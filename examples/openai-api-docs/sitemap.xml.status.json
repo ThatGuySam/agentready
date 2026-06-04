@@ -5,11 +5,11 @@
   "output": "sitemap.xml",
   "outputFile": null,
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:20.253Z",
+  "startedAt": "2026-06-04T21:48:31.101Z",
   "status": 404,
   "effectiveUrl": "https://developers.openai.com/api/docs/sitemap.xml",
   "contentType": "text/html; charset=utf-8",
-  "bodyBytes": 365424,
+  "bodyBytes": 366579,
   "savedBytes": 0,
   "truncated": false,
   "responseHeaders": [
@@ -19,7 +19,7 @@
     },
     {
       "name": "age",
-      "value": "191"
+      "value": "9852"
     },
     {
       "name": "cache-control",
@@ -39,15 +39,15 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:31 GMT"
     },
     {
       "name": "etag",
-      "value": "W/\"b6f34823a57f4d60bf22bbdda35cd49c\""
+      "value": "W/\"9b3e4f8cf37fb91f3a6b7d19d8557f15\""
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:20:37 GMT"
+      "value": "Thu, 04 Jun 2026 18:56:26 GMT"
     },
     {
       "name": "server",
@@ -63,17 +63,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::lzs5j-1780428500378-a23e6cc2c96a"
+      "value": "cle1::6bj9v-1780609711272-b4355855e20c"
     }
   ],
-  "responseStatusLine": "HTTP/2 404 ",
+  "responseStatusLine": "HTTP/2 404",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 164.19400000000002,
+  "durationMs": 204.999,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.openai.com/api/docs/sitemap.xml"

@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:01.511Z",
+  "startedAt": "2026-06-04T21:48:13.389Z",
   "status": 200,
   "effectiveUrl": "https://developers.cloudflare.com/llms.txt",
   "contentType": "text/plain",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:13 GMT"
     },
     {
       "name": "content-type",
@@ -75,21 +75,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbd9eeadd83b-DFW"
+      "value": "a06a23f82db6ae15-MCI"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 146.07899999999998,
+  "durationMs": 67.735,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/llms.txt"

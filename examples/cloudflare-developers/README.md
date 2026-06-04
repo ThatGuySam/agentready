@@ -1,6 +1,6 @@
 # Cloudflare Developers
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 **Homepage:** [https://developers.cloudflare.com/](https://developers.cloudflare.com/)
 
@@ -12,6 +12,7 @@ Gold-standard docs fixture with robots Content Signals, llms files, agent skills
 
 - [metadata.json](./metadata.json) - full machine-readable capture metadata.
 - [dns.txt](./dns.txt) and [dns.json](./dns.json) - DNS records for `developers.cloudflare.com`.
+- [http-evidence.md](./http-evidence.md) - summary-first GitHub-readable HTTP evidence.
 - [http-transcript.md](./http-transcript.md) - readable curl-style request/response evidence.
 - [http.har.json](./http.har.json) - HAR-style request/response metadata.
 

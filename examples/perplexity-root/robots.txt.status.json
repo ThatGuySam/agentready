@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:40.805Z",
+  "startedAt": "2026-06-04T21:48:46.357Z",
   "status": 200,
   "effectiveUrl": "https://www.perplexity.ai/robots.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:40 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:46 GMT"
     },
     {
       "name": "content-type",
@@ -78,20 +78,20 @@
       "value": "[redacted]"
     },
     {
-      "name": "age",
-      "value": "538"
-    },
-    {
-      "name": "expires",
-      "value": "Tue, 02 Jun 2026 19:33:40 GMT"
+      "name": "set-cookie",
+      "value": "[redacted]"
     },
     {
       "name": "cache-control",
       "value": "public, max-age=300"
     },
     {
+      "name": "expires",
+      "value": "Thu, 04 Jun 2026 21:53:46 GMT"
+    },
+    {
       "name": "cf-cache-status",
-      "value": "HIT"
+      "value": "REVALIDATED"
     },
     {
       "name": "content-encoding",
@@ -103,17 +103,17 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dccf58d14dfd-MCI"
+      "value": "a06a24c66a176bad-DFW"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 43.519000000000005,
+  "durationMs": 511.246,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://www.perplexity.ai/robots.txt"

@@ -1,6 +1,6 @@
 # Perplexity Root HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -19,7 +19,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:40 GMT
+date: Thu, 04 Jun 2026 21:48:46 GMT
 content-type: text/plain; charset=utf-8
 content-security-policy: object-src 'none'; base-uri 'self'; form-action 'self' https://onedrive.live.com https://*.sharepoint.com https://*.paypal.com https://*.venmo.com; frame-ancestors 'self' https://onedrive.live.com https://*.sharepoint.com https://app.athina.ai; upgrade-insecure-requests
 cross-origin-opener-policy: unsafe-none
@@ -35,13 +35,13 @@ x-frame-options: DENY
 x-permitted-cross-domain-policies: none
 x-xss-protection: 0
 set-cookie: [redacted]
-age: 538
-expires: Tue, 02 Jun 2026 19:33:40 GMT
+set-cookie: [redacted]
 cache-control: public, max-age=300
-cf-cache-status: HIT
+expires: Thu, 04 Jun 2026 21:53:46 GMT
+cf-cache-status: REVALIDATED
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dccf58d14dfd-MCI
+cf-ray: a06a24c66a176bad-DFW
 ```
 
 - Status: 200
@@ -68,7 +68,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:41 GMT
+date: Thu, 04 Jun 2026 21:48:46 GMT
 content-type: application/xml
 content-security-policy: object-src 'none'; base-uri 'self'; form-action 'self' https://onedrive.live.com https://*.sharepoint.com https://*.paypal.com https://*.venmo.com; frame-ancestors 'self' https://onedrive.live.com https://*.sharepoint.com https://app.athina.ai; upgrade-insecure-requests
 cross-origin-opener-policy: unsafe-none
@@ -85,12 +85,12 @@ x-permitted-cross-domain-policies: none
 x-xss-protection: 0
 set-cookie: [redacted]
 cache-control: public, max-age=300
-age: 569
-expires: Tue, 02 Jun 2026 19:33:41 GMT
+age: 138
+expires: Thu, 04 Jun 2026 21:53:46 GMT
 cf-cache-status: HIT
 content-encoding: gzip
 server: cloudflare
-cf-ray: a058dcd04a968c32-MCI
+cf-ray: a06a24c99ba46a1f-MCI
 ```
 
 - Status: 200
@@ -117,26 +117,26 @@ Response:
 
 ```http
 HTTP/2 403
-date: Tue, 02 Jun 2026 19:28:41 GMT
+date: Thu, 04 Jun 2026 21:48:47 GMT
 content-type: text/html; charset=UTF-8
 accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
 cf-mitigated: challenge
-content-security-policy: default-src 'none'; script-src 'nonce-J6vJhOiOgiq7UhySc40TuI' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blo ... [truncated]
+content-security-policy: default-src 'none'; script-src 'nonce-iRCvwt2mW7IvRj49vm3iEe' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blo ... [truncated]
 server: cloudflare
 critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
 cross-origin-embedder-policy: require-corp
 cross-origin-opener-policy: same-origin
 cross-origin-resource-policy: same-origin
 origin-agent-cluster: ?1
-permissions-policy: accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)
+permissions-policy: accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*
 referrer-policy: same-origin
-server-timing: chlray;desc="a058dcd09d1bcbed"
+server-timing: chlray;desc="a06a24ca09b9806e"
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 strict-transport-security: max-age=15552000; includeSubDomains; preload
 set-cookie: [redacted]
 content-encoding: gzip
-cf-ray: a058dcd09d1bcbed-MCI
+cf-ray: a06a24ca09b9806e-DFW
 ```
 
 - Status: 403

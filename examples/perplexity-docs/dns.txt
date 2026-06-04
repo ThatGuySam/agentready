@@ -1,10 +1,10 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: docs.perplexity.ai
 
 $ dig +short docs.perplexity.ai A
 cname.vercel-dns.com.
-76.76.21.98
-66.33.60.67
+76.76.21.241
+66.33.60.193
 
 $ dig +short docs.perplexity.ai AAAA
 cname.vercel-dns.com.
@@ -14,8 +14,8 @@ cname.vercel-dns.com.
 
 $ dig +short docs.perplexity.ai HTTPS
 cname.vercel-dns.com.
-66.33.60.35
 76.76.21.123
+66.33.60.35
 
 $ dig +short docs.perplexity.ai TXT
 cname.vercel-dns.com.

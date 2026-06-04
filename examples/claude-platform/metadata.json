@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "claude-platform",
     "name": "Claude Platform",
@@ -71,7 +71,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:12.229Z",
+      "startedAt": "2026-06-04T21:48:24.274Z",
       "status": 200,
       "effectiveUrl": "https://platform.claude.com/robots.txt",
       "contentType": "text/plain",
@@ -81,7 +81,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:24 GMT"
         },
         {
           "name": "content-type",
@@ -125,7 +125,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:24 GMT"
         },
         {
           "name": "cf-cache-status",
@@ -141,17 +141,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc1d7a766b2a-DFW"
+          "value": "a06a243c8bea166b-MCI"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 277.553,
+      "durationMs": 154.993,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://platform.claude.com/robots.txt"
@@ -163,7 +163,7 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:12.532Z",
+      "startedAt": "2026-06-04T21:48:24.487Z",
       "status": 200,
       "effectiveUrl": "https://platform.claude.com/sitemap.xml",
       "contentType": "application/xml",
@@ -173,7 +173,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:24 GMT"
         },
         {
           "name": "content-type",
@@ -217,7 +217,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 19:28:12 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:24 GMT"
         },
         {
           "name": "cf-cache-status",
@@ -233,17 +233,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc1ecbf850ec-MCI"
+          "value": "a06a243da98658c5-DFW"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 208.959,
+      "durationMs": 288.834,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://platform.claude.com/sitemap.xml"
@@ -255,7 +255,7 @@
       "output": "llms.txt",
       "outputFile": "llms.txt",
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:12.766Z",
+      "startedAt": "2026-06-04T21:48:24.798Z",
       "status": 200,
       "effectiveUrl": "https://platform.claude.com/llms.txt",
       "contentType": "text/plain; charset=UTF-8",
@@ -265,7 +265,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:25 GMT"
         },
         {
           "name": "content-type",
@@ -297,15 +297,15 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 18:51:29 GMT"
+          "value": "Thu, 04 Jun 2026 17:23:49 GMT"
         },
         {
           "name": "etag",
-          "value": "W/\"29177-19e89ad2f68\""
+          "value": "W/\"29177-19e93a9a488\""
         },
         {
           "name": "x-cloud-trace-context",
-          "value": "8c293663f5878d7a84e398fcc5d67d62"
+          "value": "db637fded905fbbfef51516d8d17c4d7"
         },
         {
           "name": "server",
@@ -329,17 +329,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc20bc59b31e-DFW"
+          "value": "a06a243f8f534787-DFW"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 267.041,
+      "durationMs": 197.297,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://platform.claude.com/llms.txt"
@@ -351,17 +351,17 @@
       "output": "llms-full.sample.txt",
       "outputFile": "llms-full.sample.txt",
       "statusFile": "llms-full.sample.txt.status.json",
-      "startedAt": "2026-06-02T19:28:13.059Z",
+      "startedAt": "2026-06-04T21:48:25.009Z",
       "status": 200,
       "effectiveUrl": "https://platform.claude.com/llms-full.txt",
       "contentType": "text/plain; charset=utf-8",
-      "bodyBytes": 71523030,
+      "bodyBytes": 71562833,
       "savedBytes": 249660,
       "truncated": true,
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:13 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:25 GMT"
         },
         {
           "name": "content-type",
@@ -405,11 +405,11 @@
         },
         {
           "name": "age",
-          "value": "2014"
+          "value": "392"
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 19:18:50 GMT"
+          "value": "Thu, 04 Jun 2026 21:44:01 GMT"
         },
         {
           "name": "cf-cache-status",
@@ -425,17 +425,17 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc229ee66a1e-MCI"
+          "value": "a06a2440ea4143ae-MCI"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 3314.632,
+      "durationMs": 2953.274,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms-full.sample.txt --write-out '<curl-metadata>' https://platform.claude.com/llms-full.txt"

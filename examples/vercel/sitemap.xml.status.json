@@ -5,17 +5,17 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:18.027Z",
+  "startedAt": "2026-06-04T21:48:28.988Z",
   "status": 200,
   "effectiveUrl": "https://vercel.com/crawled-sitemap.xml",
   "contentType": "application/xml; charset=utf-8",
-  "bodyBytes": 986108,
-  "savedBytes": 986108,
+  "bodyBytes": 991551,
+  "savedBytes": 991551,
   "truncated": false,
   "responseHeaders": [
     {
       "name": "age",
-      "value": "204"
+      "value": "262"
     },
     {
       "name": "cache-control",
@@ -35,7 +35,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:24:53 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:06 GMT"
     },
     {
       "name": "feature-policy",
@@ -83,21 +83,21 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:cle1::iad1::xb27g-1780428498272-03bea8571cb7"
+      "value": "cle1:cle1:cle1::iad1::pvkkt-1780609709230-0a738fb36977"
     },
     {
       "name": "x-xss-protection",
       "value": "0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 402.18199999999996,
+  "durationMs": 336.453,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://vercel.com/sitemap.xml"

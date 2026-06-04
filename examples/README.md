@@ -2,7 +2,7 @@
 
 These are generated, dated snapshots of agent-readiness evidence. They are examples of audit evidence, not guaranteed-current site state.
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 Refresh the directory with:
 
@@ -14,12 +14,13 @@ Each site directory includes:
 
 - `metadata.json` with endpoint status, effective URL, content type, byte counts, and truncation flags.
 - `dns.txt` and `dns.json` with `A`, `AAAA`, `CNAME`, `HTTPS`, and `TXT` records.
+- `http-evidence.md` with summary-first GitHub-readable HTTP evidence.
 - `http-transcript.md` with curl-style request and response evidence.
 - `http.har.json` with HAR-style request and response metadata.
 - Endpoint body files such as `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.sample.txt`, and `.well-known/agent-skills/index.json` when the endpoint returned a usable body.
 
 Large files are sampled and marked with `truncated: true` in the corresponding `*.status.json`.
-Dynamic response cookies are redacted, and unusually long CSP/reporting headers are truncated in metadata and transcripts.
+Dynamic response cookies are redacted, and unusually long response headers are truncated in metadata and transcripts.
 Saved text bodies are whitespace-normalized to remove trailing whitespace and space-before-tab issues from upstream samples.
 
 ## Sites

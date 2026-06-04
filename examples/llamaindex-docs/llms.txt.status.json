@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": null,
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:43.106Z",
+  "startedAt": "2026-06-04T21:48:49.519Z",
   "status": 200,
   "effectiveUrl": "https://developers.llamaindex.ai/python/framework/",
   "contentType": "text/html; charset=utf-8",
@@ -19,7 +19,7 @@
     },
     {
       "name": "age",
-      "value": "14354"
+      "value": "12133"
     },
     {
       "name": "cache-control",
@@ -39,7 +39,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:49 GMT"
     },
     {
       "name": "etag",
@@ -47,7 +47,7 @@
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+      "value": "Thu, 04 Jun 2026 18:26:36 GMT"
     },
     {
       "name": "server",
@@ -63,17 +63,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::qv864-1780428523388-08c397cea93b"
+      "value": "cle1::8v9bq-1780609729891-857f1d01f0e2"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 308.567,
+  "durationMs": 439.921,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.llamaindex.ai/llms.txt"

@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:27.674Z",
+  "startedAt": "2026-06-04T21:48:40.116Z",
   "status": 200,
   "effectiveUrl": "https://developers.google.com/robots.txt",
   "contentType": "text/plain",
@@ -31,7 +31,7 @@
     },
     {
       "name": "content-security-policy",
-      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-V1+MwY/VjmieCgdVHrOcZODkIF6ZsL' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-/Jl09DOTJrlC/FvoQn/MNWzfR4nkG7' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
     },
     {
       "name": "strict-transport-security",
@@ -63,11 +63,11 @@
     },
     {
       "name": "x-cloud-trace-context",
-      "value": "4f6b936a0797a96208d4b6368d9265eb"
+      "value": "2439095bd8488f3dbfdc0df8108ebe22"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:40 GMT"
     },
     {
       "name": "server",
@@ -82,14 +82,14 @@
       "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 391.807,
+  "durationMs": 211.477,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://developers.google.com/robots.txt"

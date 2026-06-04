@@ -3,7 +3,7 @@
 ## SBC4
 
 - `Tease:` The examples directory is now a refreshable evidence set, not a one-off snapshot.
-- `Lede:` The generated examples capture dated artifacts from major docs platforms and contrast sites for `robots.txt`, `sitemap.xml`, `llms.txt`, DNS, request/response transcripts, HAR-style metadata, and optional agent-facing files.
+- `Lede:` The generated examples capture dated artifacts from major docs platforms and contrast sites for `robots.txt`, `sitemap.xml`, `llms.txt`, DNS, summary-first HTTP evidence, request/response transcripts, HAR-style metadata, and optional agent-facing files.
 - `Why it matters:`
   - Agent-readiness audits need concrete network evidence, not claims.
   - Large public files should be sampled and marked, not copied wholesale into the repo.
@@ -26,6 +26,7 @@ The script writes each site to `examples/<site-slug>/` with:
 - `README.md`
 - `metadata.json`
 - `dns.txt` and `dns.json`
+- `http-evidence.md`
 - `http-transcript.md`
 - `http.har.json`
 - endpoint files such as `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.sample.txt`, and `.well-known/agent-skills/index.json`

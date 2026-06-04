@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "openai-root",
     "name": "OpenAI Root",
@@ -47,8 +47,8 @@
     {
       "type": "HTTPS",
       "values": [
-        "104.18.33.45",
-        "172.64.154.211"
+        "172.64.154.211",
+        "104.18.33.45"
       ]
     },
     {
@@ -110,7 +110,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:31.110Z",
+      "startedAt": "2026-06-04T21:48:43.981Z",
       "status": 200,
       "effectiveUrl": "https://openai.com/robots.txt",
       "contentType": "text/plain; charset=utf-8",
@@ -120,7 +120,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:44 GMT"
         },
         {
           "name": "content-type",
@@ -133,10 +133,6 @@
         {
           "name": "access-control-allow-origin",
           "value": "*"
-        },
-        {
-          "name": "age",
-          "value": "42363"
         },
         {
           "name": "cache-control",
@@ -152,7 +148,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Wed, 22 Apr 2026 19:15:09 GMT"
+          "value": "Wed, 22 Apr 2026 19:00:07 GMT"
         },
         {
           "name": "server",
@@ -172,7 +168,11 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::78tk9-1776885309302-a017cf21df6c"
+          "value": "iad1::z42gb-1776885309304-5ed933b2da82"
+        },
+        {
+          "name": "age",
+          "value": "47803"
         },
         {
           "name": "cf-cache-status",
@@ -196,21 +196,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc93deca6c50-DFW"
+          "value": "a06a24b76e6dfa09-MCI"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 216.337,
+      "durationMs": 63.406000000000006,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://openai.com/robots.txt"
@@ -222,7 +222,7 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:31.342Z",
+      "startedAt": "2026-06-04T21:48:44.057Z",
       "status": 200,
       "effectiveUrl": "https://openai.com/sitemap.xml",
       "contentType": "application/xml",
@@ -232,7 +232,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:44 GMT"
         },
         {
           "name": "content-type",
@@ -244,7 +244,7 @@
         },
         {
           "name": "age",
-          "value": "8156"
+          "value": "624"
         },
         {
           "name": "cache-control",
@@ -264,7 +264,7 @@
         },
         {
           "name": "last-modified",
-          "value": "Tue, 02 Jun 2026 17:12:35 GMT"
+          "value": "Thu, 04 Jun 2026 21:38:20 GMT"
         },
         {
           "name": "server",
@@ -284,7 +284,7 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::49bxt-1780428511423-4092fa7f69ac"
+          "value": "cle1::rbmvz-1780609724251-f824cfe1f345"
         },
         {
           "name": "cf-cache-status",
@@ -316,21 +316,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc944f3dd18f-MCI"
+          "value": "a06a24b85f487891-DFW"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 97.015,
+      "durationMs": 208.81900000000002,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://openai.com/sitemap.xml"
@@ -342,7 +342,7 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:31.450Z",
+      "startedAt": "2026-06-04T21:48:44.280Z",
       "status": 403,
       "effectiveUrl": "https://openai.com/llms.txt",
       "contentType": "text/html; charset=UTF-8",
@@ -352,7 +352,7 @@
       "responseHeaders": [
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:44 GMT"
         },
         {
           "name": "content-type",
@@ -396,7 +396,7 @@
         },
         {
           "name": "permissions-policy",
-          "value": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)"
+          "value": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
         },
         {
           "name": "referrer-policy",
@@ -404,7 +404,7 @@
         },
         {
           "name": "server-timing",
-          "value": "chlray;desc=\"a058dc95796a4e0c\""
+          "value": "chlray;desc=\"a06a24b94e60ea02\""
         },
         {
           "name": "x-content-type-options",
@@ -432,21 +432,21 @@
         },
         {
           "name": "cf-ray",
-          "value": "a058dc95796a4e0c-MCI"
+          "value": "a06a24b94e60ea02-DFW"
         },
         {
           "name": "alt-svc",
           "value": "h3=\":443\"; ma=86400"
         }
       ],
-      "responseStatusLine": "HTTP/2 403 ",
+      "responseStatusLine": "HTTP/2 403",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 134.42399999999998,
+      "durationMs": 84.294,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://openai.com/llms.txt"

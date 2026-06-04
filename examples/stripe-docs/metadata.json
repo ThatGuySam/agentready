@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "stripe-docs",
     "name": "Stripe Docs",
@@ -32,8 +32,8 @@
     {
       "type": "A",
       "values": [
-        "198.137.150.41",
-        "198.202.176.41"
+        "198.137.150.231",
+        "198.202.176.231"
       ]
     },
     {
@@ -47,8 +47,8 @@
     {
       "type": "HTTPS",
       "values": [
-        "198.202.176.111",
-        "198.137.150.111"
+        "198.202.176.41",
+        "198.137.150.41"
       ]
     },
     {
@@ -64,7 +64,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:22.150Z",
+      "startedAt": "2026-06-04T21:48:32.685Z",
       "status": 200,
       "effectiveUrl": "https://docs.stripe.com/robots.txt",
       "contentType": "text/plain; charset=utf-8",
@@ -78,7 +78,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:22 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:32 GMT"
         },
         {
           "name": "content-type",
@@ -93,14 +93,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 240.661,
+      "durationMs": 155.155,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.stripe.com/robots.txt"
@@ -112,12 +112,12 @@
       "output": "sitemap.xml",
       "outputFile": "sitemap.xml",
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:22.403Z",
+      "startedAt": "2026-06-04T21:48:32.851Z",
       "status": 200,
       "effectiveUrl": "https://docs.stripe.com/sitemap.xml",
       "contentType": "application/xml",
-      "bodyBytes": 417661,
-      "savedBytes": 417661,
+      "bodyBytes": 417846,
+      "savedBytes": 417846,
       "truncated": false,
       "responseHeaders": [
         {
@@ -126,7 +126,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:22 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:33 GMT"
         },
         {
           "name": "content-type",
@@ -158,7 +158,7 @@
         },
         {
           "name": "reporting-endpoints",
-          "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=EP2jmYH4MmueOQGR8RYjsX8S80QDqlnseDODJt2R0NUh9ifZAd-T9Ngc0jx92QiA1DX-cSuy\", wsp_coep=\"https://q.stripe.com/coep-report?s=EP2jmYH4MmueOQGR8RYjsX8S80QDqlnseDODJt2R0NUh9ifZAd-T9Ngc0jx92QiA1DX-cSuy\", csp=\"https://q.stripe.com/csp-report-v2?q=EP2jmYH4MmueOQGR8RYjsX8S80QDqlnseDODJt2R0NUh9ifZAd-T9Ngc0jx92QiA1DX-cSuy&t=1\""
+          "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3-1EWWre9NaprVrQ5i-WTt1_LEHffymUN99i\", wsp_coep=\"https://q.stripe.com/coep-report?s=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3-1EWWre9NaprVrQ5i-WTt1_LEHffymUN99i\", csp=\"https://q.stripe.com/csp-report-v2?q=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3- ... [truncated]"
         },
         {
           "name": "set-cookie",
@@ -178,7 +178,7 @@
         },
         {
           "name": "x-content-timestamp",
-          "value": "2026-06-02T19:28:22Z"
+          "value": "2026-06-04T21:48:33Z"
         },
         {
           "name": "x-frame-options",
@@ -194,7 +194,7 @@
         },
         {
           "name": "x-stripe-server-rpc-duration-micros",
-          "value": "195510"
+          "value": "170863"
         },
         {
           "name": "x-wc",
@@ -209,14 +209,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 518.626,
+      "durationMs": 499.14599999999996,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.stripe.com/sitemap.xml"
@@ -228,7 +228,7 @@
       "output": "llms.txt",
       "outputFile": "llms.txt",
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:22.943Z",
+      "startedAt": "2026-06-04T21:48:33.367Z",
       "status": 200,
       "effectiveUrl": "https://docs.stripe.com/llms.txt",
       "contentType": "text/plain; charset=utf-8",
@@ -242,7 +242,7 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:23 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:33 GMT"
         },
         {
           "name": "content-type",
@@ -270,7 +270,7 @@
         },
         {
           "name": "reporting-endpoints",
-          "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW\", wsp_coep=\"https://q.stripe.com/coep-report?s=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW\", csp=\"https://q.stripe.com/csp-report-v2?q=YUpHP-BJ5V-AFABjbirtcIKAJoac2c3bpX4rjuNoa9JtKhYMz5KPloFygbs8hmIMh-ASg5MW&t=1\""
+          "value": "wsp_coop=\"https://q.stripe.com/coop-report?s=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3-1EWWre9NaprVrQ5i-WTt1_LEHffymUN99i\", wsp_coep=\"https://q.stripe.com/coep-report?s=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3-1EWWre9NaprVrQ5i-WTt1_LEHffymUN99i\", csp=\"https://q.stripe.com/csp-report-v2?q=ef4klYUgYw7iZ62xqSXmiccZc6H_gJ6UgT5J3- ... [truncated]"
         },
         {
           "name": "set-cookie",
@@ -290,7 +290,7 @@
         },
         {
           "name": "x-content-timestamp",
-          "value": "2026-06-02T19:28:23Z"
+          "value": "2026-06-04T21:48:33Z"
         },
         {
           "name": "x-location",
@@ -306,7 +306,7 @@
         },
         {
           "name": "x-stripe-server-rpc-duration-micros",
-          "value": "25292"
+          "value": "25820"
         },
         {
           "name": "x-wc",
@@ -321,14 +321,14 @@
           "value": "gzip"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 392.923,
+      "durationMs": 387.911,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.stripe.com/llms.txt"

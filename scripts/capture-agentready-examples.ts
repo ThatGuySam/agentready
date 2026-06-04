@@ -71,6 +71,20 @@ type DnsRecord = {
 
 const defaultMaxBytes = 1_000_000;
 const sampleMaxBytes = 250_000;
+const numberFormatter = new Intl.NumberFormat("en-US");
+const highSignalHeaderNames = new Set([
+  "cache-control",
+  "cf-cache-status",
+  "content-encoding",
+  "content-length",
+  "content-type",
+  "etag",
+  "last-modified",
+  "location",
+  "server",
+  "x-nextjs-cache",
+  "x-robots-tag",
+]);
 
 const commonAgentPaths = {
   agentSkills: ".well-known/agent-skills/index.json",
@@ -771,6 +785,7 @@ async function main() {
     });
     await writeJson(join(siteDir, "http.har.json"), toHar(site, records));
     await writeHttpTranscript(siteDir, site, records);
+    await writeHttpEvidence(siteDir, site, records);
 
     siteSummaries.push({
       slug: site.slug,
@@ -1011,6 +1026,7 @@ ${site.notes}
 
 - [metadata.json](./metadata.json) - full machine-readable capture metadata.
 - [dns.txt](./dns.txt) and [dns.json](./dns.json) - DNS records for \`${site.host}\`.
+- [http-evidence.md](./http-evidence.md) - summary-first GitHub-readable HTTP evidence.
 - [http-transcript.md](./http-transcript.md) - readable curl-style request/response evidence.
 - [http.har.json](./http.har.json) - HAR-style request/response metadata.
 
@@ -1084,6 +1100,201 @@ ${sections.join("\n")}
   );
 }
 
+async function writeHttpEvidence(
+  siteDir: string,
+  site: Site,
+  records: CaptureRecord[],
+) {
+  const sidecars = [
+    "- [http.har.json](./http.har.json)",
+    ...records.map(
+      (record) => `- [${record.statusFile}](./${record.statusFile})`,
+    ),
+  ].join("\n");
+  const endpointRows = records
+    .map((record) => {
+      const savedBody = record.outputFile
+        ? `[${record.outputFile}](./${record.outputFile})`
+        : "status only";
+
+      return `| ${escapeTableCell(record.label)} | ${formatStatus(record)} | ${escapeTableCell(record.contentType ?? "")} | ${formatInteger(record.bodyBytes)} | ${savedBody} | ${escapeTableCell(renderEvidenceNote(record))} |`;
+    })
+    .join("\n");
+  const sections = records.map(renderHttpEvidenceCard).join("\n");
+
+  await writeFile(
+    join(siteDir, "http-evidence.md"),
+    `# ${site.name} HTTP Evidence
+
+**Captured:** ${capturedAt}
+
+This is a GitHub-readable alternative to the raw curl transcript. It puts the
+decision-grade evidence first, then hides reproduction commands and header
+details behind collapsible sections.
+
+Machine-readable sidecars:
+
+${sidecars}
+
+## Endpoint Summary
+
+| Endpoint | Status | Content Type | Body Bytes | Saved Body | Notes |
+| --- | ---: | --- | ---: | --- | --- |
+${endpointRows}
+
+${sections}
+`,
+  );
+}
+
+function renderHttpEvidenceCard(record: CaptureRecord) {
+  const savedBody = record.outputFile
+    ? `[${record.outputFile}](./${record.outputFile})`
+    : "status only";
+  const fields: Array<[string, string]> = [
+    ["Source URL", record.url],
+    ["Effective URL", record.effectiveUrl ?? ""],
+    ["Status", formatStatus(record)],
+    ["Content-Type", record.contentType ?? ""],
+    ["Body bytes", formatInteger(record.bodyBytes)],
+    ["Duration", formatDuration(record.durationMs)],
+    ["Saved body", savedBody],
+    ["Raw metadata", `[status JSON](./${record.statusFile})`],
+  ];
+
+  return `## ${record.label}
+
+| Field | Value |
+| --- | --- |
+${fields
+  .map(([field, value]) => `| ${field} | ${escapeTableCell(value)} |`)
+  .join("\n")}
+
+High-signal response headers:
+
+\`\`\`http
+${renderHeaderExcerpt(record)}
+\`\`\`
+
+<details>
+<summary>Reproduce with curl</summary>
+
+\`\`\`bash
+${renderCurlCommand(record)}
+\`\`\`
+
+</details>
+
+<details>
+<summary>Captured request and response</summary>
+
+\`\`\`http
+${renderRawExchange(record)}
+\`\`\`
+
+</details>
+`;
+}
+
+function renderHeaderExcerpt(record: CaptureRecord) {
+  const headerLines = record.responseHeaders
+    .filter((header) => highSignalHeaderNames.has(header.name.toLowerCase()))
+    .map((header) => `${header.name}: ${header.value}`);
+  const lines = [record.responseStatusLine, ...headerLines].filter(Boolean);
+
+  return lines.length > 0 ? lines.join("\n") : "# no response headers captured";
+}
+
+function renderCurlCommand(record: CaptureRecord) {
+  const userAgentHeader = record.requestHeaders.find(
+    (header) => header.name.toLowerCase() === "user-agent",
+  );
+  const customHeaders = record.requestHeaders.filter(
+    (header) => header.name.toLowerCase() !== "user-agent",
+  );
+  const lines = [
+    "curl \\",
+    "  --location \\",
+    "  --silent \\",
+    "  --show-error \\",
+    "  --compressed \\",
+    "  --max-time 30 \\",
+    "  --connect-timeout 10 \\",
+    `  --user-agent ${shellQuoteArg(userAgentHeader?.value ?? userAgent)} \\`,
+    "  --dump-header '<response-headers>' \\",
+    `  --output ${shellQuoteArg(record.output)} \\`,
+    "  --write-out '<curl-metadata>' \\",
+    ...customHeaders.map(
+      (header) =>
+        `  --header ${shellQuoteArg(`${header.name}: ${header.value}`)} \\`,
+    ),
+    `  ${shellQuoteArg(record.url)}`,
+  ];
+
+  return lines.join("\n");
+}
+
+function renderRawExchange(record: CaptureRecord) {
+  const requestLines = [
+    `GET ${record.url} HTTP`,
+    ...record.requestHeaders.map(
+      (header) => `> ${header.name}: ${header.value}`,
+    ),
+  ];
+  const responseLines = [
+    record.responseStatusLine ?? "# no response status captured",
+    ...record.responseHeaders.map(
+      (header) => `${header.name}: ${header.value}`,
+    ),
+  ];
+
+  return [...requestLines, "", ...responseLines].join("\n");
+}
+
+function renderEvidenceNote(record: CaptureRecord) {
+  if (record.notes) {
+    return record.notes;
+  }
+
+  if (record.outputFile) {
+    return "Artifact body saved.";
+  }
+
+  if (record.status === null) {
+    return `curl exited ${record.curlExitCode}.`;
+  }
+
+  if (record.status >= 400) {
+    return "No body saved because the endpoint did not return a 2xx artifact.";
+  }
+
+  if (record.contentType?.toLowerCase().includes("text/html")) {
+    return "HTML body was not saved unless this endpoint is explicitly sampled.";
+  }
+
+  return "No body saved.";
+}
+
+function formatStatus(record: CaptureRecord) {
+  return record.status === null
+    ? `curl ${record.curlExitCode}`
+    : `${record.status}`;
+}
+
+function formatDuration(durationMs: number | null) {
+  return durationMs === null
+    ? ""
+    : `${formatInteger(Math.round(durationMs))} ms`;
+}
+
+function formatInteger(value: number) {
+  return numberFormatter.format(value);
+}
+
+function escapeTableCell(value: string) {
+  return value.replace(/\r?\n/g, " ").replaceAll("|", "\\|");
+}
+
 async function writeExamplesReadme(
   siteSummaries: Array<{
     slug: string;
@@ -1132,12 +1343,13 @@ Each site directory includes:
 
 - \`metadata.json\` with endpoint status, effective URL, content type, byte counts, and truncation flags.
 - \`dns.txt\` and \`dns.json\` with \`A\`, \`AAAA\`, \`CNAME\`, \`HTTPS\`, and \`TXT\` records.
+- \`http-evidence.md\` with summary-first GitHub-readable HTTP evidence.
 - \`http-transcript.md\` with curl-style request and response evidence.
 - \`http.har.json\` with HAR-style request and response metadata.
 - Endpoint body files such as \`robots.txt\`, \`sitemap.xml\`, \`llms.txt\`, \`llms-full.sample.txt\`, and \`.well-known/agent-skills/index.json\` when the endpoint returned a usable body.
 
 Large files are sampled and marked with \`truncated: true\` in the corresponding \`*.status.json\`.
-Dynamic response cookies are redacted, and unusually long CSP/reporting headers are truncated in metadata and transcripts.
+Dynamic response cookies are redacted, and unusually long response headers are truncated in metadata and transcripts.
 Saved text bodies are whitespace-normalized to remove trailing whitespace and space-before-tab issues from upstream samples.
 
 ## Sites
@@ -1240,7 +1452,7 @@ function parseHeaders(rawHeaders: string): {
     })
     .filter((header): header is HeaderPair => header !== null);
 
-  return { statusLine: statusLine ?? null, headers };
+  return { statusLine: statusLine?.trim() ?? null, headers };
 }
 
 function sanitizeHeaderValue(name: string, value: string) {
@@ -1268,7 +1480,7 @@ function sanitizeHeaderValue(name: string, value: string) {
     return truncateHeader(value);
   }
 
-  return value;
+  return truncateHeader(value);
 }
 
 function truncateHeader(value: string) {
@@ -1398,6 +1610,10 @@ function shellQuote(args: string[]) {
       return `'${arg.replaceAll("'", "'\\''")}'`;
     })
     .join(" ");
+}
+
+function shellQuoteArg(arg: string) {
+  return shellQuote([arg]);
 }
 
 await main();

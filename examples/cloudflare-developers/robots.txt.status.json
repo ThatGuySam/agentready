@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:01.236Z",
+  "startedAt": "2026-06-04T21:48:12.959Z",
   "status": 200,
   "effectiveUrl": "https://developers.cloudflare.com/robots.txt",
   "contentType": "text/plain",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:01 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:13 GMT"
     },
     {
       "name": "content-type",
@@ -75,21 +75,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbd89b5b6d2b-MCI"
+      "value": "a06a23f59ee51214-DFW"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 148.65,
+  "durationMs": 119.242,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://developers.cloudflare.com/robots.txt"

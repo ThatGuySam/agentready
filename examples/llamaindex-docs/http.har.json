@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "llamaindex-docs",
         "title": "LlamaIndex Docs",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "llamaindex-docs",
-        "startedDateTime": "2026-06-02T19:28:42.335Z",
-        "time": 371.719,
+        "startedDateTime": "2026-06-04T21:48:48.569Z",
+        "time": 450.55600000000004,
         "request": {
           "method": "GET",
           "url": "https://docs.llamaindex.ai/robots.txt",
@@ -35,7 +35,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -44,7 +44,7 @@
             },
             {
               "name": "age",
-              "value": "14353"
+              "value": "12132"
             },
             {
               "name": "cache-control",
@@ -64,7 +64,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:42 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:49 GMT"
             },
             {
               "name": "etag",
@@ -72,7 +72,7 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+              "value": "Thu, 04 Jun 2026 18:26:36 GMT"
             },
             {
               "name": "server",
@@ -88,7 +88,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::g95cc-1780428522687-b12a7bcaf794"
+              "value": "cle1::wdq2g-1780609729005-0f59b76c0e3a"
             }
           ],
           "cookies": [],
@@ -103,15 +103,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 371.719,
+          "wait": 450.55600000000004,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"
       },
       {
         "pageref": "llamaindex-docs",
-        "startedDateTime": "2026-06-02T19:28:42.731Z",
-        "time": 350.04200000000003,
+        "startedDateTime": "2026-06-04T21:48:49.035Z",
+        "time": 459.475,
         "request": {
           "method": "GET",
           "url": "https://docs.llamaindex.ai/sitemap.xml",
@@ -129,7 +129,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -138,7 +138,7 @@
             },
             {
               "name": "age",
-              "value": "14353"
+              "value": "12133"
             },
             {
               "name": "cache-control",
@@ -158,7 +158,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:49 GMT"
             },
             {
               "name": "etag",
@@ -166,7 +166,7 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+              "value": "Thu, 04 Jun 2026 18:26:36 GMT"
             },
             {
               "name": "server",
@@ -182,7 +182,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::gsn4v-1780428523014-bb8692cbaa4b"
+              "value": "cle1::mjljv-1780609729475-0569e9db2c79"
             }
           ],
           "cookies": [],
@@ -197,15 +197,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 350.04200000000003,
+          "wait": 459.475,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"
       },
       {
         "pageref": "llamaindex-docs",
-        "startedDateTime": "2026-06-02T19:28:43.106Z",
-        "time": 308.567,
+        "startedDateTime": "2026-06-04T21:48:49.519Z",
+        "time": 439.921,
         "request": {
           "method": "GET",
           "url": "https://docs.llamaindex.ai/llms.txt",
@@ -223,7 +223,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -232,7 +232,7 @@
             },
             {
               "name": "age",
-              "value": "14354"
+              "value": "12133"
             },
             {
               "name": "cache-control",
@@ -252,7 +252,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:43 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:49 GMT"
             },
             {
               "name": "etag",
@@ -260,7 +260,7 @@
             },
             {
               "name": "last-modified",
-              "value": "Tue, 02 Jun 2026 15:29:29 GMT"
+              "value": "Thu, 04 Jun 2026 18:26:36 GMT"
             },
             {
               "name": "server",
@@ -276,7 +276,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::qv864-1780428523388-08c397cea93b"
+              "value": "cle1::8v9bq-1780609729891-857f1d01f0e2"
             }
           ],
           "cookies": [],
@@ -291,7 +291,7 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 308.567,
+          "wait": 439.921,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"

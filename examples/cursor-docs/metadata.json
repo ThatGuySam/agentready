@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "cursor-docs",
     "name": "Cursor Docs",
@@ -33,8 +33,8 @@
       "type": "A",
       "values": [
         "edf0c7732a61bc62.vercel-dns-016.com.",
-        "64.239.123.129",
-        "64.239.109.129"
+        "64.239.109.193",
+        "64.239.123.193"
       ]
     },
     {
@@ -53,8 +53,8 @@
       "type": "HTTPS",
       "values": [
         "edf0c7732a61bc62.vercel-dns-016.com.",
-        "64.239.109.65",
-        "64.239.123.65"
+        "64.239.123.193",
+        "64.239.109.193"
       ]
     },
     {
@@ -72,11 +72,11 @@
       "output": "robots.txt",
       "outputFile": null,
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:43.720Z",
+      "startedAt": "2026-06-04T21:48:50.226Z",
       "status": 200,
       "effectiveUrl": "https://cursor.com/docs",
       "contentType": "text/html; charset=utf-8",
-      "bodyBytes": 125556,
+      "bodyBytes": 126376,
       "savedBytes": 0,
       "truncated": false,
       "responseHeaders": [
@@ -86,7 +86,7 @@
         },
         {
           "name": "age",
-          "value": "328909"
+          "value": "3936"
         },
         {
           "name": "cache-control",
@@ -106,11 +106,11 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:50 GMT"
         },
         {
           "name": "etag",
-          "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+          "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
         },
         {
           "name": "server",
@@ -150,17 +150,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::7dgfg-1780428524024-2bbc7374ce95"
+          "value": "cle1::cx9sn-1780609730666-66dd8093831f"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 406.923,
+      "durationMs": 595.518,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.cursor.com/robots.txt"
@@ -172,11 +172,11 @@
       "output": "sitemap.xml",
       "outputFile": null,
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:44.141Z",
+      "startedAt": "2026-06-04T21:48:50.843Z",
       "status": 200,
       "effectiveUrl": "https://cursor.com/docs",
       "contentType": "text/html; charset=utf-8",
-      "bodyBytes": 125556,
+      "bodyBytes": 126376,
       "savedBytes": 0,
       "truncated": false,
       "responseHeaders": [
@@ -186,7 +186,7 @@
         },
         {
           "name": "age",
-          "value": "328910"
+          "value": "3936"
         },
         {
           "name": "cache-control",
@@ -206,11 +206,11 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:51 GMT"
         },
         {
           "name": "etag",
-          "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+          "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
         },
         {
           "name": "server",
@@ -250,17 +250,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::lb2n4-1780428524443-b9cb6aff11c7"
+          "value": "cle1::j9phk-1780609731287-1a1c280932e3"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 362.253,
+      "durationMs": 508.329,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.cursor.com/sitemap.xml"
@@ -272,11 +272,11 @@
       "output": "llms.txt",
       "outputFile": null,
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:44.529Z",
+      "startedAt": "2026-06-04T21:48:51.367Z",
       "status": 200,
       "effectiveUrl": "https://cursor.com/docs",
       "contentType": "text/html; charset=utf-8",
-      "bodyBytes": 125556,
+      "bodyBytes": 126376,
       "savedBytes": 0,
       "truncated": false,
       "responseHeaders": [
@@ -286,7 +286,7 @@
         },
         {
           "name": "age",
-          "value": "328910"
+          "value": "3937"
         },
         {
           "name": "cache-control",
@@ -306,11 +306,11 @@
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:52 GMT"
         },
         {
           "name": "etag",
-          "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+          "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
         },
         {
           "name": "server",
@@ -350,17 +350,17 @@
         },
         {
           "name": "x-vercel-id",
-          "value": "cle1::8sr95-1780428524898-ce95cac6ca17"
+          "value": "cle1::ch8nv-1780609731924-3dc45320ac37"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 402.897,
+      "durationMs": 839.302,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.cursor.com/llms.txt"

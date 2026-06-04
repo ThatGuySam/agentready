@@ -5,7 +5,7 @@
   "output": "article-body-api.json",
   "outputFile": "article-body-api.json",
   "statusFile": "article-body-api.json.status.json",
-  "startedAt": "2026-06-02T19:28:21.848Z",
+  "startedAt": "2026-06-04T21:48:32.391Z",
   "status": 200,
   "effectiveUrl": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
   "contentType": "text/markdown; charset=utf-8",
@@ -75,7 +75,7 @@
     },
     {
       "name": "x-github-request-id",
-      "value": "ABF0:8C504:4F94E28:53F30A9:6A1F2C45"
+      "value": "D57E:2235B5:1762520:193020B:6A21F1A5"
     },
     {
       "name": "accept-ranges",
@@ -83,11 +83,11 @@
     },
     {
       "name": "age",
-      "value": "656"
+      "value": "263"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:32 GMT"
     },
     {
       "name": "via",
@@ -95,7 +95,7 @@
     },
     {
       "name": "x-served-by",
-      "value": "cache-dfw-kdal2120037-DFW"
+      "value": "cache-dfw-kdal2120111-DFW"
     },
     {
       "name": "x-cache",
@@ -107,7 +107,7 @@
     },
     {
       "name": "x-timer",
-      "value": "S1780428502.923001,VS0,VE1"
+      "value": "S1780609712.474396,VS0,VE1"
     },
     {
       "name": "strict-transport-security",
@@ -122,14 +122,14 @@
       "value": "accept-encoding"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 51.017,
+  "durationMs": 68.175,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output article-body-api.json --write-out '<curl-metadata>' 'https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git'"

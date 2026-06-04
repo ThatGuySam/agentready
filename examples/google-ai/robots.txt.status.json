@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:29.645Z",
+  "startedAt": "2026-06-04T21:48:42.178Z",
   "status": 200,
   "effectiveUrl": "https://ai.google.dev/robots.txt",
   "contentType": "text/plain",
@@ -31,7 +31,7 @@
     },
     {
       "name": "content-security-policy",
-      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-/8u/SOOAPzZm9Q6w0AB4jIETkltoIj' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri [redacted]"
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-chlqBziUEPtuGi53nAuMYpEbvzcAAo' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri [redacted]"
     },
     {
       "name": "strict-transport-security",
@@ -63,11 +63,11 @@
     },
     {
       "name": "x-cloud-trace-context",
-      "value": "7e65435664a35a41f5f1d30257871eef"
+      "value": "148724d1aa8f0ffec4ee2b73fa5c5ec6"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:29 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:42 GMT"
     },
     {
       "name": "server",
@@ -82,14 +82,14 @@
       "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 198.583,
+  "durationMs": 321.972,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://ai.google.dev/robots.txt"

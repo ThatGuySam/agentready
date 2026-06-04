@@ -1,10 +1,10 @@
-# Captured 2026-06-02T19:28:00.989Z
+# Captured 2026-06-04T21:48:12.668Z
 # Host: docs.cursor.com
 
 $ dig +short docs.cursor.com A
 edf0c7732a61bc62.vercel-dns-016.com.
-64.239.123.129
-64.239.109.129
+64.239.109.193
+64.239.123.193
 
 $ dig +short docs.cursor.com AAAA
 edf0c7732a61bc62.vercel-dns-016.com.
@@ -14,8 +14,8 @@ edf0c7732a61bc62.vercel-dns-016.com.
 
 $ dig +short docs.cursor.com HTTPS
 edf0c7732a61bc62.vercel-dns-016.com.
-64.239.109.65
-64.239.123.65
+64.239.123.193
+64.239.109.193
 
 $ dig +short docs.cursor.com TXT
 edf0c7732a61bc62.vercel-dns-016.com.

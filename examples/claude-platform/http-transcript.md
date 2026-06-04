@@ -1,6 +1,6 @@
 # Claude Platform HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -19,7 +19,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:12 GMT
+date: Thu, 04 Jun 2026 21:48:24 GMT
 content-type: text/plain
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-xss-protection: 1; mode=block
@@ -30,11 +30,11 @@ cache-control: public, max-age=0, must-revalidate
 server: cloudflare
 via: 1.1 google
 alt-svc: h3=":443"; ma=86400
-last-modified: Tue, 02 Jun 2026 19:28:12 GMT
+last-modified: Thu, 04 Jun 2026 21:48:24 GMT
 cf-cache-status: EXPIRED
 set-cookie: [redacted]
 content-encoding: gzip
-cf-ray: a058dc1d7a766b2a-DFW
+cf-ray: a06a243c8bea166b-MCI
 ```
 
 - Status: 200
@@ -61,7 +61,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:12 GMT
+date: Thu, 04 Jun 2026 21:48:24 GMT
 content-type: application/xml
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-xss-protection: 1; mode=block
@@ -72,11 +72,11 @@ cache-control: public, max-age=0, must-revalidate
 server: cloudflare
 via: 1.1 google
 alt-svc: h3=":443"; ma=86400
-last-modified: Tue, 02 Jun 2026 19:28:12 GMT
+last-modified: Thu, 04 Jun 2026 21:48:24 GMT
 cf-cache-status: EXPIRED
 set-cookie: [redacted]
 content-encoding: gzip
-cf-ray: a058dc1ecbf850ec-MCI
+cf-ray: a06a243da98658c5-DFW
 ```
 
 - Status: 200
@@ -103,7 +103,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:13 GMT
+date: Thu, 04 Jun 2026 21:48:25 GMT
 content-type: text/plain; charset=UTF-8
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-xss-protection: 1; mode=block
@@ -111,15 +111,15 @@ x-frame-options: SAMEORIGIN
 x-content-type-options: nosniff
 set-cookie: [redacted]
 cache-control: public, max-age=0
-last-modified: Tue, 02 Jun 2026 18:51:29 GMT
-etag: W/"29177-19e89ad2f68"
-x-cloud-trace-context: 8c293663f5878d7a84e398fcc5d67d62
+last-modified: Thu, 04 Jun 2026 17:23:49 GMT
+etag: W/"29177-19e93a9a488"
+x-cloud-trace-context: db637fded905fbbfef51516d8d17c4d7
 server: cloudflare
 via: 1.1 google
 alt-svc: h3=":443"; ma=86400
 cf-cache-status: REVALIDATED
 content-encoding: gzip
-cf-ray: a058dc20bc59b31e-DFW
+cf-ray: a06a243f8f534787-DFW
 ```
 
 - Status: 200
@@ -146,7 +146,7 @@ Response:
 
 ```http
 HTTP/2 200
-date: Tue, 02 Jun 2026 19:28:13 GMT
+date: Thu, 04 Jun 2026 21:48:25 GMT
 content-type: text/plain; charset=utf-8
 strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-xss-protection: 1; mode=block
@@ -157,17 +157,17 @@ cache-control: public, max-age=3600
 server: cloudflare
 via: 1.1 google
 alt-svc: h3=":443"; ma=86400
-age: 2014
-last-modified: Tue, 02 Jun 2026 19:18:50 GMT
+age: 392
+last-modified: Thu, 04 Jun 2026 21:44:01 GMT
 cf-cache-status: HIT
 set-cookie: [redacted]
 content-encoding: gzip
-cf-ray: a058dc229ee66a1e-MCI
+cf-ray: a06a2440ea4143ae-MCI
 ```
 
 - Status: 200
 - Effective URL: https://platform.claude.com/llms-full.txt
 - Content-Type: text/plain; charset=utf-8
-- Body bytes: 71523030
+- Body bytes: 71562833
 - Saved body: llms-full.sample.txt
 - Truncated: yes

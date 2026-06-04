@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "cursor-docs",
         "title": "Cursor Docs",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "cursor-docs",
-        "startedDateTime": "2026-06-02T19:28:43.720Z",
-        "time": 406.923,
+        "startedDateTime": "2026-06-04T21:48:50.226Z",
+        "time": 595.518,
         "request": {
           "method": "GET",
           "url": "https://docs.cursor.com/robots.txt",
@@ -35,7 +35,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -44,7 +44,7 @@
             },
             {
               "name": "age",
-              "value": "328909"
+              "value": "3936"
             },
             {
               "name": "cache-control",
@@ -64,11 +64,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:50 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+              "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
             },
             {
               "name": "server",
@@ -108,30 +108,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::7dgfg-1780428524024-2bbc7374ce95"
+              "value": "cle1::cx9sn-1780609730666-66dd8093831f"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 125556,
+            "size": 126376,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://cursor.com/docs",
           "headersSize": -1,
-          "bodySize": 125556
+          "bodySize": 126376
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 406.923,
+          "wait": 595.518,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"
       },
       {
         "pageref": "cursor-docs",
-        "startedDateTime": "2026-06-02T19:28:44.141Z",
-        "time": 362.253,
+        "startedDateTime": "2026-06-04T21:48:50.843Z",
+        "time": 508.329,
         "request": {
           "method": "GET",
           "url": "https://docs.cursor.com/sitemap.xml",
@@ -149,7 +149,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -158,7 +158,7 @@
             },
             {
               "name": "age",
-              "value": "328910"
+              "value": "3936"
             },
             {
               "name": "cache-control",
@@ -178,11 +178,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:51 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+              "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
             },
             {
               "name": "server",
@@ -222,30 +222,30 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::lb2n4-1780428524443-b9cb6aff11c7"
+              "value": "cle1::j9phk-1780609731287-1a1c280932e3"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 125556,
+            "size": 126376,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://cursor.com/docs",
           "headersSize": -1,
-          "bodySize": 125556
+          "bodySize": 126376
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 362.253,
+          "wait": 508.329,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"
       },
       {
         "pageref": "cursor-docs",
-        "startedDateTime": "2026-06-02T19:28:44.529Z",
-        "time": 402.897,
+        "startedDateTime": "2026-06-04T21:48:51.367Z",
+        "time": 839.302,
         "request": {
           "method": "GET",
           "url": "https://docs.cursor.com/llms.txt",
@@ -263,7 +263,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -272,7 +272,7 @@
             },
             {
               "name": "age",
-              "value": "328910"
+              "value": "3937"
             },
             {
               "name": "cache-control",
@@ -292,11 +292,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:44 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:52 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"ff600753e86da82c24b1ebd895034945\""
+              "value": "W/\"7e592e5c065e59ed71f81df3a4bc9de7\""
             },
             {
               "name": "server",
@@ -336,22 +336,22 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::8sr95-1780428524898-ce95cac6ca17"
+              "value": "cle1::ch8nv-1780609731924-3dc45320ac37"
             }
           ],
           "cookies": [],
           "content": {
-            "size": 125556,
+            "size": 126376,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://cursor.com/docs",
           "headersSize": -1,
-          "bodySize": 125556
+          "bodySize": 126376
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 402.897,
+          "wait": 839.302,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"

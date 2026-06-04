@@ -5,11 +5,11 @@
   "output": "llms.txt",
   "outputFile": null,
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:41.712Z",
+  "startedAt": "2026-06-04T21:48:47.981Z",
   "status": 404,
   "effectiveUrl": "https://supabase.com/docs/llms.txt",
   "contentType": "text/html; charset=utf-8",
-  "bodyBytes": 96620,
+  "bodyBytes": 96855,
   "savedBytes": 0,
   "truncated": false,
   "responseHeaders": [
@@ -19,7 +19,7 @@
     },
     {
       "name": "age",
-      "value": "10059"
+      "value": "28803"
     },
     {
       "name": "cache-control",
@@ -39,15 +39,15 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:41 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:48 GMT"
     },
     {
       "name": "etag",
-      "value": "W/\"9f1c058f2b4a089540ba0e4d40d170f4\""
+      "value": "W/\"729d1bc067c2742b35e61e8a93ca3b67\""
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 16:41:02 GMT"
+      "value": "Thu, 04 Jun 2026 13:48:45 GMT"
     },
     {
       "name": "server",
@@ -83,17 +83,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:cle1::cpvmx-1780428521853-d5e874245309"
+      "value": "cle1:cle1:cle1::rprc4-1780609728158-37c7acdd950f"
     }
   ],
-  "responseStatusLine": "HTTP/2 404 ",
+  "responseStatusLine": "HTTP/2 404",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 310.40000000000003,
+  "durationMs": 215.023,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://supabase.com/docs/llms.txt"

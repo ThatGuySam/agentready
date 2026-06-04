@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:08.067Z",
+  "startedAt": "2026-06-04T21:48:19.979Z",
   "status": 200,
   "effectiveUrl": "https://docs.perplexity.ai/llms.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc03cb8a1cc4-CMH"
+      "value": "a06a2422ac833401-CMH"
     },
     {
       "name": "content-encoding",
@@ -39,11 +39,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:20 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:08 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:20 GMT"
     },
     {
       "name": "server",
@@ -71,17 +71,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:iad1::iad1::tnblw-1780428488256-7444432fc971"
+      "value": "cle1:cle1:iad1::iad1::n2cb7-1780609700230-1bb0830edc0b"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 397.703,
+  "durationMs": 606.034,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.perplexity.ai/llms.txt"

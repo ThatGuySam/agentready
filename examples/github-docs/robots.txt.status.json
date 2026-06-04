@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:21.394Z",
+  "startedAt": "2026-06-04T21:48:32.148Z",
   "status": 200,
   "effectiveUrl": "https://docs.github.com/robots.txt",
   "contentType": "text/plain; charset=utf-8",
@@ -75,7 +75,7 @@
     },
     {
       "name": "x-github-request-id",
-      "value": "F8CC:28E41F:4A9EF6F:4F1062D:6A1F2C45"
+      "value": "113E:80137:13926:15CB4:6A21C167"
     },
     {
       "name": "content-encoding",
@@ -87,11 +87,11 @@
     },
     {
       "name": "age",
-      "value": "656"
+      "value": "12600"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:32 GMT"
     },
     {
       "name": "via",
@@ -99,7 +99,7 @@
     },
     {
       "name": "x-served-by",
-      "value": "cache-dfw-kdal2120024-DFW"
+      "value": "cache-dfw-kdal2120027-DFW"
     },
     {
       "name": "x-cache",
@@ -111,7 +111,7 @@
     },
     {
       "name": "x-timer",
-      "value": "S1780428501.479109,VS0,VE1"
+      "value": "S1780609712.250899,VS0,VE2"
     },
     {
       "name": "vary",
@@ -126,14 +126,14 @@
       "value": "33"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 70.76100000000001,
+  "durationMs": 82.885,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.github.com/robots.txt"

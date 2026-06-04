@@ -1,6 +1,6 @@
 # Google Developers HTTP Transcript
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 ## robots.txt
 
@@ -23,7 +23,7 @@ content-type: text/plain
 last-modified: Thu, 04 Sep 2025 12:04:01 GMT
 vary: Cookie
 vary: Accept-Encoding
-content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-V1+MwY/VjmieCgdVHrOcZODkIF6ZsL' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-/Jl09DOTJrlC/FvoQn/MNWzfR4nkG7' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]
 strict-transport-security: max-age=63072000; includeSubdomains; preload
 x-xss-protection: 0
 x-content-type-options: nosniff
@@ -31,8 +31,8 @@ cache-control: no-cache, must-revalidate
 expires: 0
 pragma: no-cache
 content-encoding: gzip
-x-cloud-trace-context: 4f6b936a0797a96208d4b6368d9265eb
-date: Tue, 02 Jun 2026 19:28:28 GMT
+x-cloud-trace-context: 2439095bd8488f3dbfdc0df8108ebe22
+date: Thu, 04 Jun 2026 21:48:40 GMT
 server: Google Frontend
 content-length: 104
 alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
@@ -65,7 +65,7 @@ HTTP/2 200
 content-type: application/xml
 vary: Cookie
 vary: Accept-Encoding
-content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9oJNQM1ix0Ux+pt56x10gdefc64RpY' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-nPxNwune6UQRzL2gJiK7Q/bdaweLVi' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]
 strict-transport-security: max-age=63072000; includeSubdomains; preload
 x-xss-protection: 0
 x-content-type-options: nosniff
@@ -73,10 +73,10 @@ cache-control: no-cache, must-revalidate
 expires: 0
 pragma: no-cache
 content-encoding: gzip
-x-cloud-trace-context: c5d279f904a28b1bd763925ba4acbc8a
-date: Tue, 02 Jun 2026 19:28:28 GMT
+x-cloud-trace-context: f6b2b7e3218ccc60e59da341f581c1f8
+date: Thu, 04 Jun 2026 21:48:41 GMT
 server: Google Frontend
-content-length: 488
+content-length: 510
 alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 ```
 
@@ -107,7 +107,7 @@ HTTP/2 404
 content-type: text/html; charset=utf-8
 vary: Cookie
 vary: Accept-Encoding
-content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-G86ZyyQu6h4aYFf+Os3OxUCvWWAfE+' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-r7b/g8dBpwqVCc7z+dn3m1yZg/lFLS' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]
 strict-transport-security: max-age=63072000; includeSubdomains; preload
 x-xss-protection: 0
 x-content-type-options: nosniff
@@ -115,16 +115,16 @@ cache-control: no-cache, must-revalidate
 expires: 0
 pragma: no-cache
 content-encoding: gzip
-x-cloud-trace-context: 71a74dc119d4c8e5e04ebf31e79eb16e
-date: Tue, 02 Jun 2026 19:28:29 GMT
+x-cloud-trace-context: baf5ce0d79745959e1d8eb85929f1af4
+date: Thu, 04 Jun 2026 21:48:41 GMT
 server: Google Frontend
-content-length: 10279
+content-length: 10274
 alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 ```
 
 - Status: 404
 - Effective URL: https://developers.google.com/llms.txt
 - Content-Type: text/html; charset=utf-8
-- Body bytes: 45736
+- Body bytes: 45740
 - Saved body: status only
 - Truncated: no

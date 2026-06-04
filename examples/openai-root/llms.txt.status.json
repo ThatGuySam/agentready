@@ -5,7 +5,7 @@
   "output": "llms.txt",
   "outputFile": null,
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:31.450Z",
+  "startedAt": "2026-06-04T21:48:44.280Z",
   "status": 403,
   "effectiveUrl": "https://openai.com/llms.txt",
   "contentType": "text/html; charset=UTF-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:31 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:44 GMT"
     },
     {
       "name": "content-type",
@@ -59,7 +59,7 @@
     },
     {
       "name": "permissions-policy",
-      "value": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)"
+      "value": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
     },
     {
       "name": "referrer-policy",
@@ -67,7 +67,7 @@
     },
     {
       "name": "server-timing",
-      "value": "chlray;desc=\"a058dc95796a4e0c\""
+      "value": "chlray;desc=\"a06a24b94e60ea02\""
     },
     {
       "name": "x-content-type-options",
@@ -95,21 +95,21 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc95796a4e0c-MCI"
+      "value": "a06a24b94e60ea02-DFW"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=86400"
     }
   ],
-  "responseStatusLine": "HTTP/2 403 ",
+  "responseStatusLine": "HTTP/2 403",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 134.42399999999998,
+  "durationMs": 84.294,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://openai.com/llms.txt"

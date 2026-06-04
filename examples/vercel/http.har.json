@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "vercel",
         "title": "Vercel",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "vercel",
-        "startedDateTime": "2026-06-02T19:28:16.674Z",
-        "time": 1334.81,
+        "startedDateTime": "2026-06-04T21:48:28.275Z",
+        "time": 683.9730000000001,
         "request": {
           "method": "GET",
           "url": "https://vercel.com/docs/robots.txt",
@@ -35,12 +35,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "0"
+              "value": "263"
             },
             {
               "name": "cache-control",
@@ -60,7 +60,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:17 GMT"
+              "value": "Thu, 04 Jun 2026 21:44:05 GMT"
             },
             {
               "name": "feature-policy",
@@ -116,11 +116,11 @@
             },
             {
               "name": "x-vercel-cache",
-              "value": "MISS"
+              "value": "HIT"
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::iad1::p7vf5-1780428496902-1db002142cdf"
+              "value": "cle1::iad1::kwqxd-1780609708697-8c2694bb79f7"
             },
             {
               "name": "x-xss-protection",
@@ -139,15 +139,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 1334.81,
+          "wait": 683.9730000000001,
           "receive": 0
         },
         "comment": "Saved body to robots.txt"
       },
       {
         "pageref": "vercel",
-        "startedDateTime": "2026-06-02T19:28:18.027Z",
-        "time": 402.18199999999996,
+        "startedDateTime": "2026-06-04T21:48:28.988Z",
+        "time": 336.453,
         "request": {
           "method": "GET",
           "url": "https://vercel.com/sitemap.xml",
@@ -165,12 +165,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "204"
+              "value": "262"
             },
             {
               "name": "cache-control",
@@ -190,7 +190,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:24:53 GMT"
+              "value": "Thu, 04 Jun 2026 21:44:06 GMT"
             },
             {
               "name": "feature-policy",
@@ -238,7 +238,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1:cle1:cle1::iad1::xb27g-1780428498272-03bea8571cb7"
+              "value": "cle1:cle1:cle1::iad1::pvkkt-1780609709230-0a738fb36977"
             },
             {
               "name": "x-xss-protection",
@@ -247,25 +247,25 @@
           ],
           "cookies": [],
           "content": {
-            "size": 986108,
+            "size": 991551,
             "mimeType": "application/xml; charset=utf-8"
           },
           "redirectURL": "https://vercel.com/crawled-sitemap.xml",
           "headersSize": -1,
-          "bodySize": 986108
+          "bodySize": 991551
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 402.18199999999996,
+          "wait": 336.453,
           "receive": 0
         },
         "comment": "Saved body to sitemap.xml"
       },
       {
         "pageref": "vercel",
-        "startedDateTime": "2026-06-02T19:28:18.462Z",
-        "time": 251.135,
+        "startedDateTime": "2026-06-04T21:48:29.345Z",
+        "time": 263.181,
         "request": {
           "method": "GET",
           "url": "https://vercel.com/llms.txt",
@@ -283,7 +283,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -292,7 +292,7 @@
             },
             {
               "name": "age",
-              "value": "625"
+              "value": "263"
             },
             {
               "name": "cache-control",
@@ -316,11 +316,11 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:18 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:29 GMT"
             },
             {
               "name": "etag",
-              "value": "W/\"d57d898afbe45ac090d27206b2b0bda4\""
+              "value": "W/\"3080dcb20542c0027a9637490ba43e5c\""
             },
             {
               "name": "feature-policy",
@@ -372,7 +372,7 @@
             },
             {
               "name": "x-matched-path",
-              "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f79_v7-_g.Rt0RR446KJJOGCQ1-bH8BjhTMggsbefhvYjO6CdmOtQ/llms.txt"
+              "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f3-_f7-_v4.xdVn_B-WvoPTpOi6BD7iGP-LDjuOFA-C4kEK6dGaZek/llms.txt"
             },
             {
               "name": "x-vercel-cache",
@@ -380,7 +380,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::7dgfg-1780428498669-a6ff797bc543"
+              "value": "cle1::xksfc-1780609709552-88982088f435"
             },
             {
               "name": "x-xss-protection",
@@ -389,25 +389,25 @@
           ],
           "cookies": [],
           "content": {
-            "size": 168876,
+            "size": 171084,
             "mimeType": "text/plain; charset=utf-8"
           },
           "redirectURL": "https://vercel.com/llms.txt",
           "headersSize": -1,
-          "bodySize": 168876
+          "bodySize": 171084
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 251.135,
+          "wait": 263.181,
           "receive": 0
         },
         "comment": "Saved body to llms.txt"
       },
       {
         "pageref": "vercel",
-        "startedDateTime": "2026-06-02T19:28:18.741Z",
-        "time": 240.28,
+        "startedDateTime": "2026-06-04T21:48:29.622Z",
+        "time": 276.779,
         "request": {
           "method": "GET",
           "url": "https://vercel.com/docs/llms-full.txt",
@@ -425,12 +425,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "204"
+              "value": "262"
             },
             {
               "name": "cache-control",
@@ -450,7 +450,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:24:54 GMT"
+              "value": "Thu, 04 Jun 2026 21:44:07 GMT"
             },
             {
               "name": "feature-policy",
@@ -510,7 +510,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::iad1::nq6f6-1780428498884-41eb7fb345d6"
+              "value": "cle1::iad1::wlp2v-1780609709814-c9469bc012bd"
             },
             {
               "name": "x-xss-protection",
@@ -529,15 +529,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 240.28,
+          "wait": 276.779,
           "receive": 0
         },
         "comment": "Saved body to llms-full.sample.txt"
       },
       {
         "pageref": "vercel",
-        "startedDateTime": "2026-06-02T19:28:19.004Z",
-        "time": 346.25800000000004,
+        "startedDateTime": "2026-06-04T21:48:29.913Z",
+        "time": 347.26,
         "request": {
           "method": "GET",
           "url": "https://vercel.com/docs/agent-resources",
@@ -555,12 +555,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "656"
+              "value": "262"
             },
             {
               "name": "cache-control",
@@ -580,7 +580,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:17:22 GMT"
+              "value": "Thu, 04 Jun 2026 21:44:07 GMT"
             },
             {
               "name": "feature-policy",
@@ -640,7 +640,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::iad1::hsdl4-1780428499197-ec45eebc9caa"
+              "value": "cle1::iad1::6lmm2-1780609710176-46344eb8d1a0"
             },
             {
               "name": "x-xss-protection",
@@ -659,15 +659,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 346.25800000000004,
+          "wait": 347.26,
           "receive": 0
         },
         "comment": "Saved body to agent-resources.md.txt"
       },
       {
         "pageref": "vercel",
-        "startedDateTime": "2026-06-02T19:28:19.376Z",
-        "time": 318.122,
+        "startedDateTime": "2026-06-04T21:48:30.279Z",
+        "time": 283.839,
         "request": {
           "method": "GET",
           "url": "https://vercel.com/kb/guide/agent-readability-spec",
@@ -685,12 +685,12 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
               "name": "age",
-              "value": "203"
+              "value": "814"
             },
             {
               "name": "cache-control",
@@ -710,7 +710,7 @@
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:24:56 GMT"
+              "value": "Thu, 04 Jun 2026 21:34:55 GMT"
             },
             {
               "name": "feature-policy",
@@ -718,7 +718,7 @@
             },
             {
               "name": "link",
-              "value": "</vc-ap-vercel-docs/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </vc-ap-vercel-docs/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", <//images.ctfassets.net/hjgychtc108g/56icfY9ZMviClWx3QeVvmL/23454000beaf3f7c56bf7fd06d9fb044/Timothy_Jordan-crop1-2mb-bw-128px.jpg>; rel=preload; as=\"image\", </vc-ap-vercel-docs/_next/static/immutable/media/vercel-light.23p4dw77xj4pk.svg>; rel=preload; as=\"image\", </vc-ap-vercel-docs/_next/static/immutable/media/vercel-dark.05qiau0oi3y6n.svg>; rel=preload; as=\"image\""
+              "value": "</vc-ap-vercel-docs/_next/static/immutable/media/GeistMono_Variable.p.1bcgm0qa26ixg.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </vc-ap-vercel-docs/_next/static/immutable/media/caa3a2e1cccd8315.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", <//images.ctfassets. ... [truncated]"
             },
             {
               "name": "referrer-policy",
@@ -766,7 +766,7 @@
             },
             {
               "name": "x-matched-path",
-              "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f79_v7-_g.Rt0RR446KJJOGCQ1-bH8BjhTMggsbefhvYjO6CdmOtQ/kb/guide/agent-readability-spec"
+              "value": "/flg~eyJhbGciOiJIUzI1NiJ9._f7-_v39_f3-_f7-_v4.xdVn_B-WvoPTpOi6BD7iGP-LDjuOFA-C4kEK6dGaZek/kb/guide/agent-readability-spec"
             },
             {
               "name": "x-nextjs-prerender",
@@ -786,7 +786,7 @@
             },
             {
               "name": "x-vercel-id",
-              "value": "cle1::iad1::whqlz-1780428499585-03ff4a7f7735"
+              "value": "cle1::iad1::kwqxd-1780609710452-1969bf455024"
             },
             {
               "name": "x-xss-protection",
@@ -795,17 +795,17 @@
           ],
           "cookies": [],
           "content": {
-            "size": 693234,
+            "size": 734393,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://vercel.com/kb/guide/agent-readability-spec",
           "headersSize": -1,
-          "bodySize": 693234
+          "bodySize": 734393
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 318.122,
+          "wait": 283.839,
           "receive": 0
         },
         "comment": "Saved body to agent-readability-spec.sample.html.txt"

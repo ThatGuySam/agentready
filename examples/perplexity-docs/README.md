@@ -1,6 +1,6 @@
 # Perplexity Docs
 
-**Captured:** 2026-06-02T19:28:00.989Z
+**Captured:** 2026-06-04T21:48:12.668Z
 
 **Homepage:** [https://docs.perplexity.ai/](https://docs.perplexity.ai/)
 
@@ -12,6 +12,7 @@ AI-search docs fixture with crawler docs, llms files, and agent skills JSON.
 
 - [metadata.json](./metadata.json) - full machine-readable capture metadata.
 - [dns.txt](./dns.txt) and [dns.json](./dns.json) - DNS records for `docs.perplexity.ai`.
+- [http-evidence.md](./http-evidence.md) - summary-first GitHub-readable HTTP evidence.
 - [http-transcript.md](./http-transcript.md) - readable curl-style request/response evidence.
 - [http.har.json](./http.har.json) - HAR-style request/response metadata.
 

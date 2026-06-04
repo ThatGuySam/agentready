@@ -5,12 +5,12 @@
   "output": "llms.txt",
   "outputFile": "llms.txt",
   "statusFile": "llms.txt.status.json",
-  "startedAt": "2026-06-02T19:28:20.432Z",
+  "startedAt": "2026-06-04T21:48:31.316Z",
   "status": 200,
   "effectiveUrl": "https://developers.openai.com/api/docs/llms.txt",
   "contentType": "text/plain; charset=utf-8",
-  "bodyBytes": 27802,
-  "savedBytes": 27802,
+  "bodyBytes": 28182,
+  "savedBytes": 28182,
   "truncated": false,
   "responseHeaders": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "age",
-      "value": "424"
+      "value": "7281"
     },
     {
       "name": "cache-control",
@@ -39,15 +39,15 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:20 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:31 GMT"
     },
     {
       "name": "etag",
-      "value": "W/\"fa3aa584575385a0b1834521f1f035c6\""
+      "value": "W/\"ec93fc632a8399237760dc8244251919\""
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:21:16 GMT"
+      "value": "Thu, 04 Jun 2026 19:47:10 GMT"
     },
     {
       "name": "server",
@@ -63,17 +63,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::tnblw-1780428500646-1715a6dc539d"
+      "value": "cle1::ndp7w-1780609711491-a1b17feb1604"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 327.199,
+  "durationMs": 274.748,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://developers.openai.com/api/docs/llms.txt"

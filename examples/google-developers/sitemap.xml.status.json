@@ -5,7 +5,7 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:28.081Z",
+  "startedAt": "2026-06-04T21:48:40.345Z",
   "status": 200,
   "effectiveUrl": "https://developers.google.com/sitemap.xml",
   "contentType": "application/xml",
@@ -27,7 +27,7 @@
     },
     {
       "name": "content-security-policy",
-      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9oJNQM1ix0Ux+pt56x10gdefc64RpY' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+      "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-nPxNwune6UQRzL2gJiK7Q/bdaweLVi' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
     },
     {
       "name": "strict-transport-security",
@@ -59,11 +59,11 @@
     },
     {
       "name": "x-cloud-trace-context",
-      "value": "c5d279f904a28b1bd763925ba4acbc8a"
+      "value": "f6b2b7e3218ccc60e59da341f581c1f8"
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:41 GMT"
     },
     {
       "name": "server",
@@ -71,21 +71,21 @@
     },
     {
       "name": "content-length",
-      "value": "488"
+      "value": "510"
     },
     {
       "name": "alt-svc",
       "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 671.049,
+  "durationMs": 1075.283,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://developers.google.com/sitemap.xml"

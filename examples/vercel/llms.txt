@@ -68,6 +68,7 @@
   - [Automated & Agent Access](https://vercel.com/docs/deployment-protection/automated-agent-access)
   - [Protected Source Maps](https://vercel.com/docs/deployment-protection/protected-source-maps)
 - [Directory Sync](https://vercel.com/docs/directory-sync): Learn how to configure Directory Sync for your Vercel Team.
+- [Organizations](https://vercel.com/docs/organizations): Learn how organizations let you group multiple Vercel teams under a single entity with consolidated billing and central management.
 - [SAML SSO](https://vercel.com/docs/saml): Learn how to configure SAML SSO for your organization on Vercel.
 - [Two-factor (2FA)](https://vercel.com/docs/two-factor-authentication): Learn how to configure two-factor authentication for your Vercel account.
 
@@ -143,6 +144,7 @@
       - [Tool Calling](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/tool-calling)
       - [Provider Options](https://vercel.com/docs/ai-gateway/sdks-and-apis/openresponses/provider-options)
     - [Python](https://vercel.com/docs/ai-gateway/sdks-and-apis/python)
+    - [REST API](https://vercel.com/docs/ai-gateway/sdks-and-apis/rest-api)
   - [Authentication & BYOK](https://vercel.com/docs/ai-gateway/authentication-and-byok)
     - [API Keys](https://vercel.com/docs/ai-gateway/authentication-and-byok/api-keys)
     - [OIDC](https://vercel.com/docs/ai-gateway/authentication-and-byok/oidc)
@@ -333,8 +335,7 @@
 - [vercel init](https://vercel.com/docs/cli/init): Learn how to initialize Vercel supported framework examples locally using the vercel init CLI command.
 - [vercel inspect](https://vercel.com/docs/cli/inspect): Learn how to retrieve information about your Vercel deployments using the vercel inspect CLI command.
 - [vercel install](https://vercel.com/docs/cli/install): Learn how to install marketplace native integrations and provision resources with the vercel install CLI command.
-- [vercel integration](https://vercel.com/docs/cli/integration): Learn how to manage marketplace native integrations, provision resources, and discover available products using the vercel integration CLI command.
-- [vercel integration-resource](https://vercel.com/docs/cli/integration-resource): Learn how to manage marketplace native integration resources using the vercel integration-resource CLI command.
+- [vercel integration](https://vercel.com/docs/cli/integration): Learn how to manage marketplace native integrations, provision resources, manage individual resources, and discover available products using the vercel integration CLI command.
 - [vercel link](https://vercel.com/docs/cli/link): Learn how to link a local directory to a Vercel Project using the vercel link CLI command.
 - [vercel list](https://vercel.com/docs/cli/list): Learn how to list out all recent deployments for the current Vercel Project using the vercel list CLI command.
 - [vercel login](https://vercel.com/docs/cli/login): Learn how to login into your Vercel account using the vercel login CLI command.
@@ -451,7 +452,16 @@
   - [Python](https://vercel.com/docs/workflows/python)
 
 ## Connect
-- [Getting Started](https://vercel.com/docs/connect/getting-started): Create your first connector in Vercel Connect, attach it to a project, and request runtime tokens for agent workflows.
+- [Quickstart](https://vercel.com/docs/connect/quickstart): Create your first connector in Vercel Connect, install the SDK, and request a runtime provider token from your code.
+- [Concepts](https://vercel.com/docs/connect/concepts): Understand the core building blocks of Vercel Connect: connectors, installations, tokens, project links, triggers, and authentication.
+  - [Connectors](https://vercel.com/docs/connect/concepts/connectors)
+  - [Installations](https://vercel.com/docs/connect/concepts/installations)
+  - [Tokens](https://vercel.com/docs/connect/concepts/tokens)
+  - [Project links](https://vercel.com/docs/connect/concepts/project-links)
+  - [Triggers](https://vercel.com/docs/connect/concepts/triggers)
+  - [Authentication](https://vercel.com/docs/connect/concepts/authentication)
+- [SDK Reference](https://vercel.com/docs/connect/ts-sdk-reference): API reference for @vercel/connect, the TypeScript SDK for requesting runtime tokens from Vercel Connect.
+- [Pricing and Limits](https://vercel.com/docs/connect/pricing): How Vercel Connect is billed across plans, how to stop being billed, and the platform limits that apply during beta.
 
 ## Flags
 - [Vercel Flags](https://vercel.com/docs/flags/vercel-flags): Use Vercel as your feature flag provider to create and manage flags, define targeting rules, and run experiments directly from the dashboard.
@@ -1177,15 +1187,19 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [Backend](https://vercel.com/kb/backend)
 - [Build and Deploy](https://vercel.com/kb/build-and-deploy)
 - [CDN](https://vercel.com/kb/cdn)
+- [Chat SDK](https://vercel.com/kb/chat-sdk)
 - [Collaboration](https://vercel.com/kb/collaboration)
 - [Frameworks](https://vercel.com/kb/framework)
 - [Frontend](https://vercel.com/kb/frontend)
 - [Infrastructure and Compute](https://vercel.com/kb/infrastructure-and-compute)
 - [Integrations](https://vercel.com/kb/integrations)
 - [Limits and Pricing](https://vercel.com/kb/limits-and-pricing)
+- [Migrations](https://vercel.com/kb/migrations)
+- [Nitro](https://vercel.com/kb/nitro)
 - [Observability](https://vercel.com/kb/observability)
 - [Security](https://vercel.com/kb/security)
 - [Storage and Caching](https://vercel.com/kb/storage)
+- [TanStack](https://vercel.com/kb/tanstack)
 
 ## Guides
 
@@ -1264,6 +1278,7 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [Dependencies from package.json are missing after install](https://vercel.com/kb/guide/dependencies-from-package-json-missing-after-install)
 - [Deploy a headless BigCommerce storefront with Vercel](https://vercel.com/kb/guide/deploy-headless-bigcommerce-storefront-with-vercel)
 - [Deploy a headless Shopify storefront with Vercel](https://vercel.com/kb/guide/deploy-headless-shopify-storefront-with-vercel)
+- [Deploy a TanStack Start app to Vercel](https://vercel.com/kb/guide/deploy-a-tanstack-start-app-to-vercel)
 - [Deploy Foundation with Vercel](https://vercel.com/kb/guide/deploying-foundation-with-vercel)
 - [Deploy Next.js and Userbase with Vercel](https://vercel.com/kb/guide/deploying-next-and-userbase-with-vercel)
 - [Deploying a Monorepo Using Yarn Workspaces to Vercel](https://vercel.com/kb/guide/deploying-yarn-monorepos-to-vercel)
@@ -1273,6 +1288,7 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [Deploying React Forms Using Formspree with Vercel](https://vercel.com/kb/guide/deploying-react-forms-using-formspree-with-vercel)
 - [Deploying Real-Time Apps with Pusher Channels and Vercel](https://vercel.com/kb/guide/deploying-pusher-channels-with-vercel)
 - [Deploying Storybook with Vercel](https://vercel.com/kb/guide/storybook-with-vercel)
+- [Detect memory and OOM failures in Vercel Functions](https://vercel.com/kb/guide/detect-memory-and-oom-failures-in-serverless-functions)
 - [Displaying headlines in social previews with Vercel OG](https://vercel.com/kb/guide/displaying-article-headlines-in-social-previews)
 - [Do Vercel Serverless Functions support WebSocket connections?](https://vercel.com/kb/guide/do-vercel-serverless-functions-support-websocket-connections)
 - [Does streaming affect SEO and can streamed content be indexed?](https://vercel.com/kb/guide/does-streaming-affect-seo)
@@ -1486,12 +1502,15 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [Make your documentation readable by AI agents](https://vercel.com/kb/guide/make-your-documentation-readable-by-ai-agents)
 - [Manage cache tags for external origins](https://vercel.com/kb/guide/how-to-manage-cache-tags-for-external-origins)
 - [Managing Redirects from your CMS using Vercel Bulk Redirects](https://vercel.com/kb/guide/managing-redirects-from-your-cms-using-vercel-bulk-redirects)
+- [Migrate a TanStack Start app from Cloudflare to Vercel](https://vercel.com/kb/guide/migrate-a-tanstack-start-app-from-cloudflare-to-vercel)
+- [Migrate a TanStack Start app from Netlify to Vercel](https://vercel.com/kb/guide/migrate-a-tanstack-start-app-from-netlify-to-vercel)
 - [Migrate to Vercel from Cloudflare](https://vercel.com/kb/guide/migrate-to-vercel-from-cloudflare)
 - [Migrate to Vercel from Netlify](https://vercel.com/kb/guide/migrate-to-vercel-from-netlify)
 - [Missing routes-manifest.json file or No Output Directory when using Turborepo or NX](https://vercel.com/kb/guide/missing-routes-manifest-or-output-turborepo-nx)
 - [Modifying request headers](https://vercel.com/kb/guide/modify-request-headers)
 - [Monitor Frontend Performance with DebugBear and Vercel](https://vercel.com/kb/guide/monitor-frontend-performance-with-debugbear-and-vercel)
 - [Monitor Performance with Calibre and Vercel](https://vercel.com/kb/guide/monitoring-performance-with-calibre-and-vercel)
+- [Monitor uptime for AI-native apps with Vercel Alerts](https://vercel.com/kb/guide/monitor-uptime-for-ai-native-apps-with-vercel-alerts)
 - [Optimizing Core Web Vitals in 2024](https://vercel.com/kb/guide/optimizing-core-web-vitals-in-2024)
 - [Optimizing hard navigations](https://vercel.com/kb/guide/optimizing-hard-navigations)
 - [Pause your project](https://vercel.com/kb/guide/pause-your-project)
@@ -1517,6 +1536,7 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [Streaming responses from LLMs](https://vercel.com/kb/guide/streaming-from-llm)
 - [Supporting Compliance with Vercel WAF](https://vercel.com/kb/guide/supporting-compliance-with-vercel-waf)
 - [Suspicious Traffic in Specific Countries](https://vercel.com/kb/guide/suspicious-traffic-in-specific-countries)
+- [TanStack Start on Vercel vs Cloudflare](https://vercel.com/kb/guide/tanstack-start-on-vercel-vs-cloudflare)
 - [The Complete Guide to Chat SDK](https://vercel.com/kb/guide/the-complete-guide-to-chat-sdk)
 - [Transferring Domains to Vercel](https://vercel.com/kb/guide/transferring-domains-to-vercel)
 - [Triage form submissions with Chat SDK](https://vercel.com/kb/guide/triage-form-submissions-with-chat-sdk)
@@ -1563,6 +1583,7 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [Using Vercel Sandbox to run Claude’s Agent SDK](https://vercel.com/kb/guide/using-vercel-sandbox-claude-agent-sdk)
 - [Vector Databases Explained](https://vercel.com/kb/guide/vector-databases)
 - [Vercel AI SDK vs TanStack AI](https://vercel.com/kb/guide/vercel-ai-sdk-vs-tanstack-ai)
+- [Vercel BotID vs Cloudflare Turnstile](https://vercel.com/kb/guide/vercel-botid-vs-cloudflare-turnstile)
 - [Vercel Integration Guide for SAP Composable Storefront](https://vercel.com/kb/guide/integration-guide-for-sap-composable-storefront)
 - [Vercel Sandbox vs CodeSandbox](https://vercel.com/kb/guide/vercel-sandbox-vs-codesandbox)
 - [Vercel Sandbox vs E2B](https://vercel.com/kb/guide/vercel-sandbox-vs-e2b)
@@ -1580,6 +1601,7 @@ SDK: `npm i @vercel/sdk` — type-safe TypeScript wrapper for these endpoints.
 - [What is an LLM Tool?](https://vercel.com/kb/guide/what-is-an-llm-tool)
 - [What is Retrieval Augmented Generation (RAG)](https://vercel.com/kb/guide/what-is-rag)
 - [What is the best way to get support from Vercel?](https://vercel.com/kb/guide/how-to-get-vercel-support)
+- [What is the Nitro Vite plugin?](https://vercel.com/kb/guide/nitro-vite-plugin)
 - [What is Vercel's Green Energy Policy?](https://vercel.com/kb/guide/what-is-vercel-green-energy-policy)
 - [What is Vercel's policy regarding load testing deployments?](https://vercel.com/kb/guide/what-s-vercel-s-policy-regarding-load-testing-deployments)
 - [What is WorkflowAgent?](https://vercel.com/kb/guide/what-is-workflowagent)

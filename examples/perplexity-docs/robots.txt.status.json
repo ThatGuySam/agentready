@@ -5,7 +5,7 @@
   "output": "robots.txt",
   "outputFile": "robots.txt",
   "statusFile": "robots.txt.status.json",
-  "startedAt": "2026-06-02T19:28:07.274Z",
+  "startedAt": "2026-06-04T21:48:18.896Z",
   "status": 200,
   "effectiveUrl": "https://docs.perplexity.ai/robots.txt",
   "contentType": "text/plain",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dbfeccaf612b-CMH"
+      "value": "a06a241c0ed2d945-CMH"
     },
     {
       "name": "content-encoding",
@@ -39,11 +39,11 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:19 GMT"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:07 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:19 GMT"
     },
     {
       "name": "server",
@@ -71,17 +71,17 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1:cle1:iad1::iad1::7zwxv-1780428487466-b61176927ac3"
+      "value": "cle1:cle1:iad1::iad1::wkv24-1780609699170-3c192d393bb9"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 378.668,
+  "durationMs": 638.039,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.perplexity.ai/robots.txt"

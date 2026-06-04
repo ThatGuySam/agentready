@@ -5,7 +5,7 @@
   "output": "agent-resources.md.txt",
   "outputFile": "agent-resources.md.txt",
   "statusFile": "agent-resources.md.txt.status.json",
-  "startedAt": "2026-06-02T19:28:19.004Z",
+  "startedAt": "2026-06-04T21:48:29.913Z",
   "status": 200,
   "effectiveUrl": "https://vercel.com/docs/agent-resources",
   "contentType": "text/markdown; charset=utf-8",
@@ -15,7 +15,7 @@
   "responseHeaders": [
     {
       "name": "age",
-      "value": "656"
+      "value": "262"
     },
     {
       "name": "cache-control",
@@ -35,7 +35,7 @@
     },
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:17:22 GMT"
+      "value": "Thu, 04 Jun 2026 21:44:07 GMT"
     },
     {
       "name": "feature-policy",
@@ -95,21 +95,21 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "cle1::iad1::hsdl4-1780428499197-ec45eebc9caa"
+      "value": "cle1::iad1::6lmm2-1780609710176-46344eb8d1a0"
     },
     {
       "name": "x-xss-protection",
       "value": "0"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 346.25800000000004,
+  "durationMs": 347.26,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output agent-resources.md.txt --write-out '<curl-metadata>' https://vercel.com/docs/agent-resources"

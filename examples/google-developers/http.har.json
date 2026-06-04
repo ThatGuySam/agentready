@@ -7,7 +7,7 @@
     },
     "pages": [
       {
-        "startedDateTime": "2026-06-02T19:28:00.989Z",
+        "startedDateTime": "2026-06-04T21:48:12.668Z",
         "id": "google-developers",
         "title": "Google Developers",
         "pageTimings": {}
@@ -16,8 +16,8 @@
     "entries": [
       {
         "pageref": "google-developers",
-        "startedDateTime": "2026-06-02T19:28:27.674Z",
-        "time": 391.807,
+        "startedDateTime": "2026-06-04T21:48:40.116Z",
+        "time": 211.477,
         "request": {
           "method": "GET",
           "url": "https://developers.google.com/robots.txt",
@@ -35,7 +35,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -56,7 +56,7 @@
             },
             {
               "name": "content-security-policy",
-              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-V1+MwY/VjmieCgdVHrOcZODkIF6ZsL' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-/Jl09DOTJrlC/FvoQn/MNWzfR4nkG7' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
             },
             {
               "name": "strict-transport-security",
@@ -88,11 +88,11 @@
             },
             {
               "name": "x-cloud-trace-context",
-              "value": "4f6b936a0797a96208d4b6368d9265eb"
+              "value": "2439095bd8488f3dbfdc0df8108ebe22"
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:40 GMT"
             },
             {
               "name": "server",
@@ -119,15 +119,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 391.807,
+          "wait": 211.477,
           "receive": 0
         },
         "comment": "Saved body to robots.txt"
       },
       {
         "pageref": "google-developers",
-        "startedDateTime": "2026-06-02T19:28:28.081Z",
-        "time": 671.049,
+        "startedDateTime": "2026-06-04T21:48:40.345Z",
+        "time": 1075.283,
         "request": {
           "method": "GET",
           "url": "https://developers.google.com/sitemap.xml",
@@ -145,7 +145,7 @@
         },
         "response": {
           "status": 200,
-          "statusText": "HTTP/2 200 ",
+          "statusText": "HTTP/2 200",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -162,7 +162,7 @@
             },
             {
               "name": "content-security-policy",
-              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9oJNQM1ix0Ux+pt56x10gdefc64RpY' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-nPxNwune6UQRzL2gJiK7Q/bdaweLVi' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
             },
             {
               "name": "strict-transport-security",
@@ -194,11 +194,11 @@
             },
             {
               "name": "x-cloud-trace-context",
-              "value": "c5d279f904a28b1bd763925ba4acbc8a"
+              "value": "f6b2b7e3218ccc60e59da341f581c1f8"
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:28 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:41 GMT"
             },
             {
               "name": "server",
@@ -206,7 +206,7 @@
             },
             {
               "name": "content-length",
-              "value": "488"
+              "value": "510"
             },
             {
               "name": "alt-svc",
@@ -225,15 +225,15 @@
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 671.049,
+          "wait": 1075.283,
           "receive": 0
         },
         "comment": "Saved body to sitemap.xml"
       },
       {
         "pageref": "google-developers",
-        "startedDateTime": "2026-06-02T19:28:28.777Z",
-        "time": 333.478,
+        "startedDateTime": "2026-06-04T21:48:41.433Z",
+        "time": 441.291,
         "request": {
           "method": "GET",
           "url": "https://developers.google.com/llms.txt",
@@ -251,7 +251,7 @@
         },
         "response": {
           "status": 404,
-          "statusText": "HTTP/2 404 ",
+          "statusText": "HTTP/2 404",
           "httpVersion": "HTTP",
           "headers": [
             {
@@ -268,7 +268,7 @@
             },
             {
               "name": "content-security-policy",
-              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-G86ZyyQu6h4aYFf+Os3OxUCvWWAfE+' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
+              "value": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-r7b/g8dBpwqVCc7z+dn3m1yZg/lFLS' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri [redacted]"
             },
             {
               "name": "strict-transport-security",
@@ -300,11 +300,11 @@
             },
             {
               "name": "x-cloud-trace-context",
-              "value": "71a74dc119d4c8e5e04ebf31e79eb16e"
+              "value": "baf5ce0d79745959e1d8eb85929f1af4"
             },
             {
               "name": "date",
-              "value": "Tue, 02 Jun 2026 19:28:29 GMT"
+              "value": "Thu, 04 Jun 2026 21:48:41 GMT"
             },
             {
               "name": "server",
@@ -312,7 +312,7 @@
             },
             {
               "name": "content-length",
-              "value": "10279"
+              "value": "10274"
             },
             {
               "name": "alt-svc",
@@ -321,17 +321,17 @@
           ],
           "cookies": [],
           "content": {
-            "size": 45736,
+            "size": 45740,
             "mimeType": "text/html; charset=utf-8"
           },
           "redirectURL": "https://developers.google.com/llms.txt",
           "headersSize": -1,
-          "bodySize": 45736
+          "bodySize": 45740
         },
         "cache": {},
         "timings": {
           "send": 0,
-          "wait": 333.478,
+          "wait": 441.291,
           "receive": 0
         },
         "comment": "No body saved; see status metadata"

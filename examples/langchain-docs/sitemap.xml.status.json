@@ -5,17 +5,17 @@
   "output": "sitemap.xml",
   "outputFile": "sitemap.xml",
   "statusFile": "sitemap.xml.status.json",
-  "startedAt": "2026-06-02T19:28:23.942Z",
+  "startedAt": "2026-06-04T21:48:34.603Z",
   "status": 200,
   "effectiveUrl": "https://docs.langchain.com/sitemap.xml",
   "contentType": "text/xml",
-  "bodyBytes": 204657,
-  "savedBytes": 204653,
+  "bodyBytes": 204665,
+  "savedBytes": 204661,
   "truncated": false,
   "responseHeaders": [
     {
       "name": "date",
-      "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:35 GMT"
     },
     {
       "name": "content-type",
@@ -23,7 +23,7 @@
     },
     {
       "name": "cf-ray",
-      "value": "a058dc662a85d195-MCI"
+      "value": "a06a247d5c35e946-DFW"
     },
     {
       "name": "cf-cache-status",
@@ -35,11 +35,11 @@
     },
     {
       "name": "x-vercel-id",
-      "value": "iad1::iad1::nvvjj-1780428504063-9f4c96e9f4d5"
+      "value": "iad1::iad1::dtlm4-1780609714900-ae5b1c8b3135"
     },
     {
       "name": "last-modified",
-      "value": "Tue, 02 Jun 2026 19:28:24 GMT"
+      "value": "Thu, 04 Jun 2026 21:48:35 GMT"
     },
     {
       "name": "server",
@@ -74,14 +74,14 @@
       "value": "gzip"
     }
   ],
-  "responseStatusLine": "HTTP/2 200 ",
+  "responseStatusLine": "HTTP/2 200",
   "requestHeaders": [
     {
       "name": "User-Agent",
       "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
     }
   ],
-  "durationMs": 322.288,
+  "durationMs": 532.6659999999999,
   "curlExitCode": 0,
   "curlStderr": "",
   "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.langchain.com/sitemap.xml"

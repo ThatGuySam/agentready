@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-06-02T19:28:00.989Z",
+  "capturedAt": "2026-06-04T21:48:12.668Z",
   "site": {
     "slug": "github-docs",
     "name": "GitHub Docs",
@@ -38,19 +38,19 @@
     {
       "type": "A",
       "values": [
-        "185.199.109.154",
-        "185.199.110.154",
+        "185.199.108.154",
         "185.199.111.154",
-        "185.199.108.154"
+        "185.199.109.154",
+        "185.199.110.154"
       ]
     },
     {
       "type": "AAAA",
       "values": [
-        "2606:50c0:8000::154",
-        "2606:50c0:8001::154",
         "2606:50c0:8002::154",
-        "2606:50c0:8003::154"
+        "2606:50c0:8003::154",
+        "2606:50c0:8001::154",
+        "2606:50c0:8000::154"
       ]
     },
     {
@@ -60,10 +60,10 @@
     {
       "type": "HTTPS",
       "values": [
-        "185.199.111.154",
+        "185.199.108.154",
         "185.199.109.154",
         "185.199.110.154",
-        "185.199.108.154"
+        "185.199.111.154"
       ]
     },
     {
@@ -79,7 +79,7 @@
       "output": "robots.txt",
       "outputFile": "robots.txt",
       "statusFile": "robots.txt.status.json",
-      "startedAt": "2026-06-02T19:28:21.394Z",
+      "startedAt": "2026-06-04T21:48:32.148Z",
       "status": 200,
       "effectiveUrl": "https://docs.github.com/robots.txt",
       "contentType": "text/plain; charset=utf-8",
@@ -149,7 +149,7 @@
         },
         {
           "name": "x-github-request-id",
-          "value": "F8CC:28E41F:4A9EF6F:4F1062D:6A1F2C45"
+          "value": "113E:80137:13926:15CB4:6A21C167"
         },
         {
           "name": "content-encoding",
@@ -161,11 +161,11 @@
         },
         {
           "name": "age",
-          "value": "656"
+          "value": "12600"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:32 GMT"
         },
         {
           "name": "via",
@@ -173,7 +173,7 @@
         },
         {
           "name": "x-served-by",
-          "value": "cache-dfw-kdal2120024-DFW"
+          "value": "cache-dfw-kdal2120027-DFW"
         },
         {
           "name": "x-cache",
@@ -185,7 +185,7 @@
         },
         {
           "name": "x-timer",
-          "value": "S1780428501.479109,VS0,VE1"
+          "value": "S1780609712.250899,VS0,VE2"
         },
         {
           "name": "vary",
@@ -200,14 +200,14 @@
           "value": "33"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 70.76100000000001,
+      "durationMs": 82.885,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output robots.txt --write-out '<curl-metadata>' https://docs.github.com/robots.txt"
@@ -219,7 +219,7 @@
       "output": "sitemap.xml",
       "outputFile": null,
       "statusFile": "sitemap.xml.status.json",
-      "startedAt": "2026-06-02T19:28:21.478Z",
+      "startedAt": "2026-06-04T21:48:32.246Z",
       "status": 404,
       "effectiveUrl": "https://docs.github.com/sitemap.xml",
       "contentType": "text/html; charset=utf-8",
@@ -289,7 +289,7 @@
         },
         {
           "name": "x-github-request-id",
-          "value": "EE0E:5762:4C5F4DC:50CAA3B:6A1F2C45"
+          "value": "7516:A553:168A1C2:185A5C9:6A21F198"
         },
         {
           "name": "content-encoding",
@@ -301,11 +301,11 @@
         },
         {
           "name": "age",
-          "value": "656"
+          "value": "263"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:32 GMT"
         },
         {
           "name": "via",
@@ -313,7 +313,7 @@
         },
         {
           "name": "x-served-by",
-          "value": "cache-dfw-kdal2120110-DFW"
+          "value": "cache-dfw-kdal2120112-DFW"
         },
         {
           "name": "x-cache",
@@ -325,7 +325,7 @@
         },
         {
           "name": "x-timer",
-          "value": "S1780428502.646858,VS0,VE2"
+          "value": "S1780609712.333500,VS0,VE2"
         },
         {
           "name": "vary",
@@ -340,14 +340,14 @@
           "value": "316"
         }
       ],
-      "responseStatusLine": "HTTP/2 404 ",
+      "responseStatusLine": "HTTP/2 404",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 159.761,
+      "durationMs": 65.17699999999999,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output sitemap.xml --write-out '<curl-metadata>' https://docs.github.com/sitemap.xml"
@@ -359,7 +359,7 @@
       "output": "llms.txt",
       "outputFile": "llms.txt",
       "statusFile": "llms.txt.status.json",
-      "startedAt": "2026-06-02T19:28:21.657Z",
+      "startedAt": "2026-06-04T21:48:32.325Z",
       "status": 200,
       "effectiveUrl": "https://docs.github.com/llms.txt",
       "contentType": "text/markdown; charset=utf-8",
@@ -429,7 +429,7 @@
         },
         {
           "name": "x-github-request-id",
-          "value": "1D06:201290:4C5FF0F:50C77D6:6A1F2C45"
+          "value": "708C:1297E2:C744AE:D7D6C9:6A21EF76"
         },
         {
           "name": "accept-ranges",
@@ -437,11 +437,11 @@
         },
         {
           "name": "age",
-          "value": "656"
+          "value": "825"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:32 GMT"
         },
         {
           "name": "via",
@@ -449,7 +449,7 @@
         },
         {
           "name": "x-served-by",
-          "value": "cache-dfw-kdal2120056-DFW"
+          "value": "cache-dfw-kdal2120115-DFW"
         },
         {
           "name": "x-cache",
@@ -461,7 +461,7 @@
         },
         {
           "name": "x-timer",
-          "value": "S1780428502.831992,VS0,VE2"
+          "value": "S1780609712.400107,VS0,VE2"
         },
         {
           "name": "strict-transport-security",
@@ -476,14 +476,14 @@
           "value": "accept-encoding"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 165.982,
+      "durationMs": 52.811,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output llms.txt --write-out '<curl-metadata>' https://docs.github.com/llms.txt"
@@ -495,7 +495,7 @@
       "output": "article-body-api.json",
       "outputFile": "article-body-api.json",
       "statusFile": "article-body-api.json.status.json",
-      "startedAt": "2026-06-02T19:28:21.848Z",
+      "startedAt": "2026-06-04T21:48:32.391Z",
       "status": 200,
       "effectiveUrl": "https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git",
       "contentType": "text/markdown; charset=utf-8",
@@ -565,7 +565,7 @@
         },
         {
           "name": "x-github-request-id",
-          "value": "ABF0:8C504:4F94E28:53F30A9:6A1F2C45"
+          "value": "D57E:2235B5:1762520:193020B:6A21F1A5"
         },
         {
           "name": "accept-ranges",
@@ -573,11 +573,11 @@
         },
         {
           "name": "age",
-          "value": "656"
+          "value": "263"
         },
         {
           "name": "date",
-          "value": "Tue, 02 Jun 2026 19:28:21 GMT"
+          "value": "Thu, 04 Jun 2026 21:48:32 GMT"
         },
         {
           "name": "via",
@@ -585,7 +585,7 @@
         },
         {
           "name": "x-served-by",
-          "value": "cache-dfw-kdal2120037-DFW"
+          "value": "cache-dfw-kdal2120111-DFW"
         },
         {
           "name": "x-cache",
@@ -597,7 +597,7 @@
         },
         {
           "name": "x-timer",
-          "value": "S1780428502.923001,VS0,VE1"
+          "value": "S1780609712.474396,VS0,VE1"
         },
         {
           "name": "strict-transport-security",
@@ -612,14 +612,14 @@
           "value": "accept-encoding"
         }
       ],
-      "responseStatusLine": "HTTP/2 200 ",
+      "responseStatusLine": "HTTP/2 200",
       "requestHeaders": [
         {
           "name": "User-Agent",
           "value": "agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)"
         }
       ],
-      "durationMs": 51.017,
+      "durationMs": 68.175,
       "curlExitCode": 0,
       "curlStderr": "",
       "command": "curl --location --silent --show-error --compressed --max-time 30 --connect-timeout 10 --user-agent 'agentready-example-capture/1.0 (+https://github.com/ThatGuySam/agentready)' --dump-header '<response-headers>' --output article-body-api.json --write-out '<curl-metadata>' 'https://docs.github.com/api/article/body?pathname=/en/get-started/start-your-journey/about-github-and-git'"
