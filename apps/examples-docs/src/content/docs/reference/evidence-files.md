@@ -3,6 +3,25 @@ title: Evidence Files
 description: What each generated AgentReady example file means.
 ---
 
+<section class="bluf-summary" aria-label="Page summary">
+  <details class="bluf-summary__item" open>
+    <summary>Bottom line</summary>
+    <p>Generated pages are summaries; the raw evidence files remain the source of truth.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Is this relevant?</summary>
+    <p>Use this page when you need to know which file proves endpoint status, headers, redirects, truncation, DNS, or saved body content.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Evidence</summary>
+    <p>The file table explains metadata JSON, DNS files, HTTP transcripts, HAR metadata, endpoint status files, and saved endpoint bodies.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Next action</summary>
+    <p>Use the generated example first, then open raw files when a status, redirect, truncation flag, or body sample affects the recommendation.</p>
+  </details>
+</section>
+
 Each example page is generated from the AgentReady `examples/` directory. The
 raw files remain the source of truth.
 

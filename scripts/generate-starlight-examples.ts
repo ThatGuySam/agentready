@@ -49,6 +49,14 @@ type SurfaceDefinition = {
   match: (site: ExampleSite, endpoint: ExampleEndpoint) => boolean;
 };
 
+type BlufSummary = {
+  bottomLine: string;
+  relevance: string;
+  evidence: string;
+  nextAction: string;
+  caveat?: string;
+};
+
 const categoryOrder: ExampleCategory[] = [
   "positive",
   "contrast",
@@ -211,6 +219,8 @@ description: ${yamlString(`${category.label} for ${site.host}`)}
 
 # ${site.name}
 
+${buildBlufSummary(examplePageBluf(manifest, site))}
+
 This page summarizes a dated AgentReady evidence snapshot. It is not a live
 claim about ${site.host}.
 
@@ -264,6 +274,18 @@ description: Browse the AgentReady example snapshot by category.
 
 # Browse Examples
 
+${buildBlufSummary({
+  bottomLine:
+    "Browse the dated examples snapshot by category before diving into raw evidence.",
+  relevance:
+    "Use this page when you need to choose between positive examples, contrast cases, and redirect or status traps.",
+  evidence: `The current snapshot includes ${manifest.sites.length} sites captured at ${manifest.capturedAt}.`,
+  nextAction:
+    "Pick positive examples for implementation patterns, contrast examples for trade-offs, or redirect traps for false-positive checks.",
+  caveat:
+    "The examples are dated captures; open the raw evidence or re-run checks before treating a target site as current.",
+})}
+
 The current snapshot includes ${manifest.sites.length} sites captured at
 \`${manifest.capturedAt}\`.
 
@@ -292,6 +314,8 @@ description: ${yamlString(details.description)}
 
 # ${details.label}
 
+${buildBlufSummary(categoryPageBluf(category, details, sites.length))}
+
 ${details.description}
 
 | Site | Host | Endpoints | Successful statuses |
@@ -308,6 +332,16 @@ description: Browse examples by agent-facing surface type.
 ---
 
 # Browse by Surface
+
+${buildBlufSummary({
+  bottomLine:
+    "Browse by surface when you already know which agent-facing artifact you want to compare.",
+  relevance:
+    "This page is useful for comparing crawler policy, sitemap discovery, LLM text files, Markdown alternatives, agent skills, and redirect traps across sites.",
+  evidence: `${surfaceDefinitions.length} surface groups are generated from the same examples manifest.`,
+  nextAction:
+    "Choose the surface that matches your audit question, then inspect matching examples and raw evidence.",
+})}
 
 Use these pages to compare how different sites expose common agent-facing
 surfaces.
@@ -339,6 +373,8 @@ description: ${yamlString(surface.description)}
 ---
 
 # ${surface.title}
+
+${buildBlufSummary(surfacePageBluf(surface, rows.length))}
 
 ${surface.description}
 
@@ -386,6 +422,112 @@ function endpointEvidenceRow(site: ExampleSite, endpoint: ExampleEndpoint) {
 
 function endpointLink(endpoint: ExampleEndpoint) {
   return `\`${endpoint.label} ${endpoint.status}\``;
+}
+
+function buildBlufSummary(summary: BlufSummary) {
+  const items = [
+    ["Bottom line", summary.bottomLine, true],
+    ["Is this relevant?", summary.relevance, false],
+    ["Evidence", summary.evidence, false],
+    ["Next action", summary.nextAction, false],
+  ] as const;
+  const caveat = summary.caveat
+    ? `\n  <details class="bluf-summary__item">\n    <summary>Caveat</summary>\n    <p>${escapeHtml(summary.caveat)}</p>\n  </details>`
+    : "";
+
+  return `<section class="bluf-summary" aria-label="Page summary">
+${items
+  .map(
+    ([label, value, open]) =>
+      `  <details class="bluf-summary__item"${open ? " open" : ""}>\n    <summary>${label}</summary>\n    <p>${escapeHtml(value)}</p>\n  </details>`,
+  )
+  .join("\n")}${caveat}
+</section>`;
+}
+
+function examplePageBluf(
+  manifest: ExampleManifest,
+  site: ExampleSite,
+): BlufSummary {
+  const successCount = site.endpoints.filter((endpoint) =>
+    isSuccess(endpoint.status),
+  ).length;
+  const matchedSurfaces = surfaceDefinitions
+    .filter((surface) => getSurfaceMatches(site, surface).length > 0)
+    .map((surface) => surface.title);
+
+  const bottomLineByCategory: Record<ExampleCategory, string> = {
+    positive: `${site.name} is a positive example for ${site.host}, but the page is still a dated evidence snapshot.`,
+    contrast: `${site.name} is a contrast example for ${site.host}, useful for seeing partial coverage or policy trade-offs.`,
+    "redirect-trap": `${site.name} is a redirect/status-trap example; successful-looking statuses need body inspection before they count as usable agent surfaces.`,
+  };
+
+  return {
+    bottomLine: bottomLineByCategory[site.category],
+    relevance: `Use this page when you want a ${categoryUseLabel(site.category)} for ${site.host}.`,
+    evidence: `${site.endpoints.length} endpoints were captured at ${manifest.capturedAt}; ${successCount} returned successful status responses. Captured surfaces: ${matchedSurfaces.length > 0 ? matchedSurfaces.join(", ") : "none"}.`,
+    nextAction:
+      "Scan Agent-Facing Surfaces first, then open raw evidence links when status, redirect, body content, or truncation matters.",
+    caveat: `This is not a live claim about ${site.host}; public sites and endpoint behavior can change.`,
+  };
+}
+
+function categoryUseLabel(category: ExampleCategory) {
+  const labels: Record<ExampleCategory, string> = {
+    positive: "positive example",
+    contrast: "contrast example",
+    "redirect-trap": "redirect/status-trap example",
+  };
+
+  return labels[category];
+}
+
+function categoryPageBluf(
+  category: ExampleCategory,
+  details: CategoryDetails,
+  siteCount: number,
+): BlufSummary {
+  const bottomLineByCategory: Record<ExampleCategory, string> = {
+    positive:
+      "These examples are the best starting points for seeing useful agent-facing surfaces in real docs and platform sites.",
+    contrast:
+      "These examples show that strong sites can still make different crawler, artifact, or capability-discovery choices.",
+    "redirect-trap":
+      "These examples show why status checks need body inspection before an endpoint is counted as agent-readable.",
+  };
+
+  return {
+    bottomLine: bottomLineByCategory[category],
+    relevance: details.description,
+    evidence: `${siteCount} sites in this category are generated from the current examples manifest.`,
+    nextAction:
+      "Open one site page, read its Agent-Facing Surfaces table, then inspect raw evidence for anything you might copy.",
+    caveat:
+      "Treat category labels as audit interpretation from the capture, not permanent rankings of the target sites.",
+  };
+}
+
+function surfacePageBluf(
+  surface: SurfaceDefinition,
+  siteCount: number,
+): BlufSummary {
+  return {
+    bottomLine: `Use this page to compare ${surface.title.toLowerCase()} evidence across captured sites.`,
+    relevance: surface.description,
+    evidence: `${siteCount} site rows currently match this surface in the examples manifest.`,
+    nextAction:
+      "Open matching examples and check the raw body or status file before using the pattern in an audit recommendation.",
+    caveat:
+      "A matching status is a lead, not proof; content type, body shape, redirects, and truncation still matter.",
+  };
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
 function examplePageLink(site: ExampleSite) {

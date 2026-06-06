@@ -4,8 +4,8 @@ html: true
 theme: scc
 size: 16:9
 paginate: true
-title: "Is Your Site Agent-Ready?"
-description: "A practical Codeable Skill Chat deck for auditing AI discovery and agent readability"
+title: "The Agent Readable Website"
+description: "A practical Codeable Skill Chat deck for auditing AI discovery, readability, and honest capability signals"
 author: "Sam Carlton"
 footer: "[agentready.samcarlton.com/slides](https://agentready.samcarlton.com/slides)"
 ---
@@ -13,165 +13,134 @@ footer: "[agentready.samcarlton.com/slides](https://agentready.samcarlton.com/sl
 <!-- _class: title -->
 <!-- _paginate: false -->
 
-# Is Your Site Agent-Ready?
+# The Agent Readable Website
 
-A practical audit toolkit for AI discovery, readability, and honest capability signals
+A practical audit model for discovery, readability, citation, and real capabilities
 
 Sam Carlton
 
 <!--
 Speaker note:
-Frame this as a practical Codeable Skill Chat for WordPress experts and client-facing developers. The goal is not to sell AI magic. The goal is to make "Can ChatGPT find us?" auditable.
+This title avoids the Cloudflare scanner's question-style phrasing and connects the talk to the Agent Readable Web direction. Frame the session for WordPress experts and client-facing developers who need a safer way to answer AI-search questions.
 -->
 
 ---
 
 <!-- _class: claim -->
 
-## The client question is already here: "Can ChatGPT understand my site?"
+## Start with the question behind the question
 
-The better first answer is: which agent, doing what job?
-
-<!--
-Speaker note:
-Clients may say ChatGPT, Perplexity, Claude, Gemini, "AI search," or "agents." The first useful move is not to answer yes/no. It is to clarify which system and which task.
--->
-
----
-
-<!-- _class: claim -->
-
-## Agent readiness is not one score
-
-It is part technical hygiene, part content strategy, and part trust-boundary design.
+When a client asks, "Can ChatGPT see us?", they are really asking whether AI systems can find, read, trust, and use their source material.
 
 <!--
 Speaker note:
-A scanner score can start the conversation, but the service is the interpretation and fix plan. This is the bridge from familiar performance/SEO audits to agent readiness.
--->
-
----
-
-<!-- _class: stack -->
-
-## Useful audits separate four jobs
-
-<div class="steps">
-  <div class="step"><strong>Crawlability</strong>Can agents find and fetch the public pages?</div>
-  <div class="step"><strong>Readability</strong>Can they extract the useful answer without a full browser?</div>
-  <div class="step"><strong>Trust</strong>Can they cite claims, dates, methods, and sources?</div>
-  <div class="step"><strong>Capabilities</strong>Can they safely use real APIs, tools, or commerce flows?</div>
-</div>
-
-<!--
-Speaker note:
-This is the mental model for the rest of the talk. It also prevents overbuilding. A normal brochure site usually needs the first three more than it needs MCP, OAuth metadata, or an API catalog.
+This is the intro slide. Do not make it a personal "Hey, I'm Sam" reset like the OBA deck. Use it to orient the room around the actual client concern and the audit promise.
 -->
 
 ---
 
 <!-- _class: comparison -->
 
-## The stack keeps SEO, agent readability, and protocols from blurring together
+## What this talk is not
 
-| Bucket             | Looks like                         | Common mistake                |
-| ------------------ | ---------------------------------- | ----------------------------- |
-| SEO hygiene        | sitemaps, canonicals, schema       | calling this "agent-ready"    |
-| Agent readability  | clean source, Markdown, `llms.txt` | hiding answers in UI chrome   |
-| Protocol readiness | API catalog, MCP, OAuth, A2A       | advertising fake capabilities |
-| Answer visibility  | monitoring cited answers           | promising rankings too early  |
+- SEO guide or SEO for LLMs
+- There's plenty of existing content for that
 
 <!--
 Speaker note:
-The audience already understands SEO and performance audits. This slide positions agent readiness as adjacent, not identical. Source anchors: Cloudflare Agent Readiness, llms.txt proposal, Vercel Agent Readability guidance, MCP specification.
+Use this to narrow the promise early. The room does not need another generic SEO checklist.
 -->
 
 ---
 
-<!-- _class: decision -->
+<!-- _class: claim -->
 
-## The expert service is interpreting what applies
+## What this talk is
 
-<div class="decision-grid">
-  <div class="decision-card good"><strong>Good audit language</strong><br><br>Fix this now.<br>Defer this.<br>This is not applicable.<br>Do not implement this unless the capability is real.</div>
-  <div class="decision-card bad"><strong>Risky audit language</strong><br><br>Install whatever raises the score.<br>Add fake metadata.<br>Promise AI rankings.<br>Treat every protocol as mandatory.</div>
-</div>
+The parts of agentic discovery that you need to know if your SEO is already good enough.
 
 <!--
 Speaker note:
-This is where Codeable expertise matters. The client is buying judgment: what to fix, what to ignore, and what not to fake. Cloudflare's scanner is useful because it catches gaps normal SEO tools miss, but some checks are not applicable to ordinary content sites.
+Position this as the next layer after baseline SEO: discovery mechanics, source legibility, and audit language.
 -->
 
 ---
 
-<!-- _class: workflow -->
+<!-- _class: compact -->
 
-## The live audit should show what agents actually receive
+## Landscape of terms
 
-<div class="steps">
-  <div class="step"><strong>Fetch</strong>HTTP status, redirects, raw HTML, robots, sitemap</div>
-  <div class="step"><strong>Parse</strong>Main content, schema, titles, dates, author/source signals</div>
-  <div class="step"><strong>Scan</strong>`isitagentready.com`, Lighthouse, schema validators</div>
-  <div class="step"><strong>Classify</strong>Fix now, defer, not applicable, do not implement</div>
+<div class="tag-row">
+  <span class="tag"><strong>GEO</strong> - Bing</span>
+  <span class="tag"><strong>AEO</strong></span>
 </div>
 
 <!--
 Speaker note:
-This keeps the demo from becoming tool theater. The important proof is whether public source material is reachable, parseable, and honest.
+Name the terminology without letting the acronyms take over the talk. The useful move is translating them into client-safe audit work.
+-->
+
+---
+
+<!-- _class: section -->
+
+# Agentic Empathy
+
+<!--
+Speaker note:
+Shift from acronym vocabulary to the practical habit: imagine what an agent can fetch, parse, compare, and cite when it lands on the site.
+-->
+
+---
+
+<!-- _class: comparison -->
+
+## Agentic search landscape
+
+| Searcher |   Typical link depth |
+| -------- | -------------------: |
+| Human    |    1-5 links checked |
+| Agent    | 50-500 links checked |
+
+<!--
+Speaker note:
+The long tail with value is going to start winning over classic spammy Google techniques.
 -->
 
 ---
 
 <!-- _class: evidence -->
 
-## The simplest demo commands are still powerful
+## Live demo
 
 ```bash
-curl -i https://example.com/
-curl -sS https://example.com/robots.txt
-curl -sS https://example.com/sitemap.xml
-curl -sS https://example.com/llms.txt
-curl -sSI -H 'Accept: text/markdown' https://example.com/
+npx lighthouse@latest https://agentready.samcarlton.com \
+  --only-categories=agentic-browsing \
+  --output=html \
+  --output-path=./lighthouse-agentic.html \
+  --view
 ```
 
 <!--
 Speaker note:
-Keep the code short and explain what each command proves. This is not about being fancy. It is about showing what a non-browser fetch receives.
+Use this as the concrete audit bridge: a familiar Lighthouse workflow pointed at the experimental agentic-browsing category.
 -->
 
 ---
 
-<!-- _class: comparison -->
+<!-- _class: appendix compact -->
 
-## Familiar tools help, but they do not answer the whole question
+## Agent auditing tools
 
-| Tool               | Helps with                                    | Does not prove                  |
-| ------------------ | --------------------------------------------- | ------------------------------- |
-| Lighthouse         | performance, accessibility, semantic controls | `llms.txt`, MCP, crawler policy |
-| `llms.txt`         | curated entrypoints                           | ranking or citation             |
-| Schema validators  | structured data correctness                   | agent task completion           |
-| AI answer monitors | visibility snapshots                          | root-cause readiness            |
-
-<!--
-Speaker note:
-Keep running familiar tools. Just do not pretend they answer the entire agent-readiness question.
--->
-
----
-
-<!-- _class: evidence -->
-
-## Real agents often need plain source material
-
-- direct answer blocks
-- clear service and location pages
-- visible dates, authorship, methods, and sources
-- clean text alternatives for high-value pages
-- stable internal links through the corpus
+| Tool             | URL                          |
+| ---------------- | ---------------------------- |
+| Cloudflare       | <https://isitagentready.com> |
+| Bart Waardenburg | <https://isagentready.com>   |
+| Mark Lavercombe  | <https://agent-ready.dev/>   |
 
 <!--
 Speaker note:
-This is the highest-leverage advice for many WordPress client sites. Improve the page as a source before chasing advanced protocol surfaces.
+Keep this practical. Show that the category is becoming real enough to audit, while still requiring judgment about what applies to a specific site.
 -->
 
 ---
@@ -214,56 +183,6 @@ This is one of the most client-useful distinctions. Blocking training and appear
 
 ---
 
-<!-- _class: service -->
-
-## A useful WordPress offer has three deliverables
-
-<div class="service-grid">
-  <div class="service"><strong>Readiness report</strong>What agents can find, fetch, parse, and cite today.</div>
-  <div class="service"><strong>Fix plan</strong>Low-risk changes, deferred items, and not-applicable standards.</div>
-  <div class="service"><strong>Visibility measurement</strong>Optional answer-engine tracking after basics are correct.</div>
-</div>
-
-<!--
-Speaker note:
-This keeps the scope clean. The first sale is not "we will make you rank in ChatGPT." It is a discovery audit and prioritized fix plan.
--->
-
----
-
-<!-- _class: evidence -->
-
-## Most client fixes look familiar, but the justification changes
-
-- robots, sitemap, canonicals, schema
-- clearer service and location pages
-- `llms.txt` that points to canonical pages
-- Markdown mirrors for high-value content
-- source, methodology, and correction paths
-
-<!--
-Speaker note:
-WordPress experts already know many of these mechanics. The new angle is making pages useful to retrieval and answer systems, not only browser users and search crawlers.
--->
-
----
-
-<!-- _class: decision -->
-
-## Do not publish fake capability surfaces
-
-<div class="decision-grid">
-  <div class="decision-card bad"><strong>Do not fake</strong><br><br>API catalogs<br>OAuth metadata<br>MCP server cards<br>A2A / WebMCP<br>commerce metadata</div>
-  <div class="decision-card good"><strong>Publish only when real</strong><br><br>If a client would expect to call it, initialize it, authenticate with it, or buy through it, it needs to work.</div>
-</div>
-
-<!--
-Speaker note:
-This is a trust boundary. Placeholder protocol surfaces create worse client risk than a lower scanner score.
--->
-
----
-
 <!-- _class: comparison -->
 
 ## Use safer claims when talking to clients
@@ -278,50 +197,6 @@ This is a trust boundary. Placeholder protocol surfaces create worse client risk
 <!--
 Speaker note:
 The short client script: "I can audit whether AI systems can find, fetch, understand, and cite your site. Then we can fix the real gaps."
--->
-
----
-
-<!-- _class: chart -->
-
-## Most 80/20 value is boring proof
-
-<img class="priority-chart" src="/assets/agent-readiness-priority-pie.svg" alt="Pie chart showing practical agent readiness audit weights: raw fetchability 18%, robots crawler lanes 14%, passage extractability 14%, sitemap quality 10%, llms.txt curated map 10%, Markdown alternatives 10%, schema parity 8%, real capability surfaces 7%, llms-full context files 5%, and HTTP Link discovery 4%." />
-
-<!--
-Speaker note:
-Use this to explain prioritization. The largest shares are things agents and AI search systems need before protocol surfaces matter: public fetchability, crawler policy, extractable passages, clean URL inventory, curated llms.txt, and Markdown alternatives. The lower-weight capability checks still matter, but only when the capability is real.
--->
-
----
-
-<!-- _class: workflow -->
-
-## The practical checklist is short enough to run
-
-<div class="steps">
-  <div class="step"><strong>Find</strong>robots, sitemap, canonical URLs, indexed public pages</div>
-  <div class="step"><strong>Read</strong>clean HTML, Markdown, direct answer sections</div>
-  <div class="step"><strong>Trust</strong>dates, sources, schema consistency, correction path</div>
-  <div class="step"><strong>Decide</strong>fix now, defer, not applicable, do not implement</div>
-</div>
-
-<!--
-Speaker note:
-The full checklist is in the research draft. This slide is the talk-level version.
--->
-
----
-
-<!-- _class: claim -->
-
-## Final takeaway: sell legibility
-
-The best agent-ready sites are usually the clearest sites.
-
-<!--
-Speaker note:
-Close with the thesis. Clear for people, clear for crawlers, clear for agents, clear about real capabilities.
 -->
 
 ---
@@ -348,52 +223,33 @@ Keep this as a backup slide or handout material. The main talk should stay on th
 
 <!-- _class: appendix compact -->
 
+## Keep WordPress tooling boring
+
+- **WordPress core:** Reading, Permalinks, Editor/Customizer, clean pages and posts
+- **Yoast, if it is already installed:** `llms.txt`, file editor, one sitemap/schema owner
+- **Agentic discovery in theme or plugin:** block theme, child theme, mu-plugin, or small focused plugin
+- **Audit outside WordPress:** `curl`, WP-CLI, schema validators, `isitagentready.com`, logs, repeated prompt/source checks
+
+<!--
+Speaker note:
+Define WordPress core in admin terms: Reading controls public indexability, Permalinks controls stable URL shape, Editor or Customizer controls templates/navigation, and Pages/Posts control source text. Root files like robots.txt and llms.txt need one deliberate owner, usually Yoast if it is already installed or a tiny custom plugin/mu-plugin if not.
+-->
+
+---
+
+<!-- _class: appendix compact -->
+
 ## Appendix: resources
 
-- [Practical audit checklist](https://agentready.samcarlton.com/reference/practical-audit-priority/)
-- [AgentReady resource site](https://agentready.samcarlton.com/resources/)
-- [Live slide deck](https://agentready.samcarlton.com/slides/)
-- [Agent Led Growth](https://www.youtube.com/watch?v=RyTwRCKeDo4)
-- [AEO is the New SEO](https://www.listennotes.com/podcasts/always-be-testing/saas-class-ep-1-aeo-is-the-7UyGvP1j8sf/)
-- [Visibility in AI Search](https://www.youtube.com/watch?v=ukpU-EfRtV4)
-- [Google Lighthouse agentic browsing scoring](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring)
+- [Practical audit checklist](https://agentready.samcarlton.com/reference/practical-audit-priority/) - 80/20 checklist for fetchability, crawler lanes, extractability, `llms.txt`, Markdown, parity, and real capabilities.
+- [AgentReady resource site](https://agentready.samcarlton.com/resources/) - public handout page for the starter links, so attendees have one durable URL to revisit.
+- [Live slide deck](https://agentready.samcarlton.com/slides/) - published version of this Codeable Skill Chat deck for follow-up review.
+- [Agent Led Growth](https://www.youtube.com/watch?v=RyTwRCKeDo4) - Sequoia and Profound on agents becoming a discovery and purchase interface for brands.
+- [AEO is the New SEO](https://www.listennotes.com/podcasts/always-be-testing/saas-class-ep-1-aeo-is-the-7UyGvP1j8sf/) - HubSpot and Webflow operator framing around content, technical, authority, and measurement work.
+- [Visibility in AI Search](https://www.youtube.com/watch?v=ukpU-EfRtV4) - iPullRank session on query fan-out, extractable passages, omnimedia coverage, and AI-search measurement.
+- [Lighthouse agentic browsing scoring](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring) - official Chrome reference for experimental agentic-browsing audit signals.
 
 <!--
 Speaker note:
-Use these as the short follow-up list. The site resource page includes the Lighthouse command for auditing a public URL.
--->
-
----
-
-<!-- _class: appendix compact -->
-
-## Appendix: confirmed versus inferred
-
-**Confirmed:** public docs expose different tools, crawler identities, filtering knobs, and fetch behavior.
-
-**Inferred:** internal ranking, upstream providers, and product-UI orchestration are not fully disclosed.
-
-**Recommended wording:** "We can make your site easier for agent systems to fetch and cite; we cannot guarantee a specific model's answer ranking."
-
-<!--
-Speaker note:
-Use this if someone asks how certain we can be about ChatGPT, Claude, Gemini, or Perplexity internals. Keep the distinction crisp.
--->
-
----
-
-<!-- _class: appendix compact -->
-
-## Appendix: source trail
-
-- Cloudflare Agent Readiness and `isitagentready.com`
-- `llms.txt`, Vercel Agent Readability, Agent-Friendly Documentation Spec
-- OpenAI web search, crawlers, and Codex search docs
-- Anthropic web search/fetch, crawler controls, Claude Code tools
-- Gemini/Vertex grounding, Perplexity Sonar/Search, Microsoft Bing grounding
-- OpenCode and OpenClaw web tool docs
-
-<!--
-Speaker note:
-The full direct URL list lives in docs/agentready/research/codeable-agent-readiness-skill-chat-draft-2026-05-26.md.
+Use these as the short follow-up list. The practitioner links are useful for strategy and measurement framing; the checklist and Lighthouse docs are useful for implementation.
 -->

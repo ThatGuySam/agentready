@@ -5,6 +5,29 @@ description: The highest-leverage implementation checks for agent-readable sites
 
 # Practical Agent Readiness Audit Priority
 
+<section class="bluf-summary" aria-label="Page summary">
+  <details class="bluf-summary__item" open>
+    <summary>Bottom line</summary>
+    <p>The highest-leverage agent-readiness work is raw fetchability, crawler policy, extractable passages, sitemaps, curated LLM files, Markdown alternatives, parity, and real capabilities.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Is this relevant?</summary>
+    <p>Use this page when you need an 80/20 audit sequence instead of a scanner-score chase.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Evidence</summary>
+    <p>The table weights each practical audit item and pairs it with commands, guidance, and reference links.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Next action</summary>
+    <p>Run the checklist top-down against one site and stop at the first failing high-weight item.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Caveat</summary>
+    <p>The weights are a planning heuristic; brochure sites, docs sites, API products, SaaS apps, and commerce flows need different capability expectations.</p>
+  </details>
+</section>
+
 This is the practical 80/20 checklist for making a site easier for agents and
 AI search systems to find, fetch, parse, cite, and use.
 

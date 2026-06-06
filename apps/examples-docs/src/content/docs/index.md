@@ -3,6 +3,29 @@ title: AgentReady Examples
 description: Search and browse captured examples of agent-facing website surfaces.
 ---
 
+<section class="bluf-summary" aria-label="Page summary">
+  <details class="bluf-summary__item" open>
+    <summary>Bottom line</summary>
+    <p>AgentReady Examples is a searchable evidence library for agent-facing web surfaces, not a live scanner result.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Is this relevant?</summary>
+    <p>Use this site when you need to understand what real captured evidence looks like for crawler policy, sitemaps, LLM files, Markdown alternatives, agent skills, and redirect traps.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Evidence</summary>
+    <p>Each generated example links back to raw GitHub evidence and records dated endpoint captures.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Next action</summary>
+    <p>Start with the practical audit checklist or browse by surface if you already know which artifact you want to compare.</p>
+  </details>
+  <details class="bluf-summary__item">
+    <summary>Caveat</summary>
+    <p>Public sites change often, so use these pages as examples of evidence shape and audit interpretation rather than guaranteed-current target-site claims.</p>
+  </details>
+</section>
+
 AgentReady Examples turns the generated `examples/` evidence directory into a
 searchable reference site.
 

@@ -8,6 +8,7 @@ export default defineConfig({
       title: "AgentReady Examples",
       description:
         "Searchable examples of agent-facing website surfaces captured by AgentReady.",
+      customCss: ["./src/styles/bluf-summary.css"],
       editLink: {
         baseUrl:
           "https://github.com/ThatGuySam/agentready/edit/main/apps/examples-docs/",
