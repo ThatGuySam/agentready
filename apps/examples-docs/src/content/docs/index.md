@@ -26,6 +26,7 @@ common agent-facing surfaces:
 - [Browse by surface](./patterns/)
 - [Understand evidence files](./reference/evidence-files/)
 - [Use starter resources](./resources/)
+- [View the Codeable Skill Chat slides](https://agentready.samcarlton.com/slides/)
 
 ## Snapshot caveat
 

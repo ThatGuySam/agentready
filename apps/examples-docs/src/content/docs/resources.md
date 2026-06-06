@@ -6,6 +6,11 @@ description: Starter links for agent readiness, AEO, AI search visibility, and L
 Use these as starter references for the Agent Ready examples site and the
 Codeable Skill Chat deck.
 
+## Slides
+
+- [Open the Codeable Skill Chat deck](https://agentready.samcarlton.com/slides/) -
+  live slides for the Agent Ready audit model.
+
 ## Strategy and positioning
 
 - [Agent Led Growth](https://www.youtube.com/watch?v=RyTwRCKeDo4) - Sequoia

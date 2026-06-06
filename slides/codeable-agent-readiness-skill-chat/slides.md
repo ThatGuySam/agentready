@@ -7,6 +7,7 @@ paginate: true
 title: "Is Your Site Agent-Ready?"
 description: "A practical Codeable Skill Chat deck for auditing AI discovery and agent readability"
 author: "Sam Carlton"
+footer: "Slides: https://agentready.samcarlton.com/slides/ | Resources: https://agentready.samcarlton.com/resources/"
 ---
 
 <!-- _class: title -->
@@ -336,6 +337,8 @@ Keep this as a backup slide or handout material. The main talk should stay on th
 
 ## Appendix: resources
 
+- [AgentReady resource site](https://agentready.samcarlton.com/resources/)
+- [Live slide deck](https://agentready.samcarlton.com/slides/)
 - [Agent Led Growth](https://www.youtube.com/watch?v=RyTwRCKeDo4)
 - [AEO is the New SEO](https://www.listennotes.com/podcasts/always-be-testing/saas-class-ep-1-aeo-is-the-7UyGvP1j8sf/)
 - [Visibility in AI Search](https://www.youtube.com/watch?v=ukpU-EfRtV4)

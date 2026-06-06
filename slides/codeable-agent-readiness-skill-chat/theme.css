@@ -57,6 +57,20 @@ section::after {
   font-size: 15px;
 }
 
+section footer {
+  position: absolute;
+  right: 150px;
+  bottom: 28px;
+  left: 84px;
+  overflow: hidden;
+  color: var(--site-muted);
+  font-family: var(--site-mono);
+  font-size: 14px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 section > * {
   position: relative;
   z-index: 1;
@@ -237,6 +251,12 @@ section.dark strong,
 section.title strong,
 section.section strong {
   color: #ffffff;
+}
+
+section.dark footer,
+section.title footer,
+section.section footer {
+  color: #9ca3af;
 }
 
 section.dark p,
