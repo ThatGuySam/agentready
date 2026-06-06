@@ -22,7 +22,10 @@ export default defineConfig({
       sidebar: [
         {
           label: "Start Here",
-          items: [{ label: "Overview", link: "/" }],
+          items: [
+            { label: "Overview", link: "/" },
+            { label: "Slides", link: "/slides/" },
+          ],
         },
         {
           label: "Browse Examples",
