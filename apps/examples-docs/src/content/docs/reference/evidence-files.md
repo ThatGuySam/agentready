@@ -3,23 +3,34 @@ title: Evidence Files
 description: What each generated AgentReady example file means.
 ---
 
-<section class="bluf-summary" aria-label="Page summary">
-  <details class="bluf-summary__item" open>
-    <summary>Bottom line</summary>
-    <p>Generated pages are summaries; the raw evidence files remain the source of truth.</p>
-  </details>
-  <details class="bluf-summary__item">
-    <summary>Is this relevant?</summary>
-    <p>Use this page when you need to know which file proves endpoint status, headers, redirects, truncation, DNS, or saved body content.</p>
-  </details>
-  <details class="bluf-summary__item">
-    <summary>Evidence</summary>
-    <p>The file table explains metadata JSON, DNS files, HTTP transcripts, HAR metadata, endpoint status files, and saved endpoint bodies.</p>
-  </details>
-  <details class="bluf-summary__item">
-    <summary>Next action</summary>
-    <p>Use the generated example first, then open raw files when a status, redirect, truncation flag, or body sample affects the recommendation.</p>
-  </details>
+<section class="bluf-summary" role="radiogroup" aria-label="Page summary">
+  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="evidence-files-bluf" id="evidence-files-bluf-bottom-line" checked />
+    <label class="bluf-summary__summary" for="evidence-files-bluf-bottom-line">Bottom line</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>Generated pages are summaries; the raw evidence files remain the source of truth.</p>
+      </div>
+    </div>
+  </div>
+  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="evidence-files-bluf" id="evidence-files-bluf-relevance" />
+    <label class="bluf-summary__summary" for="evidence-files-bluf-relevance">Is this relevant?</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>Use this page when you need to know which file proves endpoint status, headers, redirects, truncation, DNS, or saved body content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="evidence-files-bluf" id="evidence-files-bluf-evidence" />
+    <label class="bluf-summary__summary" for="evidence-files-bluf-evidence">Evidence</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>The file table explains metadata JSON, DNS files, HTTP transcripts, HAR metadata, endpoint status files, and saved endpoint bodies.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 Each example page is generated from the AgentReady `examples/` directory. The

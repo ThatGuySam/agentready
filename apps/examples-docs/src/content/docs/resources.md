@@ -3,23 +3,34 @@ title: Resources
 description: Starter links for agent readiness, AEO, AI search visibility, and Lighthouse agentic browsing audits.
 ---
 
-<section class="bluf-summary" aria-label="Page summary">
-  <details class="bluf-summary__item" open>
-    <summary>Bottom line</summary>
-    <p>This page collects the starter references for Agent Ready strategy, audit practice, crawler policy, implementation checklists, capability protocols, and Lighthouse agentic-browsing checks.</p>
-  </details>
-  <details class="bluf-summary__item">
-    <summary>Is this relevant?</summary>
-    <p>Use it when you want source links behind the examples site or need a fast handoff after the Codeable Skill Chat deck.</p>
-  </details>
-  <details class="bluf-summary__item">
-    <summary>Evidence</summary>
-    <p>The page links to strategy talks, practical audit tooling, official crawler policy docs, implementation checklists, protocol specs, reality checks, and the command used for an agentic-browsing report.</p>
-  </details>
-  <details class="bluf-summary__item">
-    <summary>Next action</summary>
-    <p>Start with the audit checklist, then use the policy, implementation, and protocol sections only when they match the site type.</p>
-  </details>
+<section class="bluf-summary" role="radiogroup" aria-label="Page summary">
+  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="resources-bluf" id="resources-bluf-bottom-line" checked />
+    <label class="bluf-summary__summary" for="resources-bluf-bottom-line">Bottom line</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>This page collects the starter references for Agent Ready strategy, audit practice, crawler policy, implementation checklists, capability protocols, and Lighthouse agentic-browsing checks.</p>
+      </div>
+    </div>
+  </div>
+  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="resources-bluf" id="resources-bluf-relevance" />
+    <label class="bluf-summary__summary" for="resources-bluf-relevance">Is this relevant?</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>Use it when you want source links behind the examples site or need a fast handoff after the Codeable Skill Chat deck.</p>
+      </div>
+    </div>
+  </div>
+  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="resources-bluf" id="resources-bluf-evidence" />
+    <label class="bluf-summary__summary" for="resources-bluf-evidence">Evidence</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>The page links to strategy talks, practical audit tooling, official crawler policy docs, implementation checklists, protocol specs, reality checks, and the command used for an agentic-browsing report.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 Use these as starter references for the Agent Ready examples site and the

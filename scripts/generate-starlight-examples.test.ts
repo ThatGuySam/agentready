@@ -76,11 +76,16 @@ describe("generate-starlight-examples", () => {
     const page = buildExamplePage(manifest, manifest.sites[0]!);
 
     expect(page).toContain("Cloudflare Developers");
-    expect(page).toContain('<section class="bluf-summary"');
-    expect(page).toContain('<details class="bluf-summary__item" open>');
-    expect(page.indexOf("<summary>Bottom line</summary>")).toBeLessThan(
-      page.indexOf("<summary>Is this relevant?</summary>"),
+    expect(page).toContain('<section class="bluf-summary" role="radiogroup"');
+    expect(page).toContain(
+      'type="radio" name="bluf-summary" id="bluf-summary-bottom-line" checked',
     );
+    expect(
+      page.indexOf('for="bluf-summary-bottom-line">Bottom line'),
+    ).toBeLessThan(
+      page.indexOf('for="bluf-summary-relevance">Is this relevant?'),
+    );
+    expect(page).not.toContain("Next action");
     expect(page).toContain(
       "https://github.com/ThatGuySam/agentready/blob/main/examples/cloudflare-developers/robots.txt",
     );

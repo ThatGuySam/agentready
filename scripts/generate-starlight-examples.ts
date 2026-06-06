@@ -53,7 +53,6 @@ type BlufSummary = {
   bottomLine: string;
   relevance: string;
   evidence: string;
-  nextAction: string;
   caveat?: string;
 };
 
@@ -280,8 +279,6 @@ ${buildBlufSummary({
   relevance:
     "Use this page when you need to choose between positive examples, contrast cases, and redirect or status traps.",
   evidence: `The current snapshot includes ${manifest.sites.length} sites captured at ${manifest.capturedAt}.`,
-  nextAction:
-    "Pick positive examples for implementation patterns, contrast examples for trade-offs, or redirect traps for false-positive checks.",
   caveat:
     "The examples are dated captures; open the raw evidence or re-run checks before treating a target site as current.",
 })}
@@ -339,8 +336,6 @@ ${buildBlufSummary({
   relevance:
     "This page is useful for comparing crawler policy, sitemap discovery, LLM text files, Markdown alternatives, agent skills, and redirect traps across sites.",
   evidence: `${surfaceDefinitions.length} surface groups are generated from the same examples manifest.`,
-  nextAction:
-    "Choose the surface that matches your audit question, then inspect matching examples and raw evidence.",
 })}
 
 Use these pages to compare how different sites expose common agent-facing
@@ -426,20 +421,50 @@ function endpointLink(endpoint: ExampleEndpoint) {
 
 function buildBlufSummary(summary: BlufSummary) {
   const items = [
-    ["Bottom line", summary.bottomLine, true],
-    ["Is this relevant?", summary.relevance, false],
-    ["Evidence", summary.evidence, false],
-    ["Next action", summary.nextAction, false],
-  ] as const;
+    {
+      id: "bottom-line",
+      label: "Bottom line",
+      value: summary.bottomLine,
+      checked: true,
+    },
+    {
+      id: "relevance",
+      label: "Is this relevant?",
+      value: summary.relevance,
+      checked: false,
+    },
+    {
+      id: "evidence",
+      label: "Evidence",
+      value: summary.evidence,
+      checked: false,
+    },
+  ];
   const caveat = summary.caveat
-    ? `\n  <details class="bluf-summary__item">\n    <summary>Caveat</summary>\n    <p>${escapeHtml(summary.caveat)}</p>\n  </details>`
+    ? `\n  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="bluf-summary" id="bluf-summary-caveat" />
+    <label class="bluf-summary__summary" for="bluf-summary-caveat">Caveat</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>${escapeHtml(summary.caveat)}</p>
+      </div>
+    </div>
+  </div>`
     : "";
 
-  return `<section class="bluf-summary" aria-label="Page summary">
+  return `<section class="bluf-summary" role="radiogroup" aria-label="Page summary">
 ${items
   .map(
-    ([label, value, open]) =>
-      `  <details class="bluf-summary__item"${open ? " open" : ""}>\n    <summary>${label}</summary>\n    <p>${escapeHtml(value)}</p>\n  </details>`,
+    ({ id, label, value, checked }) =>
+      `  <div class="bluf-summary__item">
+    <input class="bluf-summary__control" type="radio" name="bluf-summary" id="bluf-summary-${id}"${checked ? " checked" : ""} />
+    <label class="bluf-summary__summary" for="bluf-summary-${id}">${label}</label>
+    <div class="bluf-summary__panel">
+      <div class="bluf-summary__panel-inner">
+        <p>${escapeHtml(value)}</p>
+      </div>
+    </div>
+  </div>`,
   )
   .join("\n")}${caveat}
 </section>`;
@@ -466,8 +491,6 @@ function examplePageBluf(
     bottomLine: bottomLineByCategory[site.category],
     relevance: `Use this page when you want a ${categoryUseLabel(site.category)} for ${site.host}.`,
     evidence: `${site.endpoints.length} endpoints were captured at ${manifest.capturedAt}; ${successCount} returned successful status responses. Captured surfaces: ${matchedSurfaces.length > 0 ? matchedSurfaces.join(", ") : "none"}.`,
-    nextAction:
-      "Scan Agent-Facing Surfaces first, then open raw evidence links when status, redirect, body content, or truncation matters.",
     caveat: `This is not a live claim about ${site.host}; public sites and endpoint behavior can change.`,
   };
 }
@@ -500,8 +523,6 @@ function categoryPageBluf(
     bottomLine: bottomLineByCategory[category],
     relevance: details.description,
     evidence: `${siteCount} sites in this category are generated from the current examples manifest.`,
-    nextAction:
-      "Open one site page, read its Agent-Facing Surfaces table, then inspect raw evidence for anything you might copy.",
     caveat:
       "Treat category labels as audit interpretation from the capture, not permanent rankings of the target sites.",
   };
@@ -515,8 +536,6 @@ function surfacePageBluf(
     bottomLine: `Use this page to compare ${surface.title.toLowerCase()} evidence across captured sites.`,
     relevance: surface.description,
     evidence: `${siteCount} site rows currently match this surface in the examples manifest.`,
-    nextAction:
-      "Open matching examples and check the raw body or status file before using the pattern in an audit recommendation.",
     caveat:
       "A matching status is a lead, not proof; content type, body shape, redirects, and truncation still matter.",
   };
