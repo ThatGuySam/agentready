@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Practical agent readiness 80/20 priority weights</title>
+  <desc id="desc">Pie chart showing the relative share of the high-leverage agent readiness checklist: raw fetchability 18%, robots crawler lanes 14%, passage extractability 14%, sitemap quality 10%, llms.txt curated map 10%, Markdown alternatives 10%, schema and canonical parity 8%, real capability surfaces 7%, llms-full context files 5%, and HTTP Link discovery 4%.</desc>
+  <rect width="1200" height="720" rx="0" fill="#fbfaf7"/>
+  <text x="70" y="78" fill="#17324d" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="34" font-weight="760">Weight of the high-leverage 80%</text>
+  <text x="70" y="116" fill="#667085" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20">Relative priority for practical implementation work, not a universal scanner score.</text>
+
+  <g transform="translate(0 4)" stroke="#fbfaf7" stroke-width="4" stroke-linejoin="round">
+    <path d="M 330 390 L 330.00 180.00 A 210 210 0 0 1 520.01 300.59 Z" fill="#2563eb"/>
+    <path d="M 330 390 L 520.01 300.59 A 210 210 0 0 1 520.01 479.41 Z" fill="#0f766e"/>
+    <path d="M 330 390 L 520.01 479.41 A 210 210 0 0 1 382.22 593.40 Z" fill="#b7791f"/>
+    <path d="M 330 390 L 382.22 593.40 A 210 210 0 0 1 252.69 585.25 Z" fill="#b42318"/>
+    <path d="M 330 390 L 252.69 585.25 A 210 210 0 0 1 152.69 502.52 Z" fill="#7c3aed"/>
+    <path d="M 330 390 L 152.69 502.52 A 210 210 0 0 1 120.41 376.81 Z" fill="#0891b2"/>
+    <path d="M 330 390 L 120.41 376.81 A 210 210 0 0 1 152.69 277.48 Z" fill="#16a34a"/>
+    <path d="M 330 390 L 152.69 277.48 A 210 210 0 0 1 217.48 212.69 Z" fill="#db2777"/>
+    <path d="M 330 390 L 217.48 212.69 A 210 210 0 0 1 277.78 186.60 Z" fill="#ea580c"/>
+    <path d="M 330 390 L 277.78 186.60 A 210 210 0 0 1 330.00 180.00 Z" fill="#64748b"/>
+  </g>
+
+  <circle cx="330" cy="394" r="82" fill="#fbfaf7"/>
+  <text x="330" y="381" fill="#17324d" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="760">100 pts</text>
+  <text x="330" y="414" fill="#667085" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18">of the 80%</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="20" fill="#1f2933">
+    <g transform="translate(610 164)">
+      <rect width="24" height="24" rx="4" fill="#2563eb"/>
+      <text x="40" y="20" font-weight="760">18%</text>
+      <text x="104" y="20">Raw fetchability of key pages</text>
+    </g>
+    <g transform="translate(610 216)">
+      <rect width="24" height="24" rx="4" fill="#0f766e"/>
+      <text x="40" y="20" font-weight="760">14%</text>
+      <text x="104" y="20">robots.txt with crawler lanes</text>
+    </g>
+    <g transform="translate(610 268)">
+      <rect width="24" height="24" rx="4" fill="#b7791f"/>
+      <text x="40" y="20" font-weight="760">14%</text>
+      <text x="104" y="20">Passage extractability</text>
+    </g>
+    <g transform="translate(610 320)">
+      <rect width="24" height="24" rx="4" fill="#b42318"/>
+      <text x="40" y="20" font-weight="760">10%</text>
+      <text x="104" y="20">Sitemap quality</text>
+    </g>
+    <g transform="translate(610 372)">
+      <rect width="24" height="24" rx="4" fill="#7c3aed"/>
+      <text x="40" y="20" font-weight="760">10%</text>
+      <text x="104" y="20">/llms.txt curated map</text>
+    </g>
+    <g transform="translate(610 424)">
+      <rect width="24" height="24" rx="4" fill="#0891b2"/>
+      <text x="40" y="20" font-weight="760">10%</text>
+      <text x="104" y="20">Markdown alternatives</text>
+    </g>
+    <g transform="translate(610 476)">
+      <rect width="24" height="24" rx="4" fill="#16a34a"/>
+      <text x="40" y="20" font-weight="760">8%</text>
+      <text x="104" y="20">Schema, canonical, visible-content parity</text>
+    </g>
+    <g transform="translate(610 528)">
+      <rect width="24" height="24" rx="4" fill="#db2777"/>
+      <text x="40" y="20" font-weight="760">7%</text>
+      <text x="104" y="20">Real capability surfaces only</text>
+    </g>
+    <g transform="translate(610 580)">
+      <rect width="24" height="24" rx="4" fill="#ea580c"/>
+      <text x="40" y="20" font-weight="760">5%</text>
+      <text x="104" y="20">/llms-full.txt or segmented context files</text>
+    </g>
+    <g transform="translate(610 632)">
+      <rect width="24" height="24" rx="4" fill="#64748b"/>
+      <text x="40" y="20" font-weight="760">4%</text>
+      <text x="104" y="20">HTTP Link headers for machine discovery</text>
+    </g>
+  </g>
+</svg>

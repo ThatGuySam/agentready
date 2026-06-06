@@ -282,6 +282,19 @@ The short client script: "I can audit whether AI systems can find, fetch, unders
 
 ---
 
+<!-- _class: chart -->
+
+## Most 80/20 value is boring proof
+
+<img class="priority-chart" src="/assets/agent-readiness-priority-pie.svg" alt="Pie chart showing practical agent readiness audit weights: raw fetchability 18%, robots crawler lanes 14%, passage extractability 14%, sitemap quality 10%, llms.txt curated map 10%, Markdown alternatives 10%, schema parity 8%, real capability surfaces 7%, llms-full context files 5%, and HTTP Link discovery 4%." />
+
+<!--
+Speaker note:
+Use this to explain prioritization. The largest shares are things agents and AI search systems need before protocol surfaces matter: public fetchability, crawler policy, extractable passages, clean URL inventory, curated llms.txt, and Markdown alternatives. The lower-weight capability checks still matter, but only when the capability is real.
+-->
+
+---
+
 <!-- _class: workflow -->
 
 ## The practical checklist is short enough to run

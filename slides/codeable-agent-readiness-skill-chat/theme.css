@@ -361,7 +361,8 @@ section.comparison,
 section.decision,
 section.lanes,
 section.service,
-section.matrix {
+section.matrix,
+section.chart {
   background:
     linear-gradient(
       90deg,
@@ -394,6 +395,18 @@ section.matrix {
   bottom: 28px;
   color: var(--site-muted);
   font-size: 16px;
+}
+
+section.chart h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+section.chart .priority-chart {
+  display: block;
+  width: auto;
+  height: 515px;
+  margin: 0 auto;
 }
 
 .link-list {

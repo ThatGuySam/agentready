@@ -14,6 +14,10 @@ heuristic, not a universal score. Site type still matters: brochure sites,
 documentation sites, API products, SaaS apps, and commerce flows should not be
 audited against the same capability expectations.
 
+## Priority chart
+
+![Pie chart showing the relative weight of each practical agent readiness audit item](/assets/agent-readiness-priority-pie.svg)
+
 ## Priority table
 
 |   # | Item                                          | Weight of the 80% | Audit tool or command                                                                                                                                                              | Interactive guidance                                                                                                                                                   | Best resource                                                                                                                                                                                                                                                                                                                                                          |
