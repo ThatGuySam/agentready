@@ -1,7 +1,7 @@
 ---
 marp: true
 html: true
-theme: agent-ready
+theme: scc
 size: 16:9
 paginate: true
 title: "Is Your Site Agent-Ready?"
