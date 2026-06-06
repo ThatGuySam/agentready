@@ -25,6 +25,7 @@ common agent-facing surfaces:
 - [Browse redirect traps](./examples/redirect-traps/)
 - [Browse by surface](./patterns/)
 - [Understand evidence files](./reference/evidence-files/)
+- [Use the weighted practical audit checklist](./reference/practical-audit-priority/)
 - [Use starter resources](./resources/)
 - [View the Codeable Skill Chat slides](https://agentready.samcarlton.com/slides/)
 

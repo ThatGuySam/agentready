@@ -22,6 +22,9 @@ Codeable Skill Chat deck.
 
 ## Audit reference
 
+- [Practical Agent Readiness Audit Priority](/reference/practical-audit-priority/) -
+  weighted 80/20 implementation checklist with audit commands, guidance, and
+  best-practice links.
 - [Google Lighthouse agentic browsing scoring](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring) -
   official scoring reference for Lighthouse's `agentic-browsing` category.
 

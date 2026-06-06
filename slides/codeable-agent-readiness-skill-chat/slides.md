@@ -337,6 +337,7 @@ Keep this as a backup slide or handout material. The main talk should stay on th
 
 ## Appendix: resources
 
+- [Practical audit checklist](https://agentready.samcarlton.com/reference/practical-audit-priority/)
 - [AgentReady resource site](https://agentready.samcarlton.com/resources/)
 - [Live slide deck](https://agentready.samcarlton.com/slides/)
 - [Agent Led Growth](https://www.youtube.com/watch?v=RyTwRCKeDo4)

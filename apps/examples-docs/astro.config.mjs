@@ -44,7 +44,11 @@ export default defineConfig({
         },
         {
           label: "Evidence Reference",
-          items: [{ slug: "reference/evidence-files" }, { slug: "resources" }],
+          items: [
+            { slug: "reference/evidence-files" },
+            { slug: "reference/practical-audit-priority" },
+            { slug: "resources" },
+          ],
         },
       ],
     }),
