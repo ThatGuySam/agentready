@@ -26,6 +26,7 @@ common agent-facing surfaces:
 - [Browse by surface](./patterns/)
 - [Understand evidence files](./reference/evidence-files/)
 - [Use the weighted practical audit checklist](./reference/practical-audit-priority/)
+- [Use the WordPress agent-ready tooling guide](./reference/wordpress-tooling/)
 - [Use starter resources](./resources/)
 - [View the Codeable Skill Chat slides](https://agentready.samcarlton.com/slides/)
 
