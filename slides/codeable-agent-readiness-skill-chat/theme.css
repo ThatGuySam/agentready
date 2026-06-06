@@ -65,7 +65,7 @@ section footer {
   overflow: hidden;
   color: var(--site-muted);
   font-family: var(--site-mono);
-  font-size: 14px;
+  font-size: 28px;
   line-height: 1.2;
   text-overflow: ellipsis;
   white-space: nowrap;

@@ -7,7 +7,7 @@ paginate: true
 title: "Is Your Site Agent-Ready?"
 description: "A practical Codeable Skill Chat deck for auditing AI discovery and agent readability"
 author: "Sam Carlton"
-footer: "Slides: https://agentready.samcarlton.com/slides/ | Resources: https://agentready.samcarlton.com/resources/"
+footer: "[agentready.samcarlton.com/slides](https://agentready.samcarlton.com/slides)"
 ---
 
 <!-- _class: title -->
