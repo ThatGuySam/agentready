@@ -334,6 +334,22 @@ Keep this as a backup slide or handout material. The main talk should stay on th
 
 <!-- _class: appendix compact -->
 
+## Appendix: resources
+
+- [Agent Led Growth](https://www.youtube.com/watch?v=RyTwRCKeDo4)
+- [AEO is the New SEO](https://www.listennotes.com/podcasts/always-be-testing/saas-class-ep-1-aeo-is-the-7UyGvP1j8sf/)
+- [Visibility in AI Search](https://www.youtube.com/watch?v=ukpU-EfRtV4)
+- [Google Lighthouse agentic browsing scoring](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring)
+
+<!--
+Speaker note:
+Use these as the short follow-up list. The site resource page includes the Lighthouse command for auditing a public URL.
+-->
+
+---
+
+<!-- _class: appendix compact -->
+
 ## Appendix: confirmed versus inferred
 
 **Confirmed:** public docs expose different tools, crawler identities, filtering knobs, and fetch behavior.

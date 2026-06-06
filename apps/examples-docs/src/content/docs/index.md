@@ -25,6 +25,7 @@ common agent-facing surfaces:
 - [Browse redirect traps](./examples/redirect-traps/)
 - [Browse by surface](./patterns/)
 - [Understand evidence files](./reference/evidence-files/)
+- [Use starter resources](./resources/)
 
 ## Snapshot caveat
 
