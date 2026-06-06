@@ -225,9 +225,9 @@ Keep this as a backup slide or handout material. The main talk should stay on th
 
 ## Keep WordPress tooling boring
 
-- **WordPress core:** Reading, Permalinks, Editor/Customizer, clean pages and posts
-- **Yoast, if it is already installed:** `llms.txt`, file editor, one sitemap/schema owner
-- **Agentic discovery in theme or plugin:** block theme, child theme, mu-plugin, or small focused plugin
+- **WordPress core:** `Settings -> Reading`, `Settings -> Permalinks`, `Appearance -> Editor/Customize`, clean pages and posts
+- **Yoast, if it is already installed:** `Yoast SEO -> Settings -> Site features -> llms.txt`, `Yoast SEO -> Tools -> File editor`, one sitemap/schema owner
+- **Agentic discovery in theme or plugin:** block theme, child theme, mu-plugin, or small focused plugin; no fake MCP/API/OAuth files
 - **Audit outside WordPress:** `curl`, WP-CLI, schema validators, `isitagentready.com`, logs, repeated prompt/source checks
 
 <!--
