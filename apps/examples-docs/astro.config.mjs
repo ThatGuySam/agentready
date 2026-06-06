@@ -50,6 +50,7 @@ export default defineConfig({
           items: [
             { slug: "reference/evidence-files" },
             { slug: "reference/practical-audit-priority" },
+            { slug: "reference/wordpress-tooling" },
             { slug: "resources" },
           ],
         },
