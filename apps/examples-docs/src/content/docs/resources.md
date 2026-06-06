@@ -25,6 +25,9 @@ Codeable Skill Chat deck.
 - [Practical Agent Readiness Audit Priority](/reference/practical-audit-priority/) -
   weighted 80/20 implementation checklist with audit commands, guidance, and
   best-practice links.
+- [WordPress Agent-Ready Tooling](/reference/wordpress-tooling/) - practical
+  WordPress admin, SEO plugin, theme, page-builder, and audit-tool guidance for
+  keeping agent-readiness work boring.
 - [Google Lighthouse agentic browsing scoring](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring) -
   official scoring reference for Lighthouse's `agentic-browsing` category.
 
