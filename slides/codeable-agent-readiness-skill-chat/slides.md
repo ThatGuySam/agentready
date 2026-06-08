@@ -26,15 +26,43 @@ This title avoids the Cloudflare scanner's question-style phrasing and connects 
 
 ---
 
-<!-- _class: claim -->
+<!-- _class: section -->
 
-## Start with the question behind the question
-
-When a client asks, "Can ChatGPT see us?", they are really asking whether AI systems can find, read, trust, and use their source material.
+# Intro
 
 <!--
 Speaker note:
-This is the intro slide. Do not make it a personal "Hey, I'm Sam" reset like the OBA deck. Use it to orient the room around the actual client concern and the audit promise.
+Reset the room before introducing yourself. This mirrors the OBA 2026 intro rhythm.
+-->
+
+---
+
+<!-- _class: claim -->
+
+## Hey, I'm Sam.
+
+<!--
+Speaker note:
+- Sam Carlton
+- Tulsa native
+- Been building and consulting on software for over 15 years
+- VP of Techlahoma
+- Built products used by NFL, Virgin Brands, Samsung, Aston Martin
+- Maintain many open source projects for the community helping thousands of developers.
+- Love grilling, Wagyu, and grandMA lighting consoles.
+-->
+
+---
+
+<!-- _class: quote -->
+
+## Disclaimer
+
+> AI facts are perishable. Model behavior, vendor terms, crawler behavior, and search surfaces can change faster than a conference Wi-Fi password.
+
+<!--
+Speaker note:
+Use this to set the evidence standard. The talk is about durable audit habits, not permanent claims about any one provider.
 -->
 
 ---
@@ -66,18 +94,22 @@ Position this as the next layer after baseline SEO: discovery mechanics, source 
 
 ---
 
-<!-- _class: compact -->
+<!-- _class: terms appendix compact -->
 
 ## Landscape of terms
 
-<div class="tag-row">
-  <span class="tag"><strong>GEO</strong> - Bing</span>
-  <span class="tag"><strong>AEO</strong></span>
-</div>
+| Term                 | Who uses it                           | Useful translation                             |
+| -------------------- | ------------------------------------- | ---------------------------------------------- |
+| GEO                  | Bing, iPullRank, a16z, SEO vendors    | Generative answer grounding and citations      |
+| AEO                  | HubSpot, Profound, marketing teams    | Brand presence in answer engines               |
+| AI search visibility | Profound, iPullRank, enterprise tools | Mentions, citations, share of voice, sentiment |
+| Agent readiness      | Cloudflare, checker tools             | Can agents fetch, read, and use the site?      |
+| Agent readability    | Vercel, docs tooling                  | Is the page easy for agents to parse?          |
+| AI features          | Google Search Central                 | Google-specific AI Overview / AI Mode guidance |
 
 <!--
 Speaker note:
-Name the terminology without letting the acronyms take over the talk. The useful move is translating them into client-safe audit work.
+Name the terminology without letting the acronyms take over the talk. Source anchors: Bing uses GEO in Webmaster Guidelines and AI Performance reporting; HubSpot and Profound use AEO/answer-engine language; Ahrefs treats GEO/AEO/LLMO as overlapping SEO trade labels; Semrush uses AIO as product/category language; Cloudflare and Vercel split readiness/readability; Google avoids special "AI SEO" files and frames this under AI features in Search. If LLMO or AIO comes up, treat them as terms to recognize, not client-facing labels to lead with.
 -->
 
 ---
@@ -132,15 +164,18 @@ Use this as the concrete audit bridge: a familiar Lighthouse workflow pointed at
 
 ## Agent auditing tools
 
-| Tool             | URL                          |
-| ---------------- | ---------------------------- |
-| Cloudflare       | <https://isitagentready.com> |
-| Bart Waardenburg | <https://isagentready.com>   |
-| Mark Lavercombe  | <https://agent-ready.dev/>   |
+| Job                  | Tools                                                                               |
+| -------------------- | ----------------------------------------------------------------------------------- |
+| Protocol scan        | `isitagentready.com`, Cloudflare URL Scanner, `isagentready.com`, `agent-ready.dev` |
+| Docs/readability     | `afdocs`, Vercel Agent Readability                                                  |
+| Basic hygiene        | Lighthouse, PageSpeed Insights, devtools                                            |
+| Structured data      | Rich Results Test, Schema Markup Validator                                          |
+| Deterministic probes | `curl`, `jq`, raw HTML inspection                                                   |
+| Search evidence      | Google Search Console, Bing Webmaster Tools                                         |
 
 <!--
 Speaker note:
-Keep this practical. Show that the category is becoming real enough to audit, while still requiring judgment about what applies to a specific site.
+Keep this practical. Show that the category is becoming real enough to audit, while still requiring judgment about what applies to a specific site. This slide absorbs the old "useful tool stack by job" appendix.
 -->
 
 ---
@@ -183,6 +218,24 @@ This is one of the most client-useful distinctions. Blocking training and appear
 
 ---
 
+<!-- _class: appendix compact -->
+
+## Keep WordPress tooling boring
+
+- **WordPress core:** `Settings -> Reading`, `Settings -> Permalinks`, `Appearance -> Editor/Customize`, clean pages and posts
+- **Yoast, if it is already installed:** `Yoast SEO -> Settings -> Site features -> llms.txt`, `Yoast SEO -> Tools -> File editor`, one sitemap/schema owner
+- **Agentic discovery in theme or plugin:** block theme, child theme, mu-plugin, or small focused plugin; no fake MCP/API/OAuth files
+- **Custom plugins:** roll exactly what you need using official [WP Agent Skills](https://github.com/WordPress/agent-skills) and Codeable Agent Coding standards
+- **Audit outside WordPress:** `curl`, WP-CLI, schema validators, `isitagentready.com`, logs, repeated prompt/source checks
+- Full Starlight version: [agentready.samcarlton.com/reference/wordpress-tooling](https://agentready.samcarlton.com/reference/wordpress-tooling/)
+
+<!--
+Speaker note:
+Define WordPress core in admin terms: Reading controls public indexability, Permalinks controls stable URL shape, Editor or Customizer controls templates/navigation, and Pages/Posts control source text. Root files like robots.txt and llms.txt need one deliberate owner, usually Yoast if it is already installed or a tiny custom plugin/mu-plugin if not.
+-->
+
+---
+
 <!-- _class: comparison -->
 
 ## Use safer claims when talking to clients
@@ -201,39 +254,13 @@ The short client script: "I can audit whether AI systems can find, fetch, unders
 
 ---
 
-<!-- _class: appendix compact -->
+<!-- _class: section -->
 
-## Appendix: useful tool stack by job
-
-| Job                  | Tools                                                 |
-| -------------------- | ----------------------------------------------------- |
-| Protocol scan        | `isitagentready.com`, Cloudflare URL Scanner          |
-| Docs/readability     | `afdocs`, Vercel Agent Readability, `agent-ready.dev` |
-| Basic hygiene        | Lighthouse, PageSpeed Insights, devtools              |
-| Structured data      | Rich Results Test, Schema Markup Validator            |
-| Deterministic probes | `curl`, `jq`, raw HTML inspection                     |
-| Search evidence      | Google Search Console, Bing Webmaster Tools           |
+# Questions?
 
 <!--
 Speaker note:
-Keep this as a backup slide or handout material. The main talk should stay on the audit model, not the tool list.
--->
-
----
-
-<!-- _class: appendix compact -->
-
-## Keep WordPress tooling boring
-
-- **WordPress core:** `Settings -> Reading`, `Settings -> Permalinks`, `Appearance -> Editor/Customize`, clean pages and posts
-- **Yoast, if it is already installed:** `Yoast SEO -> Settings -> Site features -> llms.txt`, `Yoast SEO -> Tools -> File editor`, one sitemap/schema owner
-- **Agentic discovery in theme or plugin:** block theme, child theme, mu-plugin, or small focused plugin; no fake MCP/API/OAuth files
-- **Custom Plugins:** Roll exactly what you need using official [WP Agent Skills](https://github.com/wordPress/agent-skills) and Codeable Agent Coding standards
-- **Audit outside WordPress:** `curl`, WP-CLI, schema validators, `isitagentready.com`, logs, repeated prompt/source checks
-
-<!--
-Speaker note:
-Define WordPress core in admin terms: Reading controls public indexability, Permalinks controls stable URL shape, Editor or Customizer controls templates/navigation, and Pages/Posts control source text. Root files like robots.txt and llms.txt need one deliberate owner, usually Yoast if it is already installed or a tiny custom plugin/mu-plugin if not.
+Pause here for room questions before moving into appendix resources.
 -->
 
 ---

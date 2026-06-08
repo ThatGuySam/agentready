@@ -586,3 +586,18 @@ section.appendix {
 section.appendix h2 {
   font-size: 36px;
 }
+
+section.terms table {
+  font-size: 19px;
+  line-height: 1.18;
+}
+
+section.terms th {
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+section.terms td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
