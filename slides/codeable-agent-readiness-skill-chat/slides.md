@@ -58,7 +58,7 @@ Speaker note:
 
 ## Disclaimer
 
-> AI facts are perishable. Model behavior, vendor terms, crawler behavior, and search surfaces can change faster than a conference Wi-Fi password.
+> AI facts are perishable. Model behavior, vendor terms, crawler behavior, and search surfaces can change faster than an Elementor layout after someone finds the Custom CSS box.
 
 <!--
 Speaker note:
@@ -114,13 +114,22 @@ Name the terminology without letting the acronyms take over the talk. Source anc
 
 ---
 
-<!-- _class: section -->
+<!-- _class: evidence empathy -->
 
-# Agentic Empathy
+## Agentic empathy = reduce uncertainty
+
+<div class="source-grid">
+  <a class="source-card" href="https://vercel.com/kb/guide/agent-readability-spec"><strong>Structure is empathy.</strong><span>Clean metadata, headings, and context make pages easier for agents to parse.</span><em>Vercel Agent Readability</em></a>
+  <a class="source-card" href="https://www.agentdocsspec.com/spec/"><strong>Fetch loss is real.</strong><span>Tabs, truncation, redirects, auth gates, and broken Markdown can hide the answer.</span><em>Agent-Friendly Documentation Spec</em></a>
+  <a class="source-card" href="https://platform.openai.com/docs/bots"><strong>Entry path matters.</strong><span>Search crawlers, user fetchers, and training crawlers are different policy lanes.</span><em>OpenAI crawler docs</em></a>
+  <a class="source-card" href="https://learn.microsoft.com/en-us/security/zero-trust/sfi/manage-agentic-risk"><strong>Actions need boundaries.</strong><span>Tools need permissions, approvals, logs, and honest capability signals.</span><em>Microsoft agentic risk</em></a>
+</div>
+
+<p class="takeaway">Design for what an agent can find, fetch, parse, cite, and safely do.</p>
 
 <!--
 Speaker note:
-Shift from acronym vocabulary to the practical habit: imagine what an agent can fetch, parse, compare, and cite when it lands on the site.
+Shift from acronym vocabulary to the practical habit: imagine what an agent can fetch, parse, compare, cite, and safely do when it lands on the site. The slide links are expandable source paths for Vercel/Cloudflare-style readability, AFDocs fetch-loss checks, crawler-lane policy, and bounded agent actions.
 -->
 
 ---

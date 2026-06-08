@@ -489,6 +489,56 @@ section.chart .priority-chart {
   font-size: 23px;
 }
 
+section.empathy h2 {
+  margin-bottom: 24px;
+}
+
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.source-card {
+  display: block;
+  min-height: 126px;
+  padding: 18px 20px;
+  border: 1px solid var(--site-line);
+  border-top: 4px solid var(--site-accent);
+  border-radius: 6px;
+  background: var(--site-paper);
+  color: inherit;
+  text-decoration: none;
+}
+
+.source-card strong,
+.source-card span,
+.source-card em {
+  display: block;
+}
+
+.source-card strong {
+  margin-bottom: 7px;
+  font-size: 22px;
+}
+
+.source-card span {
+  color: var(--site-ink);
+  font-size: 19px;
+  line-height: 1.28;
+}
+
+.source-card em {
+  margin-top: 10px;
+  color: var(--site-muted);
+  font-size: 15px;
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-color: var(--site-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 .decision-grid,
 .lane-grid,
 .service-grid {

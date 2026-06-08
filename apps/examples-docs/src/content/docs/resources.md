@@ -46,6 +46,8 @@ Codeable Skill Chat deck.
 - [Practical Agent Readiness Audit Priority](/reference/practical-audit-priority/) -
   weighted 80/20 implementation checklist with audit commands, guidance, and
   best-practice links.
+- [Agentic Empathy](/reference/agentic-empathy/) - source-backed examples for
+  reducing uncertainty for constrained, tool-using agents.
 - [WordPress Agent-Ready Tooling](/reference/wordpress-tooling/) - practical
   WordPress admin, SEO plugin, theme, page-builder, and audit-tool guidance for
   keeping agent-readiness work boring.

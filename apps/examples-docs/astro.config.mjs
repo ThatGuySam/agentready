@@ -50,6 +50,7 @@ export default defineConfig({
           label: "Evidence Reference",
           items: [
             { slug: "reference/evidence-files" },
+            { slug: "reference/agentic-empathy" },
             { slug: "reference/practical-audit-priority" },
             { slug: "reference/wordpress-tooling" },
             { slug: "resources" },
