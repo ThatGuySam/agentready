@@ -228,6 +228,7 @@ Keep this as a backup slide or handout material. The main talk should stay on th
 - **WordPress core:** `Settings -> Reading`, `Settings -> Permalinks`, `Appearance -> Editor/Customize`, clean pages and posts
 - **Yoast, if it is already installed:** `Yoast SEO -> Settings -> Site features -> llms.txt`, `Yoast SEO -> Tools -> File editor`, one sitemap/schema owner
 - **Agentic discovery in theme or plugin:** block theme, child theme, mu-plugin, or small focused plugin; no fake MCP/API/OAuth files
+- **Custom Plugins:** Roll exactly what you need using official [WP Agent Skills](https://github.com/wordPress/agent-skills) and Codeable Agent Coding standards
 - **Audit outside WordPress:** `curl`, WP-CLI, schema validators, `isitagentready.com`, logs, repeated prompt/source checks
 
 <!--
