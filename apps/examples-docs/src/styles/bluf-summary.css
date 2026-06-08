@@ -1,7 +1,5 @@
 .bluf-summary {
   margin-block: 1.25rem 2rem;
-  border: 1px solid var(--sl-color-gray-5);
-  border-radius: 0.5rem;
   overflow: hidden;
   background: var(--sl-color-bg);
 }
@@ -9,11 +7,6 @@
 .bluf-summary__item {
   position: relative;
   margin: 0;
-  border-block-start: 1px solid var(--sl-color-gray-5);
-}
-
-.bluf-summary__item:first-child {
-  border-block-start: 0;
 }
 
 .bluf-summary__control {
@@ -28,12 +21,13 @@
 .bluf-summary__summary {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
   min-height: 2.75rem;
   padding: 0.625rem 0.875rem;
   color: var(--sl-color-white);
   font-weight: 650;
+  text-align: left;
   cursor: pointer;
   user-select: none;
 }
@@ -41,17 +35,6 @@
 .bluf-summary__control:focus-visible + .bluf-summary__summary {
   outline: 2px solid var(--sl-color-accent);
   outline-offset: -2px;
-}
-
-.bluf-summary__summary::after {
-  content: "+";
-  flex: 0 0 auto;
-  color: var(--sl-color-gray-3);
-  font-weight: 700;
-}
-
-.bluf-summary__control:checked + .bluf-summary__summary::after {
-  content: "-";
 }
 
 .bluf-summary__panel {

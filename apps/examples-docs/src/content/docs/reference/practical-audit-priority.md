@@ -25,15 +25,6 @@ description: The highest-leverage implementation checks for agent-readable sites
     </div>
   </div>
   <div class="bluf-summary__item">
-    <input class="bluf-summary__control" type="radio" name="practical-audit-bluf" id="practical-audit-bluf-evidence" />
-    <label class="bluf-summary__summary" for="practical-audit-bluf-evidence">Evidence</label>
-    <div class="bluf-summary__panel">
-      <div class="bluf-summary__panel-inner">
-        <p>The table weights each practical audit item and pairs it with commands, guidance, and reference links.</p>
-      </div>
-    </div>
-  </div>
-  <div class="bluf-summary__item">
     <input class="bluf-summary__control" type="radio" name="practical-audit-bluf" id="practical-audit-bluf-caveat" />
     <label class="bluf-summary__summary" for="practical-audit-bluf-caveat">Caveat</label>
     <div class="bluf-summary__panel">

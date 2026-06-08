@@ -52,7 +52,6 @@ type SurfaceDefinition = {
 type BlufSummary = {
   bottomLine: string;
   relevance: string;
-  evidence: string;
   caveat?: string;
 };
 
@@ -218,7 +217,7 @@ description: ${yamlString(`${category.label} for ${site.host}`)}
 
 # ${site.name}
 
-${buildBlufSummary(examplePageBluf(manifest, site))}
+${buildBlufSummary(examplePageBluf(site))}
 
 This page summarizes a dated AgentReady evidence snapshot. It is not a live
 claim about ${site.host}.
@@ -278,7 +277,6 @@ ${buildBlufSummary({
     "Browse the dated examples snapshot by category before diving into raw evidence.",
   relevance:
     "Use this page when you need to choose between positive examples, contrast cases, and redirect or status traps.",
-  evidence: `The current snapshot includes ${manifest.sites.length} sites captured at ${manifest.capturedAt}.`,
   caveat:
     "The examples are dated captures; open the raw evidence or re-run checks before treating a target site as current.",
 })}
@@ -311,7 +309,7 @@ description: ${yamlString(details.description)}
 
 # ${details.label}
 
-${buildBlufSummary(categoryPageBluf(category, details, sites.length))}
+${buildBlufSummary(categoryPageBluf(category, details))}
 
 ${details.description}
 
@@ -335,7 +333,6 @@ ${buildBlufSummary({
     "Browse by surface when you already know which agent-facing artifact you want to compare.",
   relevance:
     "This page is useful for comparing crawler policy, sitemap discovery, LLM text files, Markdown alternatives, agent skills, and redirect traps across sites.",
-  evidence: `${surfaceDefinitions.length} surface groups are generated from the same examples manifest.`,
 })}
 
 Use these pages to compare how different sites expose common agent-facing
@@ -369,7 +366,7 @@ description: ${yamlString(surface.description)}
 
 # ${surface.title}
 
-${buildBlufSummary(surfacePageBluf(surface, rows.length))}
+${buildBlufSummary(surfacePageBluf(surface))}
 
 ${surface.description}
 
@@ -433,12 +430,6 @@ function buildBlufSummary(summary: BlufSummary) {
       value: summary.relevance,
       checked: false,
     },
-    {
-      id: "evidence",
-      label: "Evidence",
-      value: summary.evidence,
-      checked: false,
-    },
   ];
   const caveat = summary.caveat
     ? `\n  <div class="bluf-summary__item">
@@ -470,17 +461,7 @@ ${items
 </section>`;
 }
 
-function examplePageBluf(
-  manifest: ExampleManifest,
-  site: ExampleSite,
-): BlufSummary {
-  const successCount = site.endpoints.filter((endpoint) =>
-    isSuccess(endpoint.status),
-  ).length;
-  const matchedSurfaces = surfaceDefinitions
-    .filter((surface) => getSurfaceMatches(site, surface).length > 0)
-    .map((surface) => surface.title);
-
+function examplePageBluf(site: ExampleSite): BlufSummary {
   const bottomLineByCategory: Record<ExampleCategory, string> = {
     positive: `${site.name} is a positive example for ${site.host}, but the page is still a dated evidence snapshot.`,
     contrast: `${site.name} is a contrast example for ${site.host}, useful for seeing partial coverage or policy trade-offs.`,
@@ -490,7 +471,6 @@ function examplePageBluf(
   return {
     bottomLine: bottomLineByCategory[site.category],
     relevance: `Use this page when you want a ${categoryUseLabel(site.category)} for ${site.host}.`,
-    evidence: `${site.endpoints.length} endpoints were captured at ${manifest.capturedAt}; ${successCount} returned successful status responses. Captured surfaces: ${matchedSurfaces.length > 0 ? matchedSurfaces.join(", ") : "none"}.`,
     caveat: `This is not a live claim about ${site.host}; public sites and endpoint behavior can change.`,
   };
 }
@@ -508,7 +488,6 @@ function categoryUseLabel(category: ExampleCategory) {
 function categoryPageBluf(
   category: ExampleCategory,
   details: CategoryDetails,
-  siteCount: number,
 ): BlufSummary {
   const bottomLineByCategory: Record<ExampleCategory, string> = {
     positive:
@@ -522,20 +501,15 @@ function categoryPageBluf(
   return {
     bottomLine: bottomLineByCategory[category],
     relevance: details.description,
-    evidence: `${siteCount} sites in this category are generated from the current examples manifest.`,
     caveat:
       "Treat category labels as audit interpretation from the capture, not permanent rankings of the target sites.",
   };
 }
 
-function surfacePageBluf(
-  surface: SurfaceDefinition,
-  siteCount: number,
-): BlufSummary {
+function surfacePageBluf(surface: SurfaceDefinition): BlufSummary {
   return {
     bottomLine: `Use this page to compare ${surface.title.toLowerCase()} evidence across captured sites.`,
     relevance: surface.description,
-    evidence: `${siteCount} site rows currently match this surface in the examples manifest.`,
     caveat:
       "A matching status is a lead, not proof; content type, body shape, redirects, and truncation still matter.",
   };

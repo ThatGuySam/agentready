@@ -85,6 +85,7 @@ describe("generate-starlight-examples", () => {
     ).toBeLessThan(
       page.indexOf('for="bluf-summary-relevance">Is this relevant?'),
     );
+    expect(page).not.toContain("bluf-summary-evidence");
     expect(page).not.toContain("Next action");
     expect(page).toContain(
       "https://github.com/ThatGuySam/agentready/blob/main/examples/cloudflare-developers/robots.txt",

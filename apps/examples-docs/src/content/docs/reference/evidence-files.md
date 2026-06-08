@@ -22,15 +22,6 @@ description: What each generated AgentReady example file means.
       </div>
     </div>
   </div>
-  <div class="bluf-summary__item">
-    <input class="bluf-summary__control" type="radio" name="evidence-files-bluf" id="evidence-files-bluf-evidence" />
-    <label class="bluf-summary__summary" for="evidence-files-bluf-evidence">Evidence</label>
-    <div class="bluf-summary__panel">
-      <div class="bluf-summary__panel-inner">
-        <p>The file table explains metadata JSON, DNS files, HTTP transcripts, HAR metadata, endpoint status files, and saved endpoint bodies.</p>
-      </div>
-    </div>
-  </div>
 </section>
 
 Each example page is generated from the AgentReady `examples/` directory. The

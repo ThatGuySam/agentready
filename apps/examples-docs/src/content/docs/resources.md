@@ -22,15 +22,6 @@ description: Starter links for agent readiness, AEO, AI search visibility, and L
       </div>
     </div>
   </div>
-  <div class="bluf-summary__item">
-    <input class="bluf-summary__control" type="radio" name="resources-bluf" id="resources-bluf-evidence" />
-    <label class="bluf-summary__summary" for="resources-bluf-evidence">Evidence</label>
-    <div class="bluf-summary__panel">
-      <div class="bluf-summary__panel-inner">
-        <p>The page links to strategy talks, practical audit tooling, official crawler policy docs, implementation checklists, protocol specs, reality checks, and the command used for an agentic-browsing report.</p>
-      </div>
-    </div>
-  </div>
 </section>
 
 Use these as starter references for the Agent Ready examples site and the
