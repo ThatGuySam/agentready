@@ -114,9 +114,29 @@ Name the terminology without letting the acronyms take over the talk. Source anc
 
 ---
 
+<!-- _class: claim empathy-definition -->
+
+## Agentic empathy
+
+<blockquote>Design for what an agent can actually perceive, preserve, verify, and safely do on a human's behalf.</blockquote>
+
+<div class="definition-grid">
+  <div class="definition-card"><strong>What it is</strong><span>A practical habit: respect the agent's entry path, context budget, fetch loss, source uncertainty, and action risk.</span></div>
+  <div class="definition-card"><strong>Why it matters</strong><span>If the truth does not survive fetch, parse, citation, and action, the agent guesses, skips you, cites someone else, or hits an unsafe affordance.</span></div>
+</div>
+
+<p class="meta">Sources: <a href="https://agentready.samcarlton.com/reference/agentic-empathy/">Agentic Empathy reference</a> and <a href="https://learn.microsoft.com/en-us/agents/design-guidelines/design-foundations">Microsoft Design Foundations for Agents</a></p>
+
+<!--
+Speaker note:
+Define the term before showing examples. Empathy here does not mean agents have emotions. It means we design the handoff between humans, agents, and websites so the agent can preserve context, verify sources, and stay inside safe boundaries.
+-->
+
+---
+
 <!-- _class: evidence empathy -->
 
-## Agentic empathy = reduce uncertainty
+## What agentic empathy looks like
 
 <div class="source-grid">
   <a class="source-card" href="https://vercel.com/kb/guide/agent-readability-spec"><strong>Structure is empathy.</strong><span>Clean metadata, headings, and context make pages easier for agents to parse.</span><em>Vercel Agent Readability</em></a>
@@ -125,11 +145,11 @@ Name the terminology without letting the acronyms take over the talk. Source anc
   <a class="source-card" href="https://learn.microsoft.com/en-us/security/zero-trust/sfi/manage-agentic-risk"><strong>Actions need boundaries.</strong><span>Tools need permissions, approvals, logs, and honest capability signals.</span><em>Microsoft agentic risk</em></a>
 </div>
 
-<p class="takeaway">Design for what an agent can find, fetch, parse, cite, and safely do.</p>
+<p class="takeaway">Reduce uncertainty at each handoff: find, fetch, parse, cite, and safely act.</p>
 
 <!--
 Speaker note:
-Shift from acronym vocabulary to the practical habit: imagine what an agent can fetch, parse, compare, cite, and safely do when it lands on the site. The slide links are expandable source paths for Vercel/Cloudflare-style readability, AFDocs fetch-loss checks, crawler-lane policy, and bounded agent actions.
+Now show what the definition becomes in practice. These are source-linked examples the audience can open later: Vercel/Cloudflare-style readability, AFDocs fetch-loss checks, crawler-lane policy, and bounded agent actions.
 -->
 
 ---

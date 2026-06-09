@@ -40,6 +40,36 @@ Agentic empathy is the habit of asking:
 > If an agent lands here with a task, a tool budget, and an imperfect fetch
 > pipeline, what can it find, understand, trust, cite, and safely do?
 
+The Codeable deck now treats this as a two-step explanation:
+
+1. **What it is and why it matters:** design for what an agent can actually
+   perceive, preserve, verify, and safely do on a human's behalf.
+2. **What it looks like:** source-backed examples of structure, fetch quality,
+   crawler lanes, and bounded actions.
+
+## What it is
+
+Agentic empathy is not anthropomorphism. It is a practical design habit:
+respect the agent's entry path, context budget, fetch loss, source uncertainty,
+and action risk.
+
+That makes it close to familiar UX empathy, but aimed at a different immediate
+reader. Human UX empathy asks what the visitor is trying to do and where the
+experience creates friction. Agentic empathy asks what a constrained,
+tool-using agent can perceive and carry forward while acting for a human.
+
+## Why it matters
+
+Agents increasingly mediate discovery, citation, comparison, and actions. If a
+site's truth does not survive fetch, parsing, citation, and action boundaries,
+the agent may guess, skip the site, cite a competitor, or follow an unsafe
+affordance.
+
+Microsoft's [Design Foundations for Agents](https://learn.microsoft.com/en-us/agents/design-guidelines/design-foundations)
+is useful general support for this framing: trusted agent experiences require
+more than visual polish, including reliability, safety, privacy, transparency,
+accountability, human-centered scope, and error recovery.
+
 This page expands the source-linked examples from the slide deck.
 
 ## Source examples

@@ -493,6 +493,55 @@ section.empathy h2 {
   margin-bottom: 24px;
 }
 
+section.empathy-definition h2 {
+  margin-bottom: 22px;
+  font-size: 58px;
+}
+
+section.empathy-definition blockquote {
+  max-width: 1040px;
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-size: 33px;
+}
+
+.definition-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 6px;
+}
+
+.definition-card {
+  min-height: 146px;
+  padding: 22px 24px;
+  border: 1px solid var(--site-line);
+  border-top: 4px solid var(--site-accent);
+  border-radius: 6px;
+  background: var(--site-paper);
+}
+
+.definition-card strong,
+.definition-card span {
+  display: block;
+}
+
+.definition-card strong {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.definition-card span {
+  color: var(--site-ink);
+  font-size: 22px;
+  line-height: 1.32;
+}
+
+section.empathy-definition .meta {
+  margin-top: 22px;
+  font-size: 18px;
+}
+
 .source-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
