@@ -1,0 +1,7 @@
+# Cloudflare Workers Static Assets headers file.
+# The samcarlton.com zone applies COEP: require-corp, so embedders like
+# samcarlton.com article pages can only iframe these docs/slides if responses
+# opt in via CORP. Everything here is public, so allow cross-origin embedding.
+
+/*
+  Cross-Origin-Resource-Policy: cross-origin
